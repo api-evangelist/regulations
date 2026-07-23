@@ -1,4 +1,23 @@
 ---
+posts:
+- title: "Federated Convergence With Mastodon, Enterprise API Governance, and Government Regulation"
+  url: https://apievangelist.com/2023/01/08/federated-convergence-with-mastodon-enterprise-api-governance-and-government-regulation/
+  date: 2023-01-08
+- title: "Looking Through a Federated Lens Across Mastodon, FHIR, and PSD2/3"
+  url: https://apievangelist.com/2023/01/08/looking-through-a-federated-lens-across-mastodon-fhir-and-psd23/
+  date: 2023-01-08
+- title: "The PSD2 Sandbox From Banking API Provider bunq"
+  url: https://apievangelist.com/2019/10/29/the-psd2-sandbox-from-banking-api-provider-bunq/
+  date: 2019-10-29
+- title: "US Companies Getting Ahead Of EU Regulations"
+  url: https://apievangelist.com/2018/03/07/us-companies-getting-ahead-of-eu-regulations/
+  date: 2018-03-07
+- title: "A Regulatory Subway Map For PSD2"
+  url: https://apievangelist.com/2018/02/03/a-regulatory-subway-map-for-psd2/
+  date: 2018-02-03
+- title: "The Role of European Banking Authority (EBA) When It Comes To PSD2"
+  url: https://apievangelist.com/2018/01/23/the-role-of-european-banking-authority-eba-in-regards-to-psd2/
+  date: 2018-01-23
 papers:
 - title: The State of UK Banking APIs
   url: https://papers.apievangelist.com/papers/state-of-uk-banking-apis/
