@@ -10,9 +10,6 @@ standards:
 - title: Berlin Group NextGenPSD2
   url: https://contracts.apievangelist.com/store/berlin-group-nextgenpsd2/
   note: "The XS2A framework most EU banks implement to satisfy PSD2's dedicated-interface requirement."
-- title: Strong Customer Authentication
-  url: https://contracts.apievangelist.com/store/strong-customer-authentication/
-  note: "The PSD2 RTS security requirement the auth stack implements."
 name: PSD2
 slug: psd2
 title: Revised Payment Services Directive (PSD2)
