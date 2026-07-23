@@ -1,0 +1,1780 @@
+{
+  "linkset": [
+    {
+      "@context": "https://apievangelist.com/context.jsonld",
+      "anchor": "https://standards.apievangelist.com/",
+      "title": "api-evangelist/standards",
+      "service-desc": [
+        {
+          "href": "https://standards.apievangelist.com/apis.json",
+          "type": "application/json"
+        },
+        {
+          "href": "https://standards.apievangelist.com/apis.yml",
+          "type": "application/yaml"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://standards.apievangelist.com/",
+          "type": "text/html"
+        }
+      ]
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/acceptance-criteria/",
+      "title": "Acceptance Criteria",
+      "description": "Predefined conditions that a product, feature, or user story must meet to be considered complete and acceptable by stakeholders. These criteria establish clear, testable requirements that guide development and validate when work is done."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/accessibility-standards/",
+      "title": "Accessibility Standards",
+      "description": "Guidelines and technical specifications that ensure digital content, applications, and technologies are usable by people with disabilities, including standards like WCAG, Section 508, and ARIA. It helps organizations meet regulatory requirements and demonstrate accountability to stakeholders."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/accounting-standards/",
+      "title": "Accounting Standards",
+      "description": "Accounting Standards are the formal rules and guidelines that govern how financial transactions and statements are recorded, reported, and disclosed. They ensure consistency, transparency, and comparability across financial reports, and include frameworks like GAAP and IFRS."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/acid/",
+      "title": "ACID",
+      "description": "ACID (Atomicity, Consistency, Isolation, Durability) is a set of properties that guarantee database transactions are processed reliably even in the face of errors, power failures, or system crashes. These four properties ensure that data remains accurate and consistent, making ACID compliance a fundamental requirement for relational databases and financial systems."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/acknowledgments-md/",
+      "title": "ACKNOWLEDGMENTS.md",
+      "description": "File crediting third-party software, libraries, inspirations, and other works that the project builds upon or is indebted to."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/actor-model/",
+      "title": "Actor Model",
+      "description": "The Actor Model is a mathematical model of concurrent computation where the fundamental unit of computation is an actor\u2014an entity that processes messages asynchronously and maintains its own private state. It provides a powerful abstraction for building highly concurrent and distributed systems, used in frameworks like Akka and languages like Erlang."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/agent-md/",
+      "title": "AGENT.md",
+      "description": "Vendor-neutral AI coding agent configuration file providing project context and instructions. Alternative to AGENTS.md serving the same purpose of unifying agent guidance across tools."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/agent2agent/",
+      "title": "Agent2Agent",
+      "description": "The Agent2Agent (A2A) Protocol is an open standard for communication and interoperability among independent\u2014often opaque\u2014AI agent systems. Because agents may be built with different frameworks, languages, and vendors, A2A provides a common language and interaction model."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/agents-md/",
+      "title": "AGENTS.md",
+      "description": "Open standard file for guiding AI coding agents, providing project context, coding standards, build commands, and development practices. Supported by OpenAI Codex, Google Jules, Cursor, Amp, and other tools. Stewarded by the Agentic AI Foundation under the Linux Foundation."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/agile-delivery/",
+      "title": "Agile Delivery",
+      "description": "An iterative approach to project management and software development that helps teams deliver value to customers faster and with fewer headaches through collaboration, adaptability, and continuous improvement. It is widely used by developers to build, maintain, and scale software applications efficiently."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/agile-methodology/",
+      "title": "Agile Methodology",
+      "description": "An iterative approach to software development and project management that emphasizes flexibility, collaboration, and customer feedback. Agile methodologies include frameworks like Scrum, Kanban, and XP that focus on delivering working software in short cycles."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/agile-sdlc/",
+      "title": "Agile SDLC",
+      "description": "Agile Software Development Life Cycle is an iterative and incremental approach to software development that emphasizes flexibility, collaboration, and rapid delivery of working software through short development cycles called sprints. It is widely used by developers to build, maintain, and scale software applications efficiently."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/agile/",
+      "title": "Agile",
+      "description": "Agile is a set of software development principles and practices that emphasize iterative delivery, collaboration, and responsiveness to change over rigid planning and documentation. Its frameworks\u2014including Scrum, Kanban, and XP\u2014help teams deliver working software incrementally and adapt quickly to evolving requirements."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/aiignore/",
+      "title": ".aiignore",
+      "description": "Configuration file specifying files and directories that AI coding agents should not process or modify, similar to .gitignore but for AI tools. Used by JetBrains Junie and other AI agents."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/ais/",
+      "title": "AIS",
+      "description": "The Automatic Identification System (AIS) is a shipboard broadcast transponder system operating in the VHF maritime band that transmits and receives vessel identification, position, speed, heading, and other navigational data to enhance maritime situational awareness and safety."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/amqp/",
+      "title": "AMQP",
+      "description": "AMQP (Advanced Message Queuing Protocol) is an open standard application-layer protocol for message-oriented middleware supporting reliable queuing, routing, and publish/subscribe messaging patterns. It enables interoperable, asynchronous communication between applications and services across different platforms and languages."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/api-commons/",
+      "title": "API Commons",
+      "description": "API Commons is a collection of open-source building blocks for API operations. It began as a machine-readable way to define the parts of an API, and works in concert with APIs.json to translate human-readable aspects of your API program into machine-readable artifacts that can standardize and automate your ecosystem."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/api-first/",
+      "title": "API-First",
+      "description": "A development approach where APIs are treated as first-class citizens and designed before implementation begins, ensuring consistent and well-documented interfaces across services and applications. Organizations adopt it to address specific technical or business challenges in their environments."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/apiops-cycles/",
+      "title": "APIOps Cycles",
+      "description": "APIOps Cycles is a Lean and service design\u2013inspired methodology for designing, improving, and scaling APIs throughout their entire lifecycle. Developed since 2017 and continuously refined through community contributions and real-world projects across industries, APIOps Cycles provides a structured approach to API strategy using a distinctive metro map visualization where stations and lines represent critical aspects of the API lifecycle."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/apis-json/",
+      "title": "APIs.json",
+      "description": "APIs.json is a machine-readable metadata format used to describe APIs (Application Programming Interfaces) and their associated resources. It acts as a discovery format similar to how robots.txt helps search engines discover web pages. The goal of APIs.json is to simplify the process of finding, cataloging, and integrating APIs by providing a standardized way to document the follow details.\n\n  * **Technical** - With APIs.json you can index OpenAPI, but also Postman or Bruno collections, and any other machine-readable artifact that defines the surface area of individual APIs.\n  * **Business** - With APIs.json you can index the aspects of API operations that business stakeholders will care most, like discovery, onboarding, billing, and areas more aligned with business.\n  * **Common** - Using APIs.json, you can define the technical and business details of each individual API, but also the shared properties available across many APIs in a standardized way.\n    \nAPIs.json can provide an index for an entire API portal, or a single API in a GitHub repository. APIs.json can be indexed to provide search and discovery for APIs, but also a machine-readable artifact that can be used to govern the operations surrounding APIs. APIs.json is designed to do for API operations, what OpenAPI has done for APIs."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/arazzo/",
+      "title": "Arazzo",
+      "description": "The Arazzo Specification is a community-driven, open standard within the OpenAPI Initiative (a Linux Foundation Collaborative Project). It defines a programming-language-agnostic way to express sequences of calls and the dependencies between them to achieve a specific outcome."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/archimate/",
+      "title": "ArchiMate",
+      "description": "An open and independent enterprise architecture modeling language to support the description, analysis and visualization of architecture within and across business domains in an unambiguous way."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/architectural-design-patterns/",
+      "title": "Architectural Design Patterns",
+      "description": "Reusable solutions to commonly occurring problems in software architecture that provide templates for designing system structure, component interactions, and overall organization of applications. It is used across a range of industries and technical contexts to improve efficiency and outcomes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/architecture-pattern/",
+      "title": "Architecture Pattern",
+      "description": "Architecture Pattern is a specialized technology or methodology in the architecture domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/asyncapi/",
+      "title": "AsyncAPI",
+      "description": "AsyncAPI is an open-source, protocol-agnostic specification for describing event-driven APIs and message-driven applications. It serves as the OpenAPI of the asynchronous, event-driven world\u2014overlapping with, and often going beyond, what OpenAPI covers."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/at-protocol/",
+      "title": "AT Protocol",
+      "description": "The AT Protocol (Authenticated Transfer Protocol) is a decentralized social networking protocol designed to provide users with more control over their data, identity, and online interactions. Developed by Bluesky, a project initiated by Twitter, the AT Protocol aims to enable interoperability, data portability, and decentralization for social media and online platforms in the following areas.\n\n  * **Decentralization** - Users are not tied to a single platform or provider. They can switch services without losing their data, identity, or connections.\n  * **Federation** - Supports a federated network where multiple servers can interconnect, similar to email systems, allowing diverse communities to interact.\n  * **Portable Identity** - Users own their identities and can transfer them between platforms, ensuring continuity and reducing dependence on any single provider.\n  * **Algorithmic Choice** - Allows users to choose or customize the algorithms that curate their content, providing more transparency and control over feeds.\n  * **Open Standards** - The protocol is open-source, enabling developers to build apps, services, and tools on top of it.\n  * **Data Ownership** - Users retain ownership of their content and data, mitigating risks of lock-in and platform censorship.\n  \nThe potential benefits of using the AT Protocol for an application, integration, or social network implementation are the following.\n\n  * **Freedom and Control** - It empowers users by giving them control over their data and online identity, reducing reliance on centralized platforms.\n  * **Interoperability** - It allows seamless communication across different platforms and applications, enhancing collaboration and user reach.\n  * **Transparency and Trust** - Open algorithms and standards promote trust by making the mechanisms of content discovery and moderation visible.\n  * **Innovation-Friendly** - Developers can build decentralized apps without being locked into proprietary ecosystems.\n  * **Future-Proofing** - As demand for data privacy and decentralization grows, adopting the AT Protocol ensures alignment with evolving internet standards and user expectations.\n\nThe AT Protocol promotes a more open, flexible, and user-centric internet, making it a strong foundation for next-generation social networking and communication platforms."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/authors-md/",
+      "title": "AUTHORS.md",
+      "description": "File listing the original creators and primary authors of a project, often required by certain open-source licenses."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/avro/",
+      "title": "Avro",
+      "description": "Apache Avro is a data serialization system that provides compact binary encoding of structured data along with schema definitions, enabling efficient data exchange and storage with built-in schema evolution capabilities that allow data structures to change over time while maintaining compatibility between different versions."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/backstage-software-catalog-format/",
+      "title": "Backstage Software Catalog Format",
+      "description": "Backstage\u2019s Software Catalog format is a structured, YAML-based specification that describes software components, services, APIs, resources, and their relationships, enabling teams to discover, document, and manage ownership and lifecycle information in a centralized developer portal."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/banking-regulation/",
+      "title": "Banking Regulation",
+      "description": "Banking Regulation is a specialized technology or methodology in the banking domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/basel-compliance/",
+      "title": "Basel Compliance",
+      "description": "Basel Compliance ensures that basel practices and systems adhere to relevant laws, regulations, industry standards, and internal policies. It helps organizations avoid legal penalties, maintain trust, and demonstrate accountability to regulators and stakeholders."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/basel-iii/",
+      "title": "Basel III",
+      "description": "Basel III is a specialized technology or methodology in the basel domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/bdd/",
+      "title": "BDD",
+      "description": "BDD is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/bean-validation/",
+      "title": "Bean Validation",
+      "description": "Bean Validation is a specialized technology or methodology in the bean domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/big-o-notation/",
+      "title": "Big O Notation",
+      "description": "Big O Notation is a specialized technology or methodology in the big domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/binary-format/",
+      "title": "Binary Format",
+      "description": "Binary Format is a specialized technology or methodology in the binary domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/ble/",
+      "title": "BLE",
+      "description": "BLE is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/bruno-collection/",
+      "title": "Bruno Collection",
+      "description": "Bruno collections are organized sets of API requests and environments within the Bruno API client, allowing developers to structure, test, and share their API workflows efficiently."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/bruno-environment/",
+      "title": "Bruno Environment",
+      "description": "A Bruno environment is a set of key\u2013value variables that let you switch configurations\u2014such as URLs, tokens, or credentials\u2014so you can run the same API requests across different contexts like development, staging, or production."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/capital-requirements/",
+      "title": "Capital Requirements",
+      "description": "Capital Requirements is a specialized technology or methodology in the capital domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/ccpa/",
+      "title": "CCPA",
+      "description": "California Consumer Privacy Act - A state statute intended to enhance privacy rights and consumer protection for residents of California, USA. Provides consumers with rights to know what personal information is collected, delete personal data, opt-out of data sales, and non-discrimination for exercising privacy rights."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/certificate-enrolment-protocols/",
+      "title": "Certificate Enrolment Protocols",
+      "description": "Protocols and standards for automating the process of requesting, issuing, and renewing digital certificates from Certificate Authorities, including ACME, SCEP, EST, and CMP. It is widely adopted across industries to safeguard digital assets and reduce security risks."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/changelog-md/",
+      "title": "CHANGELOG.md",
+      "description": "Document tracking notable changes between project versions, following conventions like Keep a Changelog. Lists additions, fixes, deprecations, and breaking changes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/circuit-breaker/",
+      "title": "Circuit Breaker",
+      "description": "Circuit Breaker is a specialized technology or methodology in the circuit domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/citation-cff/",
+      "title": "CITATION.cff",
+      "description": "Citation File Format providing machine-readable citation metadata for software projects, enabling proper academic attribution and referencing."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/claude-md/",
+      "title": "CLAUDE.md",
+      "description": "Configuration file for Claude Code providing project-specific context, coding conventions, build commands, and behavioral instructions that persist across sessions."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/clinerules/",
+      "title": ".clinerules",
+      "description": "Configuration file for Cline AI coding assistant providing project-specific rules, coding conventions, and behavioral instructions."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/cncf/",
+      "title": "CNCF",
+      "description": "CNCF is a manufacturing or industrial technology used to design, produce, or manage physical products and production processes. It leverages automation, precision engineering, and digital controls to improve quality, efficiency, and throughput."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/code-first/",
+      "title": "Code First",
+      "description": "A development approach where code is the primary source of truth, with database schemas, API definitions, or infrastructure configurations generated from the code rather than designed separately or visually. Organizations adopt it to address specific technical or business challenges in their environments."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/code-of-conduct-md/",
+      "title": "CODE_OF_CONDUCT.md",
+      "description": "Document defining standards for community engagement, acceptable behavior, and enforcement procedures for project participants."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/codeowners/",
+      "title": "CODEOWNERS",
+      "description": "File defining individuals or teams responsible for code in a repository. Used by GitHub and GitLab to automatically request reviews from designated owners on pull requests."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/codex-md/",
+      "title": "CODEX.md",
+      "description": "Configuration file for OpenAI Codex CLI providing project instructions, coding conventions, and build commands for AI-assisted development."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/communication-protocols/",
+      "title": "Communication Protocols",
+      "description": "Communication Protocols is a networking technology or protocol that facilitates communication, data transfer, or traffic management between systems and devices. It enables reliable, efficient, and secure connectivity across local and distributed network environments."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/component-model/",
+      "title": "Component Model",
+      "description": "Component Model is a specialized technology or methodology in the component domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/configuration-language/",
+      "title": "Configuration Language",
+      "description": "Configuration Language is a specialized technology or methodology in the configuration domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/consensus/",
+      "title": "Consensus",
+      "description": "Consensus is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/containerfile/",
+      "title": "Containerfile",
+      "description": "A text file containing instructions for building container images, compatible with Docker's Dockerfile format and commonly used with Podman and other OCI-compliant tools. It accelerates software delivery cycles and improves collaboration between development and operations teams."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/contributing-md/",
+      "title": "CONTRIBUTING.md",
+      "description": "Guidelines for contributing to a project, including coding standards, pull request processes, issue reporting, and development setup instructions."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/contributors-md/",
+      "title": "CONTRIBUTORS.md",
+      "description": "File recognizing individuals and organizations that have contributed to a project through code, documentation, design, or other means."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/convention-over-configuration/",
+      "title": "Convention Over Configuration",
+      "description": "Convention Over Configuration is a specialized technology or methodology in the convention domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/conventions-md/",
+      "title": "CONVENTIONS.md",
+      "description": "Project conventions file documenting coding standards, naming conventions, architecture decisions, and development practices. Used by AI coding assistants and human developers alike."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/copilot-instructions-md/",
+      "title": "copilot-instructions.md",
+      "description": "GitHub Copilot custom instructions file placed in .github/ directory, providing repository-specific coding standards, framework preferences, and behavioral guidelines for Copilot Chat and coding agent."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/cors/",
+      "title": "Cross-Origin Resource Sharing (CORS)",
+      "description": "CORS (Cross-Origin Resource Sharing) is a security feature implemented in web browsers that controls how resources on a web server can be requested from a different origin (domain, protocol, or port) than the server's own. Modern web applications often make API requests to servers hosted on different domains (cross-origin requests). For security reasons, browsers restrict such requests unless the server explicitly allows them. This prevents Cross-Site Request Forgery (CSRF) and other malicious attacks.\nWhen a browser makes a cross-origin request, it first sends a preflight request (using the HTTP OPTIONS method) to verify whether the server allows the actual request. The server responds with specific HTTP headers, such as:\n\n  * **Access-Control-Allow-Origin** - Specifies which domains can access the resource.\n  * **Access-Control-Allow-Methods** - Lists allowed HTTP methods (e.g., GET, POST).\n  * **Access-Control-Allow-Headers** - Specifies permitted custom headers.\n\nIf the server\u2019s response includes the appropriate headers, the browser proceeds with the actual request. Otherwise, the request is blocked. CORS is a standard that helps address the following with APIs.\n\n  * **Security** - Prevents unauthorized or malicious scripts running in a browser from accessing sensitive data.\n  * **Controlled Access** - Allows you to define and enforce which clients (origins) can interact with your API.\n  * **Flexibility** - Supports modern web applications and Single-Page Applications (SPAs) that often communicate with external APIs.\n  * **Compliance** - Ensures adherence to web security standards, reducing vulnerabilities to attacks.\n  * **Better User Experience** - Enables seamless integration with third-party services or APIs without compromising security.\n\nCORS is essential for APIs exposed to web applications to enable secure cross-origin communication while preventing unauthorized access. Properly configuring CORS headers ensures your API remains both functional and protected."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/cqrs/",
+      "title": "CQRS",
+      "description": "CQRS is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/css/",
+      "title": "CSS",
+      "description": "CSS is a web development technology or practice used to build, enhance, or manage web-based applications and experiences. It supports the creation of responsive, performant, and interactive digital products accessible through web browsers."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/csv/",
+      "title": "CSV",
+      "description": "CSV (Comma-Separated Values) is a simple text format for storing tabular data where each line represents a row and values within rows are separated by commas (or other delimiters)."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/cursorrules/",
+      "title": ".cursorrules",
+      "description": "Configuration file for Cursor AI code editor containing project-specific rules, coding conventions, and behavioral instructions for the AI assistant."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/cybersecurity-standards/",
+      "title": "Cybersecurity Standards",
+      "description": "Frameworks and guidelines that establish best practices for protecting information systems, networks, and data from cyber threats, including standards like NIST, ISO 27001, and CIS Controls. It is widely adopted across industries to safeguard digital assets and reduce security risks."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/data-flow-diagrams/",
+      "title": "Data Flow Diagrams",
+      "description": "A graphical representation of data flow through a system, showing how data is processed, stored, and transformed between different components and external entities. Organizations adopt it to address specific technical or business challenges in their environments."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/data-format/",
+      "title": "Data Format",
+      "description": "Data Format is a data technology or practice used to collect, process, store, analyze, or govern information assets. It helps organizations extract value from their data and make informed decisions through systematic data management."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/data-modeling/",
+      "title": "Data Modeling",
+      "description": "The process of creating a visual representation of data structures and relationships to organize information and define how data is stored, accessed, and managed within a system. Effective implementation supports data-driven strategies and helps maintain data integrity across systems."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/data-models/",
+      "title": "Data Models",
+      "description": "Structured representations of data entities, their attributes, and relationships used to organize and define how data is stored, accessed, and managed within a system or database. Effective implementation supports data-driven strategies and helps maintain data integrity across systems."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/data-privacy-standards/",
+      "title": "Data Privacy Standards",
+      "description": "Framework of rules and guidelines that govern how organizations collect, store, process, and share personal data to protect individual privacy rights and ensure compliance with regulations like GDPR, CCPA, and other data protection laws. Organizations rely on it to strengthen their defenses and meet evolving cybersecurity challenges."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/data-quality-standards/",
+      "title": "Data Quality Standards",
+      "description": "Framework and guidelines for ensuring accuracy, completeness, consistency, validity, and timeliness of data across an organization's data assets and systems. It is a foundational component in modern data architectures and enterprise data management practices."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/data-warehouse-schemas/",
+      "title": "Data Warehouse Schemas",
+      "description": "Organizational patterns for structuring data in warehouses, including star schema, snowflake schema, and galaxy schema designs that optimize query performance and data relationships. Organizations use it to track key metrics, identify trends, and optimize business outcomes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/database-normalization/",
+      "title": "Database Normalization",
+      "description": "Database Normalization is a data storage and management technology designed to organize, persist, and efficiently retrieve structured or semi-structured information. It supports the data needs of applications and analytics systems through reliable storage, querying, and transaction management."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/database-schema-design/",
+      "title": "Database Schema Design",
+      "description": "The process of defining the structure, organization, and relationships of data in a database system, including tables, columns, constraints, and indexes to optimize data storage and retrieval. Effective implementation supports data-driven strategies and helps maintain data integrity across systems."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/defense-in-depth/",
+      "title": "Defense In Depth",
+      "description": "Defense In Depth is a specialized technology or methodology in the defense domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/dependabot-yml/",
+      "title": "dependabot.yml",
+      "description": "GitHub Dependabot configuration file defining automated dependency update schedules, package ecosystems to monitor, and review assignment rules."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/dependency-injection/",
+      "title": "Dependency Injection",
+      "description": "A design pattern in which objects receive their dependencies from external sources rather than creating them internally, promoting loose coupling and easier testing. Effective use of this practice reduces bugs in production and supports a culture of quality-driven development."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/design-patterns/",
+      "title": "Design Patterns",
+      "description": "Reusable solutions to commonly occurring problems in software design, providing templates for how to solve problems in various contexts. Organizations adopt it to address specific technical or business challenges in their environments."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/design-standards/",
+      "title": "Design Standards",
+      "description": "Design Standards is a specialized technology or methodology in the design domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/development-methodology/",
+      "title": "Development Methodology",
+      "description": "Development Methodology is a software development technology or practice that supports the creation, maintenance, or improvement of software systems. It helps developers and engineering teams work more efficiently and deliver higher-quality software products."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/devops/",
+      "title": "DevOps",
+      "description": "DevOps is a cultural and technical movement that combines software development and IT operations to shorten the development lifecycle and deliver high-quality software continuously. It emphasizes automation, collaboration, monitoring, and infrastructure as code to bridge the gap between building software and running it in production."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/devsecops/",
+      "title": "DevSecOps",
+      "description": "Development, Security, and Operations methodology that integrates security practices within the DevOps process, emphasizing security automation and collaboration throughout the software development lifecycle. It is widely adopted across industries to safeguard digital assets and reduce security risks."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/dfdl/",
+      "title": "DFDL",
+      "description": "DFDL is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/dhcp/",
+      "title": "DHCP",
+      "description": "DHCP is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/dimensional-modeling/",
+      "title": "Dimensional Modeling",
+      "description": "A data modeling technique used in data warehousing that structures data into fact tables containing measurable metrics and dimension tables containing descriptive attributes, optimized for query performance and business intelligence reporting. Organizations use it to track key metrics, identify trends, and optimize business outcomes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/disclosure-requirements/",
+      "title": "Disclosure Requirements",
+      "description": "Disclosure Requirements is a specialized technology or methodology in the disclosure domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/dns/",
+      "title": "DNS",
+      "description": "DNS (Domain Name System) is the distributed naming system that translates human-readable domain names (like example.com) into the numerical IP addresses computers use to communicate. It functions as the internet's phone book, enabling users to access websites and services using memorable names instead of numeric addresses."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/dockerfile/",
+      "title": "Dockerfile",
+      "description": "A text file that contains instructions for building Docker container images, defining the application environment, dependencies, and configuration in a reproducible way. It accelerates software delivery cycles and improves collaboration between development and operations teams."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/domain-driven-design/",
+      "title": "Domain-Driven Design",
+      "description": "A software development approach that focuses on modeling software to match a domain according to input from domain experts, emphasizing collaboration between technical and domain experts to create a shared understanding through ubiquitous language. It is used across a range of industries and technical contexts to improve efficiency and outcomes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/dot-regulations/",
+      "title": "DOT Regulations",
+      "description": "Department of Transportation regulations governing the safe transportation of hazardous materials and other commercial transport activities in the United States. It helps organizations meet regulatory requirements and demonstrate accountability to stakeholders."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/dsl/",
+      "title": "DSL",
+      "description": "DSL is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/editorconfig/",
+      "title": ".editorconfig",
+      "description": "Cross-editor configuration file defining coding style preferences like indentation, line endings, and character encoding to maintain consistent formatting across different editors and IDEs."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/empathy-maps/",
+      "title": "Empathy Maps",
+      "description": "A collaborative visualization tool used to articulate what we know about a particular type of user. It externalizes knowledge about users in order to create a shared understanding of user needs, and aid in decision making."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/enterprise-integration-patterns/",
+      "title": "Enterprise Integration Patterns",
+      "description": "Enterprise Integration Patterns is a business or enterprise practice that helps organizations manage operations, make strategic decisions, and achieve their objectives. It encompasses the processes, tools, and methodologies needed to run an effective and efficient organization."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/entity-relationship/",
+      "title": "Entity Relationship",
+      "description": "Entity Relationship is a specialized technology or methodology in the entity domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/equator-principles/",
+      "title": "Equator Principles",
+      "description": "A risk management framework adopted by financial institutions for determining, assessing and managing environmental and social risk in projects, primarily for project finance and related lending activities. It helps organizations meet regulatory requirements and demonstrate accountability to stakeholders."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/event-driven-architecture/",
+      "title": "Event-driven Architecture",
+      "description": "A software architecture pattern promoting the production, detection, consumption of, and reaction to events. Systems are designed to respond to state changes asynchronously through event messages."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/event-sourcing/",
+      "title": "Event Sourcing",
+      "description": "Event Sourcing is a specialized technology or methodology in the event domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/extreme-programming/",
+      "title": "Extreme Programming",
+      "description": "Extreme Programming is a software development technology or practice that supports the creation, maintenance, or improvement of software systems. It helps developers and engineering teams work more efficiently and deliver higher-quality software products."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/fda-regulations/",
+      "title": "FDA Regulations",
+      "description": "Federal regulations governing the safety, efficacy, and security of food, drugs, medical devices, and other products under FDA jurisdiction. Organizations adopt it to address specific technical or business challenges in their environments."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/file-format/",
+      "title": "File Format",
+      "description": "File Format is a specialized technology or methodology in the file domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/financial-regulation/",
+      "title": "Financial Regulation",
+      "description": "Financial Regulation is a financial management concept, tool, or practice used to manage monetary operations, reporting, or compliance. It helps organizations maintain accurate financial records, optimize cash flow, and meet regulatory requirements."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/finops/",
+      "title": "FinOps",
+      "description": "FinOps is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/fixed-format/",
+      "title": "Fixed Format",
+      "description": "Fixed Format is a specialized technology or methodology in the fixed domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/flowcharts/",
+      "title": "Flowcharts",
+      "description": "Flowcharts is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/ftp/",
+      "title": "FTP",
+      "description": "FTP is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/functional-programming/",
+      "title": "Functional Programming",
+      "description": "Functional Programming is a software development technology or practice that supports the creation, maintenance, or improvement of software systems. It helps developers and engineering teams work more efficiently and deliver higher-quality software products."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/funding-yml/",
+      "title": "FUNDING.yml",
+      "description": "GitHub configuration file specifying funding platforms and links for project sponsorship, displayed as a Sponsor button on the repository page."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/gantt-charts/",
+      "title": "Gantt Charts",
+      "description": "Gantt Charts is a specialized technology or methodology in the gantt domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/gdpr/",
+      "title": "GDPR",
+      "description": "The General Data Protection Regulation (GDPR) is a comprehensive data privacy law enacted by the European Union that governs how organizations collect, process, and store personal data of EU residents. It grants individuals significant rights over their data and imposes strict obligations on organizations, with substantial penalties for non-compliance."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/gemini-md/",
+      "title": "GEMINI.md",
+      "description": "Configuration file for Google Gemini CLI providing project context, coding standards, and development instructions for AI-assisted coding workflows."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/gherkin/",
+      "title": "Gherkin",
+      "description": "Gherkin is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/gitattributes/",
+      "title": ".gitattributes",
+      "description": "Git configuration file defining path-specific settings for line endings, diff handling, merge strategies, and binary file detection."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/gitignore/",
+      "title": ".gitignore",
+      "description": "Git configuration file specifying intentionally untracked files and directories that Git should ignore, preventing build artifacts, dependencies, and secrets from being committed."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/gitops/",
+      "title": "GitOps",
+      "description": "A operational framework that takes DevOps best practices used for application development such as version control, collaboration, compliance, and CI/CD, and applies them to infrastructure automation. GitOps uses Git as a single source of truth for declarative infrastructure and applications."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/good-manufacturing-practices/",
+      "title": "Good Manufacturing Practices",
+      "description": "A system of processes, procedures, and documentation that ensures products are consistently produced and controlled according to quality standards, commonly used in pharmaceutical, food, and medical device manufacturing. Proper implementation reduces legal and operational risk while supporting audit readiness."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/graph-query-language-gql/",
+      "title": "Graph Query Language (GQL)",
+      "description": "An international standard query language for property graph databases, developed by ISO/IEC to provide a declarative way to query and manipulate graph data structures. Effective implementation supports data-driven strategies and helps maintain data integrity across systems."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/graphql/",
+      "title": "GraphQL",
+      "description": "A query language for APIs and a runtime for executing those queries with existing data, providing a complete and understandable description of the data in your API."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/gremlin/",
+      "title": "Gremlin",
+      "description": "Gremlin is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/grpc/",
+      "title": "gRPC",
+      "description": "The Agent2Agent (A2A) Protocol is an open standard for communication and interoperability among independent\u2014often opaque\u2014AI agent systems. Because agents may be built with different frameworks, languages, and vendors, A2A provides a common language and interaction model."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/guidelines-md/",
+      "title": "guidelines.md",
+      "description": "JetBrains Junie AI agent configuration file stored in .junie/ directory providing persistent project-level context and coding guidelines."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/health-standards/",
+      "title": "Health Standards",
+      "description": "Health Standards is a specialized technology or methodology in the health domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/hipaa/",
+      "title": "HIPAA",
+      "description": "Health Insurance Portability and Accountability Act - U.S. legislation providing data privacy and security provisions for safeguarding medical information"
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/html/",
+      "title": "HTML",
+      "description": "HTML is an artificial intelligence technology or practice that leverages machine learning, data analysis, or intelligent automation to solve complex problems. It is increasingly applied across industries to improve efficiency, accuracy, and decision-making in both technical and business contexts."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/html5/",
+      "title": "HTML5",
+      "description": "The fifth major version of the Hypertext Markup Language, used for structuring and presenting content on the web. It is widely used by developers to build, maintain, and scale software applications efficiently."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/http-2/",
+      "title": "HTTP/2",
+      "description": "HTTP/2 is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/http-20/",
+      "title": "HTTP 2.0",
+      "description": "HTTP/2 is a binary, multiplexed version of HTTP that uses streams, header compression (HPACK), and optional server push to reduce latency and improve performance over a single TCP connection."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/http-30/",
+      "title": "HTTP 3.0",
+      "description": "HTTP/3 is the latest HTTP version that runs over QUIC (on UDP), providing multiplexed streams with built-in TLS 1.3 and connection migration to avoid TCP head-of-line blocking and improve performance."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/http/",
+      "title": "HTTP",
+      "description": "HTTP (Hypertext Transfer Protocol) is the foundation of traffic on the World Wide Web, which according to Akamai is about 83% API traffic. HTTP defines the rules for transferring files such as text, images, videos, and other multimedia content between web browsers (clients) and servers, and has the following benefits.\n\n  * **Stateless** - Each request is independent, meaning no session information is retained between requests. This simplifies communication but requires additional mechanisms (like cookies or tokens) for maintaining state when needed.\n  * **Human-Readable** - HTTP messages are plain text, making them easy to debug and understand.\n  * **Flexible** - Supports various content types using MIME types and different data formats like HTML, JSON, XML, etc.\n  * **Extensible** - Features headers for passing metadata, enabling advanced capabilities like caching, authentication, and content negotiation.\n  * **Secure Option** - Modern implementations use HTTPS (HTTP Secure), which encrypts data using TLS/SSL for secure communication.\n  * **Universal Compatibility** - HTTP is supported by virtually all web browsers, servers, and devices, ensuring seamless communication across the internet.\n  * **Ease of Use** - Its simplicity makes it easy to implement and test, whether for websites or APIs.\n  * **Scalability** - HTTP is designed for distributed systems, making it ideal for web applications and cloud-based architectures.\n\nWhen it comes to API governance, HTTP is the place to focus when it comes to standardization. A little bit of work in this realm can pay off significantly when it comes to the efficiency, stability, and velocity of the enterprise."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/iam/",
+      "title": "IAM",
+      "description": "IAM is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/iana-media-types/",
+      "title": "Internet Assigned Numbers Authority (IANA)",
+      "description": "IANA media types, also known as MIME types, are names for the types of data that are transmitted over the internet. They identify the format and nature of a file, document, or group of bytes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/imap/",
+      "title": "IMAP",
+      "description": "IMAP is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/instructions-md/",
+      "title": ".instructions.md",
+      "description": "File-scoped custom instruction files for GitHub Copilot and VS Code, using applyTo patterns to target specific file types or tasks with tailored AI guidance."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/integration-patterns/",
+      "title": "Integration Patterns",
+      "description": "Design patterns and best practices for integrating different software systems and applications, including messaging, data transformation, and service orchestration approaches. Organizations adopt it to address specific technical or business challenges in their environments."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/interface-specifications/",
+      "title": "Interface Specifications",
+      "description": "Documentation that defines the contract between different software components, including API endpoints, data formats, protocols, and integration requirements. It is used across a range of industries and technical contexts to improve efficiency and outcomes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/internal-control-standards/",
+      "title": "Internal Control Standards",
+      "description": "Framework of policies and procedures designed to provide reasonable assurance regarding the achievement of objectives in operational effectiveness, reliable financial reporting, and compliance with laws and regulations. It helps organizations meet regulatory requirements and demonstrate accountability to stakeholders."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/inversion-of-control/",
+      "title": "Inversion Of Control",
+      "description": "Inversion Of Control is a specialized technology or methodology in the inversion domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/iso-8601/",
+      "title": "ISO 8601",
+      "description": "ISO 8601 is an international standard for representing dates and times in a clear, consistent, and unambiguous format. It is widely used in APIs and data exchanges to ensure compatibility and accuracy across systems and regions -- here are handful of examples:\n\n  * **Date: YYYY-MM-DD (e.g., 2023-12-30)\n  * **Time: HH:MM:SS (e.g., 14:30:15)\n\nSupporting ISO 8601 in the design of APIs helps reduce the overhead of integration and will exponentially impact the enterprise with the following benefits.\n\n  * **Standardization** - Provides a universally accepted and consistent format, reducing misunderstandings caused by regional differences.\n  * **Interoperability** - Ensures seamless data exchange between different systems, programming languages, and platforms that may interpret dates differently.\n  * **Sorting and Comparison** - ISO 8601 dates are lexicographically sortable, meaning dates and times can be sorted as strings without additional parsing.\n  * **Time Zone Awareness** - Supports time zones and UTC offsets, ensuring proper handling of date-time data across global applications.\n  * **Readability** - Its structure is easy to understand and parse, making it suitable for both humans and machines.\n  * **Compliance** - Many frameworks, libraries, and databases natively support ISO 8601, simplifying implementation and reducing errors.\n  * **Future-Proofing** - As a widely adopted standard, ISO 8601 ensures long-term compatibility and reliability.\n\nUsing ISO 8601 in APIs improves clarity, compatibility, and scalability, making it a best practice for modern applications that handle date and time data. ISO 8601 is a global standard and recognized by most infrastructure, servies, tooling, and common place as part of API design."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/iso-standard/",
+      "title": "ISO Standard",
+      "description": "ISO Standard is a specialized technology or methodology in the iso domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/iso/",
+      "title": "ISO",
+      "description": "The International Organization for Standardization (ISO) develops and publishes international standards covering technology, manufacturing, food safety, and many other industries. ISO standards provide globally recognized frameworks that help organizations ensure quality, safety, interoperability, and consistency in their products and processes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/issue-template-md/",
+      "title": "ISSUE_TEMPLATE.md",
+      "description": "Template file that pre-populates new issue forms with structured sections, guiding contributors to provide necessary information when reporting bugs or requesting features."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/it-standards/",
+      "title": "IT Standards",
+      "description": "IT Standards is a specialized technology or methodology in the it domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/itil/",
+      "title": "ITIL",
+      "description": "ITIL is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/itsm/",
+      "title": "ITSM",
+      "description": "ITSM is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/jakarta-ee/",
+      "title": "Jakarta EE",
+      "description": "Jakarta EE is a specialized technology or methodology in the jakarta domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/java-ee/",
+      "title": "Java EE",
+      "description": "Java EE is a specialized technology or methodology in the java domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/jax-ws/",
+      "title": "JAX-WS",
+      "description": "JAX-WS is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/jcr/",
+      "title": "JCR",
+      "description": "JCR is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/jdbc/",
+      "title": "JDBC",
+      "description": "JDBC is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/jms/",
+      "title": "JMS",
+      "description": "JMS is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/jpa/",
+      "title": "JPA",
+      "description": "JPA is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/jsf/",
+      "title": "JSF",
+      "description": "JSF is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/json-binding/",
+      "title": "JSON Binding",
+      "description": "JSON Binding is a specialized technology or methodology in the json domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/json-ld/",
+      "title": "JSON-LD",
+      "description": "JSON-LD (JavaScript Object Notation for Linking Data) is a W3C standard for expressing linked data in JSON. It adds lightweight semantics to ordinary JSON so machines can understand what the data means, not just its shape\u2014by mapping keys to globally unique identifiers (IRIs) via a @context. Common features include @id (identity), @type (class), and optional graph constructs (@graph)."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/json-processing/",
+      "title": "JSON Processing",
+      "description": "JSON Processing is a specialized technology or methodology in the json domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/json-rpc/",
+      "title": "JSON RPC",
+      "description": "JSON-RPC is a lightweight, transport-agnostic remote procedure call (RPC) protocol that uses JSON to encode requests and responses. A client sends an object with jsonrpc \"2.0\", a method name, optional params (positional or named), and an id; the server replies with either a result or an error (including standardized error codes), and it also supports notifications (no id, no response) and request batching."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/json-schema/",
+      "title": "JSON Schema",
+      "description": "JSON Schema enables the confident and reliable use of the JSON data format, bringing consistency, validity, and interoperability to enterprise operations. JSON Schema defines the digital objects that we post to APIs, and receive as responses. JSON Schema defines the payloads of our APIs, but it also defines the surface area of our APIs as part of the OpenAPI specification. JSON Schema is ubiquitous in all enterprise organizations, bringing the following benefits to operations.\n\n  * **API Schema**\u00a0- Acts as a form of self-documentation for APIs, making it easier for developers to understand the expected data format and structure.\n  * **API Validation**\u00a0- Ensures incoming or outgoing JSON data conforms to a predefined structure, reducing errors and improving data integrity.\n  * **API Interoperability**\u00a0- Provides a standardized way to describe data formats, ensuring compatibility between systems using JSON for data exchange.\n  * **API Automation**\u00a0- Allows for code generation, form validation, and testing tools to work seamlessly by leveraging schema definitions.\n\nJSON Schema provides these four basic building blocks that can be used to define and validate every aspect of enterprise API operations, helping teams be more precise and consistent when it comes to the requests made to APIs, as well as the responses that are returned.\n\n  * **Identifiers** (URL reference to each schema)\n  * **Types** (string, number, boolean, object, array, null)\n  * **Metadata** (title, names, descriptions)\n  * **Constraints** (minimum, maximum, required fields)\n  * **Properties** (required and optional properties)\n  * **Patterns** (regex-based validation for strings)\n  * **Structure** (nested or references)\n\nJSON Schema is a standardized and flexible way to validate, document, and enforce structure across your JSON data. It simplifies API design, enhances reliability, and reduces errors, making it a foundational specification for any API operation. APIs.json, OpenAPI, Spectral, and other commonly used API specifications all also use JSON Schema to validate the compliance with their specification, further baking it into API operations.\n\nThe inventory and refinement of JSON Schema and publishing them to Git repositories and/or publishing them to schema registries help encourage reuse and is the number one thing you can do to stabilize API operations. Ensuring that the latest version of the JSON Specification is in use across teams, with validators baked into build pipelines, and even API gateways in some cases, will all contribute to the stability and security of the API surface area of any enterprise."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/json-web-token/",
+      "title": "JSON Web Token",
+      "description": "JWT (JSON Web Token) is a compact, self-contained, and secure method for transmitting information between parties as a JSON object. JWT has become essential for addressing the following needs at scale across enterprise organizations.\n\n  * **API Authentication** - After a user logs in, the server generates a JWT and sends it to the client, which stores it (e.g., in local storage or cookies). The client includes this token in the Authorization header for subsequent requests.\n  * **API Authorization** - Servers decode the JWT to verify the user's identity and permissions before granting access to protected resources.\n\nEnterprise are choosing JWT primairly for internal APIs and microservices, but are also application outside the enterprise for the following reasons.\n\n  * **Stateless** - JWTs are stateless and sessionless, meaning no server-side storage is required. All required user data is embedded in the token itself.\n  * **Portable** - JWTs are URL-safe and small in size, making them easy to pass through URLs, HTTP headers, and query strings.\n  * **Scalable** - Since JWTs do not require session storage, they are highly scalable for distributed systems and microservices.\n  * **Flexible** - JWTs allow you to include custom claims, such as user roles and permissions, enabling fine-grained access control.\n  * **Cross-Domain Authentication** - JWTs work well in Single Sign-On (SSO) scenarios, enabling seamless authentication across different domains and services.\n\nJWT is a secure, scalable, and stateless way to handle authentication, authorization, and secure data transmission. It is widely used in HTTP APIs, microservices, as well as Single Sign-On (SSO) systems, providing flexibility and security for modern applications and integrations."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/json/",
+      "title": "JSON",
+      "description": "JSON (JavaScript Object Notation) is a lightweight, text-based data format used for storing and exchanging data. It is easy for humans to read and write, and simple for machines to parse and generate. JSON is language-independent but widely supported across programming languages, making it a standard for data interchange in modern web development and APIs for the following reasons.\n\n  * **Human-Readable and Simple** - JSON is structured and easy to understand, making it developer-friendly for both reading and debugging.\n  * **Lightweight** - Its compact format reduces bandwidth usage, improving performance for data transfer in web and mobile applications.\n  * **Interoperability** - JSON is supported by virtually all programming languages and platforms, ensuring seamless integration between systems.\n  * **Easy to Parse** - Most languages have built-in functions or libraries (e.g., JSON.parse() in JavaScript) for parsing JSON data, simplifying processing and manipulation.\n  * **Flexible Data Structures** - JSON supports key-value pairs, arrays, and nested objects, allowing representation of complex data structures.\n  * **Compatibility with JavaScript** - Since JSON is based on JavaScript syntax, it integrates naturally with JavaScript applications, including front-end frameworks like React, Angular, and Vue.js.\n  * **Standardization** - JSON is defined by RFC 8259 and ECMA-404, ensuring consistent usage across systems and applications.\n\nJSON is the preferred format for data exchange due to its simplicity, flexibility, and compatibility with modern programming languages and frameworks. Mobile applications were the initial driver of adoption for JSON, but it has spread much wider to the desktop, server, and every other aspect of API operations."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/jsonpath/",
+      "title": "JSONPath",
+      "description": "JSONPath is a query language used to extract, filter, and manipulate data from JSON (JavaScript Object Notation) structures. It provides a syntax similar to XPath (used for XML) but is designed specifically for JSON data.\nAlmost any service or tool working with JSON will likely be using JSONPath behind the scenes. JSONPath is used by Spectral rules to identify the portion of OpenAPI or other schema being referenced by any governance rule, bringing the following benefits.\n\n  * **Efficient Data Access** - JSONPath makes it easy to navigate and extract specific parts of deeply nested JSON structures without having to manually traverse the hierarchy.\n  * **Flexibility** - Supports filtering, wildcard matching, and recursive searches, enabling complex queries with minimal effort.\n  * **Standardized Queries** - Provides a consistent way to query JSON data across programming languages and libraries, improving code readability and maintainability.\n  * **Dynamic Filtering** - Allows you to filter JSON data based on conditions, such as retrieving objects that match specific key-value pairs.\n  * **Integration with APIs** - JSONPath is widely supported in tools and libraries for APIs, making it ideal for parsing and processing JSON responses.\n  * **Scripting and Testing** - Useful in testing frameworks like Postman and JMeter for validating JSON responses in API tests.\n\nJSONPath is an essential tool for querying and manipulating JSON data efficiently. Its simplicity, flexibility, and compatibility with multiple programming languages make it a go-to solution for working with JSON in APIs, data analysis, and testing frameworks.\nOpen source standards like JSONPath help ensure more precision when it comes to governing the technical details of APIs, but can also be expanded to reference artifacts that are the inputs our outputs of business applications being used to manage APIs."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/jsr-303/",
+      "title": "JSR-303",
+      "description": "JSR-303 is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/jules-md/",
+      "title": "JULES.md",
+      "description": "Configuration file for Google Jules AI coding agent, providing project-specific instructions, architecture context, and coding standards."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/jwt/",
+      "title": "JSON Web Token (JWT)",
+      "description": "A JSON Web Token (JWT) is a compact, URL-safe token format used to securely transmit information between parties as a JSON object, commonly used for authentication and authorization in web applications."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/kanban/",
+      "title": "Kanban",
+      "description": "Kanban is a visual workflow management method that uses boards and cards to represent work items flowing through defined stages. It emphasizes continuous delivery, work-in-progress limits, and incremental improvements, helping teams optimize throughput and identify bottlenecks in their processes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/kerberos/",
+      "title": "Kerberos",
+      "description": "Kerberos is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/lakehouse-architecture/",
+      "title": "Lakehouse Architecture",
+      "description": "A data architecture paradigm that combines the best features of data lakes and data warehouses, providing ACID transactions, schema enforcement, and governance on low-cost storage with support for both business intelligence and machine learning workloads. Effective implementation supports data-driven strategies and helps maintain data integrity across systems."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/ldap/",
+      "title": "LDAP",
+      "description": "Lightweight Directory Access Protocol - an industry-standard protocol for accessing and maintaining distributed directory information services over an IP network. It plays a critical role in protecting organizational assets and maintaining a strong security posture."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/lean-management/",
+      "title": "Lean Management",
+      "description": "Lean Management is the discipline of planning, organizing, and overseeing lean-related activities to achieve optimal outcomes. It encompasses the processes, tools, and strategies needed to effectively coordinate and control lean resources across an organization."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/lean-manufacturing/",
+      "title": "Lean Manufacturing",
+      "description": "Lean Manufacturing is a manufacturing or industrial technology used to design, produce, or manage physical products and production processes. It leverages automation, precision engineering, and digital controls to improve quality, efficiency, and throughput."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/lean-operations/",
+      "title": "Lean Operations",
+      "description": "Lean Operations is a business or enterprise practice that helps organizations manage operations, make strategic decisions, and achieve their objectives. It encompasses the processes, tools, and methodologies needed to run an effective and efficient organization."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/lean-six-sigma-black-belt/",
+      "title": "Lean Six Sigma Black Belt",
+      "description": "Advanced certification in Lean Six Sigma methodology focused on leading complex improvement projects, statistical analysis, and change management to reduce defects and variability in business processes. It helps teams plan, execute, and deliver projects on time and within scope through structured methodologies."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/lean-six-sigma/",
+      "title": "Lean Six Sigma",
+      "description": "A methodology that combines Lean manufacturing principles and Six Sigma quality management techniques to improve business processes by eliminating waste and reducing variation, focusing on data-driven decision making and continuous improvement. Organizations adopt it to address specific technical or business challenges in their environments."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/license-md/",
+      "title": "LICENSE.md",
+      "description": "File specifying the legal license under which a project is distributed, defining permissions, conditions, and limitations for use and redistribution."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/mandatory-reserves-requirement/",
+      "title": "Mandatory Reserves Requirement",
+      "description": "A central bank regulation requiring commercial banks to hold a minimum percentage of customer deposits as reserves, either as cash in their vaults or as deposits with the central bank, to ensure liquidity and stability in the banking system. It is used across a range of industries and technical contexts to improve efficiency and outcomes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/mapreduce/",
+      "title": "MapReduce",
+      "description": "MapReduce is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/markdown/",
+      "title": "Markdown",
+      "description": "Markdown is a lightweight markup language that uses plain text formatting syntax (such as asterisks for emphasis, hashes for headings, and brackets for links) to create formatted documents that are easy to read in raw form and can be converted to HTML and other formats."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/markup-language/",
+      "title": "Markup Language",
+      "description": "Markup Language is a specialized technology or methodology in the markup domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/mcp-json/",
+      "title": "mcp.json",
+      "description": "Model Context Protocol configuration file defining MCP server connections for AI coding assistants, enabling tool integration and enhanced AI capabilities."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/messaging-protocol/",
+      "title": "Messaging Protocol",
+      "description": "Messaging Protocol is a networking technology or protocol that facilitates communication, data transfer, or traffic management between systems and devices. It enables reliable, efficient, and secure connectivity across local and distributed network environments."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/methodology/",
+      "title": "Methodology",
+      "description": "Methodology is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/microcks-examples/",
+      "title": "Microcks Examples",
+      "description": "APIExamples format is Microcks\u2019 own specification format for defining examples intended to be used by Microcks mocks."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/mlops/",
+      "title": "MLOps",
+      "description": "Machine Learning Operations - practices and tools for deploying, monitoring, and maintaining machine learning models in production environments. It is increasingly applied across industries to automate complex tasks, uncover patterns, and drive innovation."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/mockups/",
+      "title": "Mockups",
+      "description": "Visual representations or prototypes of user interfaces and designs used to demonstrate the look and feel of a product before development. It is used across a range of industries and technical contexts to improve efficiency and outcomes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/model-context-protocol/",
+      "title": "Model Context Protocol (MCP)",
+      "description": "MCP (Model Context Protocol) is an open protocol that standardizes how applications provide context to large language models (LLMs). It offers a consistent way to connect AI models to diverse data sources and tools, enabling agents and complex workflows that link models to the outside world."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/modeling-language/",
+      "title": "Modeling Language",
+      "description": "Modeling Language is a visual computing technology used for creating, processing, or displaying graphical content. It supports applications in design, simulation, entertainment, and data visualization."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/modular-monolith/",
+      "title": "Modular Monolith",
+      "description": "An architectural pattern that structures a monolithic application into loosely coupled, well-defined modules with clear boundaries and dependencies, combining the operational simplicity of a monolith with the organizational benefits of modular design. Organizations adopt it to address specific technical or business challenges in their environments."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/monolithic-architecture/",
+      "title": "Monolithic Architecture",
+      "description": "Monolithic Architecture is a structural design approach that defines how monolithic components are organized, interact, and scale within a system. It provides a blueprint for building maintainable, performant, and resilient solutions that meet both current and future requirements."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/multi-tier-architecture/",
+      "title": "Multi-tier Architecture",
+      "description": "A software architecture pattern that separates an application into logical layers or tiers, typically presentation, business logic, and data access layers, to improve modularity, scalability, and maintainability. It is used across a range of industries and technical contexts to improve efficiency and outcomes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/mvc/",
+      "title": "MVC",
+      "description": "MVC is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/mxml/",
+      "title": "MXML",
+      "description": "MXML is an artificial intelligence technology or practice that leverages machine learning, data analysis, or intelligent automation to solve complex problems. It is increasingly applied across industries to improve efficiency, accuracy, and decision-making in both technical and business contexts."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/network-protocols/",
+      "title": "Network Protocols",
+      "description": "Standardized rules and conventions for communication between network devices, including protocols like TCP/IP, HTTP, DNS, and others that enable data exchange across networks. It is fundamental to modern network architectures and enables reliable communication between systems."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/nfc/",
+      "title": "NFC",
+      "description": "NFC is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/nio/",
+      "title": "NIO",
+      "description": "NIO is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/nist/",
+      "title": "NIST",
+      "description": "National Institute of Standards and Technology - develops and promotes measurement standards, cybersecurity frameworks, and technology guidelines"
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/normalization/",
+      "title": "Normalization",
+      "description": "Normalization is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/oauth-20/",
+      "title": "OAuth 2.0",
+      "description": "OAuth 2.0 is an authorization framework that allows third-party applications to securely access a user's resources (such as accounts or data) on another service without sharing passwords. It is widely used for enabling single sign-on (SSO) and providing secure, delegated access to APIs, with the following benefits.\n\n  * **Secure Authorization** - OAuth 2.0 allows users to grant limited access to their data without exposing their credentials, reducing the risk of unauthorized access.\n  * **Granular Permissions** - Applications can request specific scopes of access, such as read-only or write permissions, providing fine-grained control over data sharing.\n  * **Token-Based Authentication** - OAuth 2.0 uses access tokens, which are temporary and revocable, reducing security risks associated with long-term credentials.\n  * **Scalable and Flexible** - It supports a variety of client types (e.g., web apps, mobile apps, and IoT devices) and use cases, including single sign-on and third-party integrations.\n  * **No Password Sharing** - Users authenticate with the authorization server, and the application receives a token instead of the user's password, enhancing security.\n  * **Industry Standard** - OAuth 2.0 is widely adopted and supported by major platforms like Google, Facebook, GitHub, and Microsoft, ensuring compatibility with modern web and mobile applications.\n  * **Refresh Tokens** - Provides a mechanism to renew access tokens without requiring the user to log in again, improving user experience and session management.\n\nOAuth 2.0 has become the industry standard for secure, token-based authorization, enabling applications to access user data without compromising privacy. It is ideal for SSO, API security, and third-party integrations, offering scalability, flexibility, and enhanced security for different types of applications.  \nThere are some complaints that OAuth 2.0 has become very broad and bloated, but it has reached mainstream adoption and will define authentication and authorization across the API landscape for many years to come. When you have wide variety of resources, with many end-users of those resources, applying OAuth 2.0 for API authentication and authorization makes sense."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/oauth/",
+      "title": "OAuth",
+      "description": "OAuth is an open authorization framework that enables third-party applications to access user resources without exposing credentials. It provides a secure, token-based delegation mechanism widely used across the web for granting limited access to APIs and services on behalf of users."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/object-oriented-programming/",
+      "title": "Object-Oriented Programming",
+      "description": "Object-Oriented Programming is a software development technology or practice that supports the creation, maintenance, or improvement of software systems. It helps developers and engineering teams work more efficiently and deliver higher-quality software products."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/oci/",
+      "title": "OCI",
+      "description": "OCI is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/odata/",
+      "title": "OData",
+      "description": "OData is a data technology or practice used to collect, process, store, analyze, or govern information assets. It helps organizations extract value from their data and make informed decisions through systematic data management."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/odbc/",
+      "title": "ODBC",
+      "description": "ODBC (Open Database Connectivity) is a standard API specification that provides a database-agnostic interface for applications to connect to and interact with various relational database management systems through database-specific drivers, enabling cross-platform database access without requiring application code changes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/oidc/",
+      "title": "OIDC",
+      "description": "OIDC is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/open-collection/",
+      "title": "Open Collections",
+      "description": "A modern, developer-first specification pioneered by Bruno for defining and sharing API collections. Designed for simplicity and collaboration."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/open-policy-agent/",
+      "title": "Open Policy Agent",
+      "description": "Open Policy Agent (OPA) is an open-source, policy-based control engine that allows you to define and enforce fine-grained access control and policy decisions across microservices, APIs, and infrastructure. OPA uses a high-level declarative language called Rego to define policies, bringing the following to API operational governance.\n\n  * **Centralized Policy Management** - OPA separates policy definition from application logic, enabling centralized management of rules and decisions. This improves consistency and maintainability.\n  * **Flexible and Extensible** - Policies can be applied across different systems, including Kubernetes, APIs, CI/CD pipelines, databases, service meshes, and cloud infrastructure.\n  * **Language-Agnostic** - OPA works with any programming language since it evaluates policies externally and communicates results through APIs.\n  * **Decoupled Policy Enforcement** - Developers can focus on business logic, while policies are defined and enforced externally, simplifying application code and ensuring security rules are always applied.\n  * **Declarative Policy Language (Rego)** - Rego is purpose-built for policy enforcement, supporting complex rules, conditional logic, and data matching.\n  * **Auditability and Transparency** - OPA logs decisions and provides audit trails, helping with compliance requirements and debugging policy-related issues.\n  * **Authorization at Scale** - OPA is designed for distributed systems and microservices, making it highly scalable for modern applications.\n\nOpen Policy Agent (OPA) is a rich and flexible tool for policy-based decision-making and access control. OPA simplifies security and compliance enforcement across cloud-native applications, APIs, and infrastructure, making it an essentiuseful al part of governing API operations. OPA is a great addition to any enterprise API governance engine alongside Spectral, Vacuum, and JSON Schema."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/openapi-overlays/",
+      "title": "OpenAPI Overlays",
+      "description": "The Overlay Specification is an auxiliary standard that complements the OpenAPI Specification. An OpenAPI description defines API operations, data structures, and metadata\u2014the overall shape of an API. An Overlay lists a series of repeatable changes to apply to a given OpenAPI description, enabling transformations as part of your API workflows."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/openapi/",
+      "title": "OpenAPI",
+      "description": "OpenAPI (formerly known as Swagger) is a specification for building, documenting, and consuming RESTful APIs. It defines a standard, language-agnostic format for describing APIs, enabling both humans and machines to understand the capabilities of a service without accessing its source code, using the following properties.\n\n  * **Endpoints and Methods** - Defines HTTP methods like GET, POST, PUT, and DELETE.\n  * **Parameters and Responses** - Specifies query parameters, headers, and response formats.\n  * **Schemas** - Provides reusable data models for request and response payloads.\n  * **Security Schemes** - Describes authentication methods such as OAuth 2.0 and API Keys.\n  * **Tags and Metadata** - Groups related endpoints and adds descriptions for clarity.\n\nWhile OpenAPI is used in many different aspects of operations it is best known for a handful of common experiences for both API producers and consumers.\n\n  * **API Design** - Define and validate APIs before implementation.\n  * **API Documentation** - Generate user-friendly documentation that simplifies adoption.\n  * **API Testing and Mocking** - Simulate API behavior during development.\n  * **API Client SDK Generation** - Automatically create SDKs for different languages.\n  * **API Automation** - Enable DevOps practices like CI/CD with automated tests and deployments.\n\nOpenAPI simplifies API design, documentation, testing, and integration through a standardized and machine-readable format. It improves developer collaboration, speeds up development, and ensures consistent and reliable APIs, making it a cornerstone of the enterprise HTTP API toolbox.\nThe technical details of any HTTP API should be defined as OpenAPI, then extended and enriched using OpenAPI overlays throughout the API lifecycle. OpenAPI describes the technical details of individual APIs, but when done at scale across the enterprise, it provides an effective blueprint regarding what the enterprise is capable of."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/opencost/",
+      "title": "OpenCost",
+      "description": "An open source specification and tool for real-time cost monitoring of Kubernetes infrastructure and cloud spending, enabling teams to measure, allocate, and optimize cloud costs across workloads."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/opencypher/",
+      "title": "openCypher",
+      "description": "openCypher is an open-source project that provides a standardized graph query language originally developed by Neo4j for querying property graphs. It enables developers to write expressive pattern-matching queries against graph databases, and its specification has been adopted by multiple graph database vendors."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/openid-connect/",
+      "title": "OpenID Connect",
+      "description": "OpenID Connect is a specialized technology or methodology in the openid domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/osgi/",
+      "title": "OSGi",
+      "description": "OSGi is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/osha/",
+      "title": "OSHA",
+      "description": "Occupational Safety and Health Administration - U.S. federal agency responsible for setting and enforcing workplace safety and health standards"
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/owasp/",
+      "title": "OWASP",
+      "description": "Open Web Application Security Project - A nonprofit foundation that works to improve the security of software through community-led open source projects, hundreds of chapters worldwide, and educational resources. It is widely adopted across industries to safeguard digital assets and reduce security risks."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/parquet/",
+      "title": "Parquet",
+      "description": "Apache Parquet is an open source, column-oriented data file format designed for efficient data storage and retrieval. It provides efficient data compression and encoding schemes with enhanced performance to handle complex data in bulk."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/partitioning/",
+      "title": "Partitioning",
+      "description": "Partitioning is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/pci-compliance/",
+      "title": "PCI Compliance",
+      "description": "Payment Card Industry Data Security Standard (PCI DSS) is a set of security standards designed to ensure that all companies that accept, process, store or transmit credit card information maintain a secure environment. It plays a critical role in protecting organizational assets and maintaining a strong security posture."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/pdf/",
+      "title": "PDF",
+      "description": "PDF is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/pig-latin/",
+      "title": "Pig Latin",
+      "description": "Pig Latin is a specialized technology or methodology in the pig domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/posix/",
+      "title": "POSIX",
+      "description": "POSIX is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/postman-collections/",
+      "title": "Postman Collections",
+      "description": "A Postman Collection is a portable JSON artifacts that organizes one or more API requests\u2014plus their params, headers, auth, scripts, and examples\u2014so you can run, share, and automate them in the Postman desktop or web client application. Collections can include folders, collection- and environment-level variables, pre-request and test scripts, examples, mock server definitions, and documentation."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/postman-environments/",
+      "title": "Postman Environments",
+      "description": "Postman environments are collections of variables that let you easily switch between different configurations (like development, staging, and production server URLs) without manually changing values throughout your API requests."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/privacy-by-design/",
+      "title": "Privacy By Design",
+      "description": "A framework and approach that embeds privacy protections into the design and operation of IT systems, networked infrastructure, and business practices from the ground up, rather than as an afterthought. It is widely adopted across industries to safeguard digital assets and reduce security risks."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/problem-details-for-http-apis/",
+      "title": "Problem Details for HTTP APIs",
+      "description": "Problem Details for HTTP APIs is a standardized way to represent error responses in HTTP APIs, defined in RFC 7807. It provides a structured format for conveying error details to clients, making it easier to understand and handle errors programmatically, helping standardized how problems are communicated across aPI operations in these areas.\n\n  * **Standardized Error Responses** - Ensures consistency in error reporting across APIs, making it easier for clients to parse and handle errors uniformly.\n  * **Improved Debugging** - Provides detailed error information, including status codes, error types, and descriptive messages, which simplifies debugging for developers.\n  * **Extensibility** - Allows adding custom fields to provide additional context about errors without breaking the standard, offering flexibility for specific use cases.\n  * **Client Experience** - Enables clients to understand the root cause of an error and take corrective actions, improving user experience and reducing support requests.\n  * **Alignment with API Standards** - Works seamlessly with RESTful APIs and OpenAPI/Swagger, ensuring compatibility with industry best practices.\n\nProblem Details for HTTP APIs (RFC 7807) is a standardized approach for structured error reporting in APIs. It simplifies error handling, improves debugging, and ensures consistency across API implementations. It is especially useful for HTTP APIs and is supported by modern frameworks and standards like OpenAPI, and easily governed using Spectral and other API linting formats."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/process-flow-diagrams/",
+      "title": "Process Flow Diagrams",
+      "description": "Visual representations that illustrate the sequential steps and decision points in a process, showing how inputs are transformed into outputs through various activities and pathways. It is used across a range of industries and technical contexts to improve efficiency and outcomes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/product-backlog-items/",
+      "title": "Product Backlog Items",
+      "description": "Prioritized list of features, enhancements, and fixes that represent work to be done in a product development process, typically used in Agile and Scrum methodologies. Teams use it to align stakeholders, track progress, and adapt to changing requirements throughout the project lifecycle."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/product-backlog/",
+      "title": "Product Backlog",
+      "description": "A prioritized list of features, enhancements, and fixes that serves as the single source of requirements for product development, typically used in Agile and Scrum methodologies. Teams use it to align stakeholders, track progress, and adapt to changing requirements throughout the project lifecycle."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/product-specifications/",
+      "title": "Product Specifications",
+      "description": "Detailed technical specifications and requirements documentation for products. Teams use it to align stakeholders, track progress, and adapt to changing requirements throughout the project lifecycle."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/programming-paradigm/",
+      "title": "Programming Paradigm",
+      "description": "Programming Paradigm is a software development technology or practice that supports the creation, maintenance, or improvement of software systems. It helps developers and engineering teams work more efficiently and deliver higher-quality software products."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/project-management-methodology/",
+      "title": "Project Management Methodology",
+      "description": "A systematic approach or framework for planning, executing, and controlling projects to achieve specific goals within defined constraints of time, budget, and resources. It helps teams plan, execute, and deliver projects on time and within scope through structured methodologies."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/prompt-md/",
+      "title": ".prompt.md",
+      "description": "Reusable prompt template files for AI coding assistants, defining task-specific instructions that can be executed from chat interfaces. Used for standardizing common development tasks like code review, refactoring, and test generation."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/protocol-buffers/",
+      "title": "Protocol Buffers",
+      "description": "Protocol Buffers is a networking technology or protocol that facilitates communication, data transfer, or traffic management between systems and devices. It enables reliable, efficient, and secure connectivity across local and distributed network environments."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/prototypes/",
+      "title": "Prototypes",
+      "description": "Early models or preliminary versions of products built to test areas, validate designs, and gather feedback before full-scale production or development. Effective use of this practice reduces bugs in production and supports a culture of quality-driven development."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/pub-sub/",
+      "title": "Pub/Sub",
+      "description": "A messaging pattern where publishers send messages to topics without knowledge of subscribers, and subscribers receive messages from topics they're interested in, enabling asynchronous and decoupled communication between services. Modern distributed architectures rely on it to coordinate workloads across multiple nodes and regions."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/pull-request-template-md/",
+      "title": "PULL_REQUEST_TEMPLATE.md",
+      "description": "Template file that pre-populates pull request descriptions with structured sections like change summary, testing steps, and checklist items."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/qos/",
+      "title": "QoS",
+      "description": "QoS is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/quality-of-service/",
+      "title": "Quality Of Service",
+      "description": "Quality Of Service provides specialized quality of capabilities delivered as a managed offering, often accessible via APIs or cloud interfaces. It allows organizations to leverage quality of functionality without building and maintaining the underlying infrastructure themselves."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/quality-standards/",
+      "title": "Quality Standards",
+      "description": "Frameworks and benchmarks that define acceptable levels of quality for products, services, or processes to ensure consistency and meet customer expectations. Proper implementation reduces legal and operational risk while supporting audit readiness."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/raci/",
+      "title": "RACI",
+      "description": "A responsibility assignment matrix that defines roles and responsibilities using four key designations - Responsible (those who do the work), Accountable (the ultimate decision maker), Consulted (those whose input is needed), and Informed (those who need to be kept updated). RACI matrices help clarify ownership, reduce confusion, and improve project coordination by mapping stakeholders to specific tasks or deliverables."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/raft/",
+      "title": "Raft",
+      "description": "Raft is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/rbac/",
+      "title": "RBAC",
+      "description": "Role-Based Access Control (RBAC) is a security paradigm that restricts system access based on assigned roles rather than individual user identities. Users are granted permissions through their role membership, simplifying access management and ensuring principle of least privilege."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/rdf/",
+      "title": "RDF",
+      "description": "RDF is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/rdp/",
+      "title": "RDP",
+      "description": "RDP is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/reactive-programming/",
+      "title": "Reactive Programming",
+      "description": "Reactive Programming is a software development technology or practice that supports the creation, maintenance, or improvement of software systems. It helps developers and engineering teams work more efficiently and deliver higher-quality software products."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/readme-md/",
+      "title": "README.md",
+      "description": "Standard repository documentation file providing project overview, setup instructions, and usage examples. Automatically displayed on repository landing pages by GitHub, GitLab, and other hosting platforms."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/regular-expressions/",
+      "title": "Regular Expressions",
+      "description": "A sequence of characters that define a search pattern, commonly used for string matching, validation, and text manipulation in programming and data processing. It supports the full software development lifecycle from design through deployment and maintenance."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/regulation/",
+      "title": "Regulation",
+      "description": "Regulation is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/regulatory-templates/",
+      "title": "Regulatory Templates",
+      "description": "Pre-built templates and frameworks for meeting regulatory compliance requirements across various industries and jurisdictions. Proper implementation reduces legal and operational risk while supporting audit readiness."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/regulatory/",
+      "title": "Regulatory",
+      "description": "Regulatory is a compliance-related concept that helps organizations meet regulatory requirements and maintain adherence to industry standards. It supports audit readiness, risk management, and the demonstration of accountability to regulators and stakeholders."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/relational-data-modeling/",
+      "title": "Relational Data Modeling",
+      "description": "A database design approach that organizes data into tables (relations) with rows and columns, establishing relationships between tables through keys to ensure data integrity and minimize redundancy. It is used across a range of industries and technical contexts to improve efficiency and outcomes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/renovate-json/",
+      "title": "renovate.json",
+      "description": "Renovate bot configuration file for automated dependency updates, supporting multiple package managers and customizable update strategies."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/reporting-templates/",
+      "title": "Reporting Templates",
+      "description": "Pre-built document templates for generating standardized reports, dashboards, and data presentations with consistent formatting and structure. Organizations use it to track key metrics, identify trends, and optimize business outcomes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/reserve-requirements/",
+      "title": "Reserve Requirements",
+      "description": "Reserve Requirements is a specialized technology or methodology in the reserve domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/rest/",
+      "title": "REST",
+      "description": "REST (Representational State Transfer) is an architectural style for designing networked applications that uses stateless communication and standard HTTP methods to interact with resources identified by URLs. Its simplicity, scalability, and alignment with the web's architecture have made it the dominant approach for building web APIs."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/rfid/",
+      "title": "RFID",
+      "description": "RFID is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/roorules/",
+      "title": ".roorules",
+      "description": "Configuration file for Roo Code AI coding assistant providing project-specific rules and coding conventions."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/rpc/",
+      "title": "RPC",
+      "description": "RPC is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/rtsp/",
+      "title": "RTSP",
+      "description": "RTSP is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/runbooks/",
+      "title": "Runbooks",
+      "description": "Documented procedures and step-by-step instructions for handling routine operations, troubleshooting issues, and responding to incidents in IT systems and infrastructure. It reduces manual effort and human error while increasing throughput and operational consistency."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/safe-agile/",
+      "title": "SAFe Agile",
+      "description": "Scaled Agile Framework (SAFe) is an enterprise-scale agile framework that provides guidance for implementing agile practices across large organizations with multiple teams working together. Teams use it to align stakeholders, track progress, and adapt to changing requirements throughout the project lifecycle."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/saml/",
+      "title": "SAML",
+      "description": "SAML (Security Assertion Markup Language) is an XML-based open standard for exchanging authentication and authorization data between identity providers and service providers. It enables single sign-on (SSO) across different applications and domains, reducing the need for users to manage multiple sets of credentials."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/scada/",
+      "title": "SCADA",
+      "description": "SCADA is a visual computing technology used for creating, processing, or displaying graphical content. It supports applications in design, simulation, entertainment, and data visualization."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/scaled-agile/",
+      "title": "Scaled Agile",
+      "description": "Scaled Agile is a project management practice or tool that helps teams plan, organize, and execute work effectively. It supports structured collaboration, progress tracking, and adaptive planning to deliver results on time and within scope."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/schema-design/",
+      "title": "Schema Design",
+      "description": "Schema Design is a specialized technology or methodology in the schema domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/schema-evolution/",
+      "title": "Schema Evolution",
+      "description": "Schema Evolution is a specialized technology or methodology in the schema domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/schema-free/",
+      "title": "Schema Free",
+      "description": "Schema Free is a specialized technology or methodology in the schema domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/schema-org/",
+      "title": "Schema.org",
+      "description": "Schema.org is a collaborative, community-driven vocabulary (launched in 2011 by Google, Microsoft, Yahoo!, and Yandex) that defines shared types and properties to describe things on the web\u2014people, places, products, events, and more\u2014so search engines and other consumers can understand page content."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/schema-validation/",
+      "title": "Schema Validation",
+      "description": "Schema Validation is a specialized technology or methodology in the schema domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/scrum/",
+      "title": "Scrum",
+      "description": "Scrum is an agile project management framework that organizes work into fixed-length iterations called sprints, typically lasting two to four weeks. It defines clear roles (Product Owner, Scrum Master, Developers) and ceremonies (sprint planning, daily standups, retrospectives) to enable teams to deliver value incrementally and continuously improve."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/sdlc/",
+      "title": "SDLC",
+      "description": "Software Development Life Cycle - A systematic process for planning, creating, testing, and deploying software systems. Effective use of this practice reduces bugs in production and supports a culture of quality-driven development."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/secops/",
+      "title": "SecOps",
+      "description": "Security Operations - the practice of integrating security practices into IT operations to identify, manage, and respond to security threats and vulnerabilities in real-time while maintaining system performance and availability. It plays a critical role in protecting organizational assets and maintaining a strong security posture."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/secure-by-default/",
+      "title": "Secure-by-Default",
+      "description": "A security design principle where systems and software are configured with the most secure settings from the initial deployment, requiring users to explicitly opt-in to less secure options rather than having to manually enable security features. It plays a critical role in protecting organizational assets and maintaining a strong security posture."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/secure-by-design/",
+      "title": "Secure-by-Design",
+      "description": "A software development approach that prioritizes security from the initial design phase through implementation, ensuring security considerations are built into the foundation of systems rather than added as an afterthought. It is widely adopted across industries to safeguard digital assets and reduce security risks."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/secure-software-development-life-cycle/",
+      "title": "Secure Software Development Life Cycle",
+      "description": "A framework that integrates security practices and considerations into every phase of the software development process, from initial design through deployment and maintenance, to minimize vulnerabilities and ensure secure applications. It is used across a range of industries and technical contexts to improve efficiency and outcomes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/secure-software-development-lifecycle/",
+      "title": "Secure Software Development Lifecycle",
+      "description": "A framework that integrates security practices into every phase of the software development process, from design and development through testing and deployment, to identify and mitigate vulnerabilities early. It is widely adopted across industries to safeguard digital assets and reduce security risks."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/secure-tunneling-protocols/",
+      "title": "Secure Tunneling Protocols",
+      "description": "Network protocols that create encrypted tunnels for secure data transmission over untrusted networks, including VPN technologies like IPsec, SSL/TLS, WireGuard, and SSH tunneling for protecting communication channels. It is widely adopted across industries to safeguard digital assets and reduce security risks."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/security-by-design/",
+      "title": "Security By Design",
+      "description": "A software development approach that integrates security considerations and practices from the initial design phase through the entire development lifecycle, rather than adding security as an afterthought. It plays a critical role in protecting organizational assets and maintaining a strong security posture."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/security-md/",
+      "title": "SECURITY.md",
+      "description": "Security policy document describing supported versions, vulnerability reporting procedures, and responsible disclosure guidelines for a project."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/security-protocols/",
+      "title": "Security Protocols",
+      "description": "A set of rules and standards that define how data is transmitted securely over networks, including protocols like SSL/TLS, HTTPS, SSH, and IPsec that provide encryption, authentication, and data integrity. It plays a critical role in protecting organizational assets and maintaining a strong security posture."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/security-standards-and-procedures/",
+      "title": "Security Standards And Procedures",
+      "description": "Frameworks and documented guidelines that establish security requirements, controls, and best practices for protecting organizational assets and information systems. It plays a critical role in protecting organizational assets and maintaining a strong security posture."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/security-standards/",
+      "title": "Security Standards",
+      "description": "Security Standards is a cybersecurity technology or practice designed to protect systems, networks, and data from unauthorized access, attacks, and vulnerabilities. It plays a critical role in an organization's defense strategy by reducing risk and strengthening overall security posture."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/semantic-versioning/",
+      "title": "Semantic Versioning (SemVer)",
+      "description": "Semantic versioning (SemVer) is a versioning system designed to convey meaningful information about software updates through a standardized format. It follows the structure MAJOR.MINOR.PATCH, where each segment represents a specific type of change. The MAJOR version is incremented for incompatible changes that may break backward compatibility, the MINOR version is updated for backward-compatible feature additions, and the PATCH version increases for backward-compatible bug fixes. This clear structure helps developers and users understand the impact of updates, manage dependencies, and ensure compatibility across different versions of a project. Semantic versioning promotes transparency and predictability in software development and distribution."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/serverless-patterns/",
+      "title": "Serverless Patterns",
+      "description": "A collection of serverless architectures and patterns for building applications on AWS, featuring ready-to-use templates and best practices for Lambda, API Gateway, EventBridge, and other serverless services. Cloud adoption of this technology supports flexibility, cost optimization, and rapid deployment."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/service-oriented-architecture/",
+      "title": "Service Oriented Architecture",
+      "description": "An architectural pattern where software components provide services to other components through a communication protocol over a network. Services are loosely coupled, reusable, and can be independently deployed and maintained."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/services-patterns/",
+      "title": "Services Patterns",
+      "description": "Design patterns and architectural approaches for building microservices and service-oriented applications. Modern distributed architectures rely on it to coordinate workloads across multiple nodes and regions."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/sftp/",
+      "title": "SFTP",
+      "description": "SFTP is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/sharding/",
+      "title": "Sharding",
+      "description": "Sharding is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/six-sigma/",
+      "title": "Six Sigma",
+      "description": "A data-driven methodology and set of techniques for process improvement that seeks to reduce defects and variability in business processes to achieve near-perfect quality (3.4 defects per million opportunities). Organizations adopt it to address specific technical or business challenges in their environments."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/sketches/",
+      "title": "Sketches",
+      "description": "Sketches is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/smtp/",
+      "title": "SMTP",
+      "description": "SMTP is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/soa/",
+      "title": "SOA",
+      "description": "SOA is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/soap/",
+      "title": "SOAP",
+      "description": "SOAP (Simple Object Access Protocol) is a messaging protocol for exchanging structured information in web services using XML over HTTP and other transport protocols. It provides built-in standards for security, transactions, and reliability, making it a common choice for enterprise integrations and legacy system communication."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/software-defined-networking/",
+      "title": "Software-Defined Networking",
+      "description": "Network architecture approach that enables dynamic, programmatically efficient network configuration to improve performance and monitoring by decoupling the network control plane from the data plane. It is a key component of modern cloud-native architectures and digital transformation strategies."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/software-design-architectural-patterns/",
+      "title": "Software Design Architectural Patterns",
+      "description": "Reusable solutions and best practices for organizing software system architecture, including patterns like MVC, Microservices, Layered Architecture, Event-Driven, and CQRS that provide proven approaches to common design problems. It is used across a range of industries and technical contexts to improve efficiency and outcomes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/software-design-patterns/",
+      "title": "Software Design Patterns",
+      "description": "Reusable solutions to commonly occurring problems in software design, including creational, structural, and behavioral patterns that help developers write more maintainable and scalable code. Organizations adopt it to address specific technical or business challenges in their environments."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/software-development-life-cycle/",
+      "title": "Software Development Life Cycle",
+      "description": "A structured process for planning, creating, testing, and deploying software systems through defined phases including requirements analysis, design, implementation, testing, deployment, and maintenance. It helps teams plan, execute, and deliver projects on time and within scope through structured methodologies."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/software-development-lifecycle/",
+      "title": "Software Development Lifecycle",
+      "description": "A structured process for planning, creating, testing, and deploying software systems through distinct phases including requirements gathering, design, implementation, testing, deployment, and maintenance. It helps development teams catch defects early and maintain confidence in software releases."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/spa/",
+      "title": "SPA",
+      "description": "SPA is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/sparql/",
+      "title": "SPARQL",
+      "description": "SPARQL is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/specification/",
+      "title": "Specification",
+      "description": "Specification is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/spectral/",
+      "title": "Spectral",
+      "description": "Spectral is a flexible, open-source tool designed for linting and validating API specifications such as OpenAPI, AsyncAPI, and JSON Schema files. It helps enforce best practices, standards, and custom rules to improve the quality, consistency, and security of APIs, providing the following API governance capabilities.\n\n  * **Linting and Validation** - Automatically checks API specifications for errors, inconsistencies, and missing fields, ensuring correctness and compliance with standards.\n  * **Custom Rules** - Allows you to define and enforce organization-specific rules, such as naming conventions, security requirements, and design patterns.\n  * **Multi-Specification** - Ensures adherence to OpenAPI, AsyncAPI, or JSON Schema standards, avoiding deviations from accepted practices.\n  * **Extensible and Configurable** - Supports built-in rulesets and allows extensions, making it adaptable to any development workflow.\n  * **Integration with CI/CD Pipelines** - Easily integrates into CI/CD pipelines to validate API contracts before deployment, preventing bad configurations from reaching production.\n  * **Command-Line Validation** - Can be executed via CLI (Command-Line Interface) for automation, making it suitable for large-scale API validation tasks.\n  * **Human-Readable Error Reporting** - Provides detailed and descriptive error messages, enabling developers to quickly identify and resolve issues.\n\nSpectral is the leading solution for validating and enforcing standards in API specifications. Spectral helps teams deliver high-quality APIs by identifying errors early, enforcing custom rules, and integrating with CI/CD pipelines to automate governance. \nMost API governance services and tooling start with Spectral rules support, but increasingly are employing multiple engines for defining API governance rules. Quite a bit of work can be done with default and custom Spectral rules, but there will always be outliers as API governance expands to other aspects of API operatons."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/sql/",
+      "title": "SQL",
+      "description": "SQL (Structured Query Language) is the standard programming language for managing and querying relational databases. It provides commands for creating, reading, updating, and deleting data, as well as defining schemas, managing permissions, and performing complex analytical queries."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/ssh/",
+      "title": "SSH",
+      "description": "SSH (Secure Shell) is a cryptographic network protocol for secure remote login, command execution, and file transfer between computers over unsecured networks. It provides strong encryption, authentication, and data integrity, replacing insecure protocols like Telnet and serving as a fundamental tool for system administration and DevOps."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/ssl-tls/",
+      "title": "SSL/TLS",
+      "description": "SSL/TLS is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/sso/",
+      "title": "SSO",
+      "description": "SSO is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/standard-operating-procedures/",
+      "title": "Standard Operating Procedures",
+      "description": "Documented step-by-step instructions for routine operations and processes to ensure consistency, quality, and compliance across an organization. It is essential for organizations operating in regulated industries with strict oversight requirements."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/standard-webhooks/",
+      "title": "Standard Webhooks",
+      "description": "Standard Webhooks is a set of open source tools and guidelines to send webhooks easily, securely and reliably. Webhooks are becoming increasingly popular, though every webhooks provider implements them differently and with varying quality. This makes it hard for providers who need to reinvent the wheel every time and repeat the same costly mistakes, and annoying for consumers who need to have a different implementation for each provider. It's also holding back the ecosystem as a whole, as these incompatibilities mean that no tools are being built to help senders send, consumers consume, and for everyone to innovate on top, unless we invest in the following areas.\n\n  * **Security** - Every webhook implementation needs to protect themselves and their users from SSRF, spoofing, and replay attacks.\n  * **Interoperability** - Make it easier for your users to consume your webhooks by making them Standard Webhooks compliant.\n  * **Reliability** - Standard webhooks is designed by experts with extensive experience building reliable and scalable webhook services.\n\nWebhooks are a common name for HTTP callbacks, and are how services notify each other of events. Webhooks are part of a service's API, though you can think of them as a sort of a reverse API. When a client wants to make a request to a service they make an API call, and when the service wants to notify the client of an event the service triggers a webhook (\u201ca user has paid\u201d, \u201ctask has finished\u201d, etc.).\nWebhooks are server-to-server, in the sense that both the customer and the service in the above description, should be operating HTTP servers, one to receive the API calls and one to receive the webhooks.It's important to note that while webhooks usually co-exist with a traditional API, this is not a requirement, and some services send webhooks without offering a traditional API."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/standardization/",
+      "title": "Standardization",
+      "description": "The process of implementing and developing technical standards based on the consensus of different parties, including firms, users, interest groups, standards organizations, and governments, to establish uniform engineering or technical criteria, methods, processes, and practices. Proper implementation reduces legal and operational risk while supporting audit readiness."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/standards/",
+      "title": "Standards",
+      "description": "Established specifications, protocols, and guidelines that define technical requirements and best practices for consistency and interoperability across systems and organizations. It is essential for organizations operating in regulated industries with strict oversight requirements."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/support-md/",
+      "title": "SUPPORT.md",
+      "description": "File describing how users can get help with a project, including links to documentation, forums, issue trackers, and support channels."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/swagger/",
+      "title": "Swagger",
+      "description": "An open-source framework for designing, building, documenting, and consuming RESTful web services. Swagger provides a specification (OpenAPI) and tools for API development including interactive documentation, code generation, and API testing capabilities."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/table-format/",
+      "title": "Table Format",
+      "description": "Table Format is a specialized technology or methodology in the table domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/tax-reporting-templates/",
+      "title": "Tax Reporting Templates",
+      "description": "Pre-built templates and frameworks for generating tax reports, compliance documents, and financial summaries required for tax filing and regulatory purposes. It helps organizations meet regulatory requirements and demonstrate accountability to stakeholders."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/tax-templates/",
+      "title": "Tax Templates",
+      "description": "Pre-designed templates for organizing and filing tax documents and returns. Financial institutions and enterprises use it to streamline operations and manage fiscal responsibilities."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/tcp-ip/",
+      "title": "TCP/IP",
+      "description": "TCP/IP (Transmission Control Protocol/Internet Protocol) is the foundational communication protocol suite that powers the internet and most computer networks. It provides reliable, ordered delivery of data between applications across diverse network hardware through a layered architecture of protocols."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/technical-specifications/",
+      "title": "Technical Specifications",
+      "description": "Detailed technical requirements, standards, and parameters that define the characteristics and performance criteria of a product, system, or service. Organizations adopt it to address specific technical or business challenges in their environments."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/technology-standards/",
+      "title": "Technology Standards",
+      "description": "Technology Standards is a specialized technology or methodology in the technology domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/templates/",
+      "title": "Templates",
+      "description": "Templates is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/test-cases/",
+      "title": "Test Cases",
+      "description": "Structured scenarios that verify software functionality by defining inputs, execution conditions, and expected results to ensure quality and correctness. It is widely used by developers to build, maintain, and scale software applications efficiently."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/test-driven-development/",
+      "title": "Test-driven Development",
+      "description": "A software development approach where tests are written before the actual code, following a red-green-refactor cycle to ensure code quality and maintainability. It supports the full software development lifecycle from design through deployment and maintenance."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/test-first/",
+      "title": "Test First",
+      "description": "A software development approach where tests are written before the implementation code, ensuring code quality and driving design decisions through test requirements. It is widely used by developers to build, maintain, and scale software applications efficiently."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/test-plans/",
+      "title": "Test Plans",
+      "description": "Structured documentation outlining test objectives, scope, approach, resources, schedule, and deliverables for software testing activities. It supports the full software development lifecycle from design through deployment and maintenance."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/test-scripts/",
+      "title": "Test Scripts",
+      "description": "Automated scripts used to verify software functionality, validate code behavior, and ensure quality through repeatable testing procedures. It supports the full software development lifecycle from design through deployment and maintenance."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/test-specifications/",
+      "title": "Test Specifications",
+      "description": "Documentation that defines the requirements, procedures, and expected outcomes for testing software systems. Effective use of this practice reduces bugs in production and supports a culture of quality-driven development."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/test-suites/",
+      "title": "Test Suites",
+      "description": "A collection of organized test cases designed to validate specific functionality or features of software applications. It is widely used by developers to build, maintain, and scale software applications efficiently."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/uml/",
+      "title": "UML",
+      "description": "UML is an artificial intelligence technology or practice that leverages machine learning, data analysis, or intelligent automation to solve complex problems. It is increasingly applied across industries to improve efficiency, accuracy, and decision-making in both technical and business contexts."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/underwriting-standards/",
+      "title": "Underwriting Standards",
+      "description": "Underwriting Standards is a specialized technology or methodology in the underwriting domain that addresses specific technical or business requirements. It provides targeted capabilities that help practitioners and organizations solve problems and improve outcomes in their area of focus."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/use-cases/",
+      "title": "Use Cases",
+      "description": "Practical applications and scenarios demonstrating how a technology or product can be implemented to solve real-world problems. It is used across a range of industries and technical contexts to improve efficiency and outcomes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/user-stories/",
+      "title": "User Stories",
+      "description": "A tool or practice for capturing software requirements from an end-user perspective, typically following the format \"As a [user], I want [goal], so that [benefit]\". Teams use it to align stakeholders, track progress, and adapt to changing requirements throughout the project lifecycle."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/utf-8/",
+      "title": "UTF-8",
+      "description": "UTF-8 is the recommended character encoding for APIs because it ensures compatibility, efficiency, and universality. Here\u2019s why you should use UTF-8:\n\n  * **Universal Compatibility** - UTF-8 supports all Unicode characters, making it ideal for handling text in any language or symbol, including special characters and emojis. This is crucial for global applications with diverse user inputs.\n  * **Backward Compatibility** - UTF-8 is backward-compatible with ASCII, so systems designed for ASCII can seamlessly process UTF-8 without errors.\n  * **Efficiency** - It uses variable-length encoding, which means common ASCII characters require only 1 byte, while other characters use up to 4 bytes. This optimizes storage and bandwidth for most applications.\n  * **Standardization** - It is the default encoding for JSON, the most common data format used in APIs, ensuring consistency across platforms and libraries.\n  * **Error Resistance** - UTF-8 is designed to detect invalid byte sequences, reducing the risk of corruption and security vulnerabilities caused by improperly encoded data.\n  * **Wide Support** - UTF-8 is supported by virtually all programming languages, databases, and web technologies, simplifying implementation and interoperability.\n\nUsing UTF-8 ensures that your API can handle diverse data inputs safely, efficiently, and without compatibility issues, adding one more layer of stability to enterprise API operations."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/vacuum/",
+      "title": "Vacuum",
+      "description": "RuleSets are how to configure vacuum to know which rules to run for each specification, and how it should evaluate those rules, and a RuleSet is a style guide with each rule being an individual requirement as a part of the overall guide."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/vcard-ontology/",
+      "title": "vCard Ontology",
+      "description": "A vCard is a digital file format used to store and exchange contact information, such as names, phone numbers, email addresses, and addresses, in a standardized, portable way."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/versioning-protocols/",
+      "title": "Versioning Protocols",
+      "description": "Standards and methodologies for managing changes and updates to APIs, software interfaces, and data formats while maintaining backward compatibility and clear communication of breaking changes. It is widely used by developers to build, maintain, and scale software applications efficiently."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/vnc/",
+      "title": "VNC",
+      "description": "VNC is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/vpn/",
+      "title": "VPN",
+      "description": "A VPN (Virtual Private Network) creates an encrypted tunnel between a user's device and a remote network, protecting data from interception and masking the user's IP address. It is widely used for secure remote access to corporate networks, protecting privacy on public Wi-Fi, and bypassing geographic content restrictions."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/waterfall/",
+      "title": "Waterfall",
+      "description": "A sequential software development methodology where progress flows steadily downwards through phases of conception, initiation, analysis, design, construction, testing, deployment, and maintenance. It supports the full software development lifecycle from design through deployment and maintenance."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/wcag/",
+      "title": "WCAG",
+      "description": "WCAG is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/web-standards/",
+      "title": "Web Standards",
+      "description": "Specifications and guidelines that define how web technologies should work, ensuring interoperability and consistency across browsers and platforms. It supports the full software development lifecycle from design through deployment and maintenance."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/websockets/",
+      "title": "WebSockets",
+      "description": "A communication protocol providing full-duplex communication channels over a single TCP connection, enabling real-time data exchange between client and server. It is fundamental to modern network architectures and enables reliable communication between systems."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/windsurfrules/",
+      "title": ".windsurfrules",
+      "description": "Configuration file for Windsurf AI code editor containing project-specific rules, coding conventions, and instructions for the Cascade AI assistant."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/wireframes/",
+      "title": "Wireframes",
+      "description": "Low-fidelity visual representations of user interface layouts used in early design stages to establish structure, hierarchy, and functionality before high-fidelity design work begins. It is used across a range of industries and technical contexts to improve efficiency and outcomes."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/write-ahead-log/",
+      "title": "Write Ahead Log",
+      "description": "A Write-Ahead Log (WAL) is a standard technique in database systems where changes are first recorded to a sequential log file before being applied to the actual data files. It ensures durability and crash recovery by guaranteeing that committed transactions can be reconstructed from the log even if the system fails during a write operation."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/wsdl/",
+      "title": "WSDL",
+      "description": "WSDL is a technology or concept used in computing and information technology to address specific technical challenges. It provides capabilities that help practitioners build, manage, or improve systems and processes in their domain."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/xml/",
+      "title": "XML",
+      "description": "XML (Extensible Markup Language) is a markup language and data format that defines rules for encoding documents in a way that is both human-readable and machine-readable. It is widely used for data interchange between systems, configuration files, web services (SOAP), and document formats like SVG and XHTML."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/xslt/",
+      "title": "XSLT",
+      "description": "XSLT (Extensible Stylesheet Language Transformations) is a language for transforming XML documents into other formats such as HTML, plain text, or different XML structures. It uses template-based rules and XPath expressions to select and restructure XML data, commonly used in data integration and document publishing pipelines."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/yaml/",
+      "title": "YAML",
+      "description": "YAML (YAML Ain\u2019t Markup Language) is a human-readable, data serialization format commonly used for configuration files and data exchange between programming languages. It emphasizes simplicity and readability, making it ideal for developers and system administrators.\n\n  * **Human-Readable Syntax** - YAML\u2019s indentation-based structure is easy to read and write, resembling natural language formatting, which reduces errors.\n  * **Lightweight and Flexible** - Unlike XML or JSON, YAML avoids complex syntax, making it simpler and more concise for configuration files.\n  * **Data Serialization** - YAML is excellent for serializing structured data, making it ideal for storing nested and hierarchical information.\n  * **Supports Complex Data Types** - YAML supports scalars (strings, numbers, booleans), lists, and dictionaries, enabling representation of complex configurations.\n  * **Comments Support** - Unlike JSON, YAML supports comments using the hash symbol, making it easier to document configuration files.\n  * **Integrations** - YAML is often used in APIs and tools like OpenAPI, Swagger, and CI/CD pipelines for defining configurations and workflows.\n\nYAML is a versatile, human-friendly, and widely-used format for configuration files, data serialization, and API specifications. Its readability, flexibility, and compatibility with modern tools make it an essential choice for DevOps, microservices, and automation workflows. \nIt is useful to apply YAML during design, development, and configuration, but then in runtime you switch over to JSON representations. YAML has it's shortcomings, but it provides an important bridge between the engineering and product stakeholders who are making APIs happen."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/zero-trust-architecture/",
+      "title": "Zero Trust Architecture",
+      "description": "A security framework that requires all users and devices to be authenticated, authorized, and continuously validated before being granted access to applications and data, regardless of whether they are inside or outside the network perimeter. It is widely adopted across industries to safeguard digital assets and reduce security risks."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/zero-trust-network-access/",
+      "title": "Zero Trust Network Access",
+      "description": "A security framework that requires strict identity verification for every person and device attempting to access resources on a network, regardless of whether they are inside or outside the network perimeter. ZTNA operates on the principle of \"never trust, always verify\" and provides granular access control based on user identity, device posture, and context."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/zero-trust-security-model/",
+      "title": "Zero-Trust Security Model",
+      "description": "A security framework that eliminates implicit trust and requires continuous verification of all users, devices, and applications attempting to access resources, regardless of their location inside or outside the network perimeter. It is widely adopted across industries to safeguard digital assets and reduce security risks."
+    },
+    {
+      "anchor": "https://standards.apievangelist.com/store/zero-trust/",
+      "title": "Zero Trust",
+      "description": "A security framework that requires all users and devices to be authenticated, authorized, and continuously validated before being granted access to applications and data, regardless of whether they are inside or outside the network perimeter. Organizations rely on it to strengthen their defenses and meet evolving cybersecurity challenges."
+    }
+  ]
+}

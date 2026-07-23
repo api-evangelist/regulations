@@ -1,0 +1,198 @@
+---
+layout: default
+section: Regulations
+nav: Regulations
+sub: All Regulations
+---
+
+<div class="row">
+
+  <!-- Main content -->
+  <div class="col-12 col-xl-8">
+    <article class="content-area">
+
+      <h1 class="mb-3">{{ page.name }}</h1>
+
+      {% if page.description %}
+      <div class="post-body mb-4">
+        <p>{{ page.description }}</p>
+      </div>
+      {% endif %}
+
+      {{ content }}
+
+      <!-- Referenced in Papers -->
+      {% if page.papers.size > 0 %}
+      <div class="mb-4">
+        <h2 class="fs-5 mb-3">Referenced in API Evangelist papers</h2>
+        <p class="text-muted small mb-3">This regulation shows up in my published research. These reports read the machine-readable evidence provider by provider — and put this regulation in the context of a real sector.</p>
+        {% for paper in page.papers %}
+        <div class="card mb-2">
+          <div class="card-body py-3">
+            <h5 class="fs-6 mb-1">
+              <a href="{{ paper.url }}" target="_blank" rel="noopener" style="color: var(--ae-green);">{{ paper.title }}</a>
+            </h5>
+            {% if paper.note %}
+            <p class="text-muted small mb-0">{{ paper.note }}</p>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+        <div class="mt-2">
+          <a href="https://papers.apievangelist.com" target="_blank" rel="noopener" class="btn btn-sm btn-outline-success">Browse all API Evangelist papers &rarr;</a>
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- Implemented by Standards -->
+      {% if page.standards.size > 0 %}
+      <div class="mb-4">
+        <h2 class="fs-5 mb-3">Implemented by these standards</h2>
+        <p class="text-muted small mb-3">A regulation is the law; a standard is the machine-readable contract that makes it real. These are the technical standards that implement this regulation, catalogued at contracts.apievangelist.com.</p>
+        {% for std in page.standards %}
+        <div class="card mb-2">
+          <div class="card-body py-3">
+            <h5 class="fs-6 mb-1">
+              <a href="{{ std.url }}" target="_blank" rel="noopener" style="color: var(--ae-green);">{{ std.title }}</a>
+            </h5>
+            {% if std.note %}
+            <p class="text-muted small mb-0">{{ std.note }}</p>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+        <div class="mt-2">
+          <a href="https://contracts.apievangelist.com" target="_blank" rel="noopener" class="btn btn-sm btn-outline-success">Browse the API Evangelist Standards catalog &rarr;</a>
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- Referenced on the blog -->
+      {% if page.posts.size > 0 %}
+      <div class="mb-4">
+        <h2 class="fs-5 mb-3">Referenced on the API Evangelist blog</h2>
+        <p class="text-muted small mb-3">Where this regulation shows up across sixteen years of my writing at apievangelist.com &mdash; how it fits into API design, governance, and the agentic turn.</p>
+        {% for post in page.posts %}
+        <div class="card mb-2">
+          <div class="card-body py-3">
+            <h5 class="fs-6 mb-1">
+              <a href="{{ post.url }}" target="_blank" rel="noopener" style="color: var(--ae-green);">{{ post.title }}</a>
+            </h5>
+            {% if post.date %}
+            <p class="text-muted small mb-0">{{ post.date }}</p>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+        <div class="mt-2">
+          <a href="https://apievangelist.com" target="_blank" rel="noopener" class="btn btn-sm btn-outline-success">Read more on API Evangelist &rarr;</a>
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- Common Resources -->
+      {% if page.common.size > 0 %}
+      <div class="mb-4">
+        <h2 class="fs-5 mb-3">Resources</h2>
+        <div class="list-group">
+          {% for item in page.common %}
+          <a href="{{ item.url }}" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+            {{ item.name | default: item.type }}
+            <span class="badge text-bg-light border">{{ item.type }}</span>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- Related Rules -->
+      {% assign has_rules = false %}
+      {% for rule in site.data.rules %}
+        {% for tag in rule.tags %}
+          {% if tag == page.name or tag == page.slug %}
+            {% assign has_rules = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        {% if has_rules %}{% break %}{% endif %}
+      {% endfor %}
+
+      {% if has_rules %}
+      <div class="mb-4">
+        <h2 class="fs-5 mb-3">Related Rules</h2>
+        {% for rule in site.data.rules %}
+          {% assign match = false %}
+          {% for tag in rule.tags %}
+            {% if tag == page.name or tag == page.slug %}
+              {% assign match = true %}
+            {% endif %}
+          {% endfor %}
+          {% if match %}
+          <div class="card mb-2">
+            <div class="card-body py-3">
+              <h5 class="fs-6 mb-1">
+                <a href="https://rules.apievangelist.com/store/{{ rule.slug }}" style="color: var(--ae-green);">{{ rule.name }}</a>
+              </h5>
+              {% if rule.description %}
+              <p class="text-muted small mb-0">{{ rule.description | strip_html | truncate: 200 }}</p>
+              {% endif %}
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if page.tags.size > 0 %}
+      <div class="mt-4 pt-3 border-top">
+        {% for tag in page.tags %}
+          <a href="/?search={{ tag }}" class="post-tag me-2">#{{ tag }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <div class="mt-4">
+        <a href="/" class="btn btn-sm btn-outline-secondary">&larr; Back to all Regulations</a>
+      </div>
+
+    </article>
+  </div>
+
+  <!-- Sidebar -->
+  <div class="col-12 col-xl-4 mt-4 mt-xl-0">
+    <div class="sidebar">
+
+      <div class="widget-card mb-3">
+        <h5>Regulation Details</h5>
+        {% if page.slug %}
+        <div class="d-flex justify-content-between small mb-1">
+          <span class="text-muted">Slug</span>
+          <span class="text-break" style="max-width: 60%; text-align: right;">{{ page.slug }}</span>
+        </div>
+        {% endif %}
+      </div>
+
+      <div class="widget-card">
+        <h5>Explore more</h5>
+        <p class="text-muted small mb-2">Navigate related API building blocks.</p>
+        <a href="/" class="btn btn-sm btn-outline-success w-100 mb-2">All Regulations</a>
+        <a href="https://contracts.apievangelist.com" class="btn btn-sm btn-outline-secondary w-100 mb-2">Standards</a>
+        <a href="https://schema.apievangelist.com" class="btn btn-sm btn-outline-secondary w-100 mb-2">Schemas</a>
+        <a href="https://rules.apievangelist.com" class="btn btn-sm btn-outline-secondary w-100 mb-2">Rules</a>
+        <a href="https://policies.apievangelist.com" class="btn btn-sm btn-outline-secondary w-100">Policies</a>
+      </div>
+
+
+      <!-- apis.io -->
+      <div class="widget-card mb-3">
+        <h5>Discover APIs</h5>
+        <a href="https://apis.io" target="_blank" rel="noopener" class="d-block">
+          <img src="https://kinlane-images.s3.amazonaws.com/apievangelist/apis-io/apis-io-2026-06-03.png" alt="apis.io — API Search" class="img-fluid rounded border">
+        </a>
+        <p class="text-muted small mb-0 mt-2">Search across thousands of APIs on apis.io &rarr;</p>
+      </div>
+
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,140 @@
+---
+layout: default
+section: Regulations
+title: Regulations
+summary: The regulations and legal frameworks governing API operations across regulated industries — open banking, open finance, data protection, and more.
+nav: Regulations
+sub: All Regulations
+---
+
+<div id="add-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
+    You have added a new standard.
+  </div>
+
+<div id="error-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
+  ERROR!!
+</div>
+
+<div id="process-banner" class="alert alert-danger" role="alert" style="text-align: center; display: none;">
+  PROCESS!
+</div>
+
+<div class="row align-items-center mb-7">
+    <div class="col-auto">
+      <img src="/assets/img/api-evangelist-cartoon.jpg" width="50" onclick="history.back();">
+    </div>
+    <div class="col">
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-2">
+                <li class="breadcrumb-item"><a class="text-body-secondary" href="#">{{ page.section }}</a></li>
+            </ol>
+        </nav>
+        <h1 class="fs-4 mb-0">{{ page.title }}
+          <style>
+            .popover{
+                max-width: 750px;;
+            }
+          </style>
+          <div style="cursor:pointer; position:relative; margin-left: 3px; top: 3px;" class="material-symbols-outlined fs-4 text-emphasis" data-bs-placement="right" data-bs-html="true" data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="API Regulations" data-bs-content="Regulations are the laws, rules, and mandated frameworks that force — or invite — an industry to open its APIs. From the UK&#39;s CMA Open Banking remedy and the EU&#39;s PSD2 to Australia&#39;s Consumer Data Right, the US Dodd-Frank Section 1033 and the CFPB rule that implements it, and Canada&#39;s Consumer-Driven Banking framework, these are the legal instruments behind the machine-readable standards catalogued at contracts.apievangelist.com. Where a Standard is the technical contract, a Regulation is the law that requires it. This catalog documents the regulations that show up when API Evangelist scores real, regulated sectors — and links each one to the standards that implement it and the research that measures it.">info</div>
+        </h1>
+    </div>
+</div>
+
+<div class="row"></div>
+    <div class="col-12">
+        <!-- Filters -->
+        <div class="card mb-4">
+            <div class="card-body py-3">
+                <div class="row align-items-center g-3">
+
+                    <!-- Search -->
+                    <div class="col-12 col-md-6">
+                        <div class="input-group input-group-sm">
+                            <input type="text" id="search" class="form-control" placeholder="Filter by name or description..." onkeyup="filterStandards()">
+                            <span class="input-group-text">
+                                <span class="material-symbols-outlined" style="font-size: 18px;">search</span>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Standard list -->
+        <div id="standard-listing">
+
+            {% assign standards = site.store %}
+            {% for standard in standards %}
+            {% if standard.redirect_to %}{% continue %}{% endif %}
+            {% assign excerpt = standard.description | strip_html | truncate: 200 %}
+            <div class="post-entry" data-title="{{ standard.name | downcase }}" data-tags="{% for tag in standard.tags %}{{ tag | downcase }},{% endfor %}">
+              <div class="post-item d-flex">
+                <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+                  <span class="material-symbols-outlined fs-1 text-emphasis">gavel</span>
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h3 class="mb-1"><a href="/store/{{ standard.slug }}">{{ standard.name }}</a></h3>
+                  <p class="text-muted small mb-2">{{ excerpt }}</p>
+                  <div class="d-flex flex-wrap align-items-center gap-2">
+                    {% for tag in standard.tags %}
+                      <a href="/?search={{ tag }}" class="post-tag">#{{ tag }}</a>
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+</div>
+
+<div id="no-results" class="text-center text-muted py-5" style="display: none;">
+    No regulations match your filter.
+</div>
+
+<script>
+
+    function filterStandards() {
+        var query = document.getElementById('search').value.toLowerCase();
+        var entries = document.querySelectorAll('.post-entry');
+        var visible = 0;
+
+        entries.forEach(function(entry) {
+            var title = entry.getAttribute('data-title');
+            var tags = entry.getAttribute('data-tags');
+
+            var matchQuery = !query || title.indexOf(query) !== -1 || tags.indexOf(query) !== -1;
+
+            if (matchQuery) {
+                entry.style.display = '';
+                visible++;
+            } else {
+                entry.style.display = 'none';
+            }
+        });
+
+        document.getElementById('no-results').style.display = visible === 0 ? '' : 'none';
+    }
+
+    // Enter key triggers filter
+    var textbox = document.getElementById('search');
+    textbox.addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            filterStandards();
+        }
+    });
+
+    // Support incoming search params
+    (function() {
+        var params = new URLSearchParams(window.location.search);
+        var search = params.get('search');
+        if (search) {
+            document.getElementById('search').value = search;
+            filterStandards();
+        }
+    })();
+
+    </script>
