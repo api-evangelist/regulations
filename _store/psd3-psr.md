@@ -5,7 +5,7 @@ papers:
   note: "The near-future European regime that will judge whether PSD2's fixes — API performance, access, anti-fraud — finally land."
 standards:
 - title: UK Open Banking Standard
-  url: https://contracts.apievangelist.com/store/uk-open-banking-standard/
+  url: https://standards.apievangelist.com/store/uk-open-banking-standard/
   note: "The kind of conformance-tested standard PSD3/PSR aims to make the European norm rather than the exception."
 name: PSD3 & PSR
 slug: psd3-psr

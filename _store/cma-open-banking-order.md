@@ -5,7 +5,7 @@ papers:
   note: "The competition remedy that named the CMA9 and funded OBIE — the reason the UK mandate reached past existence to usefulness."
 standards:
 - title: UK Open Banking Standard
-  url: https://contracts.apievangelist.com/store/uk-open-banking-standard/
+  url: https://standards.apievangelist.com/store/uk-open-banking-standard/
   note: "OBIE wrote and maintains this standard under the CMA Order."
 name: CMA Open Banking Order
 slug: cma-open-banking-order

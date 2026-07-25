@@ -5,10 +5,10 @@ papers:
   note: "The certificate/identity trust framework behind third-party onboarding across the OBIE and Berlin Group ecosystems."
 standards:
 - title: Dynamic Client Registration
-  url: https://contracts.apievangelist.com/store/dynamic-client-registration/
+  url: https://standards.apievangelist.com/store/dynamic-client-registration/
   note: "Open-banking DCR requests carry eIDAS software statements/certificates to bind a registration to an accredited identity."
 - title: Mutual TLS
-  url: https://contracts.apievangelist.com/store/mtls/
+  url: https://standards.apievangelist.com/store/mtls/
   note: "eIDAS QWAC certificates are what mutual-TLS presents to prove which licensed third party is connecting."
 name: eIDAS
 slug: eidas

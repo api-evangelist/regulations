@@ -6,13 +6,13 @@ papers:
     — and produced compliance, not product.
 standards:
 - title: HL7 FHIR
-  url: https://contracts.apievangelist.com/store/fhir/
+  url: https://standards.apievangelist.com/store/fhir/
   note: The standard the rule requires certified health IT to expose.
 - title: US Core
-  url: https://contracts.apievangelist.com/store/us-core/
+  url: https://standards.apievangelist.com/store/us-core/
   note: The FHIR profiles that define the required data floor.
 - title: SMART on FHIR
-  url: https://contracts.apievangelist.com/store/smart-on-fhir/
+  url: https://standards.apievangelist.com/store/smart-on-fhir/
   note: The authorization standard the standardized-API criterion mandates.
 name: 21st Century Cures Act
 slug: 21st-century-cures-act

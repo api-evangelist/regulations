@@ -5,7 +5,7 @@ papers:
   note: "The law behind the fifty-bank commodity contract the report anatomizes — read-only data sharing, no payment initiation."
 standards:
 - title: Consumer Data Standards
-  url: https://contracts.apievangelist.com/store/consumer-data-standards/
+  url: https://standards.apievangelist.com/store/consumer-data-standards/
   note: "The machine-readable Banking API contract every accredited data holder implements to satisfy the CDR."
 name: Consumer Data Right
 slug: consumer-data-right
@@ -38,4 +38,4 @@ Australia's **Consumer Data Right (CDR)** is a general, economy-wide data-portab
   * **Data sharing, not payment initiation** - Unlike the UK and EU regimes, the CDR as implemented is read-only — an accredited recipient can *read* a consumer's banking data but cannot initiate a payment. An agent can see your account; it cannot act on it.
   * **Accreditation and consent as the gate** - Access to the consumer-data surface is gated behind ACCC accreditation and explicit, revocable consumer consent, mapped to a least-privilege scope model.
 
-The CDR is the cleanest specimen in my research of a mandate producing *existence, not quality*: it dragged an entire banking sector across the machine-readability line, and left governance, operational transparency, and product maturity to each bank. It is the law; the [Consumer Data Standards](https://contracts.apievangelist.com/store/consumer-data-standards/) are the contract that makes it real.
+The CDR is the cleanest specimen in my research of a mandate producing *existence, not quality*: it dragged an entire banking sector across the machine-readability line, and left governance, operational transparency, and product maturity to each bank. It is the law; the [Consumer Data Standards](https://standards.apievangelist.com/store/consumer-data-standards/) are the contract that makes it real.

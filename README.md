@@ -2,7 +2,7 @@
 
 The regulations, rules, and legal frameworks that govern API operations across
 regulated industries — the laws behind the machine-readable standards catalogued
-at [contracts.apievangelist.com](https://contracts.apievangelist.com).
+at [standards.apievangelist.com](https://standards.apievangelist.com).
 
 Published at **[regulations.apievangelist.com](https://regulations.apievangelist.com)**.
 
@@ -14,7 +14,7 @@ Australia's Consumer Data Right, Canada's Consumer-Driven Banking framework).
 This is a Jekyll site: one file per regulation in `_store/<slug>.md`, rendered by
 `_layouts/store.html`, listed on `index.html`. Each entry links to:
 
-- the **standards that implement it** (`standards:` frontmatter → contracts.apievangelist.com),
+- the **standards that implement it** (`standards:` frontmatter → standards.apievangelist.com),
 - the **API Evangelist papers that reference it** (`papers:` frontmatter → papers.apievangelist.com), and
 - the **blog posts** that discuss it (`posts:` frontmatter).
 

@@ -5,10 +5,10 @@ papers:
   note: "The regulatory requirement behind the FAPI/OIDC/mTLS stack every UK bank documents — bank-grade auth as the mandated floor."
 standards:
 - title: FAPI
-  url: https://contracts.apievangelist.com/store/fapi/
+  url: https://standards.apievangelist.com/store/fapi/
   note: "The financial-grade API security profile that operationalizes SCA in open-banking APIs."
 - title: UK Open Banking Standard
-  url: https://contracts.apievangelist.com/store/uk-open-banking-standard/
+  url: https://standards.apievangelist.com/store/uk-open-banking-standard/
   note: "The OBIE standard mandates SCA-compliant auth across its Read/Write APIs."
 name: Strong Customer Authentication
 slug: strong-customer-authentication

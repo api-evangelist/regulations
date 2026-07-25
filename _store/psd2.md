@@ -24,10 +24,10 @@ papers:
   note: "The legal basis of the UK's write surfaces — payment initiation and confirmation of funds — that make UK banking APIs actionable, not read-only."
 standards:
 - title: UK Open Banking Standard
-  url: https://contracts.apievangelist.com/store/uk-open-banking-standard/
+  url: https://standards.apievangelist.com/store/uk-open-banking-standard/
   note: "The OBIE Read/Write specification implements PSD2's access-to-account obligation in the UK."
 - title: Berlin Group NextGenPSD2
-  url: https://contracts.apievangelist.com/store/berlin-group-nextgenpsd2/
+  url: https://standards.apievangelist.com/store/berlin-group-nextgenpsd2/
   note: "The XS2A framework most EU banks implement to satisfy PSD2's dedicated-interface requirement."
 name: PSD2
 slug: psd2

@@ -5,7 +5,7 @@ papers:
   note: The nationwide exchange framework that sits above the point-to-point FHIR APIs the reports score.
 standards:
 - title: HL7 FHIR
-  url: https://contracts.apievangelist.com/store/fhir/
+  url: https://standards.apievangelist.com/store/fhir/
   note: TEFCA increasingly incorporates FHIR alongside document-based exchange.
 name: TEFCA
 slug: tefca

@@ -6,13 +6,13 @@ papers:
     in the cohort.
 standards:
 - title: Da Vinci
-  url: https://contracts.apievangelist.com/store/da-vinci/
+  url: https://standards.apievangelist.com/store/da-vinci/
   note: CMS-0057-F names the Da Vinci CRD/DTR/PAS IGs for electronic prior authorization.
 - title: FHIR Bulk Data Access
-  url: https://contracts.apievangelist.com/store/fhir-bulk-data/
+  url: https://standards.apievangelist.com/store/fhir-bulk-data/
   note: Payer data exchange under the rule leans on bulk FHIR.
 - title: CARIN Blue Button
-  url: https://contracts.apievangelist.com/store/carin-blue-button/
+  url: https://standards.apievangelist.com/store/carin-blue-button/
   note: The Patient Access API exposes claims via CARIN Blue Button.
 name: CMS Interoperability & Prior Authorization Rule
 slug: cms-interoperability-prior-authorization

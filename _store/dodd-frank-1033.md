@@ -5,7 +5,7 @@ papers:
   note: "The statutory hook for the US open-banking effort — the authority behind the CFPB rule the report treats as the market's swing variable."
 standards:
 - title: FDX
-  url: https://contracts.apievangelist.com/store/fdx/
+  url: https://standards.apievangelist.com/store/fdx/
   note: "The industry data-sharing standard the CFPB rule points to as the qualified interface."
 name: Dodd-Frank Section 1033
 slug: dodd-frank-1033

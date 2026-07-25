@@ -6,13 +6,13 @@ papers:
     contain.
 standards:
 - title: SMART on FHIR
-  url: https://contracts.apievangelist.com/store/smart-on-fhir/
+  url: https://standards.apievangelist.com/store/smart-on-fhir/
   note: The (g)(10) criterion requires SMART App Launch and SMART Backend Services.
 - title: US Core
-  url: https://contracts.apievangelist.com/store/us-core/
+  url: https://standards.apievangelist.com/store/us-core/
   note: Certified APIs must expose US Core profiles.
 - title: USCDI
-  url: https://contracts.apievangelist.com/store/uscdi/
+  url: https://standards.apievangelist.com/store/uscdi/
   note: The data classes certified health IT must support.
 name: ONC Health IT Certification Program
 slug: onc-health-it-certification

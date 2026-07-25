@@ -5,7 +5,7 @@ papers:
   note: "The rule the report calls the market's coin-flip — whether it survives decides whether the aggregator-owned rails get pried open."
 standards:
 - title: FDX
-  url: https://contracts.apievangelist.com/store/fdx/
+  url: https://standards.apievangelist.com/store/fdx/
   note: "The Financial Data Exchange standard the rule leans on as the recognized interface for compliant data sharing."
 name: CFPB Personal Financial Data Rights Rule
 slug: cfpb-personal-financial-data-rights

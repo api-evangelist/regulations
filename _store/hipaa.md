@@ -6,10 +6,10 @@ papers:
     the patient-directed API operationalizes.
 standards:
 - title: HL7 FHIR
-  url: https://contracts.apievangelist.com/store/fhir/
+  url: https://standards.apievangelist.com/store/fhir/
   note: FHIR APIs carry the protected health information HIPAA governs.
 - title: HITRUST CSF
-  url: https://contracts.apievangelist.com/store/hitrust/
+  url: https://standards.apievangelist.com/store/hitrust/
   note: The framework organizations most use to demonstrate HIPAA Security Rule coverage.
 name: HIPAA
 slug: hipaa
