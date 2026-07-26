@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Canadian Insurance APIs
+  url: https://papers.apievangelist.com/papers/state-of-canadian-insurance-apis/
+  note: "Canada's open-banking framework scoped insurance out from the start, which is why Canadian insurance is the lowest-scoring market of the four and has no forcing function in sight."
 - title: The State of Canadian Banking APIs
   url: https://papers.apievangelist.com/papers/state-of-canadian-banking-apis/
   note: "The legislated-but-not-live framework that explains why Canada is the emptiest banking market scored — the mandate that hasn't yet arrived."

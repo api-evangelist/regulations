@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Australian Insurance APIs
+  url: https://papers.apievangelist.com/papers/state-of-australian-insurance-apis/
+  note: "Designated to extend to general insurance and then deferred — so Australia holds the complete legal machinery for open insurance and no live obligation, making it the cleanest measurement of what a mandate is actually worth."
 - title: The State of Australian Banking APIs
   url: https://papers.apievangelist.com/papers/state-of-australian-banking-apis/
   note: "The law behind the fifty-bank commodity contract the report anatomizes — read-only data sharing, no payment initiation."
