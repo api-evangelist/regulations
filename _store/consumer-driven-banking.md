@@ -7,6 +7,8 @@ papers:
   url: https://papers.apievangelist.com/papers/state-of-canadian-banking-apis/
   note: "The legislated-but-not-live framework that explains why Canada is the emptiest banking market scored — the mandate that hasn't yet arrived."
 name: Consumer-Driven Banking Framework
+kind: statute
+jurisdiction: Canada
 slug: consumer-driven-banking
 title: Canada's Consumer-Driven Banking Framework
 description: Canada's Consumer-Driven Banking framework is the federal open-banking regime legislated in the 2024 budget and fall economic statement, with the Financial Consumer Agency of Canada named as overseer. As of writing it is on the books but not operational — a mandate legislated but not yet live — which is why Canadian banking remains, for now, a voluntary and aggregator-mediated market.

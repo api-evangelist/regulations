@@ -5,6 +5,8 @@ papers:
   note: The NHS baseline for digital health technology, covering clinical safety, security, interoperability,
     and usability.
 name: Digital Technology Assessment Criteria
+kind: regulator-guidance
+jurisdiction: United Kingdom
 slug: dtac
 title: Digital Technology Assessment Criteria (DTAC)
 description: The Digital Technology Assessment Criteria (DTAC) is the NHS's national baseline that digital

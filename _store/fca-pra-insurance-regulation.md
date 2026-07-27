@@ -4,6 +4,8 @@ papers:
   url: https://papers.apievangelist.com/papers/state-of-uk-insurance-apis/
   note: "Neither regulator requires an insurer to publish an API, and the FCA's Open Finance work remains consultation rather than rule — yet the London Market standardised anyway, driven by coordination cost rather than compulsion."
 name: FCA and PRA Insurance Regulation
+kind: regulator-guidance
+jurisdiction: United Kingdom
 slug: fca-pra-insurance-regulation
 title: FCA and PRA Insurance Regulation (United Kingdom)
 description: >-

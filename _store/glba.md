@@ -4,6 +4,8 @@ papers:
   url: https://papers.apievangelist.com/papers/state-of-us-banking-apis/
   note: "The pre-existing US financial-privacy regime the 1033 rule has to operate within — the security-and-privacy floor beneath open banking."
 name: Gramm-Leach-Bliley Act
+kind: statute
+jurisdiction: United States
 slug: glba
 title: Gramm-Leach-Bliley Act (GLBA)
 description: The Gramm-Leach-Bliley Act is the 1999 US law governing how financial institutions handle and protect consumers' nonpublic personal information, including the Privacy Rule and the Safeguards Rule. It is the long-standing privacy and data-security backdrop against which US open banking and the CFPB's 1033 rule operate — the pre-existing obligation that any US financial-data-sharing regime has to work within.

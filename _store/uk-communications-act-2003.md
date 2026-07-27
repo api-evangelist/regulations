@@ -4,6 +4,8 @@ papers:
   url: https://papers.apievangelist.com/papers/state-of-telecom-apis/
   note: "Ofcom regulates the UK's operators and mandates no network-API exposure — while BT, Vodafone, Virgin Media O2 and Three all launched CAMARA commercially through third-party aggregators rather than their own surfaces."
 name: UK Communications Act 2003
+kind: statute
+jurisdiction: United Kingdom
 slug: uk-communications-act-2003
 title: UK Communications Act 2003 (Ofcom)
 description: >-

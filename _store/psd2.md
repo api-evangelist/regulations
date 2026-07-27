@@ -30,6 +30,8 @@ standards:
   url: https://standards.apievangelist.com/store/berlin-group-nextgenpsd2/
   note: "The XS2A framework most EU banks implement to satisfy PSD2's dedicated-interface requirement."
 name: PSD2
+kind: directive
+jurisdiction: European Union
 slug: psd2
 title: Revised Payment Services Directive (PSD2)
 description: PSD2 is the European Union directive that opened bank payment accounts to licensed third parties, mandating that banks provide access to accounts (XS2A) for account-information and payment-initiation services under strong customer authentication. It is the legal foundation of open banking across the EU and, as retained law, the UK — implemented technically by the OBIE standard in the UK and the Berlin Group NextGenPSD2 framework across the continent.

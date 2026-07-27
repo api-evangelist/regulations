@@ -5,6 +5,8 @@ papers:
   note: The NHS assurance regime every supplier touching patient data must pass — and which none in the
     cohort publishes as a legible artifact.
 name: NHS Data Security and Protection Toolkit
+kind: regulator-guidance
+jurisdiction: United Kingdom
 slug: nhs-dspt
 title: NHS Data Security and Protection Toolkit (DSPT)
 description: The NHS Data Security and Protection Toolkit (DSPT) is an annual online self-assessment that

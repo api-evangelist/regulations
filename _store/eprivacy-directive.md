@@ -11,6 +11,8 @@ standards:
   url: https://standards.apievangelist.com/store/gsma-open-gateway/
   note: "The programme's consent design is a direct answer to regulators operating regimes like this one."
 name: ePrivacy Directive
+kind: directive
+jurisdiction: European Union
 slug: eprivacy-directive
 title: ePrivacy Directive (2002/58/EC)
 description: >-

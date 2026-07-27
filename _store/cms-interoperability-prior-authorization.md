@@ -15,6 +15,8 @@ standards:
   url: https://standards.apievangelist.com/store/carin-blue-button/
   note: The Patient Access API exposes claims via CARIN Blue Button.
 name: CMS Interoperability & Prior Authorization Rule
+kind: regulator-guidance
+jurisdiction: United States
 slug: cms-interoperability-prior-authorization
 title: CMS Interoperability & Prior Authorization Rule (CMS-0057-F)
 description: The CMS Interoperability and Prior Authorization Final Rule (CMS-0057-F), finalized in 2024,

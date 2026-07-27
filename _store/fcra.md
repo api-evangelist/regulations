@@ -4,6 +4,8 @@ papers:
   url: https://papers.apievangelist.com/papers/state-of-us-banking-apis/
   note: "A pre-existing US financial-data-access right that frames how §1033 and the CFPB rule extend consumer control over their data."
 name: Fair Credit Reporting Act
+kind: statute
+jurisdiction: United States
 slug: fcra
 title: Fair Credit Reporting Act (FCRA)
 description: "The Fair Credit Reporting Act is the US law governing the collection, use, and sharing of consumer credit information, giving consumers rights to access and dispute their data held by credit reporting agencies. It is a long-standing US financial-data-access right that predates open banking, and part of the legal backdrop the CFPB's Section 1033 rule operates against."

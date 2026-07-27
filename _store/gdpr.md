@@ -4,6 +4,8 @@ papers:
   url: https://papers.apievangelist.com/papers/state-of-uk-banking-apis/
   note: "The privacy and consent backbone beneath the UK's open-banking data sharing — the lawful basis every AIS consent rests on."
 name: GDPR
+kind: statute
+jurisdiction: European Union
 slug: gdpr
 title: General Data Protection Regulation (GDPR)
 description: "The General Data Protection Regulation is the EU's comprehensive data-protection law (retained in the UK as the UK GDPR), governing how personal data is processed, consented to, and ported. It is the privacy backbone beneath open banking; the lawful-basis, consent, and data-minimization requirements that any account-data-sharing regime must satisfy, and a right to data portability that predates and reinforces open banking."

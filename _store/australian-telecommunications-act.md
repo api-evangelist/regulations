@@ -4,6 +4,8 @@ papers:
   url: https://papers.apievangelist.com/papers/state-of-telecom-apis/
   note: "ACMA scores 56.3 — the highest-scoring regulator in the study and above every Australian carrier — though its agent-facing artifacts are API Evangelist reconstructions, not ACMA's."
 name: Australian Telecommunications Act 1997
+kind: statute
+jurisdiction: Australia
 slug: australian-telecommunications-act
 title: Australian Telecommunications Act 1997 (ACMA)
 description: >-

@@ -8,6 +8,8 @@ standards:
   url: https://standards.apievangelist.com/store/fdx/
   note: "The industry data-sharing standard the CFPB rule points to as the qualified interface."
 name: Dodd-Frank Section 1033
+kind: statute
+jurisdiction: United States
 slug: dodd-frank-1033
 title: Dodd-Frank Act Section 1033
 description: Section 1033 of the 2010 Dodd-Frank Wall Street Reform and Consumer Protection Act gives US consumers a statutory right to access their financial data in a usable electronic form. It is the legal authority under which the Consumer Financial Protection Bureau wrote the Personal Financial Data Rights Rule — the US's belated, and contested, move toward mandated open banking.

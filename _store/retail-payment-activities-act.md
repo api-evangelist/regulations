@@ -4,6 +4,8 @@ papers:
   url: https://papers.apievangelist.com/papers/state-of-canadian-banking-apis/
   note: "The payments-supervision regime behind the Canadian rails (Interac, Payments Canada RTR) that outrank the banks in the report."
 name: Retail Payment Activities Act
+kind: statute
+jurisdiction: Canada
 slug: retail-payment-activities-act
 title: Retail Payment Activities Act (RPAA)
 description: "The Retail Payment Activities Act is Canada's federal law bringing payment service providers under supervision by the Bank of Canada, requiring registration and operational-risk and safeguarding standards for retail payments. It is part of the modernization of Canadian payments — alongside Payments Canada's Real-Time Rail — that forms the infrastructure backdrop to the country's emerging consumer-driven banking regime."

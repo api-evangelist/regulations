@@ -11,6 +11,8 @@ standards:
   url: https://standards.apievangelist.com/store/uk-open-banking-standard/
   note: "The OBIE standard mandates SCA-compliant auth across its Read/Write APIs."
 name: Strong Customer Authentication
+kind: directive
+jurisdiction: European Union
 slug: strong-customer-authentication
 title: Strong Customer Authentication (SCA)
 description: Strong Customer Authentication (SCA) is the security requirement mandated by PSD2's Regulatory Technical Standards, requiring multi-factor authentication (two of knowledge, possession, and inherence) for electronic payments and account access in the EU and UK. It is the regulatory backbone of the FAPI-grade security stack that open-banking APIs implement, and the reason bank-grade auth is the floor in European open finance rather than a premium tier.

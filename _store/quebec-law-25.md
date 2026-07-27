@@ -4,6 +4,8 @@ papers:
   url: https://papers.apievangelist.com/papers/state-of-canadian-insurance-apis/
   note: "The strictest privacy regime in North America sits over a sector where consent is a first-class surface at zero of the market leaders."
 name: Quebec Law 25
+kind: statute
+jurisdiction: Quebec, Canada
 slug: quebec-law-25
 title: Quebec Law 25 (Act 64)
 description: >-

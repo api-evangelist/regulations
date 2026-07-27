@@ -11,6 +11,8 @@ standards:
   url: https://standards.apievangelist.com/store/mtls/
   note: "eIDAS QWAC certificates are what mutual-TLS presents to prove which licensed third party is connecting."
 name: eIDAS
+kind: statute
+jurisdiction: European Union
 slug: eidas
 title: eIDAS Regulation (Electronic Identification and Trust Services)
 description: "eIDAS is the EU regulation governing electronic identification and trust services — including the qualified website (QWAC) and seal (QSEAL) certificates that identify regulated third parties in open banking. It provides the pan-European identity and certificate framework that PSD2's access-to-account model relies on, so a bank can cryptographically verify which licensed provider is calling its APIs."

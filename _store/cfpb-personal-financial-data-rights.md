@@ -8,6 +8,8 @@ standards:
   url: https://standards.apievangelist.com/store/fdx/
   note: "The Financial Data Exchange standard the rule leans on as the recognized interface for compliant data sharing."
 name: CFPB Personal Financial Data Rights Rule
+kind: regulator-guidance
+jurisdiction: United States
 slug: cfpb-personal-financial-data-rights
 title: CFPB Personal Financial Data Rights Rule (1033 Rule)
 description: The Consumer Financial Protection Bureau's Personal Financial Data Rights Rule, finalized in 2024 under Dodd-Frank Section 1033, requires covered financial institutions to make consumer financial data available through a developer interface and points the market toward the FDX standard. It is the US's mandated open-banking rule — and, as of writing, the subject of active legal challenge that leaves its future uncertain.

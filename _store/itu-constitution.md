@@ -4,6 +4,8 @@ papers:
   url: https://papers.apievangelist.com/papers/state-of-telecom-apis/
   note: "The ITU's two machine-readable definitions in this catalog are API Evangelist reconstructions — its own review records verbatim that the ITU has not published, reviewed or endorsed them."
 name: ITU Constitution and Radio Regulations
+kind: statute
+jurisdiction: International
 slug: itu-constitution
 title: ITU Constitution and Radio Regulations
 description: >-

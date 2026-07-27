@@ -15,6 +15,8 @@ standards:
   url: https://standards.apievangelist.com/store/uscdi/
   note: The data classes certified health IT must support.
 name: ONC Health IT Certification Program
+kind: regulator-guidance
+jurisdiction: United States
 slug: onc-health-it-certification
 title: ONC Health IT Certification Program (Cures Act Final Rule)
 description: The ONC Health IT Certification Program is the US voluntary-but-effectively-mandatory program

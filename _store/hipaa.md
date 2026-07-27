@@ -12,6 +12,8 @@ standards:
   url: https://standards.apievangelist.com/store/hitrust/
   note: The framework organizations most use to demonstrate HIPAA Security Rule coverage.
 name: HIPAA
+kind: statute
+jurisdiction: United States
 slug: hipaa
 title: Health Insurance Portability and Accountability Act (HIPAA)
 description: HIPAA is the 1996 US law that governs the privacy and security of protected health information

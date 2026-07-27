@@ -4,6 +4,8 @@ papers:
   url: https://papers.apievangelist.com/papers/state-of-telecom-apis/
   note: "The FCC publishes real public REST APIs over its own data and out-publishes Deutsche Telekom, Comcast, BT, Vodafone, T-Mobile and AT&T — the regulator beating the regulated, again."
 name: US Communications Act
+kind: statute
+jurisdiction: United States
 slug: us-communications-act
 title: US Communications Act and FCC Authority
 description: >-

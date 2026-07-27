@@ -4,6 +4,8 @@ papers:
   url: https://papers.apievangelist.com/papers/state-of-australian-insurance-apis/
   note: "APRA supervises prudentially and mandates no data exposure — and its own APRA Connect reporting taxonomy is the closest thing Australian insurance has to a published machine-readable standard."
 name: APRA Prudential Standards
+kind: regulator-guidance
+jurisdiction: Australia
 slug: apra-prudential-standards
 title: APRA Prudential Standards (CPS 234 / CPS 230)
 description: >-

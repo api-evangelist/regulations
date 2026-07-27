@@ -4,6 +4,8 @@ papers:
   url: https://papers.apievangelist.com/papers/state-of-us-insurance-apis/
   note: "A full-text scan of the NAIC's own 1.5MB technology products catalog returns zero occurrences of ACORD — and zero of XML, web service, REST, SOAP or developer."
 name: NAIC Model Laws
+kind: industry-policy
+jurisdiction: United States (model law)
 slug: naic-model-laws
 title: NAIC Model Laws and Regulations
 description: >-

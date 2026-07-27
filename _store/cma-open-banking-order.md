@@ -8,6 +8,8 @@ standards:
   url: https://standards.apievangelist.com/store/uk-open-banking-standard/
   note: "OBIE wrote and maintains this standard under the CMA Order."
 name: CMA Open Banking Order
+kind: regulator-guidance
+jurisdiction: United Kingdom
 slug: cma-open-banking-order
 title: Retail Banking Market Investigation Order (CMA Open Banking Remedy)
 description: The UK Competition and Markets Authority's Retail Banking Market Investigation Order 2017 is the competition remedy that created UK Open Banking. It required the nine largest UK banks (the CMA9) to adopt and maintain a common, open API standard and funded the Open Banking Implementation Entity (OBIE) to write the specification, run conformance, and operate a directory — the delivery machinery that made the UK the reference open-banking regime.

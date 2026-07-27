@@ -11,6 +11,8 @@ standards:
   url: https://standards.apievangelist.com/store/consumer-data-standards/
   note: "The machine-readable Banking API contract every accredited data holder implements to satisfy the CDR."
 name: Consumer Data Right
+kind: statute
+jurisdiction: Australia
 slug: consumer-data-right
 title: Consumer Data Right (CDR)
 description: Australia's Consumer Data Right (CDR) is an economy-wide data-portability law that gives consumers the right to share their data with accredited third parties, beginning with banking (open banking). It is the legal mandate behind the Consumer Data Standards, requiring every accredited data holder to expose a byte-for-byte machine-readable API contract under a consent-and-accreditation regime.

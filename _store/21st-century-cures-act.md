@@ -15,6 +15,8 @@ standards:
   url: https://standards.apievangelist.com/store/smart-on-fhir/
   note: The authorization standard the standardized-API criterion mandates.
 name: 21st Century Cures Act
+kind: statute
+jurisdiction: United States
 slug: 21st-century-cures-act
 title: 21st Century Cures Act (Information Blocking Rule)
 description: 'The 21st Century Cures Act is a 2016 US law whose ONC Final Rule (2020) prohibits ''information

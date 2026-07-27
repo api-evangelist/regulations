@@ -5,6 +5,8 @@ papers:
   note: The act that strengthened HIPAA and funded the EHR adoption wave whose interoperability the Cures
     Act later mandated.
 name: HITECH Act
+kind: statute
+jurisdiction: United States
 slug: hitech
 title: HITECH Act
 description: The Health Information Technology for Economic and Clinical Health (HITECH) Act, enacted

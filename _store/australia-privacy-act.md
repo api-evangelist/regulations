@@ -4,6 +4,8 @@ papers:
   url: https://papers.apievangelist.com/papers/state-of-australian-banking-apis/
   note: "The privacy baseline the CDR's consent and data-sharing safeguards sit on top of."
 name: Privacy Act 1988
+kind: statute
+jurisdiction: Australia
 slug: australia-privacy-act
 title: Privacy Act 1988 (Australia)
 description: "The Privacy Act 1988 is Australia's principal data-protection law, setting the Australian Privacy Principles that govern how personal information is collected, used, and disclosed. It is the privacy foundation the Consumer Data Right is built on top of — the CDR adds a data-sharing right and its own privacy safeguards, but the Privacy Act is the baseline any Australian financial-data sharing has to respect."

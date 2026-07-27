@@ -4,6 +4,8 @@ papers:
   url: https://papers.apievangelist.com/papers/state-of-canadian-banking-apis/
   note: "The existing privacy regime Canada's not-yet-live consumer-driven banking framework is layered on."
 name: PIPEDA
+kind: statute
+jurisdiction: Canada
 slug: pipeda
 title: Personal Information Protection and Electronic Documents Act (PIPEDA)
 description: "PIPEDA is Canada's federal private-sector privacy law, governing how organizations collect, use, and disclose personal information in the course of commercial activity. It is the privacy backdrop against which Canada's Consumer-Driven Banking framework is being built — the existing consent-and-data-handling regime that any Canadian financial-data sharing has to work within until, and after, open banking goes live."

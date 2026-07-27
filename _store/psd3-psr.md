@@ -8,6 +8,8 @@ standards:
   url: https://standards.apievangelist.com/store/uk-open-banking-standard/
   note: "The kind of conformance-tested standard PSD3/PSR aims to make the European norm rather than the exception."
 name: PSD3 & PSR
+kind: directive
+jurisdiction: European Union
 slug: psd3-psr
 title: PSD3 and the Payment Services Regulation (PSR)
 description: "PSD3 (the third Payment Services Directive) and the accompanying Payment Services Regulation (PSR) are the European Union's proposed successors to PSD2, intended to fix its uneven execution — tightening API performance and access requirements, curbing fraud, and moving core rules into a directly-applicable regulation to reduce national divergence. As proposed legislation they set the near-future direction of European open banking and open finance."

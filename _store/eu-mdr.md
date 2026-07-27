@@ -5,6 +5,8 @@ papers:
   note: The device regulation that governs software-as-a-medical-device, including the clinical-AI tools
     the cohort ships.
 name: EU Medical Device Regulation
+kind: directive
+jurisdiction: European Union
 slug: eu-mdr
 title: EU Medical Device Regulation (MDR)
 description: The EU Medical Device Regulation (Regulation (EU) 2017/745, MDR) governs the safety and performance

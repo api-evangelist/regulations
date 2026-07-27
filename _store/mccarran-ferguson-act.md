@@ -8,6 +8,8 @@ standards:
   url: https://standards.apievangelist.com/store/acord/
   note: "With no federal rule to force a contract, data exchange fell to a private standards body — and stayed in an EDI idiom for fifty years."
 name: McCarran-Ferguson Act
+kind: statute
+jurisdiction: United States
 slug: mccarran-ferguson-act
 title: McCarran-Ferguson Act (1945)
 description: >-
