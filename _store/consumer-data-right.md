@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Australian Travel APIs
+  url: https://papers.apievangelist.com/papers/state-of-australian-travel-apis/
+  note: "The control group: designated for banking in 2019 and energy in 2022, NEVER for travel — and undesignated Australian travel returns contract quality of 5.8 with nine of eleven organizations at zero, the lowest reading in the entire series."
 - title: The State of Australian Energy APIs
   url: https://papers.apievangelist.com/papers/state-of-australian-energy-apis/
   note: "Extended from banking into ENERGY and live — the proof a statutory data mandate is replicable across industries, worth about twelve points when verified and less than nothing when merely claimed."
