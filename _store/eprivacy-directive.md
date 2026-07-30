@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The CAMARA Standard
+  url: https://papers.apievangelist.com/papers/the-camara-standard/
+  note: "Restricts exactly the subscriber data CAMARA's flagship verbs traffic in — telecom is regulated on the input, not the output."
 - title: The State of Telecom APIs
   url: https://papers.apievangelist.com/papers/state-of-telecom-apis/
   note: "The regime governing traffic and location data in EU networks — which is precisely what CAMARA's Device Location and Population Density APIs expose, and why the standard's consent model was designed to be recorded and interrogable."

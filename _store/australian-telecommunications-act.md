@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The CAMARA Standard
+  url: https://papers.apievangelist.com/papers/the-camara-standard/
+  note: "Requires no Australian carrier to expose network capability as an API — which is why Telstra's CAMARA release went to a channel rather than to developers."
 - title: The State of Telecom APIs
   url: https://papers.apievangelist.com/papers/state-of-telecom-apis/
   note: "ACMA scores 56.3 — the highest-scoring regulator in the study and above every Australian carrier — though its agent-facing artifacts are API Evangelist reconstructions, not ACMA's."
