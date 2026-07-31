@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Cybersecurity APIs
+  url: https://papers.apievangelist.com/papers/state-of-cybersecurity-apis/
+  note: "Cybersecurity vendors sit in the processor role for their customers; the market publishes a machine-readable consent surface 7.1% of the time."
 - title: The State of Developer Tools APIs
   url: https://papers.apievangelist.com/papers/state-of-developer-tools-apis/
   note: "Developer tools sit in the processor role for their customers' data; this industry's regulatory surface is the union of its customers' regulatory surfaces."
