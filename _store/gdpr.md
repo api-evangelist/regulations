@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Developer Tools APIs
+  url: https://papers.apievangelist.com/papers/state-of-developer-tools-apis/
+  note: "Developer tools sit in the processor role for their customers' data; this industry's regulatory surface is the union of its customers' regulatory surfaces."
 - title: The State of Artificial Intelligence APIs
   url: https://papers.apievangelist.com/papers/state-of-artificial-intelligence-apis/
   note: "The lawful-basis and automated-decision backbone under every model that touches personal data, in an industry with 3.9% machine-readable consent coverage."

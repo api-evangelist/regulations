@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Developer Tools APIs
+  url: https://papers.apievangelist.com/papers/state-of-developer-tools-apis/
+  note: "Reaches the growing share of developer tools shipping agentic CI and AIOps — where a tool that acts on production becomes a system whose provider owes documentation, logging and human oversight."
 - title: The State of Artificial Intelligence APIs
   url: https://papers.apievangelist.com/papers/state-of-artificial-intelligence-apis/
   note: "The first regime to reach the AI industry, and the reason its 3.9% machine-readable consent coverage is a liability rather than a stylistic gap."
