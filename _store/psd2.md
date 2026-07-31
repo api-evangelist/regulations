@@ -19,6 +19,9 @@ posts:
   url: https://apievangelist.com/2018/01/23/the-role-of-european-banking-authority-eba-in-regards-to-psd2/
   date: 2018-01-23
 papers:
+- title: The OAuth 2.0 Standard
+  url: https://papers.apievangelist.com/papers/the-oauth-2-standard/
+  note: "One of the few regimes that genuinely compels OAuth and FAPI — and, characteristically, stops exactly at the regulatory line."
 - title: The State of UK Banking APIs
   url: https://papers.apievangelist.com/papers/state-of-uk-banking-apis/
   note: "The legal basis of the UK's write surfaces — payment initiation and confirmation of funds — that make UK banking APIs actionable, not read-only."
