@@ -26,6 +26,8 @@ common:
   url: https://www.consumerfinance.gov/rules-policy/final-rules/required-rulemaking-on-personal-financial-data-rights/
 - type: Regulator
   url: https://www.consumerfinance.gov/
+- type: Programme
+  url: https://www.consumerfinance.gov/personal-financial-data-rights/
 url: https://www.consumerfinance.gov/rules-policy/final-rules/required-rulemaking-on-personal-financial-data-rights/
 yearCreated: 2024
 alternativeNames:

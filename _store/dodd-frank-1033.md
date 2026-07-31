@@ -25,7 +25,9 @@ common:
   url: https://www.consumerfinance.gov/rules-policy/final-rules/required-rulemaking-on-personal-financial-data-rights/
 - type: Regulator
   url: https://www.consumerfinance.gov/
-url: https://www.consumerfinance.gov/
+- type: Rule
+  url: https://www.consumerfinance.gov/personal-financial-data-rights/
+url: https://www.consumerfinance.gov/personal-financial-data-rights/
 yearCreated: 2010
 alternativeNames:
 - Section 1033
