@@ -1,5 +1,11 @@
 ---
 papers:
+- title: The OpenID Connect Standard
+  url: https://papers.apievangelist.com/papers/the-openid-connect-standard/
+  note: "Requires FAPI-profiled OIDC, producing broad uniform coverage and near-zero differentiation above it."
+- title: The OAuth 2.0 Standard
+  url: https://papers.apievangelist.com/papers/the-oauth-2-standard/
+  note: "One of the few regimes that genuinely compels OAuth-based, FAPI-profiled authorization — and, characteristically, stops exactly at the line the regulation draws."
 - title: The State of Australian Travel APIs
   url: https://papers.apievangelist.com/papers/state-of-australian-travel-apis/
   note: "The control group: designated for banking in 2019 and energy in 2022, NEVER for travel — and undesignated Australian travel returns contract quality of 5.8 with nine of eleven organizations at zero, the lowest reading in the entire series."

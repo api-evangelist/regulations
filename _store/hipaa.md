@@ -1,5 +1,11 @@
 ---
 papers:
+- title: The State of Cybersecurity APIs
+  url: https://papers.apievangelist.com/papers/state-of-cybersecurity-apis/
+  note: "A security vendor holding health data is inside HIPAA; this market's regulatory surface is the union of its customers'."
+- title: The State of Artificial Intelligence APIs
+  url: https://papers.apievangelist.com/papers/state-of-artificial-intelligence-apis/
+  note: "An AI company's real regulatory exposure is usually inherited from its customers' industries rather than its own — HIPAA reaches a model the moment it touches clinical data."
 - title: The State of US Healthcare APIs
   url: https://papers.apievangelist.com/papers/state-of-us-healthcare-apis/
   note: The privacy law that makes consent the moral center of healthcare — and whose right of access

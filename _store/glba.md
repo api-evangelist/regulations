@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Artificial Intelligence APIs
+  url: https://papers.apievangelist.com/papers/state-of-artificial-intelligence-apis/
+  note: "Reaches an AI system the moment it touches financial records — inherited exposure rather than a regime aimed at the sector."
 - title: The State of US Banking APIs
   url: https://papers.apievangelist.com/papers/state-of-us-banking-apis/
   note: "The pre-existing US financial-privacy regime the 1033 rule has to operate within — the security-and-privacy floor beneath open banking."

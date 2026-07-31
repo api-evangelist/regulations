@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Developer Tools APIs
+  url: https://papers.apievangelist.com/papers/state-of-developer-tools-apis/
+  note: "Reaches developer-tools vendors through the supply-chain duty: a regulated customer must account for its suppliers' posture and will ask for evidence."
 - title: The AsyncAPI Standard
   url: https://papers.apievangelist.com/papers/the-asyncapi-standard/
   note: "The 24-hour incident clock mandates the event and not its description; no regime anywhere requires an event surface to be machine-readable."

@@ -1,5 +1,11 @@
 ---
 papers:
+- title: The OpenID Connect Standard
+  url: https://papers.apievangelist.com/papers/the-openid-connect-standard/
+  note: "Requires FAPI-profiled OIDC — and the UK paradox is that its A2A leaders still describe that spine in the contract as a plain bearer token."
+- title: The OAuth 2.0 Standard
+  url: https://papers.apievangelist.com/papers/the-oauth-2-standard/
+  note: "Compels OAuth and FAPI, producing the most rigorous auth posture measured anywhere in this research."
 - title: The State of UK Banking APIs
   url: https://papers.apievangelist.com/papers/state-of-uk-banking-apis/
   note: "The competition remedy that named the CMA9 and funded OBIE — the reason the UK mandate reached past existence to usefulness."

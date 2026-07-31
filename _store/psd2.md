@@ -19,6 +19,9 @@ posts:
   url: https://apievangelist.com/2018/01/23/the-role-of-european-banking-authority-eba-in-regards-to-psd2/
   date: 2018-01-23
 papers:
+- title: The OpenID Connect Standard
+  url: https://papers.apievangelist.com/papers/the-openid-connect-standard/
+  note: "One of the few regimes compelling FAPI-profiled OIDC; the mandated markets declare identity in the contract and the other 99% do not."
 - title: The OAuth 2.0 Standard
   url: https://papers.apievangelist.com/papers/the-oauth-2-standard/
   note: "One of the few regimes that genuinely compels OAuth and FAPI — and, characteristically, stops exactly at the regulatory line."
