@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The AsyncAPI Standard
+  url: https://papers.apievangelist.com/papers/the-asyncapi-standard/
+  note: "The 24-hour incident clock mandates the event and not its description; no regime anywhere requires an event surface to be machine-readable."
 - title: The State of Cybersecurity APIs
   url: https://papers.apievangelist.com/papers/state-of-cybersecurity-apis/
   note: "Puts security operations on a 24-hour reporting clock, in an industry where operational transparency averages 21.8 and a quarter of companies publish nothing operational at all."
