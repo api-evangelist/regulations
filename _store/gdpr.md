@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Artificial Intelligence APIs
+  url: https://papers.apievangelist.com/papers/state-of-artificial-intelligence-apis/
+  note: "The lawful-basis and automated-decision backbone under every model that touches personal data, in an industry with 3.9% machine-readable consent coverage."
 - title: The State of UK Banking APIs
   url: https://papers.apievangelist.com/papers/state-of-uk-banking-apis/
   note: "The privacy and consent backbone beneath the UK's open-banking data sharing — the lawful basis every AIS consent rests on."
