@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Compute & Hardware APIs
+  url: https://papers.apievangelist.com/papers/state-of-compute-hardware-apis/
+  note: "The first regulation in hardware's history requiring an ongoing structured data flow from manufacturer to customer — read against the RoHS precedent, where the same industry answered a per-part data mandate with spreadsheets."
 - title: The OpenAPI Standard
   url: https://papers.apievangelist.com/papers/the-openapi-standard/
   note: "An OpenAPI document is increasingly the machine-readable inventory the CRA's SBOM and disclosure obligations get satisfied against."
