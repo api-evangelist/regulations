@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Data & Analytics APIs
+  url: https://papers.apievangelist.com/papers/state-of-data-analytics-apis/
+  note: "Where a data platform is critical infrastructure for a regulated financial customer."
 - title: The State of Cybersecurity APIs
   url: https://papers.apievangelist.com/papers/state-of-cybersecurity-apis/
   note: "The regime that reaches security vendors who are not themselves regulated — a designated critical ICT third-party provider is supervised directly, in a market where operational transparency averages 21.8."

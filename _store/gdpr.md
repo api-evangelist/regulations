@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Data & Analytics APIs
+  url: https://papers.apievangelist.com/papers/state-of-data-analytics-apis/
+  note: "In data and analytics, GDPR reaches the data plane the market does not describe — access, portability and erasure land on interfaces built for administration."
 - title: The State of Digital Health APIs
   url: https://papers.apievangelist.com/papers/state-of-digital-health-apis/
   note: "In digital health, GDPR restricts what may be done with the data rather than requiring that it be reachable — one of nine regimes in this market that compel no interface."

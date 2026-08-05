@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Data & Analytics APIs
+  url: https://papers.apievangelist.com/papers/state-of-data-analytics-apis/
+  note: "Training-data governance, provenance and documentation obligations landing on the data layer that feeds models."
 - title: The OpenAPI Standard
   url: https://papers.apievangelist.com/papers/the-openapi-standard/
   note: "For an API-delivered system the Act's documentation, logging and oversight duties live in the contract or nowhere — and 32.8% of contracts do not even carry a callable address."

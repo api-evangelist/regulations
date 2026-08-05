@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Data & Analytics APIs
+  url: https://papers.apievangelist.com/papers/state-of-data-analytics-apis/
+  note: "Where a data platform is critical infrastructure for a regulated customer."
 - title: The State of Developer Tools APIs
   url: https://papers.apievangelist.com/papers/state-of-developer-tools-apis/
   note: "Reaches developer-tools vendors through the supply-chain duty: a regulated customer must account for its suppliers' posture and will ask for evidence."

@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Data & Analytics APIs
+  url: https://papers.apievangelist.com/papers/state-of-data-analytics-apis/
+  note: "The rule that created a market: privacy-first web analytics is a scored segment in The State of Data & Analytics APIs because of it."
 - title: The CAMARA Standard
   url: https://papers.apievangelist.com/papers/the-camara-standard/
   note: "Restricts exactly the subscriber data CAMARA's flagship verbs traffic in — telecom is regulated on the input, not the output."
