@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Digital Health APIs
+  url: https://papers.apievangelist.com/papers/state-of-digital-health-apis/
+  note: "In digital health, GDPR restricts what may be done with the data rather than requiring that it be reachable — one of nine regimes in this market that compel no interface."
 - title: The State of Cybersecurity APIs
   url: https://papers.apievangelist.com/papers/state-of-cybersecurity-apis/
   note: "Cybersecurity vendors sit in the processor role for their customers; the market publishes a machine-readable consent surface 7.1% of the time."

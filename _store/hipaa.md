@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Digital Health APIs
+  url: https://papers.apievangelist.com/papers/state-of-digital-health-apis/
+  note: "The law consent is built on, measured: consent is a legible, machine-readable surface at 3.4% of the digital health market against 3.3% of the whole catalog."
 - title: The State of Cybersecurity APIs
   url: https://papers.apievangelist.com/papers/state-of-cybersecurity-apis/
   note: "A security vendor holding health data is inside HIPAA; this market's regulatory surface is the union of its customers'."

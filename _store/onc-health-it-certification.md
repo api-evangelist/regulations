@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Digital Health APIs
+  url: https://papers.apievangelist.com/papers/state-of-digital-health-apis/
+  note: "The clearest evidence in the series that certification predicts publication: certified EHR platforms publish a spec 37.4% of the time against 3.6% for patient-engagement platforms."
 - title: The State of US Healthcare APIs
   url: https://papers.apievangelist.com/papers/state-of-us-healthcare-apis/
   note: The certification program whose (g)(10) criterion defines what a compliant EHR FHIR API must actually

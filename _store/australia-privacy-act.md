@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Digital Health APIs
+  url: https://papers.apievangelist.com/papers/state-of-digital-health-apis/
+  note: "The regime behind My Health Record, in a market where two rules in the world actually compel a health API and neither is Australian."
 - title: The State of Australian Banking APIs
   url: https://papers.apievangelist.com/papers/state-of-australian-banking-apis/
   note: "The privacy baseline the CDR's consent and data-sharing safeguards sit on top of."

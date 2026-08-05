@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Digital Health APIs
+  url: https://papers.apievangelist.com/papers/state-of-digital-health-apis/
+  note: "Software as a medical device, shaping what a health API is allowed to return across the global cohort."
 - title: The State of Australian Healthcare APIs
   url: https://papers.apievangelist.com/papers/state-of-australian-healthcare-apis/
   note: The device regulation that governs software-as-a-medical-device, including the clinical-AI tools

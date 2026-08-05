@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Digital Health APIs
+  url: https://papers.apievangelist.com/papers/state-of-digital-health-apis/
+  note: "Breach notification and enforcement behind HIPAA, in a market where eleven of the 94 leaders reference a security.txt."
 - title: The State of US Healthcare APIs
   url: https://papers.apievangelist.com/papers/state-of-us-healthcare-apis/
   note: The act that strengthened HIPAA and funded the EHR adoption wave whose interoperability the Cures

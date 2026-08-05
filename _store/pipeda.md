@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Digital Health APIs
+  url: https://papers.apievangelist.com/papers/state-of-digital-health-apis/
+  note: "Federal privacy law that restricts use without compelling an interface, in the most regulated market in the series."
 - title: The State of Canadian Banking APIs
   url: https://papers.apievangelist.com/papers/state-of-canadian-banking-apis/
   note: "The existing privacy regime Canada's not-yet-live consumer-driven banking framework is layered on."
