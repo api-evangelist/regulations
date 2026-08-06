@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Blockchain & Crypto APIs
+  url: https://papers.apievangelist.com/papers/state-of-blockchain-crypto-apis/
+  note: "Security obligations reaching digital-asset infrastructure operators."
 - title: The State of Data & Analytics APIs
   url: https://papers.apievangelist.com/papers/state-of-data-analytics-apis/
   note: "Where a data platform is critical infrastructure for a regulated customer."

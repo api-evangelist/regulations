@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Blockchain & Crypto APIs
+  url: https://papers.apievangelist.com/papers/state-of-blockchain-crypto-apis/
+  note: "Where a crypto firm is a money services business."
 - title: The State of Data & Analytics APIs
   url: https://papers.apievangelist.com/papers/state-of-data-analytics-apis/
   note: "Financial data enrichment and transaction intelligence, inside the data-provider segment of the data and analytics market."

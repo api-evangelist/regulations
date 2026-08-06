@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Blockchain & Crypto APIs
+  url: https://papers.apievangelist.com/papers/state-of-blockchain-crypto-apis/
+  note: "A MiCA-authorised crypto-asset service provider is a financial entity under DORA, in a market scoring 11.1 on governance and 17.9 on operational transparency."
 - title: The State of Data & Analytics APIs
   url: https://papers.apievangelist.com/papers/state-of-data-analytics-apis/
   note: "Where a data platform is critical infrastructure for a regulated financial customer."

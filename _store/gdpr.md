@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Blockchain & Crypto APIs
+  url: https://papers.apievangelist.com/papers/state-of-blockchain-crypto-apis/
+  note: "Personal data on an immutable ledger, and an erasure right that cannot be honoured on-chain."
 - title: The State of Marketing & Advertising APIs
   url: https://papers.apievangelist.com/papers/state-of-marketing-advertising-apis/
   note: "The report that scores the industry GDPR was written about: consent is a legible API surface at 3.1% of the marketing and advertising market, below the whole-catalog rate."

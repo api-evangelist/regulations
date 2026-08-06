@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Blockchain & Crypto APIs
+  url: https://papers.apievangelist.com/papers/state-of-blockchain-crypto-apis/
+  note: "Digital identity and wallet infrastructure converging on the key management this market already operates."
 - title: The State of UK Banking APIs
   url: https://papers.apievangelist.com/papers/state-of-uk-banking-apis/
   note: "The certificate/identity trust framework behind third-party onboarding across the OBIE and Berlin Group ecosystems."
