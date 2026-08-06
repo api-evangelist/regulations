@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Marketing & Advertising APIs
+  url: https://papers.apievangelist.com/papers/state-of-marketing-advertising-apis/
+  note: "The report that scores the industry GDPR was written about: consent is a legible API surface at 3.1% of the marketing and advertising market, below the whole-catalog rate."
 - title: The State of Data & Analytics APIs
   url: https://papers.apievangelist.com/papers/state-of-data-analytics-apis/
   note: "In data and analytics, GDPR reaches the data plane the market does not describe — access, portability and erasure land on interfaces built for administration."

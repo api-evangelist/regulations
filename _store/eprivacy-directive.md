@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Marketing & Advertising APIs
+  url: https://papers.apievangelist.com/papers/state-of-marketing-advertising-apis/
+  note: "The rule behind the cookie banner, scored against the market it regulates — and the reason the consent-management segment exists at all."
 - title: The State of Data & Analytics APIs
   url: https://papers.apievangelist.com/papers/state-of-data-analytics-apis/
   note: "The rule that created a market: privacy-first web analytics is a scored segment in The State of Data & Analytics APIs because of it."

@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Marketing & Advertising APIs
+  url: https://papers.apievangelist.com/papers/state-of-marketing-advertising-apis/
+  note: "Transparency where marketing content is generated or a person is profiled by an automated system."
 - title: The State of Data & Analytics APIs
   url: https://papers.apievangelist.com/papers/state-of-data-analytics-apis/
   note: "Training-data governance, provenance and documentation obligations landing on the data layer that feeds models."

@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Marketing & Advertising APIs
+  url: https://papers.apievangelist.com/papers/state-of-marketing-advertising-apis/
+  note: "Where marketing audience data crosses into eligibility decisions."
 - title: The State of Data & Analytics APIs
   url: https://papers.apievangelist.com/papers/state-of-data-analytics-apis/
   note: "The line a people-data or B2B-data provider crosses when its output drives an eligibility decision — scored across a 164-company data-provider segment."

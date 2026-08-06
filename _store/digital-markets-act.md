@@ -1,5 +1,8 @@
 ---
 papers:
+- title: The State of Marketing & Advertising APIs
+  url: https://papers.apievangelist.com/papers/state-of-marketing-advertising-apis/
+  note: "Gatekeeper obligations reshaping the advertising platforms this market buys through."
 - title: The State of UK Travel APIs
   url: https://papers.apievangelist.com/papers/state-of-uk-travel-apis/
   note: "The only regime anywhere that has designated a travel intermediary as a gatekeeper — the nearest existing precedent for regulating travel distribution as infrastructure."
