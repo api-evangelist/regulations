@@ -94,6 +94,36 @@ sub: All Regulations
       </div>
       {% endif %}
 
+      <!-- Reaches these HTTP headers -->
+      {% if page.headers.size > 0 %}
+      <div class="mb-4">
+        <h2 class="fs-5 mb-3">Reaches these HTTP headers</h2>
+        <p class="text-muted small mb-3">Where a regulation actually touches the wire. <strong>Mandated</strong> means the law, or a technical standard it makes binding, names this header. <strong>Evidentiary</strong> means no law names it, but it is the deployed control for an obligation the law does impose. <strong>Inferred</strong> means it would be good evidence and nothing requires it &mdash; interesting to read, never to score.</p>
+        {% for hdr in page.headers %}
+        <div class="card mb-2">
+          <div class="card-body py-3">
+            <h5 class="fs-6 mb-1">
+              <a href="https://headers.apievangelist.com/store/{{ hdr.name }}/" target="_blank" rel="noopener" style="color: var(--ae-green);"><code>{{ hdr.name }}</code></a>
+              {% if hdr.basis == "mandated" %}<span class="badge bg-success ms-2">mandated</span>
+              {% elsif hdr.basis == "evidentiary" %}<span class="badge bg-secondary ms-2">evidentiary</span>
+              {% else %}<span class="badge bg-light text-dark border ms-2">inferred</span>{% endif %}
+              {% if hdr.observable == "edge" %}<span class="badge bg-light text-dark border ms-1" title="Visible in an unauthenticated response">observable at the edge</span>
+              {% elsif hdr.observable == "credentialed" %}<span class="badge bg-light text-dark border ms-1" title="Only a credentialed caller can see this header in flight">credentialed only</span>
+              {% elsif hdr.observable == "contract" %}<span class="badge bg-light text-dark border ms-1" title="Visible in a published OpenAPI or AsyncAPI">in the contract</span>{% endif %}
+            </h5>
+            {% if hdr.standard %}<p class="text-muted small mb-1">via <a href="https://standards.apievangelist.com/store/{{ hdr.standard }}/" target="_blank" rel="noopener">{{ hdr.standard }}</a></p>{% endif %}
+            {% if hdr.note %}
+            <p class="text-muted small mb-0">{{ hdr.note }}</p>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+        <div class="mt-2">
+          <a href="https://headers.apievangelist.com" target="_blank" rel="noopener" class="btn btn-sm btn-outline-success">Browse the API Evangelist Headers catalog &rarr;</a>
+        </div>
+      </div>
+      {% endif %}
+
       <!-- Referenced on the blog -->
       {% if page.posts.size > 0 %}
       <div class="mb-4">

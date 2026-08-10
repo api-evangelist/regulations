@@ -1,4 +1,40 @@
 ---
+headers:
+- name: x-cds-client-headers
+  basis: mandated
+  observable: credentialed
+  standard: consumer-data-standards
+- name: x-fapi-auth-date
+  basis: mandated
+  observable: credentialed
+  standard: fapi
+- name: x-fapi-customer-ip-address
+  basis: mandated
+  observable: credentialed
+  standard: fapi
+- name: x-fapi-interaction-id
+  basis: mandated
+  observable: credentialed
+  standard: fapi
+  note: Required by the Consumer Data Standards, which the Data Standards Chair makes binding.
+- name: x-min-v
+  basis: mandated
+  observable: credentialed
+  standard: consumer-data-standards
+- name: x-v
+  basis: mandated
+  observable: credentialed
+  standard: consumer-data-standards
+  note: Version negotiation made binding by the Consumer Data Standards.
+- name: deprecation
+  basis: evidentiary
+  observable: contract
+  standard: http
+  note: The Consumer Data Standards run published retirement schedules.
+- name: sunset
+  basis: evidentiary
+  observable: edge
+  standard: http
 papers:
 - title: The OpenID Connect Standard
   url: https://papers.apievangelist.com/papers/the-openid-connect-standard/

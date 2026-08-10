@@ -1,4 +1,15 @@
 ---
+headers:
+- name: etag
+  basis: mandated
+  observable: edge
+  standard: fhir
+  note: FHIR R4 optimistic locking sits inside the certification criteria — a general-purpose
+    caching header doing concurrency-control duty in a regulated context.
+- name: if-match
+  basis: mandated
+  observable: contract
+  standard: fhir
 papers:
 - title: The State of Digital Health APIs
   url: https://papers.apievangelist.com/papers/state-of-digital-health-apis/

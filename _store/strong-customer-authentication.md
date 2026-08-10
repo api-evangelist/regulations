@@ -1,4 +1,9 @@
 ---
+headers:
+- name: dpop
+  basis: mandated
+  observable: credentialed
+  standard: dpop
 papers:
 - title: The OAuth 2.0 Standard
   url: https://papers.apievangelist.com/papers/the-oauth-2-standard/

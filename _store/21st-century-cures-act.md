@@ -1,4 +1,9 @@
 ---
+headers:
+- name: prefer
+  basis: mandated
+  observable: contract
+  standard: fhir-bulk-data
 papers:
 - title: The State of Digital Health APIs
   url: https://papers.apievangelist.com/papers/state-of-digital-health-apis/

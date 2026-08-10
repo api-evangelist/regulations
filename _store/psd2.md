@@ -1,4 +1,64 @@
 ---
+headers:
+- name: consent-id
+  basis: mandated
+  observable: credentialed
+  standard: berlin-group-nextgenpsd2
+  note: A consent — a legal artifact with a lawful basis behind it — reduced to an identifier
+    in a request header. Read alongside [[gdpr]].
+- name: digest
+  basis: mandated
+  observable: credentialed
+  standard: berlin-group-nextgenpsd2
+- name: psu-id
+  basis: mandated
+  observable: credentialed
+  standard: berlin-group-nextgenpsd2
+- name: psu-ip-address
+  basis: mandated
+  observable: credentialed
+  standard: berlin-group-nextgenpsd2
+- name: signature
+  basis: mandated
+  observable: credentialed
+  standard: http-message-signatures
+  note: Berlin Group requires signed requests; the signature travels here.
+- name: tpp-signature-certificate
+  basis: mandated
+  observable: credentialed
+  standard: berlin-group-nextgenpsd2
+- name: x-fapi-auth-date
+  basis: mandated
+  observable: credentialed
+  standard: fapi
+- name: x-fapi-customer-ip-address
+  basis: mandated
+  observable: credentialed
+  standard: fapi
+- name: x-fapi-customer-last-logged-time
+  basis: mandated
+  observable: credentialed
+  standard: fapi
+- name: x-fapi-interaction-id
+  basis: mandated
+  observable: credentialed
+  standard: fapi
+  note: Carried into PSD2 implementations through the FAPI security profile.
+- name: deprecation
+  basis: evidentiary
+  observable: contract
+  standard: http
+  note: The RTS testing and change-notification windows have to be signalled somehow.
+- name: retry-after
+  basis: evidentiary
+  observable: edge
+  note: RTS Article 32 requires a dedicated interface to perform at least as well as the customer
+    interface and not obstruct. How a provider throttles a TPP is a regulatory question, and
+    this header is where it surfaces.
+- name: sunset
+  basis: evidentiary
+  observable: edge
+  standard: http
 posts:
 - title: "Federated Convergence With Mastodon, Enterprise API Governance, and Government Regulation"
   url: https://apievangelist.com/2023/01/08/federated-convergence-with-mastodon-enterprise-api-governance-and-government-regulation/

@@ -1,4 +1,15 @@
 ---
+headers:
+- name: content-location
+  basis: mandated
+  observable: contract
+  standard: fhir-bulk-data
+  note: Returns the polling location for an async bulk export.
+- name: prefer
+  basis: mandated
+  observable: contract
+  standard: fhir-bulk-data
+  note: '`Prefer: respond-async` is how the FHIR async pattern is entered.'
 papers:
 - title: The State of Digital Health APIs
   url: https://papers.apievangelist.com/papers/state-of-digital-health-apis/

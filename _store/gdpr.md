@@ -1,4 +1,17 @@
 ---
+headers:
+- name: access-control-allow-origin
+  basis: evidentiary
+  observable: edge
+  note: A negative signal. A wildcard origin on an authenticated surface is a data-protection
+    failure anyone can observe without credentials.
+- name: clear-site-data
+  basis: evidentiary
+  observable: edge
+  note: Erasure carried out at the client boundary rather than only in the datastore.
+- name: set-cookie
+  basis: evidentiary
+  observable: edge
 papers:
 - title: The State of Blockchain & Crypto APIs
   url: https://papers.apievangelist.com/papers/state-of-blockchain-crypto-apis/

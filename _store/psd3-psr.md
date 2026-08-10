@@ -1,4 +1,11 @@
 ---
+headers:
+- name: dpop
+  basis: mandated
+  observable: credentialed
+  standard: dpop
+  note: Forward-looking. Sender-constrained tokens arrive with FAPI 2.0 profiles; no provider
+    in the catalog declares this header yet.
 papers:
 - title: The State of UK Banking APIs
   url: https://papers.apievangelist.com/papers/state-of-uk-banking-apis/

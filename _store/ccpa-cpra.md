@@ -1,4 +1,12 @@
 ---
+headers:
+- name: sec-gpc
+  basis: mandated
+  observable: edge
+  standard: global-privacy-control
+  note: 'The strongest case in the entire catalog: a request header that California recognises
+    as a legally binding opt-out signal, with Colorado and Connecticut following through their
+    universal-opt-out lists. Zero providers in the catalog declare it.'
 papers:
 - title: The State of Marketing & Advertising APIs
   url: https://papers.apievangelist.com/papers/state-of-marketing-advertising-apis/

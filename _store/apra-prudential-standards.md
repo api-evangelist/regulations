@@ -1,4 +1,8 @@
 ---
+headers:
+- name: strict-transport-security
+  basis: evidentiary
+  observable: edge
 papers:
 - title: The State of Australian Insurance APIs
   url: https://papers.apievangelist.com/papers/state-of-australian-insurance-apis/
