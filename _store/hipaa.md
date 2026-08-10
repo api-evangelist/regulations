@@ -1,4 +1,13 @@
 ---
+headers:
+- name: cache-control
+  basis: evidentiary
+  observable: edge
+  note: '`no-store` on a response carrying PHI, so it does not land in a shared cache.'
+- name: strict-transport-security
+  basis: evidentiary
+  observable: edge
+  note: Security Rule technical safeguards for transmission security.
 papers:
 - title: The State of Digital Health APIs
   url: https://papers.apievangelist.com/papers/state-of-digital-health-apis/

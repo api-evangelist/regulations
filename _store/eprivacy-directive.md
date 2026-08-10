@@ -1,4 +1,14 @@
 ---
+headers:
+- name: permissions-policy
+  basis: evidentiary
+  observable: edge
+  note: Device access — camera, microphone, geolocation — is consent territory.
+- name: set-cookie
+  basis: evidentiary
+  observable: edge
+  note: Prior consent for non-essential storage. A non-essential cookie set on the first request,
+    before any consent interaction, is the violation visible from outside.
 papers:
 - title: The State of Marketing & Advertising APIs
   url: https://papers.apievangelist.com/papers/state-of-marketing-advertising-apis/

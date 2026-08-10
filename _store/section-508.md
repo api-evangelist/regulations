@@ -1,4 +1,8 @@
 ---
+headers:
+- name: content-language
+  basis: inferred
+  observable: edge
 papers:
 - title: The State of Education & EdTech APIs
   url: https://papers.apievangelist.com/papers/state-of-education-apis/

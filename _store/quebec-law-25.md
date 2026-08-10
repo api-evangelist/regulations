@@ -1,4 +1,8 @@
 ---
+headers:
+- name: clear-site-data
+  basis: evidentiary
+  observable: edge
 papers:
 - title: The State of Canadian Insurance APIs
   url: https://papers.apievangelist.com/papers/state-of-canadian-insurance-apis/

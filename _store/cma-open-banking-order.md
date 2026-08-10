@@ -1,4 +1,39 @@
 ---
+headers:
+- name: x-fapi-auth-date
+  basis: mandated
+  observable: credentialed
+  standard: fapi
+- name: x-fapi-customer-ip-address
+  basis: mandated
+  observable: credentialed
+  standard: fapi
+- name: x-fapi-customer-last-logged-time
+  basis: mandated
+  observable: credentialed
+  standard: fapi
+- name: x-fapi-financial-id
+  basis: mandated
+  observable: credentialed
+  standard: uk-open-banking-standard
+  note: OBIE-specific; identifies the ASPSP in every request.
+- name: x-fapi-interaction-id
+  basis: mandated
+  observable: credentialed
+  standard: fapi
+  note: Required by the UK Open Banking read/write standard for every call.
+- name: x-idempotency-key
+  basis: mandated
+  observable: credentialed
+  standard: uk-open-banking-standard
+  note: Required on payment initiation. The regulatory concern is a duplicated payment, and
+    this header is the control.
+- name: x-jws-signature
+  basis: mandated
+  observable: credentialed
+  standard: uk-open-banking-standard
+  note: Non-repudiation for payment orders. A legal requirement expressed as a detached JWS
+    in a header.
 papers:
 - title: The OpenID Connect Standard
   url: https://papers.apievangelist.com/papers/the-openid-connect-standard/

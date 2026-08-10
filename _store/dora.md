@@ -1,4 +1,8 @@
 ---
+headers:
+- name: access-control-allow-origin
+  basis: evidentiary
+  observable: edge
 papers:
 - title: The State of Blockchain & Crypto APIs
   url: https://papers.apievangelist.com/papers/state-of-blockchain-crypto-apis/

@@ -1,4 +1,12 @@
 ---
+headers:
+- name: cache-control
+  basis: evidentiary
+  observable: edge
+- name: strict-transport-security
+  basis: evidentiary
+  observable: edge
+  note: The FTC's 2021 Safeguards amendments require encryption in transit explicitly.
 papers:
 - title: The State of Blockchain & Crypto APIs
   url: https://papers.apievangelist.com/papers/state-of-blockchain-crypto-apis/

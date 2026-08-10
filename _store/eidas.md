@@ -1,4 +1,11 @@
 ---
+headers:
+- name: tpp-signature-certificate
+  basis: mandated
+  observable: credentialed
+  standard: berlin-group-nextgenpsd2
+  note: The certificate in this header is a QWAC issued under eIDAS. One header carrying the
+    join between a payments regime and an identity regime.
 papers:
 - title: The State of Blockchain & Crypto APIs
   url: https://papers.apievangelist.com/papers/state-of-blockchain-crypto-apis/
