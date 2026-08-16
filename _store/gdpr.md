@@ -14,28 +14,28 @@ headers:
   observable: edge
 papers:
 - title: The State of Blockchain & Crypto APIs
-  url: https://papers.apievangelist.com/papers/state-of-blockchain-crypto-apis/
+  url: https://reports.apievangelist.com/reports/state-of-blockchain-crypto-apis/
   note: "Personal data on an immutable ledger, and an erasure right that cannot be honoured on-chain."
 - title: The State of Marketing & Advertising APIs
-  url: https://papers.apievangelist.com/papers/state-of-marketing-advertising-apis/
+  url: https://reports.apievangelist.com/reports/state-of-marketing-advertising-apis/
   note: "The report that scores the industry GDPR was written about: consent is a legible API surface at 3.1% of the marketing and advertising market, below the whole-catalog rate."
 - title: The State of Data & Analytics APIs
-  url: https://papers.apievangelist.com/papers/state-of-data-analytics-apis/
+  url: https://reports.apievangelist.com/reports/state-of-data-analytics-apis/
   note: "In data and analytics, GDPR reaches the data plane the market does not describe — access, portability and erasure land on interfaces built for administration."
 - title: The State of Digital Health APIs
-  url: https://papers.apievangelist.com/papers/state-of-digital-health-apis/
+  url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
   note: "In digital health, GDPR restricts what may be done with the data rather than requiring that it be reachable — one of nine regimes in this market that compel no interface."
 - title: The State of Cybersecurity APIs
-  url: https://papers.apievangelist.com/papers/state-of-cybersecurity-apis/
+  url: https://reports.apievangelist.com/reports/state-of-cybersecurity-apis/
   note: "Cybersecurity vendors sit in the processor role for their customers; the market publishes a machine-readable consent surface 7.1% of the time."
 - title: The State of Developer Tools APIs
-  url: https://papers.apievangelist.com/papers/state-of-developer-tools-apis/
+  url: https://reports.apievangelist.com/reports/state-of-developer-tools-apis/
   note: "Developer tools sit in the processor role for their customers' data; this industry's regulatory surface is the union of its customers' regulatory surfaces."
 - title: The State of Artificial Intelligence APIs
-  url: https://papers.apievangelist.com/papers/state-of-artificial-intelligence-apis/
+  url: https://reports.apievangelist.com/reports/state-of-artificial-intelligence-apis/
   note: "The lawful-basis and automated-decision backbone under every model that touches personal data, in an industry with 3.9% machine-readable consent coverage."
 - title: The State of UK Banking APIs
-  url: https://papers.apievangelist.com/papers/state-of-uk-banking-apis/
+  url: https://reports.apievangelist.com/reports/state-of-uk-banking-apis/
   note: "The privacy and consent backbone beneath the UK's open-banking data sharing — the lawful basis every AIS consent rests on."
 name: GDPR
 kind: statute

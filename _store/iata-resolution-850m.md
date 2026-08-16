@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of Australian Travel APIs
-  url: https://papers.apievangelist.com/papers/state-of-australian-travel-apis/
+  url: https://reports.apievangelist.com/reports/state-of-australian-travel-apis/
   note: "How distribution policy is actually enforced — Air Transat's CRS policy bars redistribution without written consent and enforces it through ADMs under this resolution."
 standards:
 - title: IATA BSP and ARC

@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of Australian Travel APIs
-  url: https://papers.apievangelist.com/papers/state-of-australian-travel-apis/
+  url: https://reports.apievangelist.com/reports/state-of-australian-travel-apis/
   note: "The instrument Australia used on travel instead of the Consumer Data Right — A$44.7m against Trivago, A$100m against Qantas, and contract quality of 5.8 with nine of eleven organizations at zero."
 name: Australian Consumer Law
 slug: australian-consumer-law

@@ -5,7 +5,7 @@ headers:
   observable: edge
 papers:
 - title: The State of Education & EdTech APIs
-  url: https://papers.apievangelist.com/papers/state-of-education-apis/
+  url: https://reports.apievangelist.com/reports/state-of-education-apis/
   note: Accessibility obligations reaching private digital services from June 2025, in a market that meets
     the existing ones with a self-asserted PDF.
 name: European Accessibility Act
@@ -48,4 +48,4 @@ standards:
   * **Market surveillance** - Enforcement runs through national authorities with powers to remove non-compliant services.
   * **In force from June 2025** - The obligations are live, which makes conformance evidence a current commercial question.
 
-The EAA arrives in a market that meets its existing accessibility obligations with self-asserted documents. [The State of Education & EdTech APIs](https://papers.apievangelist.com/papers/state-of-education-apis/) finds education's leaders strong on governance — 48.8, the best of any market scored this year — which suggests the institutional habit needed to produce real conformance evidence already exists here. Whether it is pointed at accessibility as a published artifact rather than another PDF is the open question.
+The EAA arrives in a market that meets its existing accessibility obligations with self-asserted documents. [The State of Education & EdTech APIs](https://reports.apievangelist.com/reports/state-of-education-apis/) finds education's leaders strong on governance — 48.8, the best of any market scored this year — which suggests the institutional habit needed to produce real conformance evidence already exists here. Whether it is pointed at accessibility as a published artifact rather than another PDF is the open question.

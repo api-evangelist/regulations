@@ -1,10 +1,10 @@
 ---
 papers:
 - title: The State of Australian Travel APIs
-  url: https://papers.apievangelist.com/papers/state-of-australian-travel-apis/
+  url: https://reports.apievangelist.com/reports/state-of-australian-travel-apis/
   note: "The gate an agent cannot pass — Virgin Australia's agency terms require IATA or ATIS accreditation and mandate GDS access for BSP sales, at the airline's absolute discretion."
 - title: The State of US Travel APIs
-  url: https://papers.apievangelist.com/papers/state-of-us-travel-apis/
+  url: https://reports.apievangelist.com/reports/state-of-us-travel-apis/
   note: "Across forty organizations researched, only seven are self-serve; thirteen gate behind a commercial agreement and seven more behind accreditation or a licence."
 standards:
 - title: IATA BSP and ARC

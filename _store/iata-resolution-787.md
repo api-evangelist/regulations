@@ -1,10 +1,10 @@
 ---
 papers:
 - title: The State of US Travel APIs
-  url: https://papers.apievangelist.com/papers/state-of-us-travel-apis/
+  url: https://reports.apievangelist.com/reports/state-of-us-travel-apis/
   note: "The resolution that created NDC — and a decade on, three of forty travel organizations publish an open standard, none of them an airline, hotel group or GDS."
 - title: The State of Australian Travel APIs
-  url: https://papers.apievangelist.com/papers/state-of-australian-travel-apis/
+  url: https://reports.apievangelist.com/reports/state-of-australian-travel-apis/
   note: "Qantas is NDC@Scale certified under this resolution and prices the standard as a ladder, with an invitation-only surcharge-free tier."
 standards:
 - title: IATA NDC

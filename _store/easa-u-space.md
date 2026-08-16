@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of Robotics & Autonomous Systems APIs
-  url: https://papers.apievangelist.com/papers/state-of-robotics-apis/
+  url: https://reports.apievangelist.com/reports/state-of-robotics-apis/
   note: A regulation that specifies SERVICES rather than permissions — the closest thing in robotics to
     the mandated-API pattern seen in banking and health.
 name: EASA U-space
@@ -40,4 +40,4 @@ alternativeNames:
   * **Designated airspace** - Member states decide where U-space applies, which paces the rollout.
   * **Interfaces by necessity** - Services delivered to operators at scale are, unavoidably, APIs.
 
-U-space is the closest thing in robotics to the mandated-API pattern this research has documented in banking and health. It does not say publish an API; it defines services that cannot practically be delivered as anything else. [The State of Robotics & Autonomous Systems APIs](https://papers.apievangelist.com/papers/state-of-robotics-apis/) argues that where a rule demands machine-readable exchange, interfaces follow — and U-space is the European test of that proposition, still early enough to watch.
+U-space is the closest thing in robotics to the mandated-API pattern this research has documented in banking and health. It does not say publish an API; it defines services that cannot practically be delivered as anything else. [The State of Robotics & Autonomous Systems APIs](https://reports.apievangelist.com/reports/state-of-robotics-apis/) argues that where a rule demands machine-readable exchange, interfaces follow — and U-space is the European test of that proposition, still early enough to watch.

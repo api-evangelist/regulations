@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of UK Healthcare APIs
-  url: https://papers.apievangelist.com/papers/state-of-uk-healthcare-apis/
+  url: https://reports.apievangelist.com/reports/state-of-uk-healthcare-apis/
   note: The NHS baseline for digital health technology, covering clinical safety, security, interoperability,
     and usability.
 name: Digital Technology Assessment Criteria

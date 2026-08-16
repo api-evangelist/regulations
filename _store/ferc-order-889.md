@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of US Energy APIs
-  url: https://papers.apievangelist.com/papers/state-of-us-energy-apis/
+  url: https://reports.apievangelist.com/reports/state-of-us-energy-apis/
   note: "The United States does have a federal API mandate in energy — it is thirty years old and points at wholesale transmission, not at the customer. It is why the ISOs publish and the utilities do not."
 name: FERC Order 889
 slug: ferc-order-889

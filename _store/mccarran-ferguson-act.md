@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of US Insurance APIs
-  url: https://papers.apievangelist.com/papers/state-of-us-insurance-apis/
+  url: https://reports.apievangelist.com/reports/state-of-us-insurance-apis/
   note: "The structural reason American insurance has fifty regulators, no federal insurance regulator, and no open-insurance rule — and therefore no API mandate to comply with, maliciously or otherwise."
 standards:
 - title: ACORD

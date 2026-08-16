@@ -1,10 +1,10 @@
 ---
 papers:
 - title: The State of Canadian Travel APIs
-  url: https://papers.apievangelist.com/papers/state-of-canadian-travel-apis/
+  url: https://reports.apievangelist.com/reports/state-of-canadian-travel-apis/
   note: "Canada's equivalent licence is why the only unconditionally open organization in Canadian travel is a regulator — Transport Canada serves WMS and CKAN under it with nothing to sign, while VIA Rail's GTFS feed is undercut by site terms that contradict the licence."
 - title: The State of UK Real Estate APIs
-  url: https://papers.apievangelist.com/papers/state-of-uk-real-estate-apis/
+  url: https://reports.apievangelist.com/reports/state-of-uk-real-estate-apis/
   note: "The legal instrument that makes Britain the best-published real estate market in the world — HM Land Registry and Ordnance Survey answer anonymously because of it, and the UK beats the mandated US market 42.8 to 31.2."
 standards:
 - title: UPRN

@@ -5,7 +5,7 @@ headers:
   observable: edge
 papers:
 - title: The State of Education & EdTech APIs
-  url: https://papers.apievangelist.com/papers/state-of-education-apis/
+  url: https://reports.apievangelist.com/reports/state-of-education-apis/
   note: Accessibility enforced through procurement, met with a self-asserted PDF — an obligation ABOUT
     the interface, discharged with a document.
 name: Section 508
@@ -48,4 +48,4 @@ standards:
   * **VPAT and ACR** - A voluntary product accessibility template, filled in by the vendor — self-asserted, PDF, and universal in education RFPs.
   * **Reaches education broadly** - Public institutions and federally funded programmes carry it into the classroom software market.
 
-The VPAT is worth noticing as an artifact. It is a compliance claim about an interface, produced for every education sale, distributed as a PDF, and self-asserted — a document where a machine-readable conformance statement would serve everyone better. [The State of Education & EdTech APIs](https://papers.apievangelist.com/papers/state-of-education-apis/) records this market's pattern precisely: obligations are met with documents rather than artifacts, even where the obligation is *about* the interface.
+The VPAT is worth noticing as an artifact. It is a compliance claim about an interface, produced for every education sale, distributed as a PDF, and self-asserted — a document where a machine-readable conformance statement would serve everyone better. [The State of Education & EdTech APIs](https://reports.apievangelist.com/reports/state-of-education-apis/) records this market's pattern precisely: obligations are met with documents rather than artifacts, even where the obligation is *about* the interface.

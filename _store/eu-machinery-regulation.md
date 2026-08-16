@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of Robotics & Autonomous Systems APIs
-  url: https://papers.apievangelist.com/papers/state-of-robotics-apis/
+  url: https://reports.apievangelist.com/reports/state-of-robotics-apis/
   note: Extends safety obligations to software and self-evolving behaviour — and still discharges them
     through a technical file rather than anything a customer's software can observe.
 standards:
@@ -44,4 +44,4 @@ alternativeNames:
   * **Digital instructions** - Documentation may be supplied digitally, which is a small opening toward machine-readable conformity.
   * **Conformity assessment** - The mechanism remains a technical file and CE marking rather than an ongoing published artifact.
 
-This regulation is where robotics could acquire the forcing function it lacks, and has not yet. Its obligations are discharged through a technical file assessed once, rather than through anything a customer's software can observe. [The State of Robotics & Autonomous Systems APIs](https://papers.apievangelist.com/papers/state-of-robotics-apis/) notes the contrast with Remote ID, where a machine-readable requirement produced machine-readable interfaces — and suggests watching whether the logging and oversight duties arriving with the [EU AI Act](https://regulations.apievangelist.com/store/eu-ai-act/) change that.
+This regulation is where robotics could acquire the forcing function it lacks, and has not yet. Its obligations are discharged through a technical file assessed once, rather than through anything a customer's software can observe. [The State of Robotics & Autonomous Systems APIs](https://reports.apievangelist.com/reports/state-of-robotics-apis/) notes the contrast with Remote ID, where a machine-readable requirement produced machine-readable interfaces — and suggests watching whether the logging and oversight duties arriving with the [EU AI Act](https://regulations.apievangelist.com/store/eu-ai-act/) change that.

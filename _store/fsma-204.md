@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of Supply Chain APIs
-  url: https://papers.apievangelist.com/papers/state-of-supply-chain-apis/
+  url: https://reports.apievangelist.com/reports/state-of-supply-chain-apis/
   note: "A 24-hour traceability obligation that specifies records and a sortable spreadsheet — not an endpoint."
 name: FSMA Section 204 Food Traceability Rule
 kind: regulation

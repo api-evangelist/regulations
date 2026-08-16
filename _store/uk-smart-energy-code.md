@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of UK Energy APIs
-  url: https://papers.apievangelist.com/papers/state-of-uk-energy-apis/
+  url: https://reports.apievangelist.com/reports/state-of-uk-energy-apis/
   note: "What Britain mandated INSTEAD of a consumer data right — 18 UK organizations carry a live verified mandate, more than Australia's 14, and only four publish a consumer-data API."
 name: Smart Energy Code
 slug: uk-smart-energy-code

@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of Compute & Hardware APIs
-  url: https://papers.apievangelist.com/papers/state-of-compute-hardware-apis/
+  url: https://reports.apievangelist.com/reports/state-of-compute-hardware-apis/
   note: "Twenty years of per-part material declarations, answered with spreadsheets and distributor portals — the precedent for how this industry meets a data obligation."
 name: RoHS
 kind: directive

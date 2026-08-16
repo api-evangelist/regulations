@@ -23,7 +23,7 @@ common:
   url: https://www.fmcsa.dot.gov/hours-service/elds/electronic-logging-devices
 papers:
 - title: The State of Mobility APIs
-  url: https://papers.apievangelist.com/papers/state-of-mobility-apis/
+  url: https://reports.apievangelist.com/reports/state-of-mobility-apis/
   note: Named by 4 of 93 mobility companies, all in fleet and telematics — the area with the lowest Agent
     Readiness in this market at 33.2, where a federal mandate produced compliant devices and no interface
     anyone else can call.

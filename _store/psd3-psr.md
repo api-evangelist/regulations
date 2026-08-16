@@ -8,7 +8,7 @@ headers:
     in the catalog declares this header yet.
 papers:
 - title: The State of UK Banking APIs
-  url: https://papers.apievangelist.com/papers/state-of-uk-banking-apis/
+  url: https://reports.apievangelist.com/reports/state-of-uk-banking-apis/
   note: "The near-future European regime that will judge whether PSD2's fixes — API performance, access, anti-fraud — finally land."
 standards:
 - title: UK Open Banking Standard

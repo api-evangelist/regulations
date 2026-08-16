@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of US Insurance APIs
-  url: https://papers.apievangelist.com/papers/state-of-us-insurance-apis/
+  url: https://reports.apievangelist.com/reports/state-of-us-insurance-apis/
   note: "A full-text scan of the NAIC's own 1.5MB technology products catalog returns zero occurrences of ACORD — and zero of XML, web service, REST, SOAP or developer."
 name: NAIC Model Laws
 kind: industry-policy

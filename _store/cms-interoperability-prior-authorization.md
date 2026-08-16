@@ -12,10 +12,10 @@ headers:
   note: '`Prefer: respond-async` is how the FHIR async pattern is entered.'
 papers:
 - title: The State of Digital Health APIs
-  url: https://papers.apievangelist.com/papers/state-of-digital-health-apis/
+  url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
   note: "The payer mandate, read against a compliance floor where 21 of the market's 94 best companies score exactly 30.6 on agent-readiness."
 - title: The State of US Healthcare APIs
-  url: https://papers.apievangelist.com/papers/state-of-us-healthcare-apis/
+  url: https://reports.apievangelist.com/reports/state-of-us-healthcare-apis/
   note: The rule that points electronic prior authorization at the Da Vinci FHIR IGs — the emptiest frontier
     in the cohort.
 standards:

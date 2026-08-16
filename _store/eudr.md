@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of Supply Chain APIs
-  url: https://papers.apievangelist.com/papers/state-of-supply-chain-apis/
+  url: https://reports.apievangelist.com/reports/state-of-supply-chain-apis/
   note: "One of the few supply chain regimes that compels a machine-readable submission — but into an EU-operated system, making the state the API provider and the industry the client."
 name: EU Deforestation Regulation
 kind: regulation

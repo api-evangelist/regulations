@@ -28,7 +28,7 @@ standards:
   note: GCP-governed trials produce the datasets CDISC standardizes.
 papers:
 - title: The State of Biotechnology APIs
-  url: https://papers.apievangelist.com/papers/state-of-biotechnology-apis/
+  url: https://reports.apievangelist.com/reports/state-of-biotechnology-apis/
   note: GMP is named by 27 companies, GxP by 18, GLP by 16 — collectively the vocabulary this industry
     actually shares. 76 of 999 companies describe how they are audited; 14 describe how they interoperate.
 ---

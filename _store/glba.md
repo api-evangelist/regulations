@@ -9,16 +9,16 @@ headers:
   note: The FTC's 2021 Safeguards amendments require encryption in transit explicitly.
 papers:
 - title: The State of Blockchain & Crypto APIs
-  url: https://papers.apievangelist.com/papers/state-of-blockchain-crypto-apis/
+  url: https://reports.apievangelist.com/reports/state-of-blockchain-crypto-apis/
   note: "Where a crypto firm is a money services business."
 - title: The State of Data & Analytics APIs
-  url: https://papers.apievangelist.com/papers/state-of-data-analytics-apis/
+  url: https://reports.apievangelist.com/reports/state-of-data-analytics-apis/
   note: "Financial data enrichment and transaction intelligence, inside the data-provider segment of the data and analytics market."
 - title: The State of Artificial Intelligence APIs
-  url: https://papers.apievangelist.com/papers/state-of-artificial-intelligence-apis/
+  url: https://reports.apievangelist.com/reports/state-of-artificial-intelligence-apis/
   note: "Reaches an AI system the moment it touches financial records — inherited exposure rather than a regime aimed at the sector."
 - title: The State of US Banking APIs
-  url: https://papers.apievangelist.com/papers/state-of-us-banking-apis/
+  url: https://reports.apievangelist.com/reports/state-of-us-banking-apis/
   note: "The pre-existing US financial-privacy regime the 1033 rule has to operate within — the security-and-privacy floor beneath open banking."
 name: Gramm-Leach-Bliley Act
 kind: statute

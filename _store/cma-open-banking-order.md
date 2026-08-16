@@ -36,13 +36,13 @@ headers:
     in a header.
 papers:
 - title: The OpenID Connect Standard
-  url: https://papers.apievangelist.com/papers/the-openid-connect-standard/
+  url: https://reports.apievangelist.com/reports/the-openid-connect-standard/
   note: "Requires FAPI-profiled OIDC — and the UK paradox is that its A2A leaders still describe that spine in the contract as a plain bearer token."
 - title: The OAuth 2.0 Standard
-  url: https://papers.apievangelist.com/papers/the-oauth-2-standard/
+  url: https://reports.apievangelist.com/reports/the-oauth-2-standard/
   note: "Compels OAuth and FAPI, producing the most rigorous auth posture measured anywhere in this research."
 - title: The State of UK Banking APIs
-  url: https://papers.apievangelist.com/papers/state-of-uk-banking-apis/
+  url: https://reports.apievangelist.com/reports/state-of-uk-banking-apis/
   note: "The competition remedy that named the CMA9 and funded OBIE — the reason the UK mandate reached past existence to usefulness."
 standards:
 - title: UK Open Banking Standard

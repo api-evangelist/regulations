@@ -5,7 +5,7 @@ headers:
   observable: edge
 papers:
 - title: The State of Canadian Insurance APIs
-  url: https://papers.apievangelist.com/papers/state-of-canadian-insurance-apis/
+  url: https://reports.apievangelist.com/reports/state-of-canadian-insurance-apis/
   note: "The strictest privacy regime in North America sits over a sector where consent is a first-class surface at zero of the market leaders."
 name: Quebec Law 25
 kind: statute

@@ -1,10 +1,10 @@
 ---
 papers:
 - title: The CAMARA Standard
-  url: https://papers.apievangelist.com/papers/the-camara-standard/
+  url: https://reports.apievangelist.com/reports/the-camara-standard/
   note: "International telecom framework; imposes no API obligation on the operators building CAMARA."
 - title: The State of Telecom APIs
-  url: https://papers.apievangelist.com/papers/state-of-telecom-apis/
+  url: https://reports.apievangelist.com/reports/state-of-telecom-apis/
   note: "The ITU's two machine-readable definitions in this catalog are API Evangelist reconstructions — its own review records verbatim that the ITU has not published, reviewed or endorsed them."
 name: ITU Constitution and Radio Regulations
 kind: statute

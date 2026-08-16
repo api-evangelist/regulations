@@ -1,13 +1,13 @@
 ---
 papers:
 - title: The State of Marketing & Advertising APIs
-  url: https://papers.apievangelist.com/papers/state-of-marketing-advertising-apis/
+  url: https://reports.apievangelist.com/reports/state-of-marketing-advertising-apis/
   note: "Where marketing audience data crosses into eligibility decisions."
 - title: The State of Data & Analytics APIs
-  url: https://papers.apievangelist.com/papers/state-of-data-analytics-apis/
+  url: https://reports.apievangelist.com/reports/state-of-data-analytics-apis/
   note: "The line a people-data or B2B-data provider crosses when its output drives an eligibility decision — scored across a 164-company data-provider segment."
 - title: The State of US Banking APIs
-  url: https://papers.apievangelist.com/papers/state-of-us-banking-apis/
+  url: https://reports.apievangelist.com/reports/state-of-us-banking-apis/
   note: "A pre-existing US financial-data-access right that frames how §1033 and the CFPB rule extend consumer control over their data."
 name: Fair Credit Reporting Act
 kind: statute

@@ -1,19 +1,19 @@
 ---
 papers:
 - title: The State of Marketing & Advertising APIs
-  url: https://papers.apievangelist.com/papers/state-of-marketing-advertising-apis/
+  url: https://reports.apievangelist.com/reports/state-of-marketing-advertising-apis/
   note: "Transparency where marketing content is generated or a person is profiled by an automated system."
 - title: The State of Data & Analytics APIs
-  url: https://papers.apievangelist.com/papers/state-of-data-analytics-apis/
+  url: https://reports.apievangelist.com/reports/state-of-data-analytics-apis/
   note: "Training-data governance, provenance and documentation obligations landing on the data layer that feeds models."
 - title: The OpenAPI Standard
-  url: https://papers.apievangelist.com/papers/the-openapi-standard/
+  url: https://reports.apievangelist.com/reports/the-openapi-standard/
   note: "For an API-delivered system the Act's documentation, logging and oversight duties live in the contract or nowhere — and 32.8% of contracts do not even carry a callable address."
 - title: The State of Developer Tools APIs
-  url: https://papers.apievangelist.com/papers/state-of-developer-tools-apis/
+  url: https://reports.apievangelist.com/reports/state-of-developer-tools-apis/
   note: "Reaches the growing share of developer tools shipping agentic CI and AIOps — where a tool that acts on production becomes a system whose provider owes documentation, logging and human oversight."
 - title: The State of Artificial Intelligence APIs
-  url: https://papers.apievangelist.com/papers/state-of-artificial-intelligence-apis/
+  url: https://reports.apievangelist.com/reports/state-of-artificial-intelligence-apis/
   note: "The first regime to reach the AI industry, and the reason its 3.9% machine-readable consent coverage is a liability rather than a stylistic gap."
 name: EU AI Act
 kind: statute

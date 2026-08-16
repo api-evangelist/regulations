@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of US Real Estate APIs
-  url: https://papers.apievangelist.com/papers/state-of-us-real-estate-apis/
+  url: https://reports.apievangelist.com/reports/state-of-us-real-estate-apis/
   note: "The agreement a developer must execute to display MLS listings — the access layer that a RESO certification says nothing about, and the reason certified endpoints return 401."
 name: IDX
 slug: idx-policy

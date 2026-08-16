@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of Blockchain & Crypto APIs
-  url: https://papers.apievangelist.com/papers/state-of-blockchain-crypto-apis/
+  url: https://reports.apievangelist.com/reports/state-of-blockchain-crypto-apis/
   note: "The most consequential regime this market has faced, and it asks for exactly the artifacts the market scores worst on — governance at 11.1 and operational transparency at 17.9."
 name: MiCA
 kind: regulation

@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of UK Travel APIs
-  url: https://papers.apievangelist.com/papers/state-of-uk-travel-apis/
+  url: https://reports.apievangelist.com/reports/state-of-uk-travel-apis/
   note: "Half a century of statutory financial protection for package holidays, and zero of fourteen UK travel organizations publish an idempotency mechanism — protection reconciles the duplicate payment, it does not prevent it."
 name: ATOL
 slug: atol

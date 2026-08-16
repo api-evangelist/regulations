@@ -6,10 +6,10 @@ headers:
   standard: fhir-bulk-data
 papers:
 - title: The State of Digital Health APIs
-  url: https://papers.apievangelist.com/papers/state-of-digital-health-apis/
+  url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
   note: "One of exactly two rules in the world that effectively compel a health API — and the report measures what that compulsion produced."
 - title: The State of US Healthcare APIs
-  url: https://papers.apievangelist.com/papers/state-of-us-healthcare-apis/
+  url: https://reports.apievangelist.com/reports/state-of-us-healthcare-apis/
   note: The law whose information-blocking rule turned a whole sector's FHIR endpoints into a legal obligation
     — and produced compliance, not product.
 standards:

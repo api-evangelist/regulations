@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of Robotics & Autonomous Systems APIs
-  url: https://papers.apievangelist.com/papers/state-of-robotics-apis/
+  url: https://reports.apievangelist.com/reports/state-of-robotics-apis/
   note: The one obligation in robotics demanding a machine-readable EMISSION rather than a document —
     and the segment around it produced the market's clearest cluster of real interfaces.
 name: FAA Part 107 and Remote ID
@@ -41,4 +41,4 @@ alternativeNames:
   * **Waivers for extended operations** - Beyond-visual-line-of-sight and other operations run through a defined application process.
   * **An API-shaped ecosystem** - LAANC created a market for airspace-authorization providers that had to integrate programmatically.
 
-[The State of Robotics & Autonomous Systems APIs](https://papers.apievangelist.com/papers/state-of-robotics-apis/) finds this the clearest natural experiment in that market. Where the rule demands data a machine can read, the data appears: the drone and airspace segment produced the market's most visible cluster of real interfaces, and the FAA itself scores 57.1 — ahead of all but three companies in the industry it regulates. Everywhere else in robotics the obligation is a technical file, and technical files do not create APIs.
+[The State of Robotics & Autonomous Systems APIs](https://reports.apievangelist.com/reports/state-of-robotics-apis/) finds this the clearest natural experiment in that market. Where the rule demands data a machine can read, the data appears: the drone and airspace segment produced the market's most visible cluster of real interfaces, and the FAA itself scores 57.1 — ahead of all but three companies in the industry it regulates. Everywhere else in robotics the obligation is a technical file, and technical files do not create APIs.

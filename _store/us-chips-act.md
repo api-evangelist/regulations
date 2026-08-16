@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of Compute & Hardware APIs
-  url: https://papers.apievangelist.com/papers/state-of-compute-hardware-apis/
+  url: https://reports.apievangelist.com/reports/state-of-compute-hardware-apis/
   note: "Tens of billions in subsidy conditioned on where fabs are built, and not one clause about what any of them publish."
 name: CHIPS and Science Act
 kind: statute

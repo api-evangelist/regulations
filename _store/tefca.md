@@ -1,10 +1,10 @@
 ---
 papers:
 - title: The State of Digital Health APIs
-  url: https://papers.apievangelist.com/papers/state-of-digital-health-apis/
+  url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
   note: "A framework for network-to-network exchange, in a market where the discovery document the standard defines is fetched for ten companies."
 - title: The State of US Healthcare APIs
-  url: https://papers.apievangelist.com/papers/state-of-us-healthcare-apis/
+  url: https://reports.apievangelist.com/reports/state-of-us-healthcare-apis/
   note: The nationwide exchange framework that sits above the point-to-point FHIR APIs the reports score.
 standards:
 - title: HL7 FHIR

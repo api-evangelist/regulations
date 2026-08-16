@@ -5,13 +5,13 @@ headers:
   observable: edge
 papers:
 - title: The State of Compute & Hardware APIs
-  url: https://papers.apievangelist.com/papers/state-of-compute-hardware-apis/
+  url: https://reports.apievangelist.com/reports/state-of-compute-hardware-apis/
   note: "The first regulation in hardware's history requiring an ongoing structured data flow from manufacturer to customer — read against the RoHS precedent, where the same industry answered a per-part data mandate with spreadsheets."
 - title: The OpenAPI Standard
-  url: https://papers.apievangelist.com/papers/the-openapi-standard/
+  url: https://reports.apievangelist.com/reports/the-openapi-standard/
   note: "An OpenAPI document is increasingly the machine-readable inventory the CRA's SBOM and disclosure obligations get satisfied against."
 - title: The State of Cybersecurity APIs
-  url: https://papers.apievangelist.com/papers/state-of-cybersecurity-apis/
+  url: https://reports.apievangelist.com/reports/state-of-cybersecurity-apis/
   note: "The regime that turns a missing vulnerability disclosure policy from an irony into an obligation — 72% of the cybersecurity industry publishes none."
 name: EU Cyber Resilience Act
 kind: statute

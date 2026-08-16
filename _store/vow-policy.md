@@ -1,7 +1,7 @@
 ---
 papers:
 - title: The State of US Real Estate APIs
-  url: https://papers.apievangelist.com/papers/state-of-us-real-estate-apis/
+  url: https://reports.apievangelist.com/reports/state-of-us-real-estate-apis/
   note: "The authenticated-consumer counterpart to IDX, carrying richer data behind a registration and broker-relationship requirement — a second private access tier a machine cannot enter."
 name: VOW
 slug: vow-policy

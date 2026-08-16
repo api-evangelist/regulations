@@ -22,7 +22,7 @@ common:
   url: https://health.ec.europa.eu/medical-devices-topics-interest/new-regulations_en
 papers:
 - title: The State of Biotechnology APIs
-  url: https://papers.apievangelist.com/papers/state-of-biotechnology-apis/
+  url: https://reports.apievangelist.com/reports/state-of-biotechnology-apis/
   note: Named by 2 of 999 companies — the regulation that turns a diagnostic algorithm behind an API into
     a certified medical device, and which almost no one in this market has yet written down.
 ---
