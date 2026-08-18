@@ -68,6 +68,7 @@ precisionBasis:
 - 'acronym-shape -10: shortest bare needle is 5 characters'
 - 'collision -25: a surviving needle is also claimed by standards:HIPAA'
 - 'bare-channel -21: 93% of matching companies were reached only on the bare word (210 bare vs 15 phrase)'
+precisionRecognition: 69
 ---
 
 **HIPAA** is the law that makes consent the moral center of US healthcare, and it is the reason the patient-directed API is more than a nice idea. Its Privacy Rule sets when protected health information may move and gives patients a right of access to their own records; its Security Rule requires real safeguards on electronic PHI. Together they are the baseline every healthcare API in the country operates under.

@@ -84,6 +84,7 @@ precisionBasis:
 - 'acronym-shape -20: shortest bare needle is 4 characters'
 - 'collision -25: a surviving needle is also claimed by standards:GDPR'
 - 'bare-channel -19: 90% of matching companies were reached only on the bare word (278 bare vs 32 phrase)'
+precisionRecognition: 61
 ---
 
 The **General Data Protection Regulation (GDPR)** is the privacy law that sits underneath open banking rather than beside it. Open banking moves personal financial data between parties; GDPR (and the retained UK GDPR) governs whether that movement is lawful — the consent, the lawful basis, the minimization, and the individual's right to port their data.

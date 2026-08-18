@@ -49,6 +49,7 @@ precision: 75
 precisionGrade: medium
 precisionBasis:
 - 'collision -25: a surviving needle is also claimed by standards:IATA NDC'
+precisionRecognition: 100
 ---
 
 **This is not a law**, and unlike [NAR Policy Statement 7.90](https://regulations.apievangelist.com/store/nar-policy-statement-790/) it is not

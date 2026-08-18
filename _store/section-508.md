@@ -48,6 +48,7 @@ precision: 75
 precisionGrade: medium
 precisionBasis:
 - 'collision -25: a surviving needle is also claimed by standards:Accessibility Standards'
+precisionRecognition: 100
 ---
 
 **Section 508** works through purchasing. An agency or institution subject to it cannot buy software that fails the standard, which turns accessibility from an ethical position into a procurement gate — and makes the vendor's accessibility conformance report a document salespeople carry to every education deal in the United States.

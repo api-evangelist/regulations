@@ -32,17 +32,20 @@ alternativeNames:
 - UN R156
 - CSMS
 - SUMS
-companyCount: 64
+companyCount: null
 companyCountQuarter: q3-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
-precision: 67
-precisionGrade: medium
+precision: 0
+precisionGrade: unmeasurable
 precisionBasis:
-- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
-  the corpus frequency table'
-- 'bare-channel -23: 97% of matching companies were reached only on the bare word (67 bare vs 2 phrase)'
+- 'human verdict: WITHHELD for q3-2026. Its 64 companies came almost entirely from the `CSMS` alias, which
+  in this corpus is Customer Success Managers at Salesforce (all 12 of its matches — "a high-performing
+  team of Customer Success Managers (CSMs)") and Community Sales Managers elsewhere. The qualified phrase
+  "cyber security management system" matched ZERO corpora in a 60-company sample. Found by reading a rebuilt
+  profile report, where WP.29 ranked as Salesforce''s third-most-named regulation. `csms` is now stoplisted,
+  so the NEXT corpus run will measure this honestly on "unece wp 29" and "wp 29"; this quarter is withheld.'
 ---
 
 **R155 and R156** are the first regulations to make software *governance* a condition of selling a vehicle. Not the software itself — the management system around it: how vulnerabilities are handled, how updates are validated and delivered, how the whole arrangement is audited.

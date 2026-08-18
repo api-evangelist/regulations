@@ -56,6 +56,7 @@ precisionBasis:
 - 'acronym-shape -20: shortest bare needle is 4 characters'
 - 'collision -25: a surviving needle is also claimed by standards:CCPA'
 - 'bare-channel -8: 73% of matching companies were reached only on the bare word (132 bare vs 49 phrase)'
+precisionRecognition: 72
 ---
 
 **CCPA and CPRA** are the closest the United States has to a general privacy law, and they arrived state-first rather than federally. What makes them interesting for API operations is less the rights themselves than their machine-readable edges: a required response to the Global Privacy Control signal, a public data-broker registry, and deletion and opt-out obligations that have to propagate to every downstream recipient of the data.
