@@ -57,7 +57,7 @@ common:
   url: https://www.hhs.gov/ocr/index.html
 url: https://www.hhs.gov/hipaa/
 yearCreated: 1996
-companyCount: 210
+companyCount: 212
 companyCountQuarter: q3-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
@@ -67,7 +67,7 @@ precisionGrade: low
 precisionBasis:
 - 'acronym-shape -10: shortest bare needle is 5 characters'
 - 'collision -25: a surviving needle is also claimed by standards:HIPAA'
-- 'bare-channel -21: 93% of matching companies were reached only on the bare word (210 bare vs 15 phrase)'
+- 'bare-channel -21: 93% of matching companies were reached only on the bare word (212 bare vs 15 phrase)'
 precisionRecognition: 69
 ---
 

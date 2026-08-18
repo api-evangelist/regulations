@@ -73,18 +73,18 @@ alternativeNames:
 - General Data Protection Regulation
 - Regulation (EU) 2016/679
 - UK GDPR
-companyCount: 295
+companyCount: 297
 companyCountQuarter: q3-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
-precision: 36
+precision: 37
 precisionGrade: low
 precisionBasis:
 - 'acronym-shape -20: shortest bare needle is 4 characters'
 - 'collision -25: a surviving needle is also claimed by standards:GDPR'
-- 'bare-channel -19: 90% of matching companies were reached only on the bare word (278 bare vs 32 phrase)'
-precisionRecognition: 61
+- 'bare-channel -18: 89% of matching companies were reached only on the bare word (279 bare vs 33 phrase)'
+precisionRecognition: 62
 ---
 
 The **General Data Protection Regulation (GDPR)** is the privacy law that sits underneath open banking rather than beside it. Open banking moves personal financial data between parties; GDPR (and the retained UK GDPR) governs whether that movement is lawful — the consent, the lawful basis, the minimization, and the individual's right to port their data.

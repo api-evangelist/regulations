@@ -35,7 +35,7 @@ alternativeNames:
 - SOX
 - Sarbanes-Oxley Act of 2002
 - Public Company Accounting Reform Act
-companyCount: 498
+companyCount: 500
 companyCountQuarter: q3-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text

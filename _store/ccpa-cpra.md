@@ -45,7 +45,7 @@ alternativeNames:
 - CPRA
 - California Consumer Privacy Act
 - California Privacy Rights Act
-companyCount: 171
+companyCount: 172
 companyCountQuarter: q3-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
@@ -55,7 +55,7 @@ precisionGrade: low
 precisionBasis:
 - 'acronym-shape -20: shortest bare needle is 4 characters'
 - 'collision -25: a surviving needle is also claimed by standards:CCPA'
-- 'bare-channel -8: 73% of matching companies were reached only on the bare word (132 bare vs 49 phrase)'
+- 'bare-channel -8: 73% of matching companies were reached only on the bare word (132 bare vs 50 phrase)'
 precisionRecognition: 72
 ---
 
