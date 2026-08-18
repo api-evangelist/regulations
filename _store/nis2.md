@@ -9,25 +9,33 @@ headers:
 papers:
 - title: The State of Blockchain & Crypto APIs
   url: https://reports.apievangelist.com/reports/state-of-blockchain-crypto-apis/
-  note: "Security obligations reaching digital-asset infrastructure operators."
+  note: Security obligations reaching digital-asset infrastructure operators.
 - title: The State of Data & Analytics APIs
   url: https://reports.apievangelist.com/reports/state-of-data-analytics-apis/
-  note: "Where a data platform is critical infrastructure for a regulated customer."
+  note: Where a data platform is critical infrastructure for a regulated customer.
 - title: The State of Developer Tools APIs
   url: https://reports.apievangelist.com/reports/state-of-developer-tools-apis/
-  note: "Reaches developer-tools vendors through the supply-chain duty: a regulated customer must account for its suppliers' posture and will ask for evidence."
+  note: 'Reaches developer-tools vendors through the supply-chain duty: a regulated customer must account
+    for its suppliers'' posture and will ask for evidence.'
 - title: The AsyncAPI Standard
   url: https://reports.apievangelist.com/reports/the-asyncapi-standard/
-  note: "The 24-hour incident clock mandates the event and not its description; no regime anywhere requires an event surface to be machine-readable."
+  note: The 24-hour incident clock mandates the event and not its description; no regime anywhere requires
+    an event surface to be machine-readable.
 - title: The State of Cybersecurity APIs
   url: https://reports.apievangelist.com/reports/state-of-cybersecurity-apis/
-  note: "Puts security operations on a 24-hour reporting clock, in an industry where operational transparency averages 21.8 and a quarter of companies publish nothing operational at all."
+  note: Puts security operations on a 24-hour reporting clock, in an industry where operational transparency
+    averages 21.8 and a quarter of companies publish nothing operational at all.
 name: NIS2
 kind: directive
 jurisdiction: European Union
 slug: nis2
 title: NIS2 Directive (Network and Information Security)
-description: "NIS2 is the EU's second-generation network and information security directive, widening the scope of regulated 'essential' and 'important' entities across eighteen sectors, imposing baseline risk-management measures, holding management personally accountable, and putting incident reporting on a strict clock — an early warning within 24 hours, an incident notification within 72, and a final report within a month. It regulates how organizations run security, not how they expose it, but its reporting clock is only survivable with the operational instrumentation an API contract can carry."
+description: NIS2 is the EU's second-generation network and information security directive, widening the
+  scope of regulated 'essential' and 'important' entities across eighteen sectors, imposing baseline risk-management
+  measures, holding management personally accountable, and putting incident reporting on a strict clock
+  — an early warning within 24 hours, an incident notification within 72, and a final report within a
+  month. It regulates how organizations run security, not how they expose it, but its reporting clock
+  is only survivable with the operational instrumentation an API contract can carry.
 tags:
 - Cybersecurity
 - Incident Reporting
@@ -46,7 +54,17 @@ alternativeNames:
 - NIS2 Directive
 - Directive (EU) 2022/2555
 - Network and Information Security Directive 2
-jurisdiction: European Union
+companyCount: 33
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 69
+precisionGrade: medium
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
+- 'bare-channel -21: 94% of matching companies were reached only on the bare word (31 bare vs 2 phrase)'
 ---
 
 **NIS2** replaced the original NIS Directive and substantially widened who is covered — energy, transport, banking, health, digital infrastructure, ICT service management, public administration, space, postal services, waste, chemicals, food, manufacturing, digital providers and research, split into *essential* and *important* entities with different supervisory regimes.

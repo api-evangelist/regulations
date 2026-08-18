@@ -2,7 +2,8 @@
 papers:
 - title: The State of Digital Health APIs
   url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: "Provincial privacy law with no national access layer behind it — the Canadian shape, seen from the global cut."
+  note: Provincial privacy law with no national access layer behind it — the Canadian shape, seen from
+    the global cut.
 - title: The State of Canadian Healthcare APIs
   url: https://reports.apievangelist.com/reports/state-of-canadian-healthcare-apis/
   note: The health-specific privacy regime governing the province-fragmented Canadian market the report
@@ -36,6 +37,16 @@ regulations:
 - title: PIPEDA
   url: https://regulations.apievangelist.com/store/pipeda/
   note: PHIPA is Ontario's health-sector-specific counterpart to the federal PIPEDA.
+companyCount: 2
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 95
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -5: shortest bare needle is 5 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 **PHIPA** is Ontario's health-privacy law, and the most prominent example of a structural fact about Canadian healthcare: it is regulated province by province, not nationally. PHIPA governs how health information custodians handle personal health information and gives patients rights of access and correction, sitting alongside the federal PIPEDA and a patchwork of other provincial regimes.

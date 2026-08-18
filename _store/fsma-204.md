@@ -2,13 +2,15 @@
 papers:
 - title: The State of Supply Chain APIs
   url: https://reports.apievangelist.com/reports/state-of-supply-chain-apis/
-  note: "A 24-hour traceability obligation that specifies records and a sortable spreadsheet — not an endpoint."
+  note: A 24-hour traceability obligation that specifies records and a sortable spreadsheet — not an endpoint.
 name: FSMA Section 204 Food Traceability Rule
 kind: regulation
 jurisdiction: United States
 slug: fsma-204
 title: FSMA Section 204 Food Traceability Rule
-description: The FDA rule implementing Section 204 of the Food Safety Modernization Act, requiring persons who manufacture, process, pack or hold foods on the Food Traceability List to keep key data elements for critical tracking events and to provide them to the FDA within 24 hours of a request.
+description: The FDA rule implementing Section 204 of the Food Safety Modernization Act, requiring persons
+  who manufacture, process, pack or hold foods on the Food Traceability List to keep key data elements
+  for critical tracking events and to provide them to the FDA within 24 hours of a request.
 tags:
 - Supply Chain
 - Food Safety
@@ -24,6 +26,15 @@ alternativeNames:
 - FSMA 204
 - Food Traceability Final Rule
 - FSMA Rule 204(d)
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 The **FSMA Section 204** rule is the FDA's answer to outbreak investigations that used to take weeks.

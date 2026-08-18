@@ -2,16 +2,16 @@
 papers:
 - title: The State of UK Travel APIs
   url: https://reports.apievangelist.com/reports/state-of-uk-travel-apis/
-  note: "The nearest instrument that could reach interoperability in travel intermediation — untested there, in a market where a British GDS publishes twenty-seven points below its American counterpart."
+  note: The nearest instrument that could reach interoperability in travel intermediation — untested there,
+    in a market where a British GDS publishes twenty-seven points below its American counterpart.
 name: DMCC Act 2024
 slug: dmcca-2024
 title: Digital Markets, Competition and Consumers Act 2024
 kind: statute
 jurisdiction: United Kingdom
-description: >-
-  The DMCC Act gives the Competition and Markets Authority a standing digital-markets regime. The CMA
-  may designate a firm as holding Strategic Market Status in a digital activity and then impose tailored
-  conduct requirements and pro-competition interventions on it — including, in principle, obligations
+description: The DMCC Act gives the Competition and Markets Authority a standing digital-markets regime.
+  The CMA may designate a firm as holding Strategic Market Status in a digital activity and then impose
+  tailored conduct requirements and pro-competition interventions on it — including, in principle, obligations
   around interoperability and data access. It also modernises UK consumer-protection enforcement.
 tags:
 - United Kingdom
@@ -31,6 +31,16 @@ alternativeNames:
 - Digital Markets Competition and Consumers Act
 - Strategic Market Status
 - SMS regime
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 95
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -5: shortest bare needle is 5 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 The DMCC Act is the United Kingdom's answer to the problem that general competition law moves too slowly

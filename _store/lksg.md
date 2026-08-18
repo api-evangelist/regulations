@@ -2,13 +2,17 @@
 papers:
 - title: The State of Supply Chain APIs
   url: https://reports.apievangelist.com/reports/state-of-supply-chain-apis/
-  note: "The first national supply chain due diligence statute, and the one that created the European supplier-risk software category — reporting obligations, not interface obligations."
+  note: The first national supply chain due diligence statute, and the one that created the European supplier-risk
+    software category — reporting obligations, not interface obligations.
 name: German Supply Chain Due Diligence Act
 kind: statute
 jurisdiction: Germany
 slug: lksg
 title: German Supply Chain Due Diligence Act (LkSG)
-description: The Lieferkettensorgfaltspflichtengesetz obliges companies above an employee threshold with a presence in Germany to conduct human rights and environmental due diligence in their own operations and at their direct suppliers, maintain a complaints procedure, and file an annual report with the federal regulator.
+description: The Lieferkettensorgfaltspflichtengesetz obliges companies above an employee threshold with
+  a presence in Germany to conduct human rights and environmental due diligence in their own operations
+  and at their direct suppliers, maintain a complaints procedure, and file an annual report with the federal
+  regulator.
 tags:
 - Supply Chain
 - Human Rights
@@ -24,6 +28,16 @@ alternativeNames:
 - LkSG
 - Lieferkettensorgfaltspflichtengesetz
 - German Supply Chain Act
+companyCount: 1
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 The **Lieferkettensorgfaltspflichtengesetz (LkSG)** came into force in January 2023 and was the first

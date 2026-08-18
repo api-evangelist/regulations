@@ -2,23 +2,25 @@
 papers:
 - title: The State of UK Energy APIs
   url: https://reports.apievangelist.com/reports/state-of-uk-energy-apis/
-  note: "The reason Britain's distribution networks out-publish every mandated market in the study — UK Power Networks and Northern Powergrid both hit 94.2 agent-readiness under a 'presumed open' licence condition, not a consumer data right."
+  note: The reason Britain's distribution networks out-publish every mandated market in the study — UK
+    Power Networks and Northern Powergrid both hit 94.2 agent-readiness under a 'presumed open' licence
+    condition, not a consumer data right.
 standards:
 - title: OpenAPI
   url: https://standards.apievangelist.com/store/openapi/
-  note: "The DNO open-data portals publish OpenAPI 3.0.3 contracts alongside DCAT catalogues to satisfy the guidance."
+  note: The DNO open-data portals publish OpenAPI 3.0.3 contracts alongside DCAT catalogues to satisfy
+    the guidance.
 name: Ofgem Data Best Practice Guidance
 slug: ofgem-data-best-practice
 title: Ofgem Data Best Practice Guidance
 kind: regulator-guidance
 jurisdiction: Great Britain
-description: >-
-  Ofgem's Data Best Practice Guidance sets the data obligations of Great Britain's energy network
-  licensees. Published in November 2021 and applied through licence conditions under the RIIO price
-  controls, its defining principle is that Energy System Data is "presumed open" — a licensee must
-  publish unless it can justify withholding. It is an open-data mandate aimed at network operational
-  data rather than at consumer data, and it is the reason British distribution networks publish better
-  than the utilities of any mandated market studied.
+description: Ofgem's Data Best Practice Guidance sets the data obligations of Great Britain's energy network
+  licensees. Published in November 2021 and applied through licence conditions under the RIIO price controls,
+  its defining principle is that Energy System Data is "presumed open" — a licensee must publish unless
+  it can justify withholding. It is an open-data mandate aimed at network operational data rather than
+  at consumer data, and it is the reason British distribution networks publish better than the utilities
+  of any mandated market studied.
 tags:
 - Energy
 - Open Data
@@ -37,6 +39,16 @@ alternativeNames:
 - DBP
 - RIIO data licence conditions
 - Presumed Open
+companyCount: 3
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 85
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -15: shortest bare needle is 3 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 **Ofgem's Data Best Practice Guidance** is the most under-discussed data mandate in this catalog, and on

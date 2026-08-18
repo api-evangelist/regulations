@@ -6,19 +6,29 @@ headers:
 papers:
 - title: The State of Compute & Hardware APIs
   url: https://reports.apievangelist.com/reports/state-of-compute-hardware-apis/
-  note: "The first regulation in hardware's history requiring an ongoing structured data flow from manufacturer to customer — read against the RoHS precedent, where the same industry answered a per-part data mandate with spreadsheets."
+  note: The first regulation in hardware's history requiring an ongoing structured data flow from manufacturer
+    to customer — read against the RoHS precedent, where the same industry answered a per-part data mandate
+    with spreadsheets.
 - title: The OpenAPI Standard
   url: https://reports.apievangelist.com/reports/the-openapi-standard/
-  note: "An OpenAPI document is increasingly the machine-readable inventory the CRA's SBOM and disclosure obligations get satisfied against."
+  note: An OpenAPI document is increasingly the machine-readable inventory the CRA's SBOM and disclosure
+    obligations get satisfied against.
 - title: The State of Cybersecurity APIs
   url: https://reports.apievangelist.com/reports/state-of-cybersecurity-apis/
-  note: "The regime that turns a missing vulnerability disclosure policy from an irony into an obligation — 72% of the cybersecurity industry publishes none."
+  note: The regime that turns a missing vulnerability disclosure policy from an irony into an obligation
+    — 72% of the cybersecurity industry publishes none.
 name: EU Cyber Resilience Act
 kind: statute
 jurisdiction: European Union
 slug: eu-cyber-resilience-act
 title: EU Cyber Resilience Act (CRA)
-description: "The EU Cyber Resilience Act is the first horizontal law to impose cybersecurity obligations on products with digital elements across their whole lifecycle — secure-by-design and secure-by-default requirements, a mandatory coordinated vulnerability disclosure policy, vulnerability handling and security updates for the support period, an SBOM for the top-level dependencies, and reporting of actively exploited vulnerabilities and severe incidents to ENISA. Unlike the sectoral data mandates, it compels no API; it compels a set of provable processes, several of which are naturally expressed as machine-readable artifacts."
+description: The EU Cyber Resilience Act is the first horizontal law to impose cybersecurity obligations
+  on products with digital elements across their whole lifecycle — secure-by-design and secure-by-default
+  requirements, a mandatory coordinated vulnerability disclosure policy, vulnerability handling and security
+  updates for the support period, an SBOM for the top-level dependencies, and reporting of actively exploited
+  vulnerabilities and severe incidents to ENISA. Unlike the sectoral data mandates, it compels no API;
+  it compels a set of provable processes, several of which are naturally expressed as machine-readable
+  artifacts.
 tags:
 - Cybersecurity
 - Vulnerability Disclosure
@@ -38,7 +48,16 @@ alternativeNames:
 - Cyber Resilience Act
 - CRA
 - Regulation (EU) 2024/2847
-jurisdiction: European Union
+companyCount: null
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 0
+precisionGrade: unmeasurable
+precisionBasis:
+- 'human verdict: `cra` is the Community Reinvestment Act in every sampled banking posting ("assists with
+  CRA donations sponsorships", "the bank s CRA goals"). Stoplisted.'
 ---
 
 The **EU Cyber Resilience Act** does for product security what the AI Act does for AI: it regulates a horizontal property of software rather than a sector, and it attaches duties to whoever places a product with digital elements on the EU market. For an API provider, the important thing is that several of its obligations are not postures — they are artifacts somebody can ask you to produce.

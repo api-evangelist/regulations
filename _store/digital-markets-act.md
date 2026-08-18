@@ -2,20 +2,20 @@
 papers:
 - title: The State of Marketing & Advertising APIs
   url: https://reports.apievangelist.com/reports/state-of-marketing-advertising-apis/
-  note: "Gatekeeper obligations reshaping the advertising platforms this market buys through."
+  note: Gatekeeper obligations reshaping the advertising platforms this market buys through.
 - title: The State of UK Travel APIs
   url: https://reports.apievangelist.com/reports/state-of-uk-travel-apis/
-  note: "The only regime anywhere that has designated a travel intermediary as a gatekeeper — the nearest existing precedent for regulating travel distribution as infrastructure."
+  note: The only regime anywhere that has designated a travel intermediary as a gatekeeper — the nearest
+    existing precedent for regulating travel distribution as infrastructure.
 name: Digital Markets Act
 slug: digital-markets-act
 title: EU Digital Markets Act (DMA)
 kind: statute
 jurisdiction: European Union
-description: >-
-  The Digital Markets Act designates large platforms that act as important gateways between businesses
-  and consumers as "gatekeepers" and imposes ex-ante obligations on them — around self-preferencing,
-  data access and portability, interoperability, and the terms offered to business users. It shifts
-  competition enforcement from litigating abuses after the fact to prohibiting them in advance.
+description: The Digital Markets Act designates large platforms that act as important gateways between
+  businesses and consumers as "gatekeepers" and imposes ex-ante obligations on them — around self-preferencing,
+  data access and portability, interoperability, and the terms offered to business users. It shifts competition
+  enforcement from litigating abuses after the fact to prohibiting them in advance.
 tags:
 - European Union
 - Competition
@@ -34,6 +34,16 @@ alternativeNames:
 - DMA
 - Regulation (EU) 2022/1925
 - gatekeeper regime
+companyCount: null
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 0
+precisionGrade: unmeasurable
+precisionBasis:
+- 'human verdict: `dma` is Direct Memory Access in embedded work ("timers gpio watchdog adc uart DMA")
+  and Dynamic Mechanical Analysis in materials science. Never the EU statute. Stoplisted.'
 ---
 
 The DMA regulates a small number of very large platforms as **infrastructure** rather than as market

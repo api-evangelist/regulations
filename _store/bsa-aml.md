@@ -33,6 +33,18 @@ alternativeNames:
 - AML
 - FinCEN rules
 - Anti-Money Laundering
+companyCount: 148
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 80
+precisionGrade: high
+precisionBasis:
+- 'human verdict: Sampled 150 corpora and confirmed REAL on both needles: "ensuring that the firm is in
+  compliance with applicable kyc cdd and AML rules and regulations", "compliance BSA aml fair lending
+  cecl". `AML` was revoked from Azure Machine Learning rather than stoplisted, so this record keeps it
+  — see _data/alias-overrides.yml.'
 ---
 
 **BSA and the AML rules** are why a crypto exchange asks for a passport. Registering as a money services business brings customer identification, sanctions screening, transaction monitoring, recordkeeping and suspicious activity reporting — a set of obligations that generate enormous volumes of machine-processed data and almost no published interfaces.

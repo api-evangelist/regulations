@@ -2,16 +2,21 @@
 papers:
 - title: The State of Digital Health APIs
   url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: "The regime behind My Health Record, in a market where two rules in the world actually compel a health API and neither is Australian."
+  note: The regime behind My Health Record, in a market where two rules in the world actually compel a
+    health API and neither is Australian.
 - title: The State of Australian Banking APIs
   url: https://reports.apievangelist.com/reports/state-of-australian-banking-apis/
-  note: "The privacy baseline the CDR's consent and data-sharing safeguards sit on top of."
+  note: The privacy baseline the CDR's consent and data-sharing safeguards sit on top of.
 name: Privacy Act 1988
 kind: statute
 jurisdiction: Australia
 slug: australia-privacy-act
 title: Privacy Act 1988 (Australia)
-description: "The Privacy Act 1988 is Australia's principal data-protection law, setting the Australian Privacy Principles that govern how personal information is collected, used, and disclosed. It is the privacy foundation the Consumer Data Right is built on top of — the CDR adds a data-sharing right and its own privacy safeguards, but the Privacy Act is the baseline any Australian financial-data sharing has to respect."
+description: The Privacy Act 1988 is Australia's principal data-protection law, setting the Australian
+  Privacy Principles that govern how personal information is collected, used, and disclosed. It is the
+  privacy foundation the Consumer Data Right is built on top of — the CDR adds a data-sharing right and
+  its own privacy safeguards, but the Privacy Act is the baseline any Australian financial-data sharing
+  has to respect.
 tags:
 - Privacy
 - Data Protection
@@ -29,7 +34,17 @@ alternativeNames:
 - Privacy Act 1988
 - Australian Privacy Principles
 - APPs
-jurisdiction: Australia
+companyCount: null
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 0
+precisionGrade: unmeasurable
+precisionBasis:
+- 'human verdict: `apps` (Australian Privacy Principles) matched 34% of sampled corpora, every one of
+  them ordinary: "web apps", "deploy AI native apps and agents", "manage their apps as they grow". Bare
+  needle stoplisted.'
 ---
 
 The **Privacy Act 1988** is the law that governs personal information in Australia, through the Australian Privacy Principles (APPs). It predates open banking by decades, and the Consumer Data Right was deliberately layered on top of it rather than replacing it.

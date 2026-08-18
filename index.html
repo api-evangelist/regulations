@@ -58,6 +58,32 @@ sub: All Regulations
                         </div>
                     </div>
 
+                    <!-- Sort -->
+                    <div class="col-12 col-md-3">
+                        <select id="sort" class="form-select form-select-sm" onchange="sortRegulations()">
+                            <option value="name">Sort: A&ndash;Z</option>
+                            <option value="demand">Sort: most companies hiring</option>
+                        </select>
+                    </div>
+
+                    <!-- Measured only -->
+                    <div class="col-12 col-md-3">
+                        <div class="form-check form-switch small mb-0">
+                            <input class="form-check-input" type="checkbox" id="measured" onchange="filterStandards()">
+                            <label class="form-check-label text-muted" for="measured">Only measured in hiring</label>
+                        </div>
+                    </div>
+
+
+                    <!-- Precision -->
+                    <div class="col-12 col-md-3">
+                        <select id="precision" class="form-select form-select-sm" onchange="filterStandards()">
+                            <option value="">Any precision</option>
+                            <option value="80">Precision 80+ (unambiguous names)</option>
+                            <option value="60">Precision 60+ (reliable names)</option>
+                            <option value="low">Below 60 (review these)</option>
+                        </select>
+                    </div>
                 </div>
             </div>
         </div>
@@ -69,13 +95,21 @@ sub: All Regulations
             {% for standard in standards %}
             {% if standard.redirect_to %}{% continue %}{% endif %}
             {% assign excerpt = standard.description | strip_html | truncate: 200 %}
-            <div class="post-entry" data-title="{{ standard.name | downcase }}" data-tags="{% for tag in standard.tags %}{{ tag | downcase }},{% endfor %}">
+            {%- comment -%}
+              data-count is the DEMAND signal: how many qualified company job corpora name this
+              regulation. It is deliberately absent (-1) when the regulation has never been
+              measured, so the listing can tell "nobody is hiring for it" apart from "we have not
+              looked" — those are different facts and a bare 0 would merge them.
+            {%- endcomment -%}
+            <div class="post-entry" data-title="{{ standard.name | downcase }}" data-tags="{% for tag in standard.tags %}{{ tag | downcase }},{% endfor %}" data-count="{% if standard.companyCount %}{{ standard.companyCount }}{% elsif standard.companyCount == 0 %}0{% else %}-1{% endif %}" data-precision="{% if standard.precision %}{{ standard.precision }}{% elsif standard.precision == 0 %}0{% else %}-1{% endif %}">
               <div class="post-item d-flex">
                 <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
                   <span class="material-symbols-outlined fs-1 text-emphasis">gavel</span>
                 </div>
                 <div class="flex-grow-1 ms-3">
-                  <h3 class="mb-1"><a href="/store/{{ standard.slug }}">{{ standard.name }}</a></h3>
+                  <h3 class="mb-1"><a href="/store/{{ standard.slug }}">{{ standard.name }}</a>
+                    {% if standard.companyCount %}<span class="badge bg-secondary-subtle text-body-secondary fw-normal align-middle ms-1" style="font-size: 0.7rem;" title="Companies whose job postings name this regulation &mdash; {{ standard.companyCountQuarter }}, from {{ standard.companyCountBasis }}. A hiring-demand signal, not a measure of how widely the regulation applies.">{{ standard.companyCount }} hiring</span>{% endif %}{% if standard.precisionGrade == 'unmeasurable' %}<span class="badge bg-danger-subtle text-danger-emphasis fw-normal align-middle ms-1" style="font-size: 0.7rem;" title="{% for b in standard.precisionBasis %}{{ b }}{% unless forloop.last %} &bull; {% endunless %}{% endfor %}">name unmeasurable</span>{% elsif standard.precision %}<span class="badge bg-secondary-subtle text-body-secondary fw-normal align-middle ms-1" style="font-size: 0.7rem;" title="How trustworthy this name is as a search term in a job-postings corpus &mdash; independent of the hiring count.{% for b in standard.precisionBasis %} &bull; {{ b }}{% endfor %}">precision {{ standard.precision }}</span>{% endif %}
+                  </h3>
                   <p class="text-muted small mb-2">{{ excerpt }}</p>
                   <div class="d-flex flex-wrap align-items-center gap-2">
                     {% for tag in standard.tags %}
@@ -99,6 +133,9 @@ sub: All Regulations
 
     function filterStandards() {
         var query = document.getElementById('search').value.toLowerCase();
+        var measuredOnly = document.getElementById('measured').checked;
+        var precEl = document.getElementById('precision');
+        var precision = precEl ? precEl.value : '';
         var entries = document.querySelectorAll('.post-entry');
         var visible = 0;
 
@@ -107,8 +144,14 @@ sub: All Regulations
             var tags = entry.getAttribute('data-tags');
 
             var matchQuery = !query || title.indexOf(query) !== -1 || tags.indexOf(query) !== -1;
+            // An unscored name (-1) never passes a precision filter: it has not been assessed,
+            // and letting it through "precision 80+" would assert something never measured.
+            var prec = parseInt(entry.getAttribute('data-precision'), 10);
+            var matchPrec = !precision || (precision === 'low' ? (prec >= 0 && prec < 60)
+                                                              : (prec >= parseInt(precision, 10)));
+            var matchMeasured = !measuredOnly || parseInt(entry.getAttribute('data-count'), 10) >= 0;
 
-            if (matchQuery) {
+            if (matchQuery && matchMeasured && matchPrec) {
                 entry.style.display = '';
                 visible++;
             } else {
@@ -117,6 +160,23 @@ sub: All Regulations
         });
 
         document.getElementById('no-results').style.display = visible === 0 ? '' : 'none';
+    }
+
+    // Sort in place. Unmeasured regulations (-1) always sink to the bottom of a demand sort
+    // rather than sitting among the genuine zeros.
+    function sortRegulations() {
+        var mode = document.getElementById('sort').value;
+        var listing = document.getElementById('standard-listing');
+        var entries = Array.prototype.slice.call(listing.querySelectorAll('.post-entry'));
+        entries.sort(function(a, b) {
+            if (mode === 'demand') {
+                var ca = parseInt(a.getAttribute('data-count'), 10);
+                var cb = parseInt(b.getAttribute('data-count'), 10);
+                if (ca !== cb) return cb - ca;
+            }
+            return a.getAttribute('data-title').localeCompare(b.getAttribute('data-title'));
+        });
+        entries.forEach(function(e) { listing.appendChild(e); });
     }
 
     // Enter key triggers filter

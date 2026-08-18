@@ -2,17 +2,21 @@
 papers:
 - title: The State of US Banking APIs
   url: https://reports.apievangelist.com/reports/state-of-us-banking-apis/
-  note: "The statutory hook for the US open-banking effort — the authority behind the CFPB rule the report treats as the market's swing variable."
+  note: The statutory hook for the US open-banking effort — the authority behind the CFPB rule the report
+    treats as the market's swing variable.
 standards:
 - title: FDX
   url: https://standards.apievangelist.com/store/fdx/
-  note: "The industry data-sharing standard the CFPB rule points to as the qualified interface."
+  note: The industry data-sharing standard the CFPB rule points to as the qualified interface.
 name: Dodd-Frank Section 1033
 kind: statute
 jurisdiction: United States
 slug: dodd-frank-1033
 title: Dodd-Frank Act Section 1033
-description: Section 1033 of the 2010 Dodd-Frank Wall Street Reform and Consumer Protection Act gives US consumers a statutory right to access their financial data in a usable electronic form. It is the legal authority under which the Consumer Financial Protection Bureau wrote the Personal Financial Data Rights Rule — the US's belated, and contested, move toward mandated open banking.
+description: Section 1033 of the 2010 Dodd-Frank Wall Street Reform and Consumer Protection Act gives
+  US consumers a statutory right to access their financial data in a usable electronic form. It is the
+  legal authority under which the Consumer Financial Protection Bureau wrote the Personal Financial Data
+  Rights Rule — the US's belated, and contested, move toward mandated open banking.
 tags:
 - Finance
 - Open Banking
@@ -33,7 +37,15 @@ alternativeNames:
 - Section 1033
 - Dodd-Frank 1033
 - 12 U.S.C. 5533
-jurisdiction: United States
+companyCount: 3
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **Section 1033** of the Dodd-Frank Act is the fourteen-year-old statutory seed of US open banking. Buried in the 2010 financial-reform law, it grants consumers a right to access information about their financial products and services in an electronic, usable form — the legal authority that sat mostly dormant until the Consumer Financial Protection Bureau finally used it to write a rule.

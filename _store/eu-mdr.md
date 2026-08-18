@@ -2,7 +2,8 @@
 papers:
 - title: The State of Digital Health APIs
   url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: "Software as a medical device, shaping what a health API is allowed to return across the global cohort."
+  note: Software as a medical device, shaping what a health API is allowed to return across the global
+    cohort.
 - title: The State of Australian Healthcare APIs
   url: https://reports.apievangelist.com/reports/state-of-australian-healthcare-apis/
   note: The device regulation that governs software-as-a-medical-device, including the clinical-AI tools
@@ -36,6 +37,15 @@ regulations:
 - title: GDPR
   url: https://regulations.apievangelist.com/store/gdpr/
   note: MDR sits alongside the GDPR in the EU regulatory stack for health technology.
+companyCount: 4
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **The EU Medical Device Regulation** is the reason a lot of health *software* is now regulated like a medical device. MDR governs safety and performance for devices on the European market, and it deliberately pulls Software as a Medical Device — anything that diagnoses, monitors, or informs a clinical decision — into scope, with CE marking, clinical evaluation, and post-market surveillance.

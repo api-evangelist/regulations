@@ -13,7 +13,8 @@ headers:
 papers:
 - title: The State of Digital Health APIs
   url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: "The payer mandate, read against a compliance floor where 21 of the market's 94 best companies score exactly 30.6 on agent-readiness."
+  note: The payer mandate, read against a compliance floor where 21 of the market's 94 best companies
+    score exactly 30.6 on agent-readiness.
 - title: The State of US Healthcare APIs
   url: https://reports.apievangelist.com/reports/state-of-us-healthcare-apis/
   note: The rule that points electronic prior authorization at the Da Vinci FHIR IGs — the emptiest frontier
@@ -51,6 +52,15 @@ common:
   url: https://www.cms.gov/priorities/key-initiatives/burden-reduction/interoperability/policies-and-technology/interoperability-and-prior-authorization-final-rule-cms-0057-f
 url: https://www.cms.gov/priorities/key-initiatives/burden-reduction/interoperability/policies-and-technology/interoperability-and-prior-authorization-final-rule-cms-0057-f
 yearCreated: 2024
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **The CMS Interoperability and Prior Authorization Rule** — CMS-0057-F — is the regulation aimed at the part of US healthcare the Cures Act mostly left alone: the payers, the claims, and the prior-authorization paperwork. It requires impacted health plans to stand up a family of FHIR APIs, and it does the thing regulators too rarely do — it names the standard.

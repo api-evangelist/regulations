@@ -32,6 +32,15 @@ alternativeNames:
 - 14 CFR Part 107
 - Remote ID
 - 14 CFR Part 89
+companyCount: 17
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **Remote ID is the most interesting rule in robotics for anyone who studies interfaces**, because it does something almost no other safety regime does: it requires a **machine-readable emission** rather than a document. An aircraft must continuously broadcast who it is and where it is, in a defined format, to anyone listening.

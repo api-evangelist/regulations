@@ -2,13 +2,16 @@
 papers:
 - title: The State of Compute & Hardware APIs
   url: https://reports.apievangelist.com/reports/state-of-compute-hardware-apis/
-  note: "Its crisis-monitoring mechanism obliges companies to report supply data to the Commission on request — reporting to the state, not an interface for partners."
+  note: Its crisis-monitoring mechanism obliges companies to report supply data to the Commission on request
+    — reporting to the state, not an interface for partners.
 name: European Chips Act
 kind: regulation
 jurisdiction: European Union
 slug: eu-chips-act
 title: European Chips Act
-description: Regulation (EU) 2023/1781 establishing a framework to strengthen Europe's semiconductor ecosystem — investment in first-of-a-kind facilities, a pilot-line and design infrastructure pillar, and a coordinated crisis-monitoring and response mechanism with information-request powers over the supply chain.
+description: Regulation (EU) 2023/1781 establishing a framework to strengthen Europe's semiconductor ecosystem
+  — investment in first-of-a-kind facilities, a pilot-line and design infrastructure pillar, and a coordinated
+  crisis-monitoring and response mechanism with information-request powers over the supply chain.
 tags:
 - Semiconductors
 - Industrial Policy
@@ -23,6 +26,15 @@ yearCreated: 2023
 alternativeNames:
 - EU Chips Act
 - Regulation (EU) 2023/1781
+companyCount: 1
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 The **European Chips Act** is the EU's answer to the same problem the US CHIPS Act addresses, with

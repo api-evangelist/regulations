@@ -6,14 +6,17 @@ headers:
 papers:
 - title: The State of Canadian Insurance APIs
   url: https://reports.apievangelist.com/reports/state-of-canadian-insurance-apis/
-  note: "The strictest privacy regime in North America sits over a sector where consent is a first-class surface at zero of the market leaders."
+  note: The strictest privacy regime in North America sits over a sector where consent is a first-class
+    surface at zero of the market leaders.
 name: Quebec Law 25
 kind: statute
-jurisdiction: Quebec, Canada
+jurisdiction: Canada (Quebec)
 slug: quebec-law-25
 title: Quebec Law 25 (Act 64)
-description: >-
-  Quebec's Law 25 is the province's modernization of personal-information protection, introducing consent requirements, breach notification, privacy-by-default, automated-decision transparency and a right to data portability. It is widely regarded as the strictest privacy regime in North America and applies to insurers operating in Quebec alongside federal PIPEDA.
+description: Quebec's Law 25 is the province's modernization of personal-information protection, introducing
+  consent requirements, breach notification, privacy-by-default, automated-decision transparency and a
+  right to data portability. It is widely regarded as the strictest privacy regime in North America and
+  applies to insurers operating in Quebec alongside federal PIPEDA.
 tags:
 - Privacy
 - Canada
@@ -33,7 +36,15 @@ alternativeNames:
 - Bill 64
 - Act to modernize legislative provisions as regards the protection of personal information
 - Loi 25
-jurisdiction: Canada (Quebec)
+companyCount: 8
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 Law 25 matters to API practitioners because it contains the two things that most directly shape an

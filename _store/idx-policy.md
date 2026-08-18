@@ -2,18 +2,18 @@
 papers:
 - title: The State of US Real Estate APIs
   url: https://reports.apievangelist.com/reports/state-of-us-real-estate-apis/
-  note: "The agreement a developer must execute to display MLS listings — the access layer that a RESO certification says nothing about, and the reason certified endpoints return 401."
+  note: The agreement a developer must execute to display MLS listings — the access layer that a RESO
+    certification says nothing about, and the reason certified endpoints return 401.
 name: IDX
 slug: idx-policy
 title: Internet Data Exchange (IDX)
 kind: industry-policy
 jurisdiction: United States (trade association / local MLS)
-description: >-
-  Internet Data Exchange is the National Association of REALTORS policy framework, implemented through
-  each local MLS's own rules, that permits participating brokers to display other brokers' listings on
-  their public websites. Access requires an executed IDX agreement with the MLS, broker participation,
-  and compliance with display, attribution and refresh rules. It is the mechanism through which most
-  public US listing data reaches the open web, and it is a contract rather than a statute.
+description: Internet Data Exchange is the National Association of REALTORS policy framework, implemented
+  through each local MLS's own rules, that permits participating brokers to display other brokers' listings
+  on their public websites. Access requires an executed IDX agreement with the MLS, broker participation,
+  and compliance with display, attribution and refresh rules. It is the mechanism through which most public
+  US listing data reaches the open web, and it is a contract rather than a statute.
 tags:
 - Real Estate
 - United States
@@ -29,6 +29,16 @@ alternativeNames:
 - Internet Data Exchange
 - IDX feed
 - IDX agreement
+companyCount: 8
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 85
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -15: shortest bare needle is 3 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 **IDX is a licence, not a law** — and in US residential real estate it is the instrument that actually

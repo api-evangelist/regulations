@@ -33,6 +33,17 @@ alternativeNames:
 - CASL
 - Canada Anti-Spam Legislation
 - Privacy and Electronic Communications Regulations
+companyCount: 22
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 70
+precisionGrade: medium
+precisionBasis:
+- 'human verdict: Measurable, but the CASL and PECR aliases were revoked: they are separate laws in separate
+  jurisdictions. The one sampled CASL hit was unambiguously Canadian ("full compliance with paab asc CASL
+  and health canada requirements") and would have been credited to a US statute.'
 ---
 
 **CAN-SPAM, PECR and CASL** are the rules under the send button. The American version is opt-out: you may email a stranger provided you identify yourself and honour an unsubscribe. The British and Canadian versions are opt-in: consent comes first, and CASL's penalties are severe enough that most senders operate to it globally rather than maintain two systems.

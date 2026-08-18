@@ -26,4 +26,15 @@ papers:
   url: https://reports.apievangelist.com/reports/state-of-biotechnology-apis/
   note: Named by 19 of 999 biotechnology companies — the certification that separates a research result
     from a clinical one, and a distinction almost none of them expose in the API response.
+companyCount: 20
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 74
+precisionGrade: medium
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
+- 'bare-channel -16: 85% of matching companies were reached only on the bare word (17 bare vs 3 phrase)'
 ---

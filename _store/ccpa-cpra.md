@@ -4,9 +4,9 @@ headers:
   basis: mandated
   observable: edge
   standard: global-privacy-control
-  note: 'The strongest case in the entire catalog: a request header that California recognises
-    as a legally binding opt-out signal, with Colorado and Connecticut following through their
-    universal-opt-out lists. Zero providers in the catalog declare it.'
+  note: 'The strongest case in the entire catalog: a request header that California recognises as a legally
+    binding opt-out signal, with Colorado and Connecticut following through their universal-opt-out lists.
+    Zero providers in the catalog declare it.'
 papers:
 - title: The State of Marketing & Advertising APIs
   url: https://reports.apievangelist.com/reports/state-of-marketing-advertising-apis/
@@ -45,6 +45,17 @@ alternativeNames:
 - CPRA
 - California Consumer Privacy Act
 - California Privacy Rights Act
+companyCount: 171
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 47
+precisionGrade: low
+precisionBasis:
+- 'acronym-shape -20: shortest bare needle is 4 characters'
+- 'collision -25: a surviving needle is also claimed by standards:CCPA'
+- 'bare-channel -8: 73% of matching companies were reached only on the bare word (132 bare vs 49 phrase)'
 ---
 
 **CCPA and CPRA** are the closest the United States has to a general privacy law, and they arrived state-first rather than federally. What makes them interesting for API operations is less the rights themselves than their machine-readable edges: a required response to the Global Privacy Control signal, a public data-broker registry, and deletion and opt-out obligations that have to propagate to every downstream recipient of the data.

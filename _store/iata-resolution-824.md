@@ -2,22 +2,23 @@
 papers:
 - title: The State of Australian Travel APIs
   url: https://reports.apievangelist.com/reports/state-of-australian-travel-apis/
-  note: "The gate an agent cannot pass — Virgin Australia's agency terms require IATA or ATIS accreditation and mandate GDS access for BSP sales, at the airline's absolute discretion."
+  note: The gate an agent cannot pass — Virgin Australia's agency terms require IATA or ATIS accreditation
+    and mandate GDS access for BSP sales, at the airline's absolute discretion.
 - title: The State of US Travel APIs
   url: https://reports.apievangelist.com/reports/state-of-us-travel-apis/
-  note: "Across forty organizations researched, only seven are self-serve; thirteen gate behind a commercial agreement and seven more behind accreditation or a licence."
+  note: Across forty organizations researched, only seven are self-serve; thirteen gate behind a commercial
+    agreement and seven more behind accreditation or a licence.
 standards:
 - title: IATA BSP and ARC
   url: https://standards.apievangelist.com/store/iata-bsp/
-  note: "The settlement machinery accreditation under this resolution admits an agency to."
+  note: The settlement machinery accreditation under this resolution admits an agency to.
 name: IATA Resolution 824
 slug: iata-resolution-824
 title: IATA Resolution 824 (Passenger Sales Agency Agreement)
 kind: industry-policy
 jurisdiction: International
-description: >-
-  Resolution 824 establishes the Passenger Sales Agency Agreement — the standard contract between IATA
-  member airlines and accredited travel agencies, and the basis of the accreditation regime that
+description: Resolution 824 establishes the Passenger Sales Agency Agreement — the standard contract between
+  IATA member airlines and accredited travel agencies, and the basis of the accreditation regime that
   determines who may issue airline tickets at all. It is industry rule rather than law, and it is the
   single most binding access control in travel distribution.
 tags:
@@ -37,6 +38,16 @@ alternativeNames:
 - PSAA
 - Passenger Sales Agency Agreement
 - IATA accreditation
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 Resolution 824 is the reason travel is the least agent-reachable sector in the API Evangelist series, and

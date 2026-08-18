@@ -2,17 +2,21 @@
 papers:
 - title: The CAMARA Standard
   url: https://reports.apievangelist.com/reports/the-camara-standard/
-  note: "One of five regimes touching CAMARA's subject matter — and, like the other four, it compels no operator to expose network capability as an API."
+  note: One of five regimes touching CAMARA's subject matter — and, like the other four, it compels no
+    operator to expose network capability as an API.
 - title: The State of Telecom APIs
   url: https://reports.apievangelist.com/reports/state-of-telecom-apis/
-  note: "The FCC publishes real public REST APIs over its own data and out-publishes Deutsche Telekom, Comcast, BT, Vodafone, T-Mobile and AT&T — the regulator beating the regulated, again."
+  note: The FCC publishes real public REST APIs over its own data and out-publishes Deutsche Telekom,
+    Comcast, BT, Vodafone, T-Mobile and AT&T — the regulator beating the regulated, again.
 name: US Communications Act
 kind: statute
 jurisdiction: United States
 slug: us-communications-act
 title: US Communications Act and FCC Authority
-description: >-
-  The Communications Act of 1934, as amended by the Telecommunications Act of 1996, is the statutory basis for US telecommunications regulation and the Federal Communications Commission's authority. It governs spectrum licensing, carrier obligations, interconnection, universal service and customer proprietary network information (CPNI) — and requires no carrier to expose a network API to anybody.
+description: The Communications Act of 1934, as amended by the Telecommunications Act of 1996, is the
+  statutory basis for US telecommunications regulation and the Federal Communications Commission's authority.
+  It governs spectrum licensing, carrier obligations, interconnection, universal service and customer
+  proprietary network information (CPNI) — and requires no carrier to expose a network API to anybody.
 tags:
 - Telecommunications
 - United States
@@ -32,7 +36,17 @@ alternativeNames:
 - FCC
 - Federal Communications Commission
 - CPNI
-jurisdiction: United States
+companyCount: 88
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 63
+precisionGrade: medium
+precisionBasis:
+- 'acronym-shape -15: shortest bare needle is 3 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
+- 'bare-channel -22: 94% of matching companies were reached only on the bare word (85 bare vs 5 phrase)'
 ---
 
 US telecom regulation is extensive and old, and none of it points at the thing this research measures.

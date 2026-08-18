@@ -2,18 +2,18 @@
 papers:
 - title: The State of UK Energy APIs
   url: https://reports.apievangelist.com/reports/state-of-uk-energy-apis/
-  note: "What Britain mandated INSTEAD of a consumer data right — 18 UK organizations carry a live verified mandate, more than Australia's 14, and only four publish a consumer-data API."
+  note: What Britain mandated INSTEAD of a consumer data right — 18 UK organizations carry a live verified
+    mandate, more than Australia's 14, and only four publish a consumer-data API.
 name: Smart Energy Code
 slug: uk-smart-energy-code
 title: Smart Energy Code (Smart DCC)
 kind: regulator-guidance
 jurisdiction: Great Britain
-description: >-
-  The Smart Energy Code is the multiparty contract governing Great Britain's smart-metering
-  infrastructure. It binds energy suppliers, network operators and other parties to a common set of
-  technical and operational rules, and licenses the Data Communications Company (DCC) as the monopoly
-  operator carrying smart-meter traffic under the DUIS, GBCS, SMETS2 and SMKI specifications. It is an
-  infrastructure mandate, not a consumer data right.
+description: The Smart Energy Code is the multiparty contract governing Great Britain's smart-metering
+  infrastructure. It binds energy suppliers, network operators and other parties to a common set of technical
+  and operational rules, and licenses the Data Communications Company (DCC) as the monopoly operator carrying
+  smart-meter traffic under the DUIS, GBCS, SMETS2 and SMKI specifications. It is an infrastructure mandate,
+  not a consumer data right.
 tags:
 - Energy
 - United Kingdom
@@ -35,6 +35,16 @@ alternativeNames:
 - DUIS
 - GBCS
 - SMKI
+companyCount: null
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 0
+precisionGrade: unmeasurable
+precisionBasis:
+- 'human verdict: `sec` is the Securities and Exchange Commission throughout ("big 4 SEC clients", "applies
+  gaap SEC regulations", "gdpr soc2 finra SEC guidelines"), 28% of sampled corpora. Stoplisted.'
 ---
 
 **The Smart Energy Code** is the answer to a question the UK energy report keeps returning to: Britain

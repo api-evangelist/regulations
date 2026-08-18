@@ -34,6 +34,15 @@ yearCreated: 2023
 alternativeNames:
 - Data Act
 - Regulation (EU) 2023/2854
+companyCount: 21
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **The EU Data Act** is the one that points at the API. Most regimes in this catalog tell a company what it may not do with data it holds; the Data Act tells it who else is entitled to reach that data, and requires the means to move between providers. Users of connected products can obtain the data those products generate and direct it to a third party, and cloud providers must support switching without punitive charges or artificial friction.

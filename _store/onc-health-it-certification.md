@@ -4,8 +4,8 @@ headers:
   basis: mandated
   observable: edge
   standard: fhir
-  note: FHIR R4 optimistic locking sits inside the certification criteria — a general-purpose
-    caching header doing concurrency-control duty in a regulated context.
+  note: FHIR R4 optimistic locking sits inside the certification criteria — a general-purpose caching
+    header doing concurrency-control duty in a regulated context.
 - name: if-match
   basis: mandated
   observable: contract
@@ -13,7 +13,8 @@ headers:
 papers:
 - title: The State of Digital Health APIs
   url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: "The clearest evidence in the series that certification predicts publication: certified EHR platforms publish a spec 37.4% of the time against 3.6% for patient-engagement platforms."
+  note: 'The clearest evidence in the series that certification predicts publication: certified EHR platforms
+    publish a spec 37.4% of the time against 3.6% for patient-engagement platforms.'
 - title: The State of US Healthcare APIs
   url: https://reports.apievangelist.com/reports/state-of-us-healthcare-apis/
   note: The certification program whose (g)(10) criterion defines what a compliant EHR FHIR API must actually
@@ -53,6 +54,15 @@ common:
   url: https://www.healthit.gov/curesrule/
 url: https://www.healthit.gov/topic/certification-ehrs/certification-health-it
 yearCreated: 2020
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **The ONC Health IT Certification Program** is where the Cures Act's 'standardized API' promise becomes a concrete checklist. Certification is nominally voluntary, but because it gates participation in federal programs it is effectively mandatory — and its (g)(10) criterion is the precise definition of what a compliant EHR FHIR API has to be.

@@ -4,28 +4,34 @@ headers:
   basis: mandated
   observable: credentialed
   standard: berlin-group-nextgenpsd2
-  note: The certificate in this header is a QWAC issued under eIDAS. One header carrying the
-    join between a payments regime and an identity regime.
+  note: The certificate in this header is a QWAC issued under eIDAS. One header carrying the join between
+    a payments regime and an identity regime.
 papers:
 - title: The State of Blockchain & Crypto APIs
   url: https://reports.apievangelist.com/reports/state-of-blockchain-crypto-apis/
-  note: "Digital identity and wallet infrastructure converging on the key management this market already operates."
+  note: Digital identity and wallet infrastructure converging on the key management this market already
+    operates.
 - title: The State of UK Banking APIs
   url: https://reports.apievangelist.com/reports/state-of-uk-banking-apis/
-  note: "The certificate/identity trust framework behind third-party onboarding across the OBIE and Berlin Group ecosystems."
+  note: The certificate/identity trust framework behind third-party onboarding across the OBIE and Berlin
+    Group ecosystems.
 standards:
 - title: Dynamic Client Registration
   url: https://standards.apievangelist.com/store/dynamic-client-registration/
-  note: "Open-banking DCR requests carry eIDAS software statements/certificates to bind a registration to an accredited identity."
+  note: Open-banking DCR requests carry eIDAS software statements/certificates to bind a registration
+    to an accredited identity.
 - title: Mutual TLS
   url: https://standards.apievangelist.com/store/mtls/
-  note: "eIDAS QWAC certificates are what mutual-TLS presents to prove which licensed third party is connecting."
+  note: eIDAS QWAC certificates are what mutual-TLS presents to prove which licensed third party is connecting.
 name: eIDAS
 kind: statute
 jurisdiction: European Union
 slug: eidas
 title: eIDAS Regulation (Electronic Identification and Trust Services)
-description: "eIDAS is the EU regulation governing electronic identification and trust services — including the qualified website (QWAC) and seal (QSEAL) certificates that identify regulated third parties in open banking. It provides the pan-European identity and certificate framework that PSD2's access-to-account model relies on, so a bank can cryptographically verify which licensed provider is calling its APIs."
+description: eIDAS is the EU regulation governing electronic identification and trust services — including
+  the qualified website (QWAC) and seal (QSEAL) certificates that identify regulated third parties in
+  open banking. It provides the pan-European identity and certificate framework that PSD2's access-to-account
+  model relies on, so a bank can cryptographically verify which licensed provider is calling its APIs.
 tags:
 - Identity
 - Security
@@ -46,7 +52,16 @@ alternativeNames:
 - QWAC
 - QSEAL
 - eIDAS 2.0
-jurisdiction: European Union
+companyCount: 4
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 **eIDAS** — the EU's Electronic Identification, Authentication and Trust Services regulation — is the identity layer that European open banking quietly runs on. When a third party calls a bank's PSD2 API, the bank has to know *which* licensed provider is on the other end; eIDAS provides the qualified certificates (QWAC for the transport, QSEAL for the seals) that answer that question cryptographically.

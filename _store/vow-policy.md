@@ -2,18 +2,18 @@
 papers:
 - title: The State of US Real Estate APIs
   url: https://reports.apievangelist.com/reports/state-of-us-real-estate-apis/
-  note: "The authenticated-consumer counterpart to IDX, carrying richer data behind a registration and broker-relationship requirement — a second private access tier a machine cannot enter."
+  note: The authenticated-consumer counterpart to IDX, carrying richer data behind a registration and
+    broker-relationship requirement — a second private access tier a machine cannot enter.
 name: VOW
 slug: vow-policy
 title: Virtual Office Website (VOW)
 kind: industry-policy
 jurisdiction: United States (trade association / local MLS)
-description: >-
-  A Virtual Office Website is the National Association of REALTORS policy framework permitting a broker to
-  provide MLS listing data to consumers who have registered and established a broker-consumer relationship.
-  VOW access typically carries more data than IDX — including some sold and historical information — in
-  exchange for authentication, a broker relationship, and stricter terms of use. Like IDX, it is a private
-  agreement rather than a statute.
+description: A Virtual Office Website is the National Association of REALTORS policy framework permitting
+  a broker to provide MLS listing data to consumers who have registered and established a broker-consumer
+  relationship. VOW access typically carries more data than IDX — including some sold and historical information
+  — in exchange for authentication, a broker relationship, and stricter terms of use. Like IDX, it is
+  a private agreement rather than a statute.
 tags:
 - Real Estate
 - United States
@@ -30,6 +30,16 @@ alternativeNames:
 - Virtual Office Website
 - VOW policy
 - VOW feed
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 85
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -15: shortest bare needle is 3 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 **VOW** is the authenticated tier of American listing access, and it emerged from a genuine antitrust fight

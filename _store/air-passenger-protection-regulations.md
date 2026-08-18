@@ -2,15 +2,15 @@
 papers:
 - title: The State of Canadian Travel APIs
   url: https://reports.apievangelist.com/reports/state-of-canadian-travel-apis/
-  note: "Statutory compensation and communication duties for delays and cancellations, in a market where zero of nine organizations publish an idempotency mechanism and only two publish an event contract."
+  note: Statutory compensation and communication duties for delays and cancellations, in a market where
+    zero of nine organizations publish an idempotency mechanism and only two publish an event contract.
 name: Air Passenger Protection Regulations
 slug: air-passenger-protection-regulations
 title: Air Passenger Protection Regulations (APPR)
 kind: statute
 jurisdiction: Canada
-description: >-
-  The Air Passenger Protection Regulations set out what Canadian air carriers owe passengers when a
-  flight is delayed, cancelled or oversold — compensation tiers, rebooking duties, standards of
+description: The Air Passenger Protection Regulations set out what Canadian air carriers owe passengers
+  when a flight is delayed, cancelled or oversold — compensation tiers, rebooking duties, standards of
   treatment, and obligations to communicate the reason for a disruption and its status. Administered by
   the Canadian Transportation Agency and progressively tightened since taking effect in 2019.
 tags:
@@ -30,6 +30,17 @@ alternativeNames:
 - APPR
 - SOR/2019-150
 - Canadian passenger rights
+companyCount: 90
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 65
+precisionGrade: medium
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
+- 'bare-channel -25: 100% of matching companies were reached only on the bare word (93 bare vs 0 phrase)'
 ---
 
 The APPR turned Canadian air passenger rights from airline policy into statutory obligation. Carriers

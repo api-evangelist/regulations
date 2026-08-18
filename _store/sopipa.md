@@ -31,6 +31,15 @@ alternativeNames:
 - Student Online Personal Information Protection Act
 - SB 1177
 - state student privacy laws
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **SOPIPA** shifted the obligation. FERPA governs the institution and reaches vendors through contract; SOPIPA binds the **operator** of the service directly, regardless of what the contract says. That change — plus adoption in some form by a majority of US states — is why student data is one of the more tightly constrained categories in American privacy law.

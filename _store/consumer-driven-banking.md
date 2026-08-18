@@ -2,16 +2,21 @@
 papers:
 - title: The State of Canadian Insurance APIs
   url: https://reports.apievangelist.com/reports/state-of-canadian-insurance-apis/
-  note: "Canada's open-banking framework scoped insurance out from the start, which is why Canadian insurance is the lowest-scoring market of the four and has no forcing function in sight."
+  note: Canada's open-banking framework scoped insurance out from the start, which is why Canadian insurance
+    is the lowest-scoring market of the four and has no forcing function in sight.
 - title: The State of Canadian Banking APIs
   url: https://reports.apievangelist.com/reports/state-of-canadian-banking-apis/
-  note: "The legislated-but-not-live framework that explains why Canada is the emptiest banking market scored — the mandate that hasn't yet arrived."
+  note: The legislated-but-not-live framework that explains why Canada is the emptiest banking market
+    scored — the mandate that hasn't yet arrived.
 name: Consumer-Driven Banking Framework
 kind: statute
 jurisdiction: Canada
 slug: consumer-driven-banking
 title: Canada's Consumer-Driven Banking Framework
-description: Canada's Consumer-Driven Banking framework is the federal open-banking regime legislated in the 2024 budget and fall economic statement, with the Financial Consumer Agency of Canada named as overseer. As of writing it is on the books but not operational — a mandate legislated but not yet live — which is why Canadian banking remains, for now, a voluntary and aggregator-mediated market.
+description: Canada's Consumer-Driven Banking framework is the federal open-banking regime legislated
+  in the 2024 budget and fall economic statement, with the Financial Consumer Agency of Canada named as
+  overseer. As of writing it is on the books but not operational — a mandate legislated but not yet live
+  — which is why Canadian banking remains, for now, a voluntary and aggregator-mediated market.
 tags:
 - Finance
 - Open Banking
@@ -29,7 +34,15 @@ alternativeNames:
 - Consumer-Driven Banking
 - Open Banking Canada
 - Consumer-Driven Banking Act
-jurisdiction: Canada
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 Canada's **Consumer-Driven Banking framework** is what open banking looks like the moment before it exists. Legislated through the 2024 federal budget and fall economic statement, with the Financial Consumer Agency of Canada named as overseer, it is on the books — and not operational. There is no standard to conform to, no registry, no go-live date in force.

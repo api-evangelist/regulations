@@ -2,7 +2,8 @@
 papers:
 - title: The State of Digital Health APIs
   url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: "Breach notification and enforcement behind HIPAA, in a market where eleven of the 94 leaders reference a security.txt."
+  note: Breach notification and enforcement behind HIPAA, in a market where eleven of the 94 leaders reference
+    a security.txt.
 - title: The State of US Healthcare APIs
   url: https://reports.apievangelist.com/reports/state-of-us-healthcare-apis/
   note: The act that strengthened HIPAA and funded the EHR adoption wave whose interoperability the Cures
@@ -34,6 +35,15 @@ regulations:
 - title: HIPAA
   url: https://regulations.apievangelist.com/store/hipaa/
   note: HITECH strengthened HIPAA's enforcement and added breach notification.
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **The HITECH Act** is the law that made US healthcare digital in the first place. Its Meaningful Use incentives funded the EHR adoption wave of the 2010s, and it sharpened HIPAA's teeth — bigger penalties, direct obligations on business associates, and the breach-notification regime that turned data protection from guidance into consequence.

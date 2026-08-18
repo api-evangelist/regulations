@@ -36,6 +36,16 @@ alternativeNames:
 - Electronic Signatures in Global and National Commerce Act
 - UETA
 - Uniform Electronic Transactions Act
+companyCount: 1
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 **ESIGN and UETA** removed the question of whether an electronic signature counts. What they did not do is specify a format: unlike [eIDAS](https://regulations.apievangelist.com/store/eidas/) in Europe, the American approach is technology-neutral, requiring intent, consent, attribution and a retainable record rather than a particular cryptographic construction.

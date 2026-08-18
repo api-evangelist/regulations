@@ -2,13 +2,16 @@
 papers:
 - title: The State of Supply Chain APIs
   url: https://reports.apievangelist.com/reports/state-of-supply-chain-apis/
-  note: "A due diligence obligation that lands on the report rather than the interface — the mechanism behind an industry that buys reporting software instead of building contracts."
+  note: A due diligence obligation that lands on the report rather than the interface — the mechanism
+    behind an industry that buys reporting software instead of building contracts.
 name: Corporate Sustainability Due Diligence Directive
 kind: directive
 jurisdiction: European Union
 slug: csddd
 title: Corporate Sustainability Due Diligence Directive (CSDDD)
-description: Directive (EU) 2024/1760 requires large companies operating in the EU to identify, prevent, mitigate and account for adverse human rights and environmental impacts across their own operations, their subsidiaries, and their chains of activities — with a transition plan for climate change mitigation.
+description: Directive (EU) 2024/1760 requires large companies operating in the EU to identify, prevent,
+  mitigate and account for adverse human rights and environmental impacts across their own operations,
+  their subsidiaries, and their chains of activities — with a transition plan for climate change mitigation.
 tags:
 - Supply Chain
 - Human Rights
@@ -25,6 +28,16 @@ alternativeNames:
 - CSDDD
 - CS3D
 - Directive (EU) 2024/1760
+companyCount: 4
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 The **Corporate Sustainability Due Diligence Directive** obliges large companies to run a risk-based

@@ -2,17 +2,20 @@
 papers:
 - title: The CAMARA Standard
   url: https://reports.apievangelist.com/reports/the-camara-standard/
-  note: "International telecom framework; imposes no API obligation on the operators building CAMARA."
+  note: International telecom framework; imposes no API obligation on the operators building CAMARA.
 - title: The State of Telecom APIs
   url: https://reports.apievangelist.com/reports/state-of-telecom-apis/
-  note: "The ITU's two machine-readable definitions in this catalog are API Evangelist reconstructions — its own review records verbatim that the ITU has not published, reviewed or endorsed them."
+  note: The ITU's two machine-readable definitions in this catalog are API Evangelist reconstructions
+    — its own review records verbatim that the ITU has not published, reviewed or endorsed them.
 name: ITU Constitution and Radio Regulations
 kind: statute
 jurisdiction: International
 slug: itu-constitution
 title: ITU Constitution and Radio Regulations
-description: >-
-  The International Telecommunication Union is the United Nations agency for information and communication technologies, and its Constitution, Convention and Radio Regulations form the treaty framework governing international spectrum allocation, satellite orbits and numbering. Its ITU-T arm publishes technical recommendations that underpin global interoperability.
+description: The International Telecommunication Union is the United Nations agency for information and
+  communication technologies, and its Constitution, Convention and Radio Regulations form the treaty framework
+  governing international spectrum allocation, satellite orbits and numbering. Its ITU-T arm publishes
+  technical recommendations that underpin global interoperability.
 tags:
 - Telecommunications
 - International
@@ -32,7 +35,16 @@ alternativeNames:
 - Radio Regulations
 - ITU-T
 - ITU-R
-jurisdiction: International
+companyCount: 15
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 85
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -15: shortest bare needle is 3 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 The ITU is the oldest institution in this catalog and operates a layer above national regulators, allocating

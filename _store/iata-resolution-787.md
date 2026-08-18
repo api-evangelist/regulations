@@ -2,21 +2,23 @@
 papers:
 - title: The State of US Travel APIs
   url: https://reports.apievangelist.com/reports/state-of-us-travel-apis/
-  note: "The resolution that created NDC — and a decade on, three of forty travel organizations publish an open standard, none of them an airline, hotel group or GDS."
+  note: The resolution that created NDC — and a decade on, three of forty travel organizations publish
+    an open standard, none of them an airline, hotel group or GDS.
 - title: The State of Australian Travel APIs
   url: https://reports.apievangelist.com/reports/state-of-australian-travel-apis/
-  note: "Qantas is NDC@Scale certified under this resolution and prices the standard as a ladder, with an invitation-only surcharge-free tier."
+  note: Qantas is NDC@Scale certified under this resolution and prices the standard as a ladder, with
+    an invitation-only surcharge-free tier.
 standards:
 - title: IATA NDC
   url: https://standards.apievangelist.com/store/iata-ndc/
-  note: "The XML messaging standard this resolution authorised and the certification programme built on it."
+  note: The XML messaging standard this resolution authorised and the certification programme built on
+    it.
 name: IATA Resolution 787
 slug: iata-resolution-787
 title: IATA Resolution 787 (New Distribution Capability)
 kind: industry-policy
 jurisdiction: International
-description: >-
-  Resolution 787 is the IATA industry resolution, adopted in 2012, that authorised New Distribution
+description: Resolution 787 is the IATA industry resolution, adopted in 2012, that authorised New Distribution
   Capability — the XML messaging standard for airline retailing. It is not law and no regulator enforces
   it. It permits airlines to distribute their own offers directly rather than through the shared fare
   and availability model, and IATA layered a voluntary certification programme on top of it.
@@ -38,6 +40,15 @@ alternativeNames:
 - Resolution 787
 - NDC resolution
 - New Distribution Capability
+companyCount: 3
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 75
+precisionGrade: medium
+precisionBasis:
+- 'collision -25: a surviving needle is also claimed by standards:IATA NDC'
 ---
 
 **This is not a law**, and unlike [NAR Policy Statement 7.90](https://regulations.apievangelist.com/store/nar-policy-statement-790/) it is not

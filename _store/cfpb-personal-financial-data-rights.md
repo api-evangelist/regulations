@@ -2,17 +2,23 @@
 papers:
 - title: The State of US Banking APIs
   url: https://reports.apievangelist.com/reports/state-of-us-banking-apis/
-  note: "The rule the report calls the market's coin-flip — whether it survives decides whether the aggregator-owned rails get pried open."
+  note: The rule the report calls the market's coin-flip — whether it survives decides whether the aggregator-owned
+    rails get pried open.
 standards:
 - title: FDX
   url: https://standards.apievangelist.com/store/fdx/
-  note: "The Financial Data Exchange standard the rule leans on as the recognized interface for compliant data sharing."
+  note: The Financial Data Exchange standard the rule leans on as the recognized interface for compliant
+    data sharing.
 name: CFPB Personal Financial Data Rights Rule
 kind: regulator-guidance
 jurisdiction: United States
 slug: cfpb-personal-financial-data-rights
 title: CFPB Personal Financial Data Rights Rule (1033 Rule)
-description: The Consumer Financial Protection Bureau's Personal Financial Data Rights Rule, finalized in 2024 under Dodd-Frank Section 1033, requires covered financial institutions to make consumer financial data available through a developer interface and points the market toward the FDX standard. It is the US's mandated open-banking rule — and, as of writing, the subject of active legal challenge that leaves its future uncertain.
+description: The Consumer Financial Protection Bureau's Personal Financial Data Rights Rule, finalized
+  in 2024 under Dodd-Frank Section 1033, requires covered financial institutions to make consumer financial
+  data available through a developer interface and points the market toward the FDX standard. It is the
+  US's mandated open-banking rule — and, as of writing, the subject of active legal challenge that leaves
+  its future uncertain.
 tags:
 - Finance
 - Open Banking
@@ -34,7 +40,15 @@ alternativeNames:
 - 1033 Rule
 - Personal Financial Data Rights Rule
 - CFPB Open Banking Rule
-jurisdiction: United States
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 The **CFPB Personal Financial Data Rights Rule** is the regulation that finally tried to turn Dodd-Frank §1033 from a dormant right into an operating mandate. Finalized in 2024, it requires covered institutions to make a consumer's financial data available to authorized third parties through a *developer interface*, and it recognizes industry standards — principally FDX — as the way to do it.

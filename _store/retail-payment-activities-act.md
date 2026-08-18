@@ -2,13 +2,18 @@
 papers:
 - title: The State of Canadian Banking APIs
   url: https://reports.apievangelist.com/reports/state-of-canadian-banking-apis/
-  note: "The payments-supervision regime behind the Canadian rails (Interac, Payments Canada RTR) that outrank the banks in the report."
+  note: The payments-supervision regime behind the Canadian rails (Interac, Payments Canada RTR) that
+    outrank the banks in the report.
 name: Retail Payment Activities Act
 kind: statute
 jurisdiction: Canada
 slug: retail-payment-activities-act
 title: Retail Payment Activities Act (RPAA)
-description: "The Retail Payment Activities Act is Canada's federal law bringing payment service providers under supervision by the Bank of Canada, requiring registration and operational-risk and safeguarding standards for retail payments. It is part of the modernization of Canadian payments — alongside Payments Canada's Real-Time Rail — that forms the infrastructure backdrop to the country's emerging consumer-driven banking regime."
+description: The Retail Payment Activities Act is Canada's federal law bringing payment service providers
+  under supervision by the Bank of Canada, requiring registration and operational-risk and safeguarding
+  standards for retail payments. It is part of the modernization of Canadian payments — alongside Payments
+  Canada's Real-Time Rail — that forms the infrastructure backdrop to the country's emerging consumer-driven
+  banking regime.
 tags:
 - Finance
 - Payments
@@ -25,7 +30,16 @@ yearCreated: 2021
 alternativeNames:
 - RPAA
 - Retail Payment Activities Act
-jurisdiction: Canada
+companyCount: 3
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 The **Retail Payment Activities Act (RPAA)** brings Canada's payment service providers under the supervision of the Bank of Canada, requiring them to register and to meet operational-risk and end-user-fund-safeguarding standards. It is the supervisory half of Canada's payments modernization.

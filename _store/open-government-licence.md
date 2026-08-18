@@ -2,28 +2,32 @@
 papers:
 - title: The State of Canadian Travel APIs
   url: https://reports.apievangelist.com/reports/state-of-canadian-travel-apis/
-  note: "Canada's equivalent licence is why the only unconditionally open organization in Canadian travel is a regulator — Transport Canada serves WMS and CKAN under it with nothing to sign, while VIA Rail's GTFS feed is undercut by site terms that contradict the licence."
+  note: Canada's equivalent licence is why the only unconditionally open organization in Canadian travel
+    is a regulator — Transport Canada serves WMS and CKAN under it with nothing to sign, while VIA Rail's
+    GTFS feed is undercut by site terms that contradict the licence.
 - title: The State of UK Real Estate APIs
   url: https://reports.apievangelist.com/reports/state-of-uk-real-estate-apis/
-  note: "The legal instrument that makes Britain the best-published real estate market in the world — HM Land Registry and Ordnance Survey answer anonymously because of it, and the UK beats the mandated US market 42.8 to 31.2."
+  note: The legal instrument that makes Britain the best-published real estate market in the world — HM
+    Land Registry and Ordnance Survey answer anonymously because of it, and the UK beats the mandated
+    US market 42.8 to 31.2.
 standards:
 - title: UPRN
   url: https://standards.apievangelist.com/store/uprn/
-  note: "OS Open UPRN is published under OGL, which is why the UK's property identifier works as a shared key."
+  note: OS Open UPRN is published under OGL, which is why the UK's property identifier works as a shared
+    key.
 - title: SPARQL
   url: https://standards.apievangelist.com/store/sparql/
-  note: "HM Land Registry serves Price Paid Data and the UK House Price Index as SPARQL under OGL v3.0."
+  note: HM Land Registry serves Price Paid Data and the UK House Price Index as SPARQL under OGL v3.0.
 name: Open Government Licence
 slug: open-government-licence
 title: Open Government Licence (OGL)
 kind: licence
 jurisdiction: United Kingdom
-description: >-
-  The Open Government Licence is the United Kingdom's standard legal instrument for releasing public
-  sector information for reuse. Administered by The National Archives, it grants a worldwide,
-  royalty-free, perpetual right to copy, adapt and commercially exploit licensed data, subject only to
-  attribution. It is the mechanism through which UK government property, mapping and addressing data
-  becomes reachable without a contract.
+description: The Open Government Licence is the United Kingdom's standard legal instrument for releasing
+  public sector information for reuse. Administered by The National Archives, it grants a worldwide, royalty-free,
+  perpetual right to copy, adapt and commercially exploit licensed data, subject only to attribution.
+  It is the mechanism through which UK government property, mapping and addressing data becomes reachable
+  without a contract.
 tags:
 - Open Data
 - Licensing
@@ -41,6 +45,16 @@ alternativeNames:
 - OGL
 - OGL v3.0
 - Open Government Licence for public sector information
+companyCount: 2
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 85
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -15: shortest bare needle is 3 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 The **Open Government Licence** is not an obligation on a regulated party — it is a grant. That makes it

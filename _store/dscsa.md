@@ -2,17 +2,22 @@
 papers:
 - title: The State of Supply Chain APIs
   url: https://reports.apievangelist.com/reports/state-of-supply-chain-apis/
-  note: "The closest any supply chain regime comes to compelling machine-to-machine exchange — and the segment built for it outscores the segments around it."
+  note: The closest any supply chain regime comes to compelling machine-to-machine exchange — and the
+    segment built for it outscores the segments around it.
 standards:
 - title: EPCIS
   url: https://standards.apievangelist.com/store/epcis/
-  note: "The format the pharmaceutical industry converged on to satisfy the interoperable electronic tracing requirement."
+  note: The format the pharmaceutical industry converged on to satisfy the interoperable electronic tracing
+    requirement.
 name: Drug Supply Chain Security Act
 kind: statute
 jurisdiction: United States
 slug: dscsa
 title: Drug Supply Chain Security Act (DSCSA)
-description: Title II of the US Drug Quality and Security Act, requiring an interoperable, electronic, package-level traceability system for prescription drugs across manufacturers, repackagers, wholesale distributors and dispensers, including serialization, verification and the electronic exchange of transaction information.
+description: Title II of the US Drug Quality and Security Act, requiring an interoperable, electronic,
+  package-level traceability system for prescription drugs across manufacturers, repackagers, wholesale
+  distributors and dispensers, including serialization, verification and the electronic exchange of transaction
+  information.
 tags:
 - Supply Chain
 - Healthcare
@@ -29,6 +34,16 @@ yearCreated: 2013
 alternativeNames:
 - DSCSA
 - Drug Quality and Security Act Title II
+companyCount: 8
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 95
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -5: shortest bare needle is 5 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 The **Drug Supply Chain Security Act** phased in over a decade toward a single end state: unit-level

@@ -2,13 +2,16 @@
 papers:
 - title: The State of Compute & Hardware APIs
   url: https://reports.apievangelist.com/reports/state-of-compute-hardware-apis/
-  note: "Tens of billions in subsidy conditioned on where fabs are built, and not one clause about what any of them publish."
+  note: Tens of billions in subsidy conditioned on where fabs are built, and not one clause about what
+    any of them publish.
 name: CHIPS and Science Act
 kind: statute
 jurisdiction: United States
 slug: us-chips-act
 title: US CHIPS and Science Act
-description: US legislation providing approximately $52 billion in subsidies, grants and tax credits for domestic semiconductor manufacturing, research and workforce development, with conditions on recipients covering expansion in countries of concern, stock buybacks and excess-profit sharing.
+description: US legislation providing approximately $52 billion in subsidies, grants and tax credits for
+  domestic semiconductor manufacturing, research and workforce development, with conditions on recipients
+  covering expansion in countries of concern, stock buybacks and excess-profit sharing.
 tags:
 - Semiconductors
 - Industrial Policy
@@ -24,6 +27,15 @@ alternativeNames:
 - CHIPS Act
 - CHIPS and Science Act of 2022
 - Public Law 117-167
+companyCount: 1
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 The **CHIPS and Science Act** is the largest piece of US industrial policy aimed at a single industry

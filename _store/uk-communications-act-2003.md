@@ -2,17 +2,22 @@
 papers:
 - title: The CAMARA Standard
   url: https://reports.apievangelist.com/reports/the-camara-standard/
-  note: "Regulates the UK operators who launched CAMARA KYC commercially on a single day in September 2025 without one of them exposing an endpoint of its own."
+  note: Regulates the UK operators who launched CAMARA KYC commercially on a single day in September 2025
+    without one of them exposing an endpoint of its own.
 - title: The State of Telecom APIs
   url: https://reports.apievangelist.com/reports/state-of-telecom-apis/
-  note: "Ofcom regulates the UK's operators and mandates no network-API exposure — while BT, Vodafone, Virgin Media O2 and Three all launched CAMARA commercially through third-party aggregators rather than their own surfaces."
+  note: Ofcom regulates the UK's operators and mandates no network-API exposure — while BT, Vodafone,
+    Virgin Media O2 and Three all launched CAMARA commercially through third-party aggregators rather
+    than their own surfaces.
 name: UK Communications Act 2003
 kind: statute
 jurisdiction: United Kingdom
 slug: uk-communications-act-2003
 title: UK Communications Act 2003 (Ofcom)
-description: >-
-  The Communications Act 2003 established Ofcom as the United Kingdom's converged regulator for telecommunications, broadcasting and spectrum. It governs licensing, competition, universal service and consumer protection across communications markets, and imposes no obligation on an operator to publish network APIs.
+description: The Communications Act 2003 established Ofcom as the United Kingdom's converged regulator
+  for telecommunications, broadcasting and spectrum. It governs licensing, competition, universal service
+  and consumer protection across communications markets, and imposes no obligation on an operator to publish
+  network APIs.
 tags:
 - Telecommunications
 - United Kingdom
@@ -29,7 +34,16 @@ alternativeNames:
 - Communications Act 2003
 - Ofcom
 - Office of Communications
-jurisdiction: United Kingdom
+companyCount: 4
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 95
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -5: shortest bare needle is 5 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 Ofcom's remit is broad and its API relevance is entirely indirect, which is itself the finding.

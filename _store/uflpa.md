@@ -2,13 +2,16 @@
 papers:
 - title: The State of Supply Chain APIs
   url: https://reports.apievangelist.com/reports/state-of-supply-chain-apis/
-  note: "A rebuttable presumption that puts the evidentiary burden on the importer — and still names no exchange format for the evidence."
+  note: A rebuttable presumption that puts the evidentiary burden on the importer — and still names no
+    exchange format for the evidence.
 name: Uyghur Forced Labor Prevention Act
 kind: statute
 jurisdiction: United States
 slug: uflpa
 title: Uyghur Forced Labor Prevention Act (UFLPA)
-description: US law establishing a rebuttable presumption that any goods mined, produced or manufactured wholly or in part in the Xinjiang Uyghur Autonomous Region, or by entities on an associated list, are made with forced labor and are therefore prohibited from entry into the United States.
+description: US law establishing a rebuttable presumption that any goods mined, produced or manufactured
+  wholly or in part in the Xinjiang Uyghur Autonomous Region, or by entities on an associated list, are
+  made with forced labor and are therefore prohibited from entry into the United States.
 tags:
 - Supply Chain
 - Human Rights
@@ -24,6 +27,16 @@ yearCreated: 2021
 alternativeNames:
 - UFLPA
 - Public Law 117-78
+companyCount: 2
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 95
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -5: shortest bare needle is 5 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 The **Uyghur Forced Labor Prevention Act** inverts the usual burden at the US border. Goods with a

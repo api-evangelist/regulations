@@ -2,16 +2,22 @@
 papers:
 - title: The State of Digital Health APIs
   url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: "Federal privacy law that restricts use without compelling an interface, in the most regulated market in the series."
+  note: Federal privacy law that restricts use without compelling an interface, in the most regulated
+    market in the series.
 - title: The State of Canadian Banking APIs
   url: https://reports.apievangelist.com/reports/state-of-canadian-banking-apis/
-  note: "The existing privacy regime Canada's not-yet-live consumer-driven banking framework is layered on."
+  note: The existing privacy regime Canada's not-yet-live consumer-driven banking framework is layered
+    on.
 name: PIPEDA
 kind: statute
 jurisdiction: Canada
 slug: pipeda
 title: Personal Information Protection and Electronic Documents Act (PIPEDA)
-description: "PIPEDA is Canada's federal private-sector privacy law, governing how organizations collect, use, and disclose personal information in the course of commercial activity. It is the privacy backdrop against which Canada's Consumer-Driven Banking framework is being built — the existing consent-and-data-handling regime that any Canadian financial-data sharing has to work within until, and after, open banking goes live."
+description: PIPEDA is Canada's federal private-sector privacy law, governing how organizations collect,
+  use, and disclose personal information in the course of commercial activity. It is the privacy backdrop
+  against which Canada's Consumer-Driven Banking framework is being built — the existing consent-and-data-handling
+  regime that any Canadian financial-data sharing has to work within until, and after, open banking goes
+  live.
 tags:
 - Privacy
 - Data Protection
@@ -28,7 +34,15 @@ yearCreated: 2000
 alternativeNames:
 - PIPEDA
 - Personal Information Protection and Electronic Documents Act
-jurisdiction: Canada
+companyCount: 18
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 85
+precisionGrade: high
+precisionBasis:
+- 'bare-channel -15: 84% of matching companies were reached only on the bare word (16 bare vs 3 phrase)'
 ---
 
 **PIPEDA** — the Personal Information Protection and Electronic Documents Act — is Canada's federal private-sector privacy law, governing how businesses handle personal information in commercial activity, on a consent-and-reasonable-purposes model.

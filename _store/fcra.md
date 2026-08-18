@@ -2,19 +2,24 @@
 papers:
 - title: The State of Marketing & Advertising APIs
   url: https://reports.apievangelist.com/reports/state-of-marketing-advertising-apis/
-  note: "Where marketing audience data crosses into eligibility decisions."
+  note: Where marketing audience data crosses into eligibility decisions.
 - title: The State of Data & Analytics APIs
   url: https://reports.apievangelist.com/reports/state-of-data-analytics-apis/
-  note: "The line a people-data or B2B-data provider crosses when its output drives an eligibility decision — scored across a 164-company data-provider segment."
+  note: The line a people-data or B2B-data provider crosses when its output drives an eligibility decision
+    — scored across a 164-company data-provider segment.
 - title: The State of US Banking APIs
   url: https://reports.apievangelist.com/reports/state-of-us-banking-apis/
-  note: "A pre-existing US financial-data-access right that frames how §1033 and the CFPB rule extend consumer control over their data."
+  note: A pre-existing US financial-data-access right that frames how §1033 and the CFPB rule extend consumer
+    control over their data.
 name: Fair Credit Reporting Act
 kind: statute
 jurisdiction: United States
 slug: fcra
 title: Fair Credit Reporting Act (FCRA)
-description: "The Fair Credit Reporting Act is the US law governing the collection, use, and sharing of consumer credit information, giving consumers rights to access and dispute their data held by credit reporting agencies. It is a long-standing US financial-data-access right that predates open banking, and part of the legal backdrop the CFPB's Section 1033 rule operates against."
+description: The Fair Credit Reporting Act is the US law governing the collection, use, and sharing of
+  consumer credit information, giving consumers rights to access and dispute their data held by credit
+  reporting agencies. It is a long-standing US financial-data-access right that predates open banking,
+  and part of the legal backdrop the CFPB's Section 1033 rule operates against.
 tags:
 - Finance
 - Privacy
@@ -33,7 +38,17 @@ alternativeNames:
 - FCRA
 - Fair Credit Reporting Act
 - 15 U.S.C. 1681
-jurisdiction: United States
+companyCount: 28
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 87
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
+- 'bare-channel -3: 64% of matching companies were reached only on the bare word (18 bare vs 10 phrase)'
 ---
 
 The **Fair Credit Reporting Act (FCRA)** is one of the oldest US financial-data laws, governing how consumer credit information is collected, used, and shared, and giving consumers a right to access and dispute what credit reporting agencies hold about them.

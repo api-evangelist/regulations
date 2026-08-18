@@ -6,14 +6,17 @@ headers:
 papers:
 - title: The State of Australian Insurance APIs
   url: https://reports.apievangelist.com/reports/state-of-australian-insurance-apis/
-  note: "APRA supervises prudentially and mandates no data exposure — and its own APRA Connect reporting taxonomy is the closest thing Australian insurance has to a published machine-readable standard."
+  note: APRA supervises prudentially and mandates no data exposure — and its own APRA Connect reporting
+    taxonomy is the closest thing Australian insurance has to a published machine-readable standard.
 name: APRA Prudential Standards
 kind: regulator-guidance
 jurisdiction: Australia
 slug: apra-prudential-standards
 title: APRA Prudential Standards (CPS 234 / CPS 230)
-description: >-
-  APRA is Australia's prudential regulator for banks, insurers and superannuation funds, operating through binding Prudential Standards — notably CPS 234 on information security and CPS 230 on operational risk management. It regulates the soundness and resilience of institutions; it does not require any of them to expose data or interfaces to third parties.
+description: APRA is Australia's prudential regulator for banks, insurers and superannuation funds, operating
+  through binding Prudential Standards — notably CPS 234 on information security and CPS 230 on operational
+  risk management. It regulates the soundness and resilience of institutions; it does not require any
+  of them to expose data or interfaces to third parties.
 tags:
 - Insurance
 - Banking
@@ -34,7 +37,17 @@ alternativeNames:
 - CPS 234
 - CPS 230
 - APRA Connect
-jurisdiction: Australia
+companyCount: 17
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 87
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
+- 'bare-channel -3: 65% of matching companies were reached only on the bare word (11 bare vs 6 phrase)'
 ---
 
 APRA is the counterweight to the Consumer Data Right in any honest reading of Australian financial and

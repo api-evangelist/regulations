@@ -2,25 +2,35 @@
 papers:
 - title: The State of Marketing & Advertising APIs
   url: https://reports.apievangelist.com/reports/state-of-marketing-advertising-apis/
-  note: "Transparency where marketing content is generated or a person is profiled by an automated system."
+  note: Transparency where marketing content is generated or a person is profiled by an automated system.
 - title: The State of Data & Analytics APIs
   url: https://reports.apievangelist.com/reports/state-of-data-analytics-apis/
-  note: "Training-data governance, provenance and documentation obligations landing on the data layer that feeds models."
+  note: Training-data governance, provenance and documentation obligations landing on the data layer that
+    feeds models.
 - title: The OpenAPI Standard
   url: https://reports.apievangelist.com/reports/the-openapi-standard/
-  note: "For an API-delivered system the Act's documentation, logging and oversight duties live in the contract or nowhere — and 32.8% of contracts do not even carry a callable address."
+  note: For an API-delivered system the Act's documentation, logging and oversight duties live in the
+    contract or nowhere — and 32.8% of contracts do not even carry a callable address.
 - title: The State of Developer Tools APIs
   url: https://reports.apievangelist.com/reports/state-of-developer-tools-apis/
-  note: "Reaches the growing share of developer tools shipping agentic CI and AIOps — where a tool that acts on production becomes a system whose provider owes documentation, logging and human oversight."
+  note: Reaches the growing share of developer tools shipping agentic CI and AIOps — where a tool that
+    acts on production becomes a system whose provider owes documentation, logging and human oversight.
 - title: The State of Artificial Intelligence APIs
   url: https://reports.apievangelist.com/reports/state-of-artificial-intelligence-apis/
-  note: "The first regime to reach the AI industry, and the reason its 3.9% machine-readable consent coverage is a liability rather than a stylistic gap."
+  note: The first regime to reach the AI industry, and the reason its 3.9% machine-readable consent coverage
+    is a liability rather than a stylistic gap.
 name: EU AI Act
 kind: statute
 jurisdiction: European Union
 slug: eu-ai-act
 title: EU Artificial Intelligence Act
-description: "The EU Artificial Intelligence Act is the world's first comprehensive, horizontal regulation of artificial intelligence — a risk-tiered regime that bans some practices outright, imposes conformity assessment, technical documentation, logging, transparency and human-oversight duties on high-risk systems, and layers separate obligations on general-purpose AI models. Unlike open banking, it compels no API: it regulates what an AI system may do and what its provider must be able to prove, which is why its footprint shows up in an API catalog as consent, audit, logging and disclosure surfaces rather than as endpoints."
+description: 'The EU Artificial Intelligence Act is the world''s first comprehensive, horizontal regulation
+  of artificial intelligence — a risk-tiered regime that bans some practices outright, imposes conformity
+  assessment, technical documentation, logging, transparency and human-oversight duties on high-risk systems,
+  and layers separate obligations on general-purpose AI models. Unlike open banking, it compels no API:
+  it regulates what an AI system may do and what its provider must be able to prove, which is why its
+  footprint shows up in an API catalog as consent, audit, logging and disclosure surfaces rather than
+  as endpoints.'
 tags:
 - Artificial Intelligence
 - Risk Management
@@ -40,7 +50,15 @@ alternativeNames:
 - Artificial Intelligence Act
 - Regulation (EU) 2024/1689
 - AI Act
-jurisdiction: European Union
+companyCount: 59
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 The **EU Artificial Intelligence Act** is the first regime to regulate artificial intelligence horizontally rather than sector by sector, and it arrives at an industry that has almost nothing machine-readable to show it. It sorts AI systems by risk — prohibited practices, high-risk systems carrying the heaviest duties, limited-risk systems owing transparency, and minimal-risk systems left alone — and adds a separate track of obligations for general-purpose AI models, including the systemic-risk tier that the frontier labs sit in.

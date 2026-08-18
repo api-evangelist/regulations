@@ -2,17 +2,17 @@
 papers:
 - title: The State of US Energy APIs
   url: https://reports.apievangelist.com/reports/state-of-us-energy-apis/
-  note: "The United States does have a federal API mandate in energy — it is thirty years old and points at wholesale transmission, not at the customer. It is why the ISOs publish and the utilities do not."
+  note: The United States does have a federal API mandate in energy — it is thirty years old and points
+    at wholesale transmission, not at the customer. It is why the ISOs publish and the utilities do not.
 name: FERC Order 889
 slug: ferc-order-889
 title: FERC Order 889 (OASIS)
 kind: regulator-guidance
 jurisdiction: United States (federal)
-description: >-
-  FERC Order 889, issued in 1996 alongside the Order 888 open-access rules, requires public utilities
-  that own or control interstate transmission to operate an Open Access Same-Time Information System —
-  OASIS — posting available transmission capacity and related data on equal terms to all users, and to
-  separate transmission operations from wholesale marketing. It is arguably the oldest machine-readable
+description: FERC Order 889, issued in 1996 alongside the Order 888 open-access rules, requires public
+  utilities that own or control interstate transmission to operate an Open Access Same-Time Information
+  System — OASIS — posting available transmission capacity and related data on equal terms to all users,
+  and to separate transmission operations from wholesale marketing. It is arguably the oldest machine-readable
   data-posting mandate still operating in any sector this research has scored.
 tags:
 - Energy
@@ -33,6 +33,15 @@ alternativeNames:
 - Open Access Same-Time Information System
 - NAESB WEQ-002
 - NAESB WEQ-003
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'note: 1 needle(s) dropped by the stoplist — precision gained, recall lost'
 ---
 
 **FERC Order 889** is the finding that complicates the simple story about American energy data.

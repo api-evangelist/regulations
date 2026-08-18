@@ -2,18 +2,18 @@
 papers:
 - title: The State of UK Travel APIs
   url: https://reports.apievangelist.com/reports/state-of-uk-travel-apis/
-  note: "Extended package protection to dynamic packaging — the assembly of a holiday from multiple providers — without requiring any of those providers to publish an interface the assembly could run on."
+  note: Extended package protection to dynamic packaging — the assembly of a holiday from multiple providers
+    — without requiring any of those providers to publish an interface the assembly could run on.
 name: Package Travel Regulations 2018
 slug: package-travel-regulations-2018
 title: Package Travel and Linked Travel Arrangements Regulations 2018
 kind: statute
 jurisdiction: United Kingdom
-description: >-
-  The Package Travel and Linked Travel Arrangements Regulations 2018 implement the EU Package Travel
-  Directive in UK law, extending long-standing package-holiday protections to modern dynamic packaging —
-  holidays assembled from separate flight, accommodation and car-hire components. They impose
-  pre-contract information duties, liability for performance of the whole package, and insolvency
-  protection on the organiser.
+description: The Package Travel and Linked Travel Arrangements Regulations 2018 implement the EU Package
+  Travel Directive in UK law, extending long-standing package-holiday protections to modern dynamic packaging
+  — holidays assembled from separate flight, accommodation and car-hire components. They impose pre-contract
+  information duties, liability for performance of the whole package, and insolvency protection on the
+  organiser.
 tags:
 - Travel
 - United Kingdom
@@ -30,6 +30,15 @@ alternativeNames:
 - Package Travel Regulations
 - Linked Travel Arrangements
 - SI 2018/634
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 The 2018 Regulations exist because the way people buy holidays changed and the old definition of a

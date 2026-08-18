@@ -2,24 +2,24 @@
 papers:
 - title: The State of US Real Estate APIs
   url: https://reports.apievangelist.com/reports/state-of-us-real-estate-apis/
-  note: "The only self-imposed machine-readable mandate in the API economy — and it is worth about two points: RESO-certified organizations average 38.0 against 36.0 uncertified."
+  note: 'The only self-imposed machine-readable mandate in the API economy — and it is worth about two
+    points: RESO-certified organizations average 38.0 against 36.0 uncertified.'
 standards:
 - title: RESO Web API
   url: https://standards.apievangelist.com/store/reso-web-api/
-  note: "The contract this policy makes compulsory for association-owned MLSs."
+  note: The contract this policy makes compulsory for association-owned MLSs.
 - title: RESO Data Dictionary
   url: https://standards.apievangelist.com/store/reso-data-dictionary/
-  note: "The vocabulary half of the same requirement."
+  note: The vocabulary half of the same requirement.
 name: NAR Policy Statement 7.90
 slug: nar-policy-statement-790
 title: NAR MLS Policy Statement 7.90
 kind: industry-policy
 jurisdiction: United States (trade association)
-description: >-
-  Policy Statement 7.90 of the National Association of REALTORS' Multiple Listing Service policy requires
-  association-owned MLSs to certify against the RESO Data Dictionary and RESO Web API within one year of
-  each version's ratification. It is not legislation and no regulator enforces it; compliance is a
-  condition of NAR affiliation. It is the only industry-imposed machine-readable API mandate identified
+description: Policy Statement 7.90 of the National Association of REALTORS' Multiple Listing Service policy
+  requires association-owned MLSs to certify against the RESO Data Dictionary and RESO Web API within
+  one year of each version's ratification. It is not legislation and no regulator enforces it; compliance
+  is a condition of NAR affiliation. It is the only industry-imposed machine-readable API mandate identified
   across the API Evangelist sector series.
 tags:
 - Real Estate
@@ -38,6 +38,15 @@ alternativeNames:
 - MLS Policy Statement 7.90
 - NAR 7.90
 - RESO certification mandate
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **This is not a law.** It is a policy of a trade association, and it is catalogued here because on the

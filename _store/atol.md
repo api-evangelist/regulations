@@ -2,17 +2,18 @@
 papers:
 - title: The State of UK Travel APIs
   url: https://reports.apievangelist.com/reports/state-of-uk-travel-apis/
-  note: "Half a century of statutory financial protection for package holidays, and zero of fourteen UK travel organizations publish an idempotency mechanism — protection reconciles the duplicate payment, it does not prevent it."
+  note: Half a century of statutory financial protection for package holidays, and zero of fourteen UK
+    travel organizations publish an idempotency mechanism — protection reconciles the duplicate payment,
+    it does not prevent it.
 name: ATOL
 slug: atol
 title: Air Travel Organiser's Licence (ATOL)
 kind: licence
 jurisdiction: United Kingdom
-description: >-
-  ATOL is the United Kingdom's statutory financial protection scheme for air package holidays,
-  administered by the Civil Aviation Authority since 1973. Any business selling flight-inclusive
-  packages must hold a licence, contribute to the Air Travel Trust Fund, and issue an ATOL Certificate
-  to every customer. If the operator fails, the scheme repatriates travellers and refunds bookings.
+description: ATOL is the United Kingdom's statutory financial protection scheme for air package holidays,
+  administered by the Civil Aviation Authority since 1973. Any business selling flight-inclusive packages
+  must hold a licence, contribute to the Air Travel Trust Fund, and issue an ATOL Certificate to every
+  customer. If the operator fails, the scheme repatriates travellers and refunds bookings.
 tags:
 - Travel
 - Aviation
@@ -31,6 +32,16 @@ alternativeNames:
 - Air Travel Organiser's Licence
 - ATOL Protection
 - Air Travel Trust Fund
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 **ATOL is the oldest consumer-protection instrument in this catalog, and it protects money rather than

@@ -2,13 +2,17 @@
 papers:
 - title: The State of Market Data APIs
   url: https://reports.apievangelist.com/reports/state-of-market-data-apis/
-  note: "The regime that made market data a licensed, entitled, redistribution-controlled product — and the reason commercial clarity behaves differently in this sector than anywhere else in the series."
+  note: The regime that made market data a licensed, entitled, redistribution-controlled product — and
+    the reason commercial clarity behaves differently in this sector than anywhere else in the series.
 name: MiFID II
 kind: directive
 jurisdiction: European Union
 slug: mifid-ii
 title: MiFID II and MiFIR
-description: The Markets in Financial Instruments Directive II and its accompanying regulation govern investment services across the EU — including pre- and post-trade transparency obligations, the unbundling of research from execution, best-execution reporting, and the requirement that trading venues make market data available on a reasonable commercial basis.
+description: The Markets in Financial Instruments Directive II and its accompanying regulation govern
+  investment services across the EU — including pre- and post-trade transparency obligations, the unbundling
+  of research from execution, best-execution reporting, and the requirement that trading venues make market
+  data available on a reasonable commercial basis.
 tags:
 - Market Data
 - Securities
@@ -26,6 +30,16 @@ alternativeNames:
 - MiFIR
 - Directive 2014/65/EU
 - Markets in Financial Instruments Directive
+companyCount: 20
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 95
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -5: shortest bare needle is 5 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 **MiFID II** is the regime that turned market data from a by-product of trading into a regulated

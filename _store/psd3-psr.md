@@ -4,22 +4,28 @@ headers:
   basis: mandated
   observable: credentialed
   standard: dpop
-  note: Forward-looking. Sender-constrained tokens arrive with FAPI 2.0 profiles; no provider
-    in the catalog declares this header yet.
+  note: Forward-looking. Sender-constrained tokens arrive with FAPI 2.0 profiles; no provider in the catalog
+    declares this header yet.
 papers:
 - title: The State of UK Banking APIs
   url: https://reports.apievangelist.com/reports/state-of-uk-banking-apis/
-  note: "The near-future European regime that will judge whether PSD2's fixes — API performance, access, anti-fraud — finally land."
+  note: The near-future European regime that will judge whether PSD2's fixes — API performance, access,
+    anti-fraud — finally land.
 standards:
 - title: UK Open Banking Standard
   url: https://standards.apievangelist.com/store/uk-open-banking-standard/
-  note: "The kind of conformance-tested standard PSD3/PSR aims to make the European norm rather than the exception."
+  note: The kind of conformance-tested standard PSD3/PSR aims to make the European norm rather than the
+    exception.
 name: PSD3 & PSR
 kind: directive
 jurisdiction: European Union
 slug: psd3-psr
 title: PSD3 and the Payment Services Regulation (PSR)
-description: "PSD3 (the third Payment Services Directive) and the accompanying Payment Services Regulation (PSR) are the European Union's proposed successors to PSD2, intended to fix its uneven execution — tightening API performance and access requirements, curbing fraud, and moving core rules into a directly-applicable regulation to reduce national divergence. As proposed legislation they set the near-future direction of European open banking and open finance."
+description: PSD3 (the third Payment Services Directive) and the accompanying Payment Services Regulation
+  (PSR) are the European Union's proposed successors to PSD2, intended to fix its uneven execution — tightening
+  API performance and access requirements, curbing fraud, and moving core rules into a directly-applicable
+  regulation to reduce national divergence. As proposed legislation they set the near-future direction
+  of European open banking and open finance.
 tags:
 - Finance
 - Open Banking
@@ -39,7 +45,17 @@ alternativeNames:
 - Payment Services Regulation
 - PSR
 - Financial Data Access (FiDA)
-jurisdiction: European Union
+companyCount: 2
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
+- 'note: 1 needle(s) dropped by the stoplist — precision gained, recall lost'
 ---
 
 **PSD3** and the **Payment Services Regulation (PSR)** are the European Union's attempt to fix what PSD2 got wrong. PSD2 opened the accounts but left execution to national implementations, and the result multiplied into flavors — inconsistent API quality, uneven access, and fraud gaps. PSD3/PSR, still moving through the legislative process, are the response.

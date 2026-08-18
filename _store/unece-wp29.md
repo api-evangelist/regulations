@@ -32,6 +32,17 @@ alternativeNames:
 - UN R156
 - CSMS
 - SUMS
+companyCount: 64
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 67
+precisionGrade: medium
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
+- 'bare-channel -23: 97% of matching companies were reached only on the bare word (67 bare vs 2 phrase)'
 ---
 
 **R155 and R156** are the first regulations to make software *governance* a condition of selling a vehicle. Not the software itself — the management system around it: how vulnerabilities are handled, how updates are validated and delivered, how the whole arrangement is audited.

@@ -7,35 +7,43 @@ headers:
 - name: set-cookie
   basis: evidentiary
   observable: edge
-  note: Prior consent for non-essential storage. A non-essential cookie set on the first request,
-    before any consent interaction, is the violation visible from outside.
+  note: Prior consent for non-essential storage. A non-essential cookie set on the first request, before
+    any consent interaction, is the violation visible from outside.
 papers:
 - title: The State of Marketing & Advertising APIs
   url: https://reports.apievangelist.com/reports/state-of-marketing-advertising-apis/
-  note: "The rule behind the cookie banner, scored against the market it regulates — and the reason the consent-management segment exists at all."
+  note: The rule behind the cookie banner, scored against the market it regulates — and the reason the
+    consent-management segment exists at all.
 - title: The State of Data & Analytics APIs
   url: https://reports.apievangelist.com/reports/state-of-data-analytics-apis/
-  note: "The rule that created a market: privacy-first web analytics is a scored segment in The State of Data & Analytics APIs because of it."
+  note: 'The rule that created a market: privacy-first web analytics is a scored segment in The State
+    of Data & Analytics APIs because of it.'
 - title: The CAMARA Standard
   url: https://reports.apievangelist.com/reports/the-camara-standard/
-  note: "Restricts exactly the subscriber data CAMARA's flagship verbs traffic in — telecom is regulated on the input, not the output."
+  note: Restricts exactly the subscriber data CAMARA's flagship verbs traffic in — telecom is regulated
+    on the input, not the output.
 - title: The State of Telecom APIs
   url: https://reports.apievangelist.com/reports/state-of-telecom-apis/
-  note: "The regime governing traffic and location data in EU networks — which is precisely what CAMARA's Device Location and Population Density APIs expose, and why the standard's consent model was designed to be recorded and interrogable."
+  note: The regime governing traffic and location data in EU networks — which is precisely what CAMARA's
+    Device Location and Population Density APIs expose, and why the standard's consent model was designed
+    to be recorded and interrogable.
 standards:
 - title: CAMARA
   url: https://standards.apievangelist.com/store/camara/
-  note: "CAMARA's location and network-data APIs operate on exactly the traffic and location data this Directive restricts."
+  note: CAMARA's location and network-data APIs operate on exactly the traffic and location data this
+    Directive restricts.
 - title: GSMA Open Gateway
   url: https://standards.apievangelist.com/store/gsma-open-gateway/
-  note: "The programme's consent design is a direct answer to regulators operating regimes like this one."
+  note: The programme's consent design is a direct answer to regulators operating regimes like this one.
 name: ePrivacy Directive
 kind: directive
 jurisdiction: European Union
 slug: eprivacy-directive
 title: ePrivacy Directive (2002/58/EC)
-description: >-
-  The ePrivacy Directive governs privacy in electronic communications across the European Union, regulating the confidentiality of communications, traffic data, and — most relevantly for network APIs — location data. It sits alongside the GDPR as the sector-specific regime for communications providers, and generally requires consent before location or traffic data may be processed for value-added services.
+description: The ePrivacy Directive governs privacy in electronic communications across the European Union,
+  regulating the confidentiality of communications, traffic data, and — most relevantly for network APIs
+  — location data. It sits alongside the GDPR as the sector-specific regime for communications providers,
+  and generally requires consent before location or traffic data may be processed for value-added services.
 tags:
 - Privacy
 - Telecommunications
@@ -53,7 +61,15 @@ alternativeNames:
 - ePrivacy
 - Cookie Law
 - ePrivacy Regulation
-jurisdiction: European Union
+companyCount: 6
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 ePrivacy is the regulation most directly implicated by the network-API programme, and it is rarely named in

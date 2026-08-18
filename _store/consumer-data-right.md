@@ -38,32 +38,44 @@ headers:
 papers:
 - title: The OpenID Connect Standard
   url: https://reports.apievangelist.com/reports/the-openid-connect-standard/
-  note: "Requires FAPI-profiled OIDC, producing broad uniform coverage and near-zero differentiation above it."
+  note: Requires FAPI-profiled OIDC, producing broad uniform coverage and near-zero differentiation above
+    it.
 - title: The OAuth 2.0 Standard
   url: https://reports.apievangelist.com/reports/the-oauth-2-standard/
-  note: "One of the few regimes that genuinely compels OAuth-based, FAPI-profiled authorization — and, characteristically, stops exactly at the line the regulation draws."
+  note: One of the few regimes that genuinely compels OAuth-based, FAPI-profiled authorization — and,
+    characteristically, stops exactly at the line the regulation draws.
 - title: The State of Australian Travel APIs
   url: https://reports.apievangelist.com/reports/state-of-australian-travel-apis/
-  note: "The control group: designated for banking in 2019 and energy in 2022, NEVER for travel — and undesignated Australian travel returns contract quality of 5.8 with nine of eleven organizations at zero, the lowest reading in the entire series."
+  note: 'The control group: designated for banking in 2019 and energy in 2022, NEVER for travel — and
+    undesignated Australian travel returns contract quality of 5.8 with nine of eleven organizations at
+    zero, the lowest reading in the entire series.'
 - title: The State of Australian Energy APIs
   url: https://reports.apievangelist.com/reports/state-of-australian-energy-apis/
-  note: "Extended from banking into ENERGY and live — the proof a statutory data mandate is replicable across industries, worth about twelve points when verified and less than nothing when merely claimed."
+  note: Extended from banking into ENERGY and live — the proof a statutory data mandate is replicable
+    across industries, worth about twelve points when verified and less than nothing when merely claimed.
 - title: The State of Australian Insurance APIs
   url: https://reports.apievangelist.com/reports/state-of-australian-insurance-apis/
-  note: "Designated to extend to general insurance and then deferred — so Australia holds the complete legal machinery for open insurance and no live obligation, making it the cleanest measurement of what a mandate is actually worth."
+  note: Designated to extend to general insurance and then deferred — so Australia holds the complete
+    legal machinery for open insurance and no live obligation, making it the cleanest measurement of what
+    a mandate is actually worth.
 - title: The State of Australian Banking APIs
   url: https://reports.apievangelist.com/reports/state-of-australian-banking-apis/
-  note: "The law behind the fifty-bank commodity contract the report anatomizes — read-only data sharing, no payment initiation."
+  note: The law behind the fifty-bank commodity contract the report anatomizes — read-only data sharing,
+    no payment initiation.
 standards:
 - title: Consumer Data Standards
   url: https://standards.apievangelist.com/store/consumer-data-standards/
-  note: "The machine-readable Banking API contract every accredited data holder implements to satisfy the CDR."
+  note: The machine-readable Banking API contract every accredited data holder implements to satisfy the
+    CDR.
 name: Consumer Data Right
 kind: statute
 jurisdiction: Australia
 slug: consumer-data-right
 title: Consumer Data Right (CDR)
-description: Australia's Consumer Data Right (CDR) is an economy-wide data-portability law that gives consumers the right to share their data with accredited third parties, beginning with banking (open banking). It is the legal mandate behind the Consumer Data Standards, requiring every accredited data holder to expose a byte-for-byte machine-readable API contract under a consent-and-accreditation regime.
+description: Australia's Consumer Data Right (CDR) is an economy-wide data-portability law that gives
+  consumers the right to share their data with accredited third parties, beginning with banking (open
+  banking). It is the legal mandate behind the Consumer Data Standards, requiring every accredited data
+  holder to expose a byte-for-byte machine-readable API contract under a consent-and-accreditation regime.
 tags:
 - Finance
 - Open Banking
@@ -82,7 +94,16 @@ alternativeNames:
 - CDR
 - Consumer Data Right (Australia)
 - Competition and Consumer (CDR) Rules
-jurisdiction: Australia
+companyCount: null
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 0
+precisionGrade: unmeasurable
+precisionBasis:
+- 'human verdict: `cdr` is Critical Design Review in aerospace, always paired with PDR ("pdr CDR etc for
+  customer and program seit"). Stoplisted.'
 ---
 
 Australia's **Consumer Data Right (CDR)** is a general, economy-wide data-portability law — not a banking rule that happens to touch data. It gives consumers a legal right to direct that their data be shared, securely, with accredited recipients, and it was switched on in banking first as the country's version of open banking.

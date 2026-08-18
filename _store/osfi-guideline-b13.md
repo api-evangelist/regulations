@@ -6,14 +6,17 @@ headers:
 papers:
 - title: The State of Canadian Insurance APIs
   url: https://reports.apievangelist.com/reports/state-of-canadian-insurance-apis/
-  note: "OSFI supervises federally-regulated insurers prudentially and publishes a better API than any of them — ranking second in the country on a live CKAN data platform."
+  note: OSFI supervises federally-regulated insurers prudentially and publishes a better API than any
+    of them — ranking second in the country on a live CKAN data platform.
 name: OSFI Guideline B-13
 kind: regulator-guidance
 jurisdiction: Canada
 slug: osfi-guideline-b13
 title: OSFI Guideline B-13 (Technology and Cyber Risk)
-description: >-
-  OSFI is Canada's federal prudential regulator for banks and insurers, and Guideline B-13 sets its expectations for technology and cyber risk management, alongside Guideline B-10 on third-party risk. Like APRA's standards it governs how a regulated institution manages technology risk, and imposes no obligation to expose data or publish an interface.
+description: OSFI is Canada's federal prudential regulator for banks and insurers, and Guideline B-13
+  sets its expectations for technology and cyber risk management, alongside Guideline B-10 on third-party
+  risk. Like APRA's standards it governs how a regulated institution manages technology risk, and imposes
+  no obligation to expose data or publish an interface.
 tags:
 - Insurance
 - Banking
@@ -33,7 +36,16 @@ alternativeNames:
 - OSFI
 - B-13
 - Guideline B-10
-jurisdiction: Canada
+companyCount: 11
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 OSFI's position in Canadian insurance is prudential and federal, while market conduct sits with the

@@ -2,14 +2,17 @@
 papers:
 - title: The State of US Insurance APIs
   url: https://reports.apievangelist.com/reports/state-of-us-insurance-apis/
-  note: "A full-text scan of the NAIC's own 1.5MB technology products catalog returns zero occurrences of ACORD — and zero of XML, web service, REST, SOAP or developer."
+  note: A full-text scan of the NAIC's own 1.5MB technology products catalog returns zero occurrences
+    of ACORD — and zero of XML, web service, REST, SOAP or developer.
 name: NAIC Model Laws
 kind: industry-policy
-jurisdiction: United States (model law)
+jurisdiction: United States
 slug: naic-model-laws
 title: NAIC Model Laws and Regulations
-description: >-
-  The NAIC is the standard-setting and coordinating body of the United States' fifty state insurance regulators. It writes model laws and regulations that states may adopt, accredits state departments, and operates shared infrastructure including SERFF, the system through which carriers file rates and forms in every state. It has no direct regulatory authority of its own.
+description: The NAIC is the standard-setting and coordinating body of the United States' fifty state
+  insurance regulators. It writes model laws and regulations that states may adopt, accredits state departments,
+  and operates shared infrastructure including SERFF, the system through which carriers file rates and
+  forms in every state. It has no direct regulatory authority of its own.
 tags:
 - Insurance
 - United States
@@ -28,7 +31,16 @@ alternativeNames:
 - NAIC
 - Model Act
 - SERFF
-jurisdiction: United States
+companyCount: 44
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 The NAIC is what coordination looks like without compulsion, and its technology estate is a fair reflection

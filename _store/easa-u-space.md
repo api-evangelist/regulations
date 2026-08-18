@@ -31,6 +31,15 @@ alternativeNames:
 - U-space
 - Regulation (EU) 2021/664
 - UTM Europe
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **U-space** is unusual among regulations in that it does not merely permit or forbid: it **specifies services**. An operator in U-space airspace connects to providers for identification, authorisation and traffic information, which makes the regulation itself an integration requirement.

@@ -2,17 +2,21 @@
 papers:
 - title: The CAMARA Standard
   url: https://reports.apievangelist.com/reports/the-camara-standard/
-  note: "Requires no Australian carrier to expose network capability as an API — which is why Telstra's CAMARA release went to a channel rather than to developers."
+  note: Requires no Australian carrier to expose network capability as an API — which is why Telstra's
+    CAMARA release went to a channel rather than to developers.
 - title: The State of Telecom APIs
   url: https://reports.apievangelist.com/reports/state-of-telecom-apis/
-  note: "ACMA scores 56.3 — the highest-scoring regulator in the study and above every Australian carrier — though its agent-facing artifacts are API Evangelist reconstructions, not ACMA's."
+  note: ACMA scores 56.3 — the highest-scoring regulator in the study and above every Australian carrier
+    — though its agent-facing artifacts are API Evangelist reconstructions, not ACMA's.
 name: Australian Telecommunications Act 1997
 kind: statute
 jurisdiction: Australia
 slug: australian-telecommunications-act
 title: Australian Telecommunications Act 1997 (ACMA)
-description: >-
-  The Telecommunications Act 1997 is the framework for Australian telecommunications regulation, administered by the Australian Communications and Media Authority alongside the Radiocommunications Act. It covers carrier licensing, spectrum, consumer safeguards and industry codes, and requires no operator to expose network capability as an API.
+description: The Telecommunications Act 1997 is the framework for Australian telecommunications regulation,
+  administered by the Australian Communications and Media Authority alongside the Radiocommunications
+  Act. It covers carrier licensing, spectrum, consumer safeguards and industry codes, and requires no
+  operator to expose network capability as an API.
 tags:
 - Telecommunications
 - Australia
@@ -29,7 +33,16 @@ alternativeNames:
 - Telecommunications Act 1997
 - ACMA
 - Australian Communications and Media Authority
-jurisdiction: Australia
+companyCount: 5
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 Australia's telecom framework is conventional; what makes it interesting is the contrast with the same

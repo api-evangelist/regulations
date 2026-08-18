@@ -7,23 +7,29 @@ headers:
 papers:
 - title: The OAuth 2.0 Standard
   url: https://reports.apievangelist.com/reports/the-oauth-2-standard/
-  note: "PSD2's SCA requirements are part of the small set of rules that actually compel OAuth rather than merely touching it."
+  note: PSD2's SCA requirements are part of the small set of rules that actually compel OAuth rather than
+    merely touching it.
 - title: The State of UK Banking APIs
   url: https://reports.apievangelist.com/reports/state-of-uk-banking-apis/
-  note: "The regulatory requirement behind the FAPI/OIDC/mTLS stack every UK bank documents — bank-grade auth as the mandated floor."
+  note: The regulatory requirement behind the FAPI/OIDC/mTLS stack every UK bank documents — bank-grade
+    auth as the mandated floor.
 standards:
 - title: FAPI
   url: https://standards.apievangelist.com/store/fapi/
-  note: "The financial-grade API security profile that operationalizes SCA in open-banking APIs."
+  note: The financial-grade API security profile that operationalizes SCA in open-banking APIs.
 - title: UK Open Banking Standard
   url: https://standards.apievangelist.com/store/uk-open-banking-standard/
-  note: "The OBIE standard mandates SCA-compliant auth across its Read/Write APIs."
+  note: The OBIE standard mandates SCA-compliant auth across its Read/Write APIs.
 name: Strong Customer Authentication
 kind: directive
-jurisdiction: European Union
+jurisdiction: European Union / United Kingdom
 slug: strong-customer-authentication
 title: Strong Customer Authentication (SCA)
-description: Strong Customer Authentication (SCA) is the security requirement mandated by PSD2's Regulatory Technical Standards, requiring multi-factor authentication (two of knowledge, possession, and inherence) for electronic payments and account access in the EU and UK. It is the regulatory backbone of the FAPI-grade security stack that open-banking APIs implement, and the reason bank-grade auth is the floor in European open finance rather than a premium tier.
+description: Strong Customer Authentication (SCA) is the security requirement mandated by PSD2's Regulatory
+  Technical Standards, requiring multi-factor authentication (two of knowledge, possession, and inherence)
+  for electronic payments and account access in the EU and UK. It is the regulatory backbone of the FAPI-grade
+  security stack that open-banking APIs implement, and the reason bank-grade auth is the floor in European
+  open finance rather than a premium tier.
 tags:
 - Finance
 - Open Banking
@@ -44,7 +50,16 @@ alternativeNames:
 - SCA
 - PSD2 RTS
 - RTS on SCA and CSC
-jurisdiction: European Union / United Kingdom
+companyCount: null
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 0
+precisionGrade: unmeasurable
+precisionBasis:
+- 'human verdict: `sca` is Software Composition Analysis in every sampled security posting ("sast dast
+  SCA tooling", "sast dast SCA secrets scanning or container scanning"). Stoplisted.'
 ---
 
 **Strong Customer Authentication (SCA)** is the security requirement that sits under European open banking's reputation for rigor. Mandated by PSD2's Regulatory Technical Standards, it requires multi-factor authentication — two independent factors drawn from knowledge, possession, and inherence — for electronic payments and account access, with tightly scoped exemptions.

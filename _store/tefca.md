@@ -2,7 +2,8 @@
 papers:
 - title: The State of Digital Health APIs
   url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: "A framework for network-to-network exchange, in a market where the discovery document the standard defines is fetched for ten companies."
+  note: A framework for network-to-network exchange, in a market where the discovery document the standard
+    defines is fetched for ten companies.
 - title: The State of US Healthcare APIs
   url: https://reports.apievangelist.com/reports/state-of-us-healthcare-apis/
   note: The nationwide exchange framework that sits above the point-to-point FHIR APIs the reports score.
@@ -35,6 +36,16 @@ common:
   url: https://rce.sequoiaproject.org/
 url: https://www.healthit.gov/topic/interoperability/policy/trusted-exchange-framework-and-common-agreement-tefca
 yearCreated: 2023
+companyCount: 2
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 95
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -5: shortest bare needle is 5 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 **TEFCA** is the attempt to give US health data exchange a single national trust floor. Instead of thousands of point-to-point agreements, it establishes a common legal contract and a set of certified Qualified Health Information Networks (QHINs) through which any participant can reach any other — the connective tissue above the individual FHIR and document APIs.

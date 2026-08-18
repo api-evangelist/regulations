@@ -31,6 +31,17 @@ alternativeNames:
 - Children's Online Privacy Protection Act
 - COPPA Rule
 - 16 CFR Part 312
+companyCount: 14
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 70
+precisionGrade: medium
+precisionBasis:
+- 'acronym-shape -5: shortest bare needle is 5 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
+- 'bare-channel -25: 100% of matching companies were reached only on the bare word (14 bare vs 0 phrase)'
 ---
 
 **COPPA** is the strictest consent regime reaching any market in this research, because the subject cannot give consent themselves. Every K-12 EdTech product in the United States operates inside it, and the mechanism it depends on — **verifiable parental consent**, sometimes exercised by the school — is a delegation chain with at least three parties in it.

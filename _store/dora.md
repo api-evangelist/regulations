@@ -6,22 +6,32 @@ headers:
 papers:
 - title: The State of Blockchain & Crypto APIs
   url: https://reports.apievangelist.com/reports/state-of-blockchain-crypto-apis/
-  note: "A MiCA-authorised crypto-asset service provider is a financial entity under DORA, in a market scoring 11.1 on governance and 17.9 on operational transparency."
+  note: A MiCA-authorised crypto-asset service provider is a financial entity under DORA, in a market
+    scoring 11.1 on governance and 17.9 on operational transparency.
 - title: The State of Data & Analytics APIs
   url: https://reports.apievangelist.com/reports/state-of-data-analytics-apis/
-  note: "Where a data platform is critical infrastructure for a regulated financial customer."
+  note: Where a data platform is critical infrastructure for a regulated financial customer.
 - title: The State of Cybersecurity APIs
   url: https://reports.apievangelist.com/reports/state-of-cybersecurity-apis/
-  note: "The regime that reaches security vendors who are not themselves regulated — a designated critical ICT third-party provider is supervised directly, in a market where operational transparency averages 21.8."
+  note: The regime that reaches security vendors who are not themselves regulated — a designated critical
+    ICT third-party provider is supervised directly, in a market where operational transparency averages
+    21.8.
 - title: The State of Developer Tools APIs
   url: https://reports.apievangelist.com/reports/state-of-developer-tools-apis/
-  note: "The clearest instance of inherited exposure: a CI/CD or observability vendor is not regulated as one, but is inside its EU financial customers' DORA perimeter — and can be designated and supervised in its own right."
+  note: 'The clearest instance of inherited exposure: a CI/CD or observability vendor is not regulated
+    as one, but is inside its EU financial customers'' DORA perimeter — and can be designated and supervised
+    in its own right.'
 name: DORA
 kind: regulation
 jurisdiction: European Union
 slug: dora
 title: Digital Operational Resilience Act (DORA)
-description: "DORA is the EU regulation governing information and communication technology risk across the financial sector — banks, insurers, investment firms, payment institutions, crypto-asset providers and market infrastructure. It sets requirements for ICT risk management, incident classification and reporting, digital operational resilience testing, and the management of ICT third-party risk. Uniquely among the regimes in this catalog, it can designate a technology vendor a critical ICT third-party provider and supervise it directly, which is how it reaches companies that are not financial entities at all."
+description: DORA is the EU regulation governing information and communication technology risk across
+  the financial sector — banks, insurers, investment firms, payment institutions, crypto-asset providers
+  and market infrastructure. It sets requirements for ICT risk management, incident classification and
+  reporting, digital operational resilience testing, and the management of ICT third-party risk. Uniquely
+  among the regimes in this catalog, it can designate a technology vendor a critical ICT third-party provider
+  and supervise it directly, which is how it reaches companies that are not financial entities at all.
 tags:
 - Operational Resilience
 - ICT Risk
@@ -40,7 +50,16 @@ yearCreated: 2022
 alternativeNames:
 - Digital Operational Resilience Act
 - Regulation (EU) 2022/2554
-jurisdiction: European Union
+companyCount: null
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 0
+precisionGrade: unmeasurable
+precisionBasis:
+- 'human verdict: Every sampled hit is DORA metrics, the DevOps Research and Assessment ones ("engineering
+  productivity metrics DORA metrics service level objectives"). Never the EU regulation. Stoplisted.'
 ---
 
 **DORA** answers a question the financial regulators had been circling for a decade: what happens when the systems a bank depends on are not the bank's. It applies ICT risk requirements across the EU financial sector and then, unusually, reaches past that sector into the technology supply chain.

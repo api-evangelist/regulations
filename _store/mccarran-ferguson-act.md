@@ -2,18 +2,23 @@
 papers:
 - title: The State of US Insurance APIs
   url: https://reports.apievangelist.com/reports/state-of-us-insurance-apis/
-  note: "The structural reason American insurance has fifty regulators, no federal insurance regulator, and no open-insurance rule — and therefore no API mandate to comply with, maliciously or otherwise."
+  note: The structural reason American insurance has fifty regulators, no federal insurance regulator,
+    and no open-insurance rule — and therefore no API mandate to comply with, maliciously or otherwise.
 standards:
 - title: ACORD
   url: https://standards.apievangelist.com/store/acord/
-  note: "With no federal rule to force a contract, data exchange fell to a private standards body — and stayed in an EDI idiom for fifty years."
+  note: With no federal rule to force a contract, data exchange fell to a private standards body — and
+    stayed in an EDI idiom for fifty years.
 name: McCarran-Ferguson Act
 kind: statute
 jurisdiction: United States
 slug: mccarran-ferguson-act
 title: McCarran-Ferguson Act (1945)
-description: >-
-  The McCarran-Ferguson Act is the 1945 US statute that delegated the regulation of insurance to the states and exempted the business of insurance from most federal law where a state already regulates it. It is the reason the United States has no federal insurance regulator, fifty separate insurance departments, and nothing resembling PSD2, the CFPB's 1033 rule, or the 21st Century Cures Act for insurance data.
+description: The McCarran-Ferguson Act is the 1945 US statute that delegated the regulation of insurance
+  to the states and exempted the business of insurance from most federal law where a state already regulates
+  it. It is the reason the United States has no federal insurance regulator, fifty separate insurance
+  departments, and nothing resembling PSD2, the CFPB's 1033 rule, or the 21st Century Cures Act for insurance
+  data.
 tags:
 - Insurance
 - United States
@@ -31,7 +36,15 @@ alternativeNames:
 - McCarran-Ferguson
 - Public Law 79-15
 - 15 U.S.C. §§ 1011-1015
-jurisdiction: United States
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 McCarran-Ferguson is the most consequential regulation in this catalog that mandates nothing at all. It is

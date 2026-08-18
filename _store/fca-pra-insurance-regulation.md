@@ -2,14 +2,18 @@
 papers:
 - title: The State of UK Insurance APIs
   url: https://reports.apievangelist.com/reports/state-of-uk-insurance-apis/
-  note: "Neither regulator requires an insurer to publish an API, and the FCA's Open Finance work remains consultation rather than rule — yet the London Market standardised anyway, driven by coordination cost rather than compulsion."
+  note: Neither regulator requires an insurer to publish an API, and the FCA's Open Finance work remains
+    consultation rather than rule — yet the London Market standardised anyway, driven by coordination
+    cost rather than compulsion.
 name: FCA and PRA Insurance Regulation
 kind: regulator-guidance
 jurisdiction: United Kingdom
 slug: fca-pra-insurance-regulation
 title: FCA and PRA Insurance Regulation (United Kingdom)
-description: >-
-  The United Kingdom regulates insurance through two bodies: the Financial Conduct Authority for market conduct and the Prudential Regulation Authority, part of the Bank of England, for prudential soundness under the Solvency UK regime. Neither requires an insurer to expose data or publish an interface, and the FCA's Open Finance work remains consultation rather than binding rule.
+description: 'The United Kingdom regulates insurance through two bodies: the Financial Conduct Authority
+  for market conduct and the Prudential Regulation Authority, part of the Bank of England, for prudential
+  soundness under the Solvency UK regime. Neither requires an insurer to expose data or publish an interface,
+  and the FCA''s Open Finance work remains consultation rather than binding rule.'
 tags:
 - Insurance
 - United Kingdom
@@ -30,7 +34,18 @@ alternativeNames:
 - PRA
 - FCA Handbook
 - Solvency UK
-jurisdiction: United Kingdom
+companyCount: 57
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 50
+precisionGrade: low
+precisionBasis:
+- 'human verdict: Split verdict. `fca` confirmed REAL ("effectively manage day to day compliance procedures
+  for FCA regulation", "the financial conduct authority s FCA"). `pra` confirmed FALSE — every hit was
+  pharma ("PRA grant submissions and contracts") — and is stoplisted. The record is measurable on FCA
+  alone and correspondingly undercounts the PRA side.'
 ---
 
 The UK is the most instructive insurance jurisdiction in this catalog precisely because its regulators did

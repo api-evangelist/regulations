@@ -32,6 +32,15 @@ regulations:
 - title: NHS Data Security and Protection Toolkit
   url: https://regulations.apievangelist.com/store/nhs-dspt/
   note: DTAC incorporates the DSPT as its data-protection component.
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **The Digital Technology Assessment Criteria** is the NHS's single front door for judging whether a digital health product is safe and suitable to deploy. Rather than a vendor facing a different bar at every trust, DTAC brings the key requirements into one baseline assessment.

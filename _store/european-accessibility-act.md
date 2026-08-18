@@ -38,6 +38,16 @@ standards:
 - title: WCAG
   url: https://standards.apievangelist.com/store/wcag/
   note: EN 301 549, the European standard the EAA leans on, incorporates WCAG success criteria.
+companyCount: 9
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 85
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -15: shortest bare needle is 3 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 **The EAA** extends accessibility obligations past the public sector into ordinary commercial digital services, and it applies to what is *offered to consumers in the EU* regardless of where the supplier sits. For education technology sold into Europe, and for the e-book and content platforms serving it, that is a broader reach than the American regime it is often compared to.

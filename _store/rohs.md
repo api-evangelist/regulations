@@ -2,13 +2,17 @@
 papers:
 - title: The State of Compute & Hardware APIs
   url: https://reports.apievangelist.com/reports/state-of-compute-hardware-apis/
-  note: "Twenty years of per-part material declarations, answered with spreadsheets and distributor portals — the precedent for how this industry meets a data obligation."
+  note: Twenty years of per-part material declarations, answered with spreadsheets and distributor portals
+    — the precedent for how this industry meets a data obligation.
 name: RoHS
 kind: directive
 jurisdiction: European Union
 slug: rohs
 title: RoHS, WEEE and REACH
-description: The EU's material-compliance regime for electrical and electronic equipment — RoHS restricting hazardous substances in products, WEEE governing collection and recycling, and REACH requiring declaration of substances of very high concern — producing an ongoing per-part data obligation across the electronics supply chain.
+description: The EU's material-compliance regime for electrical and electronic equipment — RoHS restricting
+  hazardous substances in products, WEEE governing collection and recycling, and REACH requiring declaration
+  of substances of very high concern — producing an ongoing per-part data obligation across the electronics
+  supply chain.
 tags:
 - Hardware
 - Electronics
@@ -26,6 +30,18 @@ alternativeNames:
 - Directive 2011/65/EU
 - WEEE
 - REACH
+companyCount: 46
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 75
+precisionGrade: medium
+precisionBasis:
+- 'human verdict: RoHS and WEEE both sampled REAL in materials-compliance postings ("reach scip rohs tsca
+  WEEE", "rohs reach WEEE pfas bom"). The `REACH` alias was revoked — REACH is a separate EU regulation,
+  not a spelling of RoHS, and the bare word is the English verb in 51% of corpora. REACH needs its own
+  catalog entry to be measurable.'
 ---
 
 **RoHS**, **WEEE** and **REACH** together form the EU's material-compliance regime for electronics.

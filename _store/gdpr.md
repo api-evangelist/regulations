@@ -3,8 +3,8 @@ headers:
 - name: access-control-allow-origin
   basis: evidentiary
   observable: edge
-  note: A negative signal. A wildcard origin on an authenticated surface is a data-protection
-    failure anyone can observe without credentials.
+  note: A negative signal. A wildcard origin on an authenticated surface is a data-protection failure
+    anyone can observe without credentials.
 - name: clear-site-data
   basis: evidentiary
   observable: edge
@@ -15,34 +15,45 @@ headers:
 papers:
 - title: The State of Blockchain & Crypto APIs
   url: https://reports.apievangelist.com/reports/state-of-blockchain-crypto-apis/
-  note: "Personal data on an immutable ledger, and an erasure right that cannot be honoured on-chain."
+  note: Personal data on an immutable ledger, and an erasure right that cannot be honoured on-chain.
 - title: The State of Marketing & Advertising APIs
   url: https://reports.apievangelist.com/reports/state-of-marketing-advertising-apis/
-  note: "The report that scores the industry GDPR was written about: consent is a legible API surface at 3.1% of the marketing and advertising market, below the whole-catalog rate."
+  note: 'The report that scores the industry GDPR was written about: consent is a legible API surface
+    at 3.1% of the marketing and advertising market, below the whole-catalog rate.'
 - title: The State of Data & Analytics APIs
   url: https://reports.apievangelist.com/reports/state-of-data-analytics-apis/
-  note: "In data and analytics, GDPR reaches the data plane the market does not describe — access, portability and erasure land on interfaces built for administration."
+  note: In data and analytics, GDPR reaches the data plane the market does not describe — access, portability
+    and erasure land on interfaces built for administration.
 - title: The State of Digital Health APIs
   url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: "In digital health, GDPR restricts what may be done with the data rather than requiring that it be reachable — one of nine regimes in this market that compel no interface."
+  note: In digital health, GDPR restricts what may be done with the data rather than requiring that it
+    be reachable — one of nine regimes in this market that compel no interface.
 - title: The State of Cybersecurity APIs
   url: https://reports.apievangelist.com/reports/state-of-cybersecurity-apis/
-  note: "Cybersecurity vendors sit in the processor role for their customers; the market publishes a machine-readable consent surface 7.1% of the time."
+  note: Cybersecurity vendors sit in the processor role for their customers; the market publishes a machine-readable
+    consent surface 7.1% of the time.
 - title: The State of Developer Tools APIs
   url: https://reports.apievangelist.com/reports/state-of-developer-tools-apis/
-  note: "Developer tools sit in the processor role for their customers' data; this industry's regulatory surface is the union of its customers' regulatory surfaces."
+  note: Developer tools sit in the processor role for their customers' data; this industry's regulatory
+    surface is the union of its customers' regulatory surfaces.
 - title: The State of Artificial Intelligence APIs
   url: https://reports.apievangelist.com/reports/state-of-artificial-intelligence-apis/
-  note: "The lawful-basis and automated-decision backbone under every model that touches personal data, in an industry with 3.9% machine-readable consent coverage."
+  note: The lawful-basis and automated-decision backbone under every model that touches personal data,
+    in an industry with 3.9% machine-readable consent coverage.
 - title: The State of UK Banking APIs
   url: https://reports.apievangelist.com/reports/state-of-uk-banking-apis/
-  note: "The privacy and consent backbone beneath the UK's open-banking data sharing — the lawful basis every AIS consent rests on."
+  note: The privacy and consent backbone beneath the UK's open-banking data sharing — the lawful basis
+    every AIS consent rests on.
 name: GDPR
 kind: statute
-jurisdiction: European Union
+jurisdiction: European Union / United Kingdom
 slug: gdpr
 title: General Data Protection Regulation (GDPR)
-description: "The General Data Protection Regulation is the EU's comprehensive data-protection law (retained in the UK as the UK GDPR), governing how personal data is processed, consented to, and ported. It is the privacy backbone beneath open banking; the lawful-basis, consent, and data-minimization requirements that any account-data-sharing regime must satisfy, and a right to data portability that predates and reinforces open banking."
+description: The General Data Protection Regulation is the EU's comprehensive data-protection law (retained
+  in the UK as the UK GDPR), governing how personal data is processed, consented to, and ported. It is
+  the privacy backbone beneath open banking; the lawful-basis, consent, and data-minimization requirements
+  that any account-data-sharing regime must satisfy, and a right to data portability that predates and
+  reinforces open banking.
 tags:
 - Privacy
 - Data Protection
@@ -62,7 +73,17 @@ alternativeNames:
 - General Data Protection Regulation
 - Regulation (EU) 2016/679
 - UK GDPR
-jurisdiction: European Union / United Kingdom
+companyCount: 295
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 36
+precisionGrade: low
+precisionBasis:
+- 'acronym-shape -20: shortest bare needle is 4 characters'
+- 'collision -25: a surviving needle is also claimed by standards:GDPR'
+- 'bare-channel -19: 90% of matching companies were reached only on the bare word (278 bare vs 32 phrase)'
 ---
 
 The **General Data Protection Regulation (GDPR)** is the privacy law that sits underneath open banking rather than beside it. Open banking moves personal financial data between parties; GDPR (and the retained UK GDPR) governs whether that movement is lawful — the consent, the lawful basis, the minimization, and the individual's right to port their data.

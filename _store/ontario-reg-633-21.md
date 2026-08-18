@@ -2,21 +2,22 @@
 papers:
 - title: The State of Canadian Energy APIs
   url: https://reports.apievangelist.com/reports/state-of-canadian-energy-apis/
-  note: "The only consumer energy data mandate in Canada — and its bound utilities cluster in Thin and Emerging while the country's best energy API belongs to a province with no mandate at all."
+  note: The only consumer energy data mandate in Canada — and its bound utilities cluster in Thin and
+    Emerging while the country's best energy API belongs to a province with no mandate at all.
 standards:
 - title: Green Button
   url: https://standards.apievangelist.com/store/green-button/
-  note: "The standard this regulation makes compulsory for Ontario's licensed distributors, at NAESB REQ.21 ESPI v3.3."
+  note: The standard this regulation makes compulsory for Ontario's licensed distributors, at NAESB REQ.21
+    ESPI v3.3.
 name: Ontario Regulation 633/21
 slug: ontario-reg-633-21
 title: Ontario Regulation 633/21 (Energy Data)
 kind: statute
 jurisdiction: Ontario, Canada
-description: >-
-  Ontario Regulation 633/21, made under section 25.35.8 of the Electricity Act, 1998, requires Ontario
-  electricity and natural gas local distribution companies to make customer energy data available in the
-  Green Button format — both Download My Data and Connect My Data. It is the only consumer energy data
-  mandate in Canada and one of very few anywhere that compels adoption of an externally-authored
+description: Ontario Regulation 633/21, made under section 25.35.8 of the Electricity Act, 1998, requires
+  Ontario electricity and natural gas local distribution companies to make customer energy data available
+  in the Green Button format — both Download My Data and Connect My Data. It is the only consumer energy
+  data mandate in Canada and one of very few anywhere that compels adoption of an externally-authored
   standard rather than creating a data right of its own.
 tags:
 - Energy
@@ -37,6 +38,15 @@ alternativeNames:
 - Ontario Energy Data Regulation
 - Green Button mandate
 - Electricity Act 1998 s.25.35.8
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **O. Reg. 633/21** is the cleanest available test of a specific regulatory design: what happens when a

@@ -2,19 +2,20 @@
 papers:
 - title: The State of Australian Real Estate APIs
   url: https://reports.apievangelist.com/reports/state-of-australian-real-estate-apis/
-  note: "The statute behind PEXA — the top-scoring Australian organization (60.1) and the only mandated machine-readable rail in the four-market study, holding the sole idempotency implementation across 101 organizations."
+  note: The statute behind PEXA — the top-scoring Australian organization (60.1) and the only mandated
+    machine-readable rail in the four-market study, holding the sole idempotency implementation across
+    101 organizations.
 name: Electronic Conveyancing National Law
 slug: electronic-conveyancing-national-law
 title: Electronic Conveyancing National Law (ECNL)
 kind: statute
 jurisdiction: Australia (state and territory)
-description: >-
-  The Electronic Conveyancing National Law is the uniform legislation, enacted state by state across
-  Australia, that authorises electronic lodgement and settlement of property transactions. It establishes
+description: The Electronic Conveyancing National Law is the uniform legislation, enacted state by state
+  across Australia, that authorises electronic lodgement and settlement of property transactions. It establishes
   Electronic Lodgement Network Operators (ELNOs) as regulated infrastructure and empowers the Australian
-  Registrars' National Electronic Conveyancing Council (ARNECC) to issue the Model Participation Rules and
-  Model Operating Requirements that bind them. Most states now require mainstream conveyancing to settle
-  electronically under it.
+  Registrars' National Electronic Conveyancing Council (ARNECC) to issue the Model Participation Rules
+  and Model Operating Requirements that bind them. Most states now require mainstream conveyancing to
+  settle electronically under it.
 tags:
 - Real Estate
 - Australia
@@ -34,6 +35,16 @@ alternativeNames:
 - Model Operating Requirements
 - Electronic Lodgement Network Operator
 - ELNO
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 The **Electronic Conveyancing National Law** is the most instructive mandate in the real estate study, and

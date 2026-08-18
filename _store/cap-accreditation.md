@@ -29,4 +29,13 @@ papers:
   url: https://reports.apievangelist.com/reports/state-of-biotechnology-apis/
   note: Named by 7 of 999 companies — the accreditation whose sequencing checklists govern bioinformatics
     pipeline versioning, an area where the market's own APIs report almost nothing.
+companyCount: 1
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---

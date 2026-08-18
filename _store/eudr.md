@@ -2,13 +2,17 @@
 papers:
 - title: The State of Supply Chain APIs
   url: https://reports.apievangelist.com/reports/state-of-supply-chain-apis/
-  note: "One of the few supply chain regimes that compels a machine-readable submission — but into an EU-operated system, making the state the API provider and the industry the client."
+  note: One of the few supply chain regimes that compels a machine-readable submission — but into an EU-operated
+    system, making the state the API provider and the industry the client.
 name: EU Deforestation Regulation
 kind: regulation
 jurisdiction: European Union
 slug: eudr
 title: EU Deforestation Regulation (EUDR)
-description: Regulation (EU) 2023/1115 prohibits placing specified commodities — cattle, cocoa, coffee, oil palm, rubber, soya and wood, and products derived from them — on the EU market unless they are deforestation-free, legally produced, and covered by a due diligence statement carrying the geolocation of the plots of land where they were produced.
+description: Regulation (EU) 2023/1115 prohibits placing specified commodities — cattle, cocoa, coffee,
+  oil palm, rubber, soya and wood, and products derived from them — on the EU market unless they are deforestation-free,
+  legally produced, and covered by a due diligence statement carrying the geolocation of the plots of
+  land where they were produced.
 tags:
 - Supply Chain
 - Sustainability
@@ -25,6 +29,16 @@ alternativeNames:
 - EUDR
 - Regulation (EU) 2023/1115
 - Deforestation-free products regulation
+companyCount: 7
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 The **EU Deforestation Regulation** bans a defined list of commodities from the EU market unless the

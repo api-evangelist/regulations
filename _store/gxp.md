@@ -31,4 +31,15 @@ papers:
   url: https://reports.apievangelist.com/reports/state-of-biotechnology-apis/
   note: GMP is named by 27 companies, GxP by 18, GLP by 16 — collectively the vocabulary this industry
     actually shares. 76 of 999 companies describe how they are audited; 14 describe how they interoperate.
+companyCount: 54
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 60
+precisionGrade: medium
+precisionBasis:
+- 'acronym-shape -15: shortest bare needle is 3 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
+- 'bare-channel -25: 100% of matching companies were reached only on the bare word (56 bare vs 0 phrase)'
 ---

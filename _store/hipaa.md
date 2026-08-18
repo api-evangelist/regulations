@@ -11,13 +11,16 @@ headers:
 papers:
 - title: The State of Digital Health APIs
   url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: "The law consent is built on, measured: consent is a legible, machine-readable surface at 3.4% of the digital health market against 3.3% of the whole catalog."
+  note: 'The law consent is built on, measured: consent is a legible, machine-readable surface at 3.4%
+    of the digital health market against 3.3% of the whole catalog.'
 - title: The State of Cybersecurity APIs
   url: https://reports.apievangelist.com/reports/state-of-cybersecurity-apis/
-  note: "A security vendor holding health data is inside HIPAA; this market's regulatory surface is the union of its customers'."
+  note: A security vendor holding health data is inside HIPAA; this market's regulatory surface is the
+    union of its customers'.
 - title: The State of Artificial Intelligence APIs
   url: https://reports.apievangelist.com/reports/state-of-artificial-intelligence-apis/
-  note: "An AI company's real regulatory exposure is usually inherited from its customers' industries rather than its own — HIPAA reaches a model the moment it touches clinical data."
+  note: An AI company's real regulatory exposure is usually inherited from its customers' industries rather
+    than its own — HIPAA reaches a model the moment it touches clinical data.
 - title: The State of US Healthcare APIs
   url: https://reports.apievangelist.com/reports/state-of-us-healthcare-apis/
   note: The privacy law that makes consent the moral center of healthcare — and whose right of access
@@ -54,6 +57,17 @@ common:
   url: https://www.hhs.gov/ocr/index.html
 url: https://www.hhs.gov/hipaa/
 yearCreated: 1996
+companyCount: 210
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 44
+precisionGrade: low
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 5 characters'
+- 'collision -25: a surviving needle is also claimed by standards:HIPAA'
+- 'bare-channel -21: 93% of matching companies were reached only on the bare word (210 bare vs 15 phrase)'
 ---
 
 **HIPAA** is the law that makes consent the moral center of US healthcare, and it is the reason the patient-directed API is more than a nice idea. Its Privacy Rule sets when protected health information may move and gives patients a right of access to their own records; its Security Rule requires real safeguards on electronic PHI. Together they are the baseline every healthcare API in the country operates under.

@@ -35,6 +35,15 @@ alternativeNames:
 - Machinery Regulation
 - Regulation (EU) 2023/1230
 - Machinery Directive successor
+companyCount: 1
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **The Machinery Regulation** is the rule that decides whether a robot may be sold in Europe, and its update matters because it reaches **software and autonomy** rather than only mechanical hazards. Safety functions implemented in software, and machines whose behaviour evolves, are now explicitly in scope.

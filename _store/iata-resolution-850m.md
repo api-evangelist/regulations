@@ -2,21 +2,21 @@
 papers:
 - title: The State of Australian Travel APIs
   url: https://reports.apievangelist.com/reports/state-of-australian-travel-apis/
-  note: "How distribution policy is actually enforced — Air Transat's CRS policy bars redistribution without written consent and enforces it through ADMs under this resolution."
+  note: How distribution policy is actually enforced — Air Transat's CRS policy bars redistribution without
+    written consent and enforces it through ADMs under this resolution.
 standards:
 - title: IATA BSP and ARC
   url: https://standards.apievangelist.com/store/iata-bsp/
-  note: "ADMs are raised and settled through the same billing and settlement machinery."
+  note: ADMs are raised and settled through the same billing and settlement machinery.
 name: IATA Resolution 850m
 slug: iata-resolution-850m
 title: IATA Resolution 850m (Agency Debit Memos)
 kind: industry-policy
 jurisdiction: International
-description: >-
-  Resolution 850m governs Agency Debit Memos — the instrument by which an airline charges an accredited
-  agency for a breach of fare rules, booking policy or distribution terms. ADMs are the enforcement
-  mechanism behind airline distribution policy: not litigation, not regulatory penalty, but a debit
-  raised through the settlement system the agency depends on.
+description: 'Resolution 850m governs Agency Debit Memos — the instrument by which an airline charges
+  an accredited agency for a breach of fare rules, booking policy or distribution terms. ADMs are the
+  enforcement mechanism behind airline distribution policy: not litigation, not regulatory penalty, but
+  a debit raised through the settlement system the agency depends on.'
 tags:
 - Travel
 - Aviation
@@ -33,6 +33,15 @@ alternativeNames:
 - Resolution 850m
 - ADM
 - Agency Debit Memo
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'note: 1 needle(s) dropped by the stoplist — precision gained, recall lost'
 ---
 
 An **Agency Debit Memo** is how an airline enforces its distribution policy against an agency. Not a

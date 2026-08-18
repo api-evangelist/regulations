@@ -7,7 +7,8 @@ headers:
 papers:
 - title: The State of Digital Health APIs
   url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: "One of exactly two rules in the world that effectively compel a health API — and the report measures what that compulsion produced."
+  note: One of exactly two rules in the world that effectively compel a health API — and the report measures
+    what that compulsion produced.
 - title: The State of US Healthcare APIs
   url: https://reports.apievangelist.com/reports/state-of-us-healthcare-apis/
   note: The law whose information-blocking rule turned a whole sector's FHIR endpoints into a legal obligation
@@ -47,6 +48,15 @@ common:
   url: https://www.healthit.gov/topic/information-blocking
 url: https://www.healthit.gov/topic/information-blocking
 yearCreated: 2016
+companyCount: 3
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **The 21st Century Cures Act** is the law that pried US healthcare data open, and its information-blocking rule is the closest thing American health IT has to the access-to-account mandate that PSD2 gave European banking. It makes it illegal for a certified EHR, provider, or health information network to interfere with the access, exchange, or use of electronic health information, and it requires that data be reachable through a standardized, FHIR-based API 'without special effort.'

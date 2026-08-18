@@ -25,4 +25,13 @@ papers:
   url: https://reports.apievangelist.com/reports/state-of-biotechnology-apis/
   note: Named by 2 of 999 companies — the regulation that turns a diagnostic algorithm behind an API into
     a certified medical device, and which almost no one in this market has yet written down.
+companyCount: 2
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---

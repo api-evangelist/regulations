@@ -4,7 +4,11 @@ kind: regulation
 jurisdiction: European Union
 slug: sfdr
 title: Sustainable Finance Disclosure Regulation (SFDR)
-description: Regulation (EU) 2019/2088 requires financial market participants and advisers to disclose how sustainability risks are integrated into investment decisions and to report principal adverse impacts across a defined set of indicators. It is the regime that turned ESG data into a compliance input for asset managers, and it is the demand-side pressure behind much of the corporate emissions data the climate-software market exists to collect.
+description: Regulation (EU) 2019/2088 requires financial market participants and advisers to disclose
+  how sustainability risks are integrated into investment decisions and to report principal adverse impacts
+  across a defined set of indicators. It is the regime that turned ESG data into a compliance input for
+  asset managers, and it is the demand-side pressure behind much of the corporate emissions data the climate-software
+  market exists to collect.
 tags:
 - Sustainability
 - ESG
@@ -23,3 +27,15 @@ alternativeNames:
 - SFDR
 - PAI
 - Principal Adverse Impacts
+companyCount: 8
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
+- 'note: 1 needle(s) dropped by the stoplist — precision gained, recall lost'
+---

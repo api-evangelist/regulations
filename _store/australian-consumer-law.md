@@ -2,16 +2,16 @@
 papers:
 - title: The State of Australian Travel APIs
   url: https://reports.apievangelist.com/reports/state-of-australian-travel-apis/
-  note: "The instrument Australia used on travel instead of the Consumer Data Right — A$44.7m against Trivago, A$100m against Qantas, and contract quality of 5.8 with nine of eleven organizations at zero."
+  note: The instrument Australia used on travel instead of the Consumer Data Right — A$44.7m against Trivago,
+    A$100m against Qantas, and contract quality of 5.8 with nine of eleven organizations at zero.
 name: Australian Consumer Law
 slug: australian-consumer-law
 title: Australian Consumer Law (ACL)
 kind: statute
 jurisdiction: Australia
-description: >-
-  The Australian Consumer Law, Schedule 2 to the Competition and Consumer Act 2010, is the national
-  regime governing misleading conduct, unfair contract terms and consumer guarantees. Enforced by the
-  ACCC, it is the instrument that regulates Australian travel — as distinct from the Consumer Data
+description: The Australian Consumer Law, Schedule 2 to the Competition and Consumer Act 2010, is the
+  national regime governing misleading conduct, unfair contract terms and consumer guarantees. Enforced
+  by the ACCC, it is the instrument that regulates Australian travel — as distinct from the Consumer Data
   Right, which governs data portability and was never extended to the sector.
 tags:
 - Australia
@@ -30,6 +30,17 @@ alternativeNames:
 - ACL
 - Competition and Consumer Act 2010 Schedule 2
 - ACCC enforcement
+companyCount: null
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 0
+precisionGrade: unmeasurable
+precisionBasis:
+- 'human verdict: `acl` sampled across 120 corpora and every hit was ACL the audit/analytics product,
+  beside Qlik and Tableau ("tools such as ACL qlik sense tableau", "python ACL sas statistical software").
+  Never Australian Consumer Law. Bare needle stoplisted; nothing else survives.'
 ---
 
 The ACL is Australia's general-purpose consumer statute, and in travel it has been used hard. The ACCC

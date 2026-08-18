@@ -31,6 +31,15 @@ alternativeNames:
 - FATF Recommendation 16
 - Crypto Travel Rule
 - VASP Travel Rule
+companyCount: 5
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **The Travel Rule** is a compliance obligation shaped exactly like an API standard. Two institutions that may never have spoken need to exchange structured, verified data about the parties to a transfer, at the moment of that transfer, across borders and across jurisdictions that implement the rule differently.

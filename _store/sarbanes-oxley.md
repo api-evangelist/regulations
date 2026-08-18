@@ -35,6 +35,15 @@ alternativeNames:
 - SOX
 - Sarbanes-Oxley Act of 2002
 - Public Company Accounting Reform Act
+companyCount: 498
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 85
+precisionGrade: high
+precisionBasis:
+- 'human verdict: `sox` sampled clean as the statute; no competing sense appeared in the sample.'
 ---
 
 **Sarbanes-Oxley** is the origin of the GRC industry. Requiring management to attest, personally, that controls over financial reporting are effective turned control testing from an internal-audit activity into a continuous, evidenced, software-supported discipline — and created demand for every platform that automates it.

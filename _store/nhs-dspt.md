@@ -6,7 +6,8 @@ headers:
 papers:
 - title: The State of Digital Health APIs
   url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: "An assurance regime gating access to the national platform, scored alongside ten other health regimes."
+  note: An assurance regime gating access to the national platform, scored alongside ten other health
+    regimes.
 - title: The State of UK Healthcare APIs
   url: https://reports.apievangelist.com/reports/state-of-uk-healthcare-apis/
   note: The NHS assurance regime every supplier touching patient data must pass — and which none in the
@@ -34,6 +35,15 @@ common:
   url: https://www.dsptoolkit.nhs.uk/
 url: https://www.dsptoolkit.nhs.uk/
 yearCreated: 2018
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **The NHS Data Security and Protection Toolkit** is the assurance gate every organization touching NHS patient data has to pass. It is an annual self-assessment against the National Data Guardian's standards, and it is effectively mandatory: without a satisfactory DSPT, a supplier cannot connect to national services like the Spine or the FHIR APIs on the NHS API platform.

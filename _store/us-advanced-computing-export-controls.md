@@ -2,13 +2,17 @@
 papers:
 - title: The State of Compute & Hardware APIs
   url: https://reports.apievangelist.com/reports/state-of-compute-hardware-apis/
-  note: "The one regime in the series that argues AGAINST publishing — performance thresholds are licensing triggers, and end-user screening attaches to the seller."
+  note: The one regime in the series that argues AGAINST publishing — performance thresholds are licensing
+    triggers, and end-user screening attaches to the seller.
 name: US advanced-computing export controls
 kind: regulation
 jurisdiction: United States
 slug: us-advanced-computing-export-controls
 title: US Advanced-Computing Export Controls
-description: US Bureau of Industry and Security controls under the Export Administration Regulations restricting the export, reexport and in-country transfer of advanced computing chips, semiconductor manufacturing equipment and related technology, using performance thresholds, end-use and end-user screening, and the Entity List.
+description: US Bureau of Industry and Security controls under the Export Administration Regulations restricting
+  the export, reexport and in-country transfer of advanced computing chips, semiconductor manufacturing
+  equipment and related technology, using performance thresholds, end-use and end-user screening, and
+  the Entity List.
 tags:
 - Semiconductors
 - Export Control
@@ -25,6 +29,15 @@ alternativeNames:
 - BIS advanced computing rules
 - EAR semiconductor controls
 - October 7 rules
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 The **US advanced-computing export controls** are administered by the Bureau of Industry and Security
