@@ -1,10 +1,4 @@
 ---
-papers:
-- title: The State of UK Energy APIs
-  url: https://reports.apievangelist.com/reports/state-of-uk-energy-apis/
-  note: The reason Britain's distribution networks out-publish every mandated market in the study — UK
-    Power Networks and Northern Powergrid both hit 94.2 agent-readiness under a 'presumed open' licence
-    condition, not a consumer data right.
 standards:
 - title: OpenAPI
   url: https://standards.apievangelist.com/store/openapi/

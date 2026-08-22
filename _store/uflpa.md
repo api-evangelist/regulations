@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Supply Chain APIs
-  url: https://reports.apievangelist.com/reports/state-of-supply-chain-apis/
-  note: A rebuttable presumption that puts the evidentiary burden on the importer — and still names no
-    exchange format for the evidence.
 name: Uyghur Forced Labor Prevention Act
 kind: statute
 jurisdiction: United States

@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Legal & Compliance APIs
-  url: https://reports.apievangelist.com/reports/state-of-legal-compliance-apis/
-  note: The origin of the GRC market — which scores 24.1 with 28.6% publishing a contract, in a market
-    whose governance facet is 9.1.
 standards:
 - title: OSCAL
   url: https://standards.apievangelist.com/store/oscal/
@@ -54,4 +49,4 @@ precisionBasis:
   * **The PCAOB** - An audit regulator created by the Act, which sets the standards auditors apply.
   * **Beyond public companies** - Private companies approaching an IPO, and their suppliers, adopt the discipline early.
 
-SOX created the market that [The State of Legal & Compliance APIs](https://reports.apievangelist.com/reports/state-of-legal-compliance-apis/) scores at 24.1 with 28.6% publishing a machine-readable contract, inside a market whose governance facet is 9.1 with two-thirds at zero. The obligation SOX creates — evidence a control operated, repeatably, in a form an auditor accepts — is exactly what [OSCAL](https://standards.apievangelist.com/store/oscal/) was built to make exchangeable. Twenty-four years on, most of that evidence still moves as documents.
+SOX created the market that *The State of Legal & Compliance APIs* scores at 24.1 with 28.6% publishing a machine-readable contract, inside a market whose governance facet is 9.1 with two-thirds at zero. The obligation SOX creates — evidence a control operated, repeatably, in a form an auditor accepts — is exactly what [OSCAL](https://standards.apievangelist.com/store/oscal/) was built to make exchangeable. Twenty-four years on, most of that evidence still moves as documents.

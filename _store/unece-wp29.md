@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Robotics & Autonomous Systems APIs
-  url: https://reports.apievangelist.com/reports/state-of-robotics-apis/
-  note: Makes software governance a condition of type approval — the same discipline the governance facet
-    measures, arriving as law while the market's governance facet sits at 2.4.
 name: UNECE WP.29
 kind: regulation
 jurisdiction: United Nations / EU / adopting states
@@ -55,4 +50,4 @@ precisionBasis:
   * **Type approval as leverage** - Non-compliance blocks the market, which is why adoption was rapid.
   * **Reaches the supply chain** - Manufacturers push the obligations to component and software suppliers.
 
-These regulations are the closest thing in this market to the operational-governance facets the Kin Score measures — versioning, change communication, controlled updates — arriving as a legal requirement rather than a developer-experience nicety. [The State of Robotics & Autonomous Systems APIs](https://reports.apievangelist.com/reports/state-of-robotics-apis/) scores the autonomous vehicle segment at 13.1 with a market-wide governance facet of 2.4, so the discipline exists in regulated documents and not yet in anything published.
+These regulations are the closest thing in this market to the operational-governance facets the Kin Score measures — versioning, change communication, controlled updates — arriving as a legal requirement rather than a developer-experience nicety. *The State of Robotics & Autonomous Systems APIs* scores the autonomous vehicle segment at 13.1 with a market-wide governance facet of 2.4, so the discipline exists in regulated documents and not yet in anything published.

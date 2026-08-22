@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Education & EdTech APIs
-  url: https://reports.apievangelist.com/reports/state-of-education-apis/
-  note: Verifiable parental consent, sometimes exercised by a school — a three-party delegation chain
-    expressed nowhere machine-readable, in the K-12 segment scoring 17.3.
 name: COPPA
 kind: regulation
 jurisdiction: United States
@@ -52,4 +47,4 @@ precisionBasis:
   * **Parental review and deletion** - Rights that have to be honoured across every downstream system the data reached.
   * **FTC enforcement** - Civil penalties per violation, and an active enforcement record against EdTech.
 
-COPPA makes the education market's consent gap concrete. A parent consents, a school sometimes consents on their behalf, a vendor relies on that consent, and a subprocessor relies on the vendor — and at no point in [The State of Education & EdTech APIs](https://reports.apievangelist.com/reports/state-of-education-apis/)'s 814-organization cohort is that chain expressed as anything a machine can read. The K-12 segment carrying the heaviest COPPA exposure scores 17.3 and publishes a machine-readable contract 15.9% of the time.
+COPPA makes the education market's consent gap concrete. A parent consents, a school sometimes consents on their behalf, a vendor relies on that consent, and a subprocessor relies on the vendor — and at no point in *The State of Education & EdTech APIs*'s 814-organization cohort is that chain expressed as anything a machine can read. The K-12 segment carrying the heaviest COPPA exposure scores 17.3 and publishes a machine-readable contract 15.9% of the time.

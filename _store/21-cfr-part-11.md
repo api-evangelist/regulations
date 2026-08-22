@@ -25,12 +25,6 @@ standards:
 - title: CDISC
   url: https://standards.apievangelist.com/store/cdisc/
   note: The submission datasets whose electronic records Part 11 governs.
-papers:
-- title: The State of Biotechnology APIs
-  url: https://reports.apievangelist.com/reports/state-of-biotechnology-apis/
-  note: The most-named regulation in biotechnology at 23 of 999 companies. It mandates an immutable, attributable
-    audit trail — and this market publishes the lowest governance score of any section measured, 28.8,
-    so the trail exists inside the validated product and never reaches the interface.
 companyCount: 39
 companyCountQuarter: q3-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,

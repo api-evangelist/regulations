@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Compute & Hardware APIs
-  url: https://reports.apievangelist.com/reports/state-of-compute-hardware-apis/
-  note: Its crisis-monitoring mechanism obliges companies to report supply data to the Commission on request
-    — reporting to the state, not an interface for partners.
 name: European Chips Act
 kind: regulation
 jurisdiction: European Union

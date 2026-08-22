@@ -21,11 +21,6 @@ tags:
 common:
 - type: Website
   url: https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments
-papers:
-- title: The State of Biotechnology APIs
-  url: https://reports.apievangelist.com/reports/state-of-biotechnology-apis/
-  note: Named by 19 of 999 biotechnology companies — the certification that separates a research result
-    from a clinical one, and a distinction almost none of them expose in the API response.
 companyCount: 20
 companyCountQuarter: q3-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,

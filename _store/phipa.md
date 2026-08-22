@@ -1,13 +1,4 @@
 ---
-papers:
-- title: The State of Digital Health APIs
-  url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: Provincial privacy law with no national access layer behind it — the Canadian shape, seen from
-    the global cut.
-- title: The State of Canadian Healthcare APIs
-  url: https://reports.apievangelist.com/reports/state-of-canadian-healthcare-apis/
-  note: The health-specific privacy regime governing the province-fragmented Canadian market the report
-    scores.
 name: PHIPA
 kind: statute
 jurisdiction: Ontario, Canada

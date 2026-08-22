@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Legal & Compliance APIs
-  url: https://reports.apievangelist.com/reports/state-of-legal-compliance-apis/
-  note: Why an agreement executed through an API is enforceable in the US — technology-neutral where eIDAS
-    is verifiable, and both underpin the market's strongest segment.
 standards:
 - title: AdES
   url: https://standards.apievangelist.com/store/ades/
@@ -56,4 +51,4 @@ precisionBasis:
   * **Record retention** - The record must be capable of accurate reproduction, which shapes retention design.
   * **Carve-outs** - Wills, certain family law and some notices remain outside, which is why some workflows stay on paper.
 
-The contrast with Europe is instructive and it shows up in the scores. eIDAS attaches legal consequence to a **machine-verifiable** artifact; ESIGN and UETA attach it to intent and process. Both produced a functioning e-signature market, and [The State of Legal & Compliance APIs](https://reports.apievangelist.com/reports/state-of-legal-compliance-apis/) finds that market leading its sector on published contracts at 55.0% — well ahead of the contract-management segment next door at 18.2%. Where a legal requirement lands on the artifact, the artifact gets published.
+The contrast with Europe is instructive and it shows up in the scores. eIDAS attaches legal consequence to a **machine-verifiable** artifact; ESIGN and UETA attach it to intent and process. Both produced a functioning e-signature market, and *The State of Legal & Compliance APIs* finds that market leading its sector on published contracts at 55.0% — well ahead of the contract-management segment next door at 18.2%. Where a legal requirement lands on the artifact, the artifact gets published.

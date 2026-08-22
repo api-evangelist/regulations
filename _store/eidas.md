@@ -6,15 +6,6 @@ headers:
   standard: berlin-group-nextgenpsd2
   note: The certificate in this header is a QWAC issued under eIDAS. One header carrying the join between
     a payments regime and an identity regime.
-papers:
-- title: The State of Blockchain & Crypto APIs
-  url: https://reports.apievangelist.com/reports/state-of-blockchain-crypto-apis/
-  note: Digital identity and wallet infrastructure converging on the key management this market already
-    operates.
-- title: The State of UK Banking APIs
-  url: https://reports.apievangelist.com/reports/state-of-uk-banking-apis/
-  note: The certificate/identity trust framework behind third-party onboarding across the OBIE and Berlin
-    Group ecosystems.
 standards:
 - title: Dynamic Client Registration
   url: https://standards.apievangelist.com/store/dynamic-client-registration/

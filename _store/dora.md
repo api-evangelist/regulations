@@ -3,24 +3,6 @@ headers:
 - name: access-control-allow-origin
   basis: evidentiary
   observable: edge
-papers:
-- title: The State of Blockchain & Crypto APIs
-  url: https://reports.apievangelist.com/reports/state-of-blockchain-crypto-apis/
-  note: A MiCA-authorised crypto-asset service provider is a financial entity under DORA, in a market
-    scoring 11.1 on governance and 17.9 on operational transparency.
-- title: The State of Data & Analytics APIs
-  url: https://reports.apievangelist.com/reports/state-of-data-analytics-apis/
-  note: Where a data platform is critical infrastructure for a regulated financial customer.
-- title: The State of Cybersecurity APIs
-  url: https://reports.apievangelist.com/reports/state-of-cybersecurity-apis/
-  note: The regime that reaches security vendors who are not themselves regulated — a designated critical
-    ICT third-party provider is supervised directly, in a market where operational transparency averages
-    21.8.
-- title: The State of Developer Tools APIs
-  url: https://reports.apievangelist.com/reports/state-of-developer-tools-apis/
-  note: 'The clearest instance of inherited exposure: a CI/CD or observability vendor is not regulated
-    as one, but is inside its EU financial customers'' DORA perimeter — and can be designated and supervised
-    in its own right.'
 name: DORA
 kind: regulation
 jurisdiction: European Union

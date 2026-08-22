@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of US Real Estate APIs
-  url: https://reports.apievangelist.com/reports/state-of-us-real-estate-apis/
-  note: 'The only self-imposed machine-readable mandate in the API economy — and it is worth about two
-    points: RESO-certified organizations average 38.0 against 36.0 uncertified.'
 standards:
 - title: RESO Web API
   url: https://standards.apievangelist.com/store/reso-web-api/

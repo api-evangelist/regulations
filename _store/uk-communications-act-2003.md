@@ -1,14 +1,4 @@
 ---
-papers:
-- title: The CAMARA Standard
-  url: https://reports.apievangelist.com/reports/the-camara-standard/
-  note: Regulates the UK operators who launched CAMARA KYC commercially on a single day in September 2025
-    without one of them exposing an endpoint of its own.
-- title: The State of Telecom APIs
-  url: https://reports.apievangelist.com/reports/state-of-telecom-apis/
-  note: Ofcom regulates the UK's operators and mandates no network-API exposure — while BT, Vodafone,
-    Virgin Media O2 and Three all launched CAMARA commercially through third-party aggregators rather
-    than their own surfaces.
 name: UK Communications Act 2003
 kind: statute
 jurisdiction: United Kingdom

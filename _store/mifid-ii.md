@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Market Data APIs
-  url: https://reports.apievangelist.com/reports/state-of-market-data-apis/
-  note: The regime that made market data a licensed, entitled, redistribution-controlled product — and
-    the reason commercial clarity behaves differently in this sector than anywhere else in the series.
 name: MiFID II
 kind: directive
 jurisdiction: European Union

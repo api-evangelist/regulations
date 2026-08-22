@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of US Banking APIs
-  url: https://reports.apievangelist.com/reports/state-of-us-banking-apis/
-  note: The rule the report calls the market's coin-flip — whether it survives decides whether the aggregator-owned
-    rails get pried open.
 standards:
 - title: FDX
   url: https://standards.apievangelist.com/store/fdx/

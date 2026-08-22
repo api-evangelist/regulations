@@ -7,15 +7,6 @@ headers:
   note: 'The strongest case in the entire catalog: a request header that California recognises as a legally
     binding opt-out signal, with Colorado and Connecticut following through their universal-opt-out lists.
     Zero providers in the catalog declare it.'
-papers:
-- title: The State of Marketing & Advertising APIs
-  url: https://reports.apievangelist.com/reports/state-of-marketing-advertising-apis/
-  note: Sale and sharing of personal information, global opt-out signals, and the data-broker registry
-    several companies in that cohort appear on — in a market describing consent in its APIs at 3.1%.
-- title: The State of Data & Analytics APIs
-  url: https://reports.apievangelist.com/reports/state-of-data-analytics-apis/
-  note: 'Reaches the data-provider segment directly: people data, firmographics and web extraction, where
-    consent is legible at 2.7% of the market.'
 name: CCPA / CPRA
 kind: regulation
 jurisdiction: United States (California)
@@ -67,4 +58,4 @@ precisionRecognition: 72
   * **Global Privacy Control** - A browser-level opt-out signal that must be honoured, and one of the few consent artifacts that travels automatically rather than by conversation.
   * **A dedicated regulator** - The CPPA has rulemaking and enforcement authority, which distinguishes this from the sectoral US regimes around it.
 
-The reason this regime keeps appearing in API Evangelist research is the propagation problem. An opt-out or a deletion is trivial to honour in one system and hard to honour across the fifteen a business integrated — and in the two markets where it bites hardest, the interfaces do not describe permission at all. [The State of Marketing & Advertising APIs](https://reports.apievangelist.com/reports/state-of-marketing-advertising-apis/) finds consent legible in 3.1% of that market's APIs, and [The State of Data & Analytics APIs](https://reports.apievangelist.com/reports/state-of-data-analytics-apis/) finds `preferences` and `suppression` published as resources by nobody at all. The obligation is unambiguous and the artifact that would satisfy it at machine speed is missing, which is an opportunity rather than only a risk.
+The reason this regime keeps appearing in API Evangelist research is the propagation problem. An opt-out or a deletion is trivial to honour in one system and hard to honour across the fifteen a business integrated — and in the two markets where it bites hardest, the interfaces do not describe permission at all. *The State of Marketing & Advertising APIs* finds consent legible in 3.1% of that market's APIs, and *The State of Data & Analytics APIs* finds `preferences` and `suppression` published as resources by nobody at all. The obligation is unambiguous and the artifact that would satisfy it at machine speed is missing, which is an opportunity rather than only a risk.

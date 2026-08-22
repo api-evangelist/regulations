@@ -4,15 +4,6 @@ headers:
   basis: mandated
   observable: credentialed
   standard: dpop
-papers:
-- title: The OAuth 2.0 Standard
-  url: https://reports.apievangelist.com/reports/the-oauth-2-standard/
-  note: PSD2's SCA requirements are part of the small set of rules that actually compel OAuth rather than
-    merely touching it.
-- title: The State of UK Banking APIs
-  url: https://reports.apievangelist.com/reports/state-of-uk-banking-apis/
-  note: The regulatory requirement behind the FAPI/OIDC/mTLS stack every UK bank documents — bank-grade
-    auth as the mandated floor.
 standards:
 - title: FAPI
   url: https://standards.apievangelist.com/store/fapi/

@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Education & EdTech APIs
-  url: https://reports.apievangelist.com/reports/state-of-education-apis/
-  note: The delegation statute of US education — a parent for a child, an institution for both — in a
-    market describing consent and delegated identity at 3.3%.
 name: FERPA
 kind: regulation
 jurisdiction: United States
@@ -55,4 +50,4 @@ precisionBasis:
   * **Directory information** - A carve-out institutions define themselves, with an opt-out — one of the few places a student choice becomes data.
   * **Enforcement through funding** - The remedy is federal funding, not a private right of action, which shapes how seriously it is treated.
 
-FERPA governs disclosure and asks nothing about interfaces, which is the pattern this research has recorded in every regulated market. Its distinctive feature is that the permission it turns on is **delegated** — a parent for a child, an institution for both, a vendor under the institution's control. [The State of Education & EdTech APIs](https://reports.apievangelist.com/reports/state-of-education-apis/) measures consent and delegated identity as a legible surface at 3.3% of the education market. In the sector where the data subject is most often a minor and the authority is always delegated, that surface is effectively absent.
+FERPA governs disclosure and asks nothing about interfaces, which is the pattern this research has recorded in every regulated market. Its distinctive feature is that the permission it turns on is **delegated** — a parent for a child, an institution for both, a vendor under the institution's control. *The State of Education & EdTech APIs* measures consent and delegated identity as a legible surface at 3.3% of the education market. In the sector where the data subject is most often a minor and the authority is always delegated, that surface is effectively absent.

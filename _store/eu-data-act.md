@@ -1,13 +1,4 @@
 ---
-papers:
-- title: The State of Data & Analytics APIs
-  url: https://reports.apievangelist.com/reports/state-of-data-analytics-apis/
-  note: The one regime in a nine-regime table pointing at interfaces rather than at use — access to connected-product
-    data, and switching between processing services.
-- title: The State of Marketing & Advertising APIs
-  url: https://reports.apievangelist.com/reports/state-of-marketing-advertising-apis/
-  note: Portability and switching, in a market where every other rule is about permission rather than
-    access.
 name: EU Data Act
 kind: regulation
 jurisdiction: European Union
@@ -53,4 +44,4 @@ precisionBasis:
   * **Business-to-business fairness** - Unfair contractual terms about data access become unenforceable against smaller counterparties.
   * **Safeguards for trade secrets** - Access is not unconditional, and the balance between disclosure and protection is where implementation gets argued.
 
-For anyone reading these reports, the Data Act is the regime worth watching most closely. Every market API Evangelist has scored shows the same pattern — regulation compels records and rarely compels an interface — and this is the first significant exception. [The State of Data & Analytics APIs](https://reports.apievangelist.com/reports/state-of-data-analytics-apis/) notes it as the one rule in a nine-regime table aimed at interfaces rather than at use, and [The State of Marketing & Advertising APIs](https://reports.apievangelist.com/reports/state-of-marketing-advertising-apis/) the same. Whether the response is portals or contracts will decide whether the next five years in these markets produce APIs or PDFs.
+For anyone reading these reports, the Data Act is the regime worth watching most closely. Every market API Evangelist has scored shows the same pattern — regulation compels records and rarely compels an interface — and this is the first significant exception. *The State of Data & Analytics APIs* notes it as the one rule in a nine-regime table aimed at interfaces rather than at use, and *The State of Marketing & Advertising APIs* the same. Whether the response is portals or contracts will decide whether the next five years in these markets produce APIs or PDFs.

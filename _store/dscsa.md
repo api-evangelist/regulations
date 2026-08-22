@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Supply Chain APIs
-  url: https://reports.apievangelist.com/reports/state-of-supply-chain-apis/
-  note: The closest any supply chain regime comes to compelling machine-to-machine exchange — and the
-    segment built for it outscores the segments around it.
 standards:
 - title: EPCIS
   url: https://standards.apievangelist.com/store/epcis/

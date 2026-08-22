@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of UK Travel APIs
-  url: https://reports.apievangelist.com/reports/state-of-uk-travel-apis/
-  note: The nearest instrument that could reach interoperability in travel intermediation — untested there,
-    in a market where a British GDS publishes twenty-seven points below its American counterpart.
 name: DMCC Act 2024
 slug: dmcca-2024
 title: Digital Markets, Competition and Consumers Act 2024

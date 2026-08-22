@@ -1,12 +1,4 @@
 ---
-papers:
-- title: The State of Digital Health APIs
-  url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: The regime behind My Health Record, in a market where two rules in the world actually compel a
-    health API and neither is Australian.
-- title: The State of Australian Banking APIs
-  url: https://reports.apievangelist.com/reports/state-of-australian-banking-apis/
-  note: The privacy baseline the CDR's consent and data-sharing safeguards sit on top of.
 name: Privacy Act 1988
 kind: statute
 jurisdiction: Australia

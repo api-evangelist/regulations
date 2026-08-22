@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Supply Chain APIs
-  url: https://reports.apievangelist.com/reports/state-of-supply-chain-apis/
-  note: A due diligence obligation that lands on the report rather than the interface — the mechanism
-    behind an industry that buys reporting software instead of building contracts.
 name: Corporate Sustainability Due Diligence Directive
 kind: directive
 jurisdiction: European Union

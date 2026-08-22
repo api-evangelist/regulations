@@ -10,15 +10,6 @@ headers:
   basis: mandated
   observable: contract
   standard: fhir
-papers:
-- title: The State of Digital Health APIs
-  url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: 'The clearest evidence in the series that certification predicts publication: certified EHR platforms
-    publish a spec 37.4% of the time against 3.6% for patient-engagement platforms.'
-- title: The State of US Healthcare APIs
-  url: https://reports.apievangelist.com/reports/state-of-us-healthcare-apis/
-  note: The certification program whose (g)(10) criterion defines what a compliant EHR FHIR API must actually
-    contain.
 standards:
 - title: SMART on FHIR
   url: https://standards.apievangelist.com/store/smart-on-fhir/

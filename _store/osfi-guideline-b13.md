@@ -3,11 +3,6 @@ headers:
 - name: strict-transport-security
   basis: evidentiary
   observable: edge
-papers:
-- title: The State of Canadian Insurance APIs
-  url: https://reports.apievangelist.com/reports/state-of-canadian-insurance-apis/
-  note: OSFI supervises federally-regulated insurers prudentially and publishes a better API than any
-    of them — ranking second in the country on a live CKAN data platform.
 name: OSFI Guideline B-13
 kind: regulator-guidance
 jurisdiction: Canada

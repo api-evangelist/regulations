@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of UK Travel APIs
-  url: https://reports.apievangelist.com/reports/state-of-uk-travel-apis/
-  note: Extended package protection to dynamic packaging — the assembly of a holiday from multiple providers
-    — without requiring any of those providers to publish an interface the assembly could run on.
 name: Package Travel Regulations 2018
 slug: package-travel-regulations-2018
 title: Package Travel and Linked Travel Arrangements Regulations 2018

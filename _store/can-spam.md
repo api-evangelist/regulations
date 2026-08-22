@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Marketing & Advertising APIs
-  url: https://reports.apievangelist.com/reports/state-of-marketing-advertising-apis/
-  note: The obligations behind the suppression list — and across 2,925 specification documents from that
-    market's best publishers, `suppression` and `preferences` appear as resources zero times.
 name: CAN-SPAM
 kind: regulation
 jurisdiction: United States (with UK and Canadian equivalents)
@@ -54,4 +49,4 @@ precisionBasis:
   * **Consent before sending, outside the US** - PECR and CASL invert the default, which is why suppression state has to be portable.
   * **Liability that follows the list** - Using a platform does not transfer the obligation; the sender remains responsible for the list it uploaded.
 
-This family produces the single most under-published artifact in the marketing stack. Every obligation here is about state — who consented, who withdrew, who must never be contacted again — and that state has to be honoured across every platform a business integrated. [The State of Marketing & Advertising APIs](https://reports.apievangelist.com/reports/state-of-marketing-advertising-apis/) reads 2,925 specification documents from the 244 best-published companies in that market and finds `suppression` and `preferences` published as resources exactly zero times, and `unsubscribe` once. The compliance work is being done; it simply is not described anywhere a machine can read it.
+This family produces the single most under-published artifact in the marketing stack. Every obligation here is about state — who consented, who withdrew, who must never be contacted again — and that state has to be honoured across every platform a business integrated. *The State of Marketing & Advertising APIs* reads 2,925 specification documents from the 244 best-published companies in that market and finds `suppression` and `preferences` published as resources exactly zero times, and `unsubscribe` once. The compliance work is being done; it simply is not described anywhere a machine can read it.

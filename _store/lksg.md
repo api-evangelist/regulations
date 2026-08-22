@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Supply Chain APIs
-  url: https://reports.apievangelist.com/reports/state-of-supply-chain-apis/
-  note: The first national supply chain due diligence statute, and the one that created the European supplier-risk
-    software category — reporting obligations, not interface obligations.
 name: German Supply Chain Due Diligence Act
 kind: statute
 jurisdiction: Germany

@@ -6,25 +6,6 @@ headers:
 - name: strict-transport-security
   basis: evidentiary
   observable: edge
-papers:
-- title: The State of Blockchain & Crypto APIs
-  url: https://reports.apievangelist.com/reports/state-of-blockchain-crypto-apis/
-  note: Security obligations reaching digital-asset infrastructure operators.
-- title: The State of Data & Analytics APIs
-  url: https://reports.apievangelist.com/reports/state-of-data-analytics-apis/
-  note: Where a data platform is critical infrastructure for a regulated customer.
-- title: The State of Developer Tools APIs
-  url: https://reports.apievangelist.com/reports/state-of-developer-tools-apis/
-  note: 'Reaches developer-tools vendors through the supply-chain duty: a regulated customer must account
-    for its suppliers'' posture and will ask for evidence.'
-- title: The AsyncAPI Standard
-  url: https://reports.apievangelist.com/reports/the-asyncapi-standard/
-  note: The 24-hour incident clock mandates the event and not its description; no regime anywhere requires
-    an event surface to be machine-readable.
-- title: The State of Cybersecurity APIs
-  url: https://reports.apievangelist.com/reports/state-of-cybersecurity-apis/
-  note: Puts security operations on a 24-hour reporting clock, in an industry where operational transparency
-    averages 21.8 and a quarter of companies publish nothing operational at all.
 name: NIS2
 kind: directive
 jurisdiction: European Union

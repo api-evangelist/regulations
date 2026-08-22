@@ -9,24 +9,6 @@ headers:
   observable: edge
   note: Prior consent for non-essential storage. A non-essential cookie set on the first request, before
     any consent interaction, is the violation visible from outside.
-papers:
-- title: The State of Marketing & Advertising APIs
-  url: https://reports.apievangelist.com/reports/state-of-marketing-advertising-apis/
-  note: The rule behind the cookie banner, scored against the market it regulates — and the reason the
-    consent-management segment exists at all.
-- title: The State of Data & Analytics APIs
-  url: https://reports.apievangelist.com/reports/state-of-data-analytics-apis/
-  note: 'The rule that created a market: privacy-first web analytics is a scored segment in The State
-    of Data & Analytics APIs because of it.'
-- title: The CAMARA Standard
-  url: https://reports.apievangelist.com/reports/the-camara-standard/
-  note: Restricts exactly the subscriber data CAMARA's flagship verbs traffic in — telecom is regulated
-    on the input, not the output.
-- title: The State of Telecom APIs
-  url: https://reports.apievangelist.com/reports/state-of-telecom-apis/
-  note: The regime governing traffic and location data in EU networks — which is precisely what CAMARA's
-    Device Location and Population Density APIs expose, and why the standard's consent model was designed
-    to be recorded and interrogable.
 standards:
 - title: CAMARA
   url: https://standards.apievangelist.com/store/camara/

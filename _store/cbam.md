@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Supply Chain APIs
-  url: https://reports.apievangelist.com/reports/state-of-supply-chain-apis/
-  note: Like EUDR, it compels a submission into an EU-operated registry — the state builds the endpoint
-    and the industry builds the client.
 name: Carbon Border Adjustment Mechanism
 kind: regulation
 jurisdiction: European Union

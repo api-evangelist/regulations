@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Education & EdTech APIs
-  url: https://reports.apievangelist.com/reports/state-of-education-apis/
-  note: Binds the EdTech operator directly rather than through the district's contract — in a K-12 segment
-    publishing a contract 15.9% of the time with a governance facet of 3.3.
 name: SOPIPA
 kind: regulation
 jurisdiction: United States (California, and state adoptions)
@@ -50,4 +45,4 @@ precisionBasis:
   * **Deletion on request** - A school can require deletion, which has to propagate to every system holding the data.
   * **Binds the operator directly** - The vendor is liable on its own account, not only through the district's contract.
 
-SOPIPA and its state analogues are the reason the K-12 segment carries obligations closer to a regulated financial market than to ordinary SaaS — and [The State of Education & EdTech APIs](https://reports.apievangelist.com/reports/state-of-education-apis/) finds that segment publishing a machine-readable contract 15.9% of the time, with a governance facet of 3.3. A deletion obligation that has to propagate across every downstream system is an integration problem, and the interfaces that would make it tractable are largely unpublished.
+SOPIPA and its state analogues are the reason the K-12 segment carries obligations closer to a regulated financial market than to ordinary SaaS — and *The State of Education & EdTech APIs* finds that segment publishing a machine-readable contract 15.9% of the time, with a governance facet of 3.3. A deletion obligation that has to propagate across every downstream system is an integration problem, and the interfaces that would make it tractable are largely unpublished.

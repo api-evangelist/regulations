@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Canadian Energy APIs
-  url: https://reports.apievangelist.com/reports/state-of-canadian-energy-apis/
-  note: The only consumer energy data mandate in Canada — and its bound utilities cluster in Thin and
-    Emerging while the country's best energy API belongs to a province with no mandate at all.
 standards:
 - title: Green Button
   url: https://standards.apievangelist.com/store/green-button/

@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Blockchain & Crypto APIs
-  url: https://reports.apievangelist.com/reports/state-of-blockchain-crypto-apis/
-  note: Where a crypto firm is a money services business — and the reason the market's institutional tier
-    behaves like a payments company while the rest of it does not.
 name: BSA / AML
 kind: regulation
 jurisdiction: United States
@@ -55,4 +50,4 @@ precisionBasis:
   * **Recordkeeping** - Retention obligations that shape what a platform must be able to reconstruct.
   * **Reaches non-banks** - The money services business definition is what pulls exchanges, custodians and payment firms into scope.
 
-In [The State of Blockchain & Crypto APIs](https://reports.apievangelist.com/reports/state-of-blockchain-crypto-apis/) this regime explains a segment: compliance, identity and risk vendors exist because these obligations do, and the market's institutional tier — custody, stablecoins, regulated payments — publishes idempotency and error semantics at the highest rates in the cohort, because it answers to supervisors who ask what happened and when. The same tier publishes scopes at a fraction of that rate, which is the report's open question rather than its conclusion.
+In *The State of Blockchain & Crypto APIs* this regime explains a segment: compliance, identity and risk vendors exist because these obligations do, and the market's institutional tier — custody, stablecoins, regulated payments — publishes idempotency and error semantics at the highest rates in the cohort, because it answers to supervisors who ask what happened and when. The same tier publishes scopes at a fraction of that rate, which is the report's open question rather than its conclusion.

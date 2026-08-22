@@ -24,11 +24,6 @@ standards:
 - title: GA4GH
   url: https://standards.apievangelist.com/store/ga4gh/
   note: CAP NGS checklists govern the pipelines whose outputs GA4GH specifications move.
-papers:
-- title: The State of Biotechnology APIs
-  url: https://reports.apievangelist.com/reports/state-of-biotechnology-apis/
-  note: Named by 7 of 999 companies — the accreditation whose sequencing checklists govern bioinformatics
-    pipeline versioning, an area where the market's own APIs report almost nothing.
 companyCount: 1
 companyCountQuarter: q3-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,

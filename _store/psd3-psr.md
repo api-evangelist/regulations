@@ -6,11 +6,6 @@ headers:
   standard: dpop
   note: Forward-looking. Sender-constrained tokens arrive with FAPI 2.0 profiles; no provider in the catalog
     declares this header yet.
-papers:
-- title: The State of UK Banking APIs
-  url: https://reports.apievangelist.com/reports/state-of-uk-banking-apis/
-  note: The near-future European regime that will judge whether PSD2's fixes — API performance, access,
-    anti-fraud — finally land.
 standards:
 - title: UK Open Banking Standard
   url: https://standards.apievangelist.com/store/uk-open-banking-standard/

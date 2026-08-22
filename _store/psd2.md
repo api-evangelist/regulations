@@ -78,19 +78,6 @@ posts:
 - title: The Role of European Banking Authority (EBA) When It Comes To PSD2
   url: https://apievangelist.com/2018/01/23/the-role-of-european-banking-authority-eba-in-regards-to-psd2/
   date: 2018-01-23
-papers:
-- title: The OpenID Connect Standard
-  url: https://reports.apievangelist.com/reports/the-openid-connect-standard/
-  note: One of the few regimes compelling FAPI-profiled OIDC; the mandated markets declare identity in
-    the contract and the other 99% do not.
-- title: The OAuth 2.0 Standard
-  url: https://reports.apievangelist.com/reports/the-oauth-2-standard/
-  note: One of the few regimes that genuinely compels OAuth and FAPI — and, characteristically, stops
-    exactly at the regulatory line.
-- title: The State of UK Banking APIs
-  url: https://reports.apievangelist.com/reports/state-of-uk-banking-apis/
-  note: The legal basis of the UK's write surfaces — payment initiation and confirmation of funds — that
-    make UK banking APIs actionable, not read-only.
 standards:
 - title: UK Open Banking Standard
   url: https://standards.apievangelist.com/store/uk-open-banking-standard/

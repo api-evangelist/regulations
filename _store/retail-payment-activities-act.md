@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Canadian Banking APIs
-  url: https://reports.apievangelist.com/reports/state-of-canadian-banking-apis/
-  note: The payments-supervision regime behind the Canadian rails (Interac, Payments Canada RTR) that
-    outrank the banks in the report.
 name: Retail Payment Activities Act
 kind: statute
 jurisdiction: Canada

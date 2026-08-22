@@ -1,13 +1,4 @@
 ---
-papers:
-- title: The CAMARA Standard
-  url: https://reports.apievangelist.com/reports/the-camara-standard/
-  note: One of five regimes touching CAMARA's subject matter — and, like the other four, it compels no
-    operator to expose network capability as an API.
-- title: The State of Telecom APIs
-  url: https://reports.apievangelist.com/reports/state-of-telecom-apis/
-  note: The FCC publishes real public REST APIs over its own data and out-publishes Deutsche Telekom,
-    Comcast, BT, Vodafone, T-Mobile and AT&T — the regulator beating the regulated, again.
 name: US Communications Act
 kind: statute
 jurisdiction: United States

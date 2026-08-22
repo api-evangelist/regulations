@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of US Banking APIs
-  url: https://reports.apievangelist.com/reports/state-of-us-banking-apis/
-  note: The statutory hook for the US open-banking effort — the authority behind the CFPB rule the report
-    treats as the market's swing variable.
 standards:
 - title: FDX
   url: https://standards.apievangelist.com/store/fdx/

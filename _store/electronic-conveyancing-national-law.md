@@ -1,10 +1,4 @@
 ---
-papers:
-- title: The State of Australian Real Estate APIs
-  url: https://reports.apievangelist.com/reports/state-of-australian-real-estate-apis/
-  note: The statute behind PEXA — the top-scoring Australian organization (60.1) and the only mandated
-    machine-readable rail in the four-market study, holding the sole idempotency implementation across
-    101 organizations.
 name: Electronic Conveyancing National Law
 slug: electronic-conveyancing-national-law
 title: Electronic Conveyancing National Law (ECNL)

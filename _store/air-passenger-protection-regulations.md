@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Canadian Travel APIs
-  url: https://reports.apievangelist.com/reports/state-of-canadian-travel-apis/
-  note: Statutory compensation and communication duties for delays and cancellations, in a market where
-    zero of nine organizations publish an idempotency mechanism and only two publish an event contract.
 name: Air Passenger Protection Regulations
 slug: air-passenger-protection-regulations
 title: Air Passenger Protection Regulations (APPR)

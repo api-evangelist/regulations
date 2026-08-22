@@ -1,13 +1,4 @@
 ---
-papers:
-- title: The State of Digital Health APIs
-  url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: Software as a medical device, shaping what a health API is allowed to return across the global
-    cohort.
-- title: The State of Australian Healthcare APIs
-  url: https://reports.apievangelist.com/reports/state-of-australian-healthcare-apis/
-  note: The device regulation that governs software-as-a-medical-device, including the clinical-AI tools
-    the cohort ships.
 name: EU Medical Device Regulation
 kind: directive
 jurisdiction: European Union

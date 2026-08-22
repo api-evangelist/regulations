@@ -8,23 +8,6 @@ headers:
   basis: evidentiary
   observable: edge
   note: Security Rule technical safeguards for transmission security.
-papers:
-- title: The State of Digital Health APIs
-  url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: 'The law consent is built on, measured: consent is a legible, machine-readable surface at 3.4%
-    of the digital health market against 3.3% of the whole catalog.'
-- title: The State of Cybersecurity APIs
-  url: https://reports.apievangelist.com/reports/state-of-cybersecurity-apis/
-  note: A security vendor holding health data is inside HIPAA; this market's regulatory surface is the
-    union of its customers'.
-- title: The State of Artificial Intelligence APIs
-  url: https://reports.apievangelist.com/reports/state-of-artificial-intelligence-apis/
-  note: An AI company's real regulatory exposure is usually inherited from its customers' industries rather
-    than its own — HIPAA reaches a model the moment it touches clinical data.
-- title: The State of US Healthcare APIs
-  url: https://reports.apievangelist.com/reports/state-of-us-healthcare-apis/
-  note: The privacy law that makes consent the moral center of healthcare — and whose right of access
-    the patient-directed API operationalizes.
 standards:
 - title: HL7 FHIR
   url: https://standards.apievangelist.com/store/fhir/

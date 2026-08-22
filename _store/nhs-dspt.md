@@ -3,15 +3,6 @@ headers:
 - name: strict-transport-security
   basis: evidentiary
   observable: edge
-papers:
-- title: The State of Digital Health APIs
-  url: https://reports.apievangelist.com/reports/state-of-digital-health-apis/
-  note: An assurance regime gating access to the national platform, scored alongside ten other health
-    regimes.
-- title: The State of UK Healthcare APIs
-  url: https://reports.apievangelist.com/reports/state-of-uk-healthcare-apis/
-  note: The NHS assurance regime every supplier touching patient data must pass — and which none in the
-    cohort publishes as a legible artifact.
 name: NHS Data Security and Protection Toolkit
 kind: regulator-guidance
 jurisdiction: United Kingdom

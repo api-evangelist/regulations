@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Compute & Hardware APIs
-  url: https://reports.apievangelist.com/reports/state-of-compute-hardware-apis/
-  note: The one regime in the series that argues AGAINST publishing — performance thresholds are licensing
-    triggers, and end-user screening attaches to the seller.
 name: US advanced-computing export controls
 kind: regulation
 jurisdiction: United States

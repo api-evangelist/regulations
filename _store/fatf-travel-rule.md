@@ -1,9 +1,4 @@
 ---
-papers:
-- title: The State of Blockchain & Crypto APIs
-  url: https://reports.apievangelist.com/reports/state-of-blockchain-crypto-apis/
-  note: An inter-institution data exchange — the exact shape of an API standard — met with private networks
-    rather than an open contract, the same pattern as EDI in supply chain.
 name: FATF Travel Rule
 kind: regulation
 jurisdiction: Global (FATF member jurisdictions)
@@ -50,4 +45,4 @@ precisionBasis:
   * **Counterparty due diligence** - A sending institution must know something about the receiving one, which requires a directory of some kind.
   * **Met by private networks** - Several proprietary networks exist to carry these messages; an open, published contract does not.
 
-[The State of Blockchain & Crypto APIs](https://reports.apievangelist.com/reports/state-of-blockchain-crypto-apis/) makes the comparison plainly: this is an inter-organisational data exchange met with a handful of proprietary networks rather than an open specification, and the parallel with EDI in supply chain is close. A compliance obligation, a private network, and an industry entirely capable of writing the open version. It is worth watching whether the market that standardised [ERC-20](https://standards.apievangelist.com/store/erc-20/) voluntarily does the same here, or whether the Travel Rule stays a set of walled directories.
+*The State of Blockchain & Crypto APIs* makes the comparison plainly: this is an inter-organisational data exchange met with a handful of proprietary networks rather than an open specification, and the parallel with EDI in supply chain is close. A compliance obligation, a private network, and an industry entirely capable of writing the open version. It is worth watching whether the market that standardised [ERC-20](https://standards.apievangelist.com/store/erc-20/) voluntarily does the same here, or whether the Travel Rule stays a set of walled directories.
