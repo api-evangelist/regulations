@@ -6,6 +6,37 @@ headers:
 name: European Accessibility Act
 kind: regulation
 jurisdiction: European Union
+scope: horizontal
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- e-commerce-platform
+- banking
+- media
+- video-streaming
+- travel-technology
+- technology
 slug: european-accessibility-act
 title: European Accessibility Act (EAA)
 description: The European Accessibility Act requires a defined set of products and services — including

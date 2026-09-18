@@ -14,6 +14,37 @@ standards:
 name: Strong Customer Authentication
 kind: directive
 jurisdiction: European Union / United Kingdom
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+- united-kingdom
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+- united-kingdom-ireland
+industries:
+- payments
+- banking
+- financial-technology
+- e-commerce-platform
 slug: strong-customer-authentication
 title: Strong Customer Authentication (SCA)
 description: Strong Customer Authentication (SCA) is the security requirement mandated by PSD2's Regulatory

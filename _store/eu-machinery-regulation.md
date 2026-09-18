@@ -6,6 +6,34 @@ standards:
 name: EU Machinery Regulation
 kind: regulation
 jurisdiction: European Union
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- industrial
+- robotics
+- automotive
 slug: eu-machinery-regulation
 title: EU Machinery Regulation (2023/1230)
 description: The Machinery Regulation replaces the Machinery Directive across the EU and extends it to

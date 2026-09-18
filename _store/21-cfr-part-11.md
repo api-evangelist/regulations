@@ -4,6 +4,16 @@ title: 21 CFR Part 11 — Electronic Records and Electronic Signatures
 slug: 21-cfr-part-11
 kind: regulation
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- pharmaceutical
+- life-sciences
+- biotechnology
+- healthcare
 yearCreated: 1997
 description: 21 CFR Part 11 is the FDA rule setting the conditions under which electronic records and
   electronic signatures are treated as equivalent to paper and ink. It requires validated systems, secure

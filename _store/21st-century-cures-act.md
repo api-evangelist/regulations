@@ -17,6 +17,15 @@ standards:
 name: 21st Century Cures Act
 kind: statute
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- healthcare
+- digital-health
+- life-sciences
 slug: 21st-century-cures-act
 title: 21st Century Cures Act (Information Blocking Rule)
 description: 'The 21st Century Cures Act is a 2016 US law whose ONC Final Rule (2020) prohibits ''information

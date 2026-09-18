@@ -6,6 +6,16 @@ headers:
 name: Quebec Law 25
 kind: statute
 jurisdiction: Canada (Quebec)
+scope: horizontal
+countries:
+- canada
+regions:
+- north-america
+industries:
+- technology
+- marketing-advertising
+- artificial-intelligence
+- data-analytics
 slug: quebec-law-25
 title: Quebec Law 25 (Act 64)
 description: Quebec's Law 25 is the province's modernization of personal-information protection, introducing

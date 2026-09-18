@@ -18,6 +18,16 @@ standards:
 name: HIPAA
 kind: statute
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- healthcare
+- digital-health
+- insurance
+- life-sciences
 slug: hipaa
 title: Health Insurance Portability and Accountability Act (HIPAA)
 description: HIPAA is the 1996 US law that governs the privacy and security of protected health information

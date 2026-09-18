@@ -6,6 +6,37 @@ headers:
 name: EU Cyber Resilience Act
 kind: statute
 jurisdiction: European Union
+scope: horizontal
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- cybersecurity
+- iot
+- developer-tools
+- enterprise-software
+- semiconductors-hardware
+- technology
 slug: eu-cyber-resilience-act
 title: EU Cyber Resilience Act (CRA)
 description: The EU Cyber Resilience Act is the first horizontal law to impose cybersecurity obligations
@@ -44,6 +75,19 @@ precisionGrade: unmeasurable
 precisionBasis:
 - 'human verdict: `cra` is the Community Reinvestment Act in every sampled banking posting ("assists with
   CRA donations sponsorships", "the bank s CRA goals"). Stoplisted.'
+standards:
+- title: CycloneDX  # wired by scripts/wire_standards_links.py
+  url: https://standards.apievangelist.com/store/cyclonedx/
+  note: The CRA requires a software bill of materials covering at least the top-level dependencies;
+    CycloneDX is one of the two formats the market actually ships.
+- title: SPDX  # wired by scripts/wire_standards_links.py
+  url: https://standards.apievangelist.com/store/spdx/
+  note: The other SBOM format a CRA conformity assessment will accept, and the one with the deeper
+    licensing model.
+- title: security.txt  # wired by scripts/wire_standards_links.py
+  url: https://standards.apievangelist.com/store/security-txt/
+  note: The CRA obliges a coordinated vulnerability disclosure policy and a contact point for reporting;
+    RFC 9116 is how that becomes machine-readable.
 ---
 
 The **EU Cyber Resilience Act** does for product security what the AI Act does for AI: it regulates a horizontal property of software rather than a sector, and it attaches duties to whoever places a product with digital elements on the EU market. For an API provider, the important thing is that several of its obligations are not postures — they are artifacts somebody can ask you to produce.

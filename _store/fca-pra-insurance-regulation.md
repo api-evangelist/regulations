@@ -2,6 +2,14 @@
 name: FCA and PRA Insurance Regulation
 kind: regulator-guidance
 jurisdiction: United Kingdom
+scope: sectoral
+countries:
+- united-kingdom
+regions:
+- united-kingdom-ireland
+industries:
+- insurance
+- financial-services
 slug: fca-pra-insurance-regulation
 title: FCA and PRA Insurance Regulation (United Kingdom)
 description: 'The United Kingdom regulates insurance through two bodies: the Financial Conduct Authority

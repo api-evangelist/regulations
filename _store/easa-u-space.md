@@ -2,6 +2,34 @@
 name: EASA U-space
 kind: regulation
 jurisdiction: European Union
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- aerospace
+- air-traffic-airspace
+- robotics
 slug: easa-u-space
 title: EASA U-space Regulatory Framework
 description: U-space is the European framework for managing large numbers of drones in shared airspace.

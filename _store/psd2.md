@@ -88,6 +88,37 @@ standards:
 name: PSD2
 kind: directive
 jurisdiction: European Union / United Kingdom
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+- united-kingdom
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+- united-kingdom-ireland
+industries:
+- banking
+- payments
+- financial-technology
+- financial-services
 slug: psd2
 title: Revised Payment Services Directive (PSD2)
 description: PSD2 is the European Union directive that opened bank payment accounts to licensed third

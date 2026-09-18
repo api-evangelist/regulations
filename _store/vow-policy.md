@@ -4,6 +4,13 @@ slug: vow-policy
 title: Virtual Office Website (VOW)
 kind: industry-policy
 jurisdiction: United States (trade association / local MLS)
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- real-estate
 description: A Virtual Office Website is the National Association of REALTORS policy framework permitting
   a broker to provide MLS listing data to consumers who have registered and established a broker-consumer
   relationship. VOW access typically carries more data than IDX — including some sold and historical information

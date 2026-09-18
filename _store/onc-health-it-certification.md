@@ -23,6 +23,14 @@ standards:
 name: ONC Health IT Certification Program
 kind: regulator-guidance
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- healthcare
+- digital-health
 slug: onc-health-it-certification
 title: ONC Health IT Certification Program (Cures Act Final Rule)
 description: The ONC Health IT Certification Program is the US voluntary-but-effectively-mandatory program

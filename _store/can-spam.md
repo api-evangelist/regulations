@@ -2,6 +2,18 @@
 name: CAN-SPAM
 kind: regulation
 jurisdiction: United States (with UK and Canadian equivalents)
+scope: horizontal
+countries:
+- united-states
+- united-kingdom
+- canada
+regions:
+- north-america
+- united-kingdom-ireland
+industries:
+- marketing-advertising
+- e-commerce-platform
+- communications-platform-as-a-service-cpaas
 slug: can-spam
 title: CAN-SPAM Act (with PECR and CASL)
 description: 'CAN-SPAM sets the United States rules for commercial email: accurate headers and subject

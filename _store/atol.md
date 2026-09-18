@@ -4,6 +4,13 @@ slug: atol
 title: Air Travel Organiser's Licence (ATOL)
 kind: licence
 jurisdiction: United Kingdom
+scope: sectoral
+countries:
+- united-kingdom
+regions:
+- united-kingdom-ireland
+industries:
+- travel-technology
 description: ATOL is the United Kingdom's statutory financial protection scheme for air package holidays,
   administered by the Civil Aviation Authority since 1973. Any business selling flight-inclusive packages
   must hold a licence, contribute to the Air Travel Trust Fund, and issue an ATOL Certificate to every

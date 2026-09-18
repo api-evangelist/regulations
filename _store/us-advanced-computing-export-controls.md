@@ -2,6 +2,15 @@
 name: US advanced-computing export controls
 kind: regulation
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- semiconductors-hardware
+- artificial-intelligence
+- cloud-data-platform
 slug: us-advanced-computing-export-controls
 title: US Advanced-Computing Export Controls
 description: US Bureau of Industry and Security controls under the Export Administration Regulations restricting

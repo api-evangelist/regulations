@@ -2,6 +2,17 @@
 name: BSA / AML
 kind: regulation
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- banking
+- financial-services
+- financial-technology
+- payments
+- blockchain-crypto
 slug: bsa-aml
 title: Bank Secrecy Act and US AML obligations
 description: The Bank Secrecy Act and the anti-money-laundering rules built on it require US financial

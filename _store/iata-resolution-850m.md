@@ -8,6 +8,13 @@ slug: iata-resolution-850m
 title: IATA Resolution 850m (Agency Debit Memos)
 kind: industry-policy
 jurisdiction: International
+scope: sectoral
+regions:
+- global
+industries:
+- travel-technology
+- transportation
+- aerospace
 description: 'Resolution 850m governs Agency Debit Memos — the instrument by which an airline charges
   an accredited agency for a breach of fare rules, booking policy or distribution terms. ADMs are the
   enforcement mechanism behind airline distribution policy: not litigation, not regulatory penalty, but

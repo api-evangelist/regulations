@@ -10,6 +10,16 @@ headers:
 name: CCPA / CPRA
 kind: regulation
 jurisdiction: United States (California)
+scope: horizontal
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- marketing-advertising
+- technology
+- data-analytics
+- artificial-intelligence
 slug: ccpa-cpra
 title: California Consumer Privacy Act (CCPA/CPRA)
 description: The California Consumer Privacy Act, as amended and expanded by the California Privacy Rights

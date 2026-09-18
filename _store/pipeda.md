@@ -2,6 +2,16 @@
 name: PIPEDA
 kind: statute
 jurisdiction: Canada
+scope: horizontal
+countries:
+- canada
+regions:
+- north-america
+industries:
+- technology
+- marketing-advertising
+- data-analytics
+- artificial-intelligence
 slug: pipeda
 title: Personal Information Protection and Electronic Documents Act (PIPEDA)
 description: PIPEDA is Canada's federal private-sector privacy law, governing how organizations collect,

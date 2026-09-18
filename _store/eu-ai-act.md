@@ -2,6 +2,37 @@
 name: EU AI Act
 kind: statute
 jurisdiction: European Union
+scope: horizontal
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- artificial-intelligence
+- healthcare
+- human-capital-management
+- education
+- government
+- cybersecurity
 slug: eu-ai-act
 title: EU Artificial Intelligence Act
 description: 'The EU Artificial Intelligence Act is the world''s first comprehensive, horizontal regulation
@@ -39,6 +70,12 @@ precision: 100
 precisionGrade: high
 precisionBasis:
 - 'no penalty: an unambiguous, sufficiently long name'
+standards:
+- title: ISO/IEC 42001 (AI Management System)  # wired by scripts/wire_standards_links.py
+  url: https://standards.apievangelist.com/store/iso-42001/
+  note: The AI Act compels no specific management system, but an ISO/IEC 42001 AI management system is
+    the closest thing to a certifiable answer to its governance, documentation and risk-management
+    duties.
 ---
 
 The **EU Artificial Intelligence Act** is the first regime to regulate artificial intelligence horizontally rather than sector by sector, and it arrives at an industry that has almost nothing machine-readable to show it. It sorts AI systems by risk — prohibited practices, high-risk systems carrying the heaviest duties, limited-risk systems owing transparency, and minimal-risk systems left alone — and adds a separate track of obligations for general-purpose AI models, including the systemic-risk tier that the frontier labs sit in.

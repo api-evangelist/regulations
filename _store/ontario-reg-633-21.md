@@ -9,6 +9,14 @@ slug: ontario-reg-633-21
 title: Ontario Regulation 633/21 (Energy Data)
 kind: statute
 jurisdiction: Ontario, Canada
+scope: sectoral
+countries:
+- canada
+regions:
+- north-america
+industries:
+- energy
+- utilities
 description: Ontario Regulation 633/21, made under section 25.35.8 of the Electricity Act, 1998, requires
   Ontario electricity and natural gas local distribution companies to make customer energy data available
   in the Green Button format — both Download My Data and Connect My Data. It is the only consumer energy

@@ -2,6 +2,15 @@
 name: Consumer-Driven Banking Framework
 kind: statute
 jurisdiction: Canada
+scope: sectoral
+countries:
+- canada
+regions:
+- north-america
+industries:
+- banking
+- financial-technology
+- payments
 slug: consumer-driven-banking
 title: Canada's Consumer-Driven Banking Framework
 description: Canada's Consumer-Driven Banking framework is the federal open-banking regime legislated

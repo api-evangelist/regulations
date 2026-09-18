@@ -10,6 +10,16 @@ headers:
 name: Gramm-Leach-Bliley Act
 kind: statute
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- banking
+- financial-services
+- insurance
+- financial-technology
 slug: glba
 title: Gramm-Leach-Bliley Act (GLBA)
 description: The Gramm-Leach-Bliley Act is the 1999 US law governing how financial institutions handle

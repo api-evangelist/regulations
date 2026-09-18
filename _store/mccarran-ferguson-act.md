@@ -7,6 +7,13 @@ standards:
 name: McCarran-Ferguson Act
 kind: statute
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- insurance
 slug: mccarran-ferguson-act
 title: McCarran-Ferguson Act (1945)
 description: The McCarran-Ferguson Act is the 1945 US statute that delegated the regulation of insurance

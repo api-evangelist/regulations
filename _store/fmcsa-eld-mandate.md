@@ -4,6 +4,15 @@ title: FMCSA Electronic Logging Device Mandate
 slug: fmcsa-eld-mandate
 kind: regulation
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- logistics
+- transportation
+- mobility
 yearCreated: 2015
 description: The FMCSA rule requiring most commercial motor vehicle drivers to record hours of service
   on a certified electronic logging device rather than on paper, fully effective from December 2019. It

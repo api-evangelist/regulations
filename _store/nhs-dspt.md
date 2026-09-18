@@ -6,6 +6,15 @@ headers:
 name: NHS Data Security and Protection Toolkit
 kind: regulator-guidance
 jurisdiction: United Kingdom
+scope: sectoral
+countries:
+- united-kingdom
+regions:
+- united-kingdom-ireland
+industries:
+- healthcare
+- digital-health
+- cybersecurity
 slug: nhs-dspt
 title: NHS Data Security and Protection Toolkit (DSPT)
 description: The NHS Data Security and Protection Toolkit (DSPT) is an annual online self-assessment that

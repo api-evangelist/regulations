@@ -23,6 +23,15 @@ standards:
 name: CMS Interoperability & Prior Authorization Rule
 kind: regulator-guidance
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- healthcare
+- digital-health
+- insurance
 slug: cms-interoperability-prior-authorization
 title: CMS Interoperability & Prior Authorization Rule (CMS-0057-F)
 description: The CMS Interoperability and Prior Authorization Final Rule (CMS-0057-F), finalized in 2024,

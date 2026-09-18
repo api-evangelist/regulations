@@ -4,6 +4,14 @@ slug: electronic-conveyancing-national-law
 title: Electronic Conveyancing National Law (ECNL)
 kind: statute
 jurisdiction: Australia (state and territory)
+scope: sectoral
+countries:
+- australia
+regions:
+- anz
+industries:
+- real-estate
+- legal-compliance
 description: The Electronic Conveyancing National Law is the uniform legislation, enacted state by state
   across Australia, that authorises electronic lodgement and settlement of property transactions. It establishes
   Electronic Lodgement Network Operators (ELNOs) as regulated infrastructure and empowers the Australian

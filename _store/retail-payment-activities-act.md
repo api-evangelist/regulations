@@ -2,6 +2,14 @@
 name: Retail Payment Activities Act
 kind: statute
 jurisdiction: Canada
+scope: sectoral
+countries:
+- canada
+regions:
+- north-america
+industries:
+- payments
+- financial-technology
 slug: retail-payment-activities-act
 title: Retail Payment Activities Act (RPAA)
 description: The Retail Payment Activities Act is Canada's federal law bringing payment service providers

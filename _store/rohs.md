@@ -2,6 +2,35 @@
 name: RoHS
 kind: directive
 jurisdiction: European Union
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- semiconductors-hardware
+- industrial
+- consumer-goods
+- iot
 slug: rohs
 title: RoHS, WEEE and REACH
 description: The EU's material-compliance regime for electrical and electronic equipment — RoHS restricting

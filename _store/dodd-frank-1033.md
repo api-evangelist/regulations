@@ -6,6 +6,15 @@ standards:
 name: Dodd-Frank Section 1033
 kind: statute
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- banking
+- financial-services
+- financial-technology
 slug: dodd-frank-1033
 title: Dodd-Frank Act Section 1033
 description: Section 1033 of the 2010 Dodd-Frank Wall Street Reform and Consumer Protection Act gives

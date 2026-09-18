@@ -2,6 +2,16 @@
 name: Privacy Act 1988
 kind: statute
 jurisdiction: Australia
+scope: horizontal
+countries:
+- australia
+regions:
+- anz
+industries:
+- technology
+- artificial-intelligence
+- marketing-advertising
+- healthcare
 slug: australia-privacy-act
 title: Privacy Act 1988 (Australia)
 description: The Privacy Act 1988 is Australia's principal data-protection law, setting the Australian

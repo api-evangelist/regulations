@@ -9,6 +9,39 @@ headers:
 name: NIS2
 kind: directive
 jurisdiction: European Union
+scope: horizontal
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- cybersecurity
+- cloud-data-platform
+- energy
+- utilities
+- healthcare
+- telecommunications
+- transportation
+- government
 slug: nis2
 title: NIS2 Directive (Network and Information Security)
 description: NIS2 is the EU's second-generation network and information security directive, widening the

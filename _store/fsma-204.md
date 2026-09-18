@@ -2,6 +2,17 @@
 name: FSMA Section 204 Food Traceability Rule
 kind: regulation
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- food-service
+- food-delivery
+- agriculture
+- supply-chain
+- consumer-goods
 slug: fsma-204
 title: FSMA Section 204 Food Traceability Rule
 description: The FDA rule implementing Section 204 of the Food Safety Modernization Act, requiring persons

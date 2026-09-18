@@ -7,6 +7,16 @@ standards:
 name: Drug Supply Chain Security Act
 kind: statute
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- pharmaceutical
+- supply-chain
+- life-sciences
+- healthcare
 slug: dscsa
 title: Drug Supply Chain Security Act (DSCSA)
 description: Title II of the US Drug Quality and Security Act, requiring an interoperable, electronic,

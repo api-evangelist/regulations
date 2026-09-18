@@ -8,6 +8,13 @@ slug: iata-resolution-824
 title: IATA Resolution 824 (Passenger Sales Agency Agreement)
 kind: industry-policy
 jurisdiction: International
+scope: sectoral
+regions:
+- global
+industries:
+- travel-technology
+- transportation
+- aerospace
 description: Resolution 824 establishes the Passenger Sales Agency Agreement — the standard contract between
   IATA member airlines and accredited travel agencies, and the basis of the accreditation regime that
   determines who may issue airline tickets at all. It is industry rule rather than law, and it is the

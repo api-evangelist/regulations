@@ -6,6 +6,14 @@ standards:
 name: TEFCA
 kind: regulator-guidance
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- healthcare
+- digital-health
 slug: tefca
 title: Trusted Exchange Framework and Common Agreement (TEFCA)
 description: TEFCA is a US framework, established under the 21st Century Cures Act and operationalized

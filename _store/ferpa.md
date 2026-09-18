@@ -2,6 +2,13 @@
 name: FERPA
 kind: regulation
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- education
 slug: ferpa
 title: Family Educational Rights and Privacy Act (FERPA)
 description: FERPA is the United States statute governing the privacy of student education records. It

@@ -2,6 +2,14 @@
 name: CHIPS and Science Act
 kind: statute
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- semiconductors-hardware
+- industrial
 slug: us-chips-act
 title: US CHIPS and Science Act
 description: US legislation providing approximately $52 billion in subsidies, grants and tax credits for

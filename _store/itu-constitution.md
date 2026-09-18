@@ -2,6 +2,12 @@
 name: ITU Constitution and Radio Regulations
 kind: statute
 jurisdiction: International
+scope: sectoral
+regions:
+- global
+industries:
+- telecommunications
+- space
 slug: itu-constitution
 title: ITU Constitution and Radio Regulations
 description: The International Telecommunication Union is the United Nations agency for information and

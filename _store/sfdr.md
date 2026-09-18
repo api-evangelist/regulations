@@ -2,6 +2,34 @@
 name: Sustainable Finance Disclosure Regulation
 kind: regulation
 jurisdiction: European Union
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- financial-services
+- banking
+- climate-sustainability
 slug: sfdr
 title: Sustainable Finance Disclosure Regulation (SFDR)
 description: Regulation (EU) 2019/2088 requires financial market participants and advisers to disclose

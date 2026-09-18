@@ -2,6 +2,13 @@
 name: NAIC Model Laws
 kind: industry-policy
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- insurance
 slug: naic-model-laws
 title: NAIC Model Laws and Regulations
 description: The NAIC is the standard-setting and coordinating body of the United States' fifty state

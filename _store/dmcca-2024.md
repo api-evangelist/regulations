@@ -4,6 +4,16 @@ slug: dmcca-2024
 title: Digital Markets, Competition and Consumers Act 2024
 kind: statute
 jurisdiction: United Kingdom
+scope: horizontal
+countries:
+- united-kingdom
+regions:
+- united-kingdom-ireland
+industries:
+- technology
+- e-commerce-platform
+- marketing-advertising
+- retail
 description: The DMCC Act gives the Competition and Markets Authority a standing digital-markets regime.
   The CMA may designate a firm as holding Strategic Market Status in a digital activity and then impose
   tailored conduct requirements and pro-competition interventions on it — including, in principle, obligations

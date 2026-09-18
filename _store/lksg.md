@@ -2,6 +2,17 @@
 name: German Supply Chain Due Diligence Act
 kind: statute
 jurisdiction: Germany
+scope: sectoral
+countries:
+- germany
+regions:
+- dach
+- europe
+industries:
+- supply-chain
+- consumer-goods
+- industrial
+- retail
 slug: lksg
 title: German Supply Chain Due Diligence Act (LkSG)
 description: The Lieferkettensorgfaltspflichtengesetz obliges companies above an employee threshold with

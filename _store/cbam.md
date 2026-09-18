@@ -2,6 +2,36 @@
 name: Carbon Border Adjustment Mechanism
 kind: regulation
 jurisdiction: European Union
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- industrial
+- chemicals
+- mining
+- climate-sustainability
+- supply-chain
 slug: cbam
 title: Carbon Border Adjustment Mechanism (CBAM)
 description: Regulation (EU) 2023/956 puts a carbon price on imports of cement, iron and steel, aluminium,

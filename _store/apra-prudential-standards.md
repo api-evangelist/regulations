@@ -6,6 +6,15 @@ headers:
 name: APRA Prudential Standards
 kind: regulator-guidance
 jurisdiction: Australia
+scope: sectoral
+countries:
+- australia
+regions:
+- anz
+industries:
+- banking
+- insurance
+- financial-services
 slug: apra-prudential-standards
 title: APRA Prudential Standards (CPS 234 / CPS 230)
 description: APRA is Australia's prudential regulator for banks, insurers and superannuation funds, operating

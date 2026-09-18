@@ -9,6 +9,14 @@ slug: ofgem-data-best-practice
 title: Ofgem Data Best Practice Guidance
 kind: regulator-guidance
 jurisdiction: Great Britain
+scope: sectoral
+countries:
+- united-kingdom
+regions:
+- united-kingdom-ireland
+industries:
+- energy
+- utilities
 description: Ofgem's Data Best Practice Guidance sets the data obligations of Great Britain's energy network
   licensees. Published in November 2021 and applied through licence conditions under the RIIO price controls,
   its defining principle is that Energy System Data is "presumed open" — a licensee must publish unless

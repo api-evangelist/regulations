@@ -2,6 +2,35 @@
 name: Corporate Sustainability Reporting Directive
 kind: regulation
 jurisdiction: European Union
+scope: horizontal
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- climate-sustainability
+- financial-services
+- industrial
+- energy
 slug: csrd
 title: Corporate Sustainability Reporting Directive (CSRD)
 description: Directive (EU) 2022/2464 requires a large population of companies operating in the EU to

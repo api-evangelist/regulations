@@ -4,6 +4,35 @@ title: EU In Vitro Diagnostic Medical Devices Regulation (2017/746)
 slug: eu-ivdr
 kind: regulation
 jurisdiction: European Union
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- biotechnology
+- life-sciences
+- healthcare
+- pharmaceutical
 yearCreated: 2017
 description: 'IVDR replaced the IVD Directive in May 2022 and reclassified most in vitro diagnostics into
   risk classes requiring notified-body conformity assessment. It brings diagnostic software explicitly

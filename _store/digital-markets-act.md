@@ -4,6 +4,36 @@ slug: digital-markets-act
 title: EU Digital Markets Act (DMA)
 kind: statute
 jurisdiction: European Union
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- technology
+- e-commerce-platform
+- cloud-data-platform
+- marketing-advertising
+- media
 description: The Digital Markets Act designates large platforms that act as important gateways between
   businesses and consumers as "gatekeepers" and imposes ex-ante obligations on them — around self-preferencing,
   data access and portability, interoperability, and the terms offered to business users. It shifts competition

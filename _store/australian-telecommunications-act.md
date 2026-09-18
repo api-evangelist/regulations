@@ -2,6 +2,13 @@
 name: Australian Telecommunications Act 1997
 kind: statute
 jurisdiction: Australia
+scope: sectoral
+countries:
+- australia
+regions:
+- anz
+industries:
+- telecommunications
 slug: australian-telecommunications-act
 title: Australian Telecommunications Act 1997 (ACMA)
 description: The Telecommunications Act 1997 is the framework for Australian telecommunications regulation,

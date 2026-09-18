@@ -4,6 +4,14 @@ slug: air-passenger-protection-regulations
 title: Air Passenger Protection Regulations (APPR)
 kind: statute
 jurisdiction: Canada
+scope: sectoral
+countries:
+- canada
+regions:
+- north-america
+industries:
+- travel-technology
+- transportation
 description: The Air Passenger Protection Regulations set out what Canadian air carriers owe passengers
   when a flight is delayed, cancelled or oversold — compensation tiers, rebooking duties, standards of
   treatment, and obligations to communicate the reason for a disruption and its status. Administered by

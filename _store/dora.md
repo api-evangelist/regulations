@@ -6,6 +6,37 @@ headers:
 name: DORA
 kind: regulation
 jurisdiction: European Union
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- banking
+- insurance
+- financial-services
+- financial-technology
+- payments
+- cybersecurity
 slug: dora
 title: Digital Operational Resilience Act (DORA)
 description: DORA is the EU regulation governing information and communication technology risk across

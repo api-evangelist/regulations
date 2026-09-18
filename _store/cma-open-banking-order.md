@@ -40,6 +40,15 @@ standards:
 name: CMA Open Banking Order
 kind: regulator-guidance
 jurisdiction: United Kingdom
+scope: sectoral
+countries:
+- united-kingdom
+regions:
+- united-kingdom-ireland
+industries:
+- banking
+- financial-technology
+- payments
 slug: cma-open-banking-order
 title: Retail Banking Market Investigation Order (CMA Open Banking Remedy)
 description: The UK Competition and Markets Authority's Retail Banking Market Investigation Order 2017

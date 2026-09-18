@@ -6,6 +6,15 @@ standards:
 name: Sarbanes-Oxley
 kind: regulation
 jurisdiction: United States
+scope: horizontal
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- accounting-finance-ops
+- financial-services
+- enterprise-software
 slug: sarbanes-oxley
 title: Sarbanes-Oxley Act (SOX)
 description: Sarbanes-Oxley requires management of US public companies to assess and attest to the effectiveness

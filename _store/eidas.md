@@ -17,6 +17,35 @@ standards:
 name: eIDAS
 kind: statute
 jurisdiction: European Union
+scope: horizontal
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- cybersecurity
+- government
+- banking
+- legal-compliance
 slug: eidas
 title: eIDAS Regulation (Electronic Identification and Trust Services)
 description: eIDAS is the EU regulation governing electronic identification and trust services — including

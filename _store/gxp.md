@@ -4,6 +4,14 @@ title: GxP — Good Laboratory, Clinical and Manufacturing Practice
 slug: gxp
 kind: framework
 jurisdiction: International
+scope: sectoral
+regions:
+- global
+industries:
+- pharmaceutical
+- life-sciences
+- biotechnology
+- healthcare
 yearCreated: 1978
 description: 'GxP is the umbrella for the good-practice quality regimes governing regulated life-science
   work: GLP (21 CFR Part 58) for nonclinical safety studies, GCP (ICH E6) for clinical trials, GMP (21

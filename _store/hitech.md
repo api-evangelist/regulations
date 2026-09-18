@@ -2,6 +2,14 @@
 name: HITECH Act
 kind: statute
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- healthcare
+- digital-health
 slug: hitech
 title: HITECH Act
 description: The Health Information Technology for Economic and Clinical Health (HITECH) Act, enacted

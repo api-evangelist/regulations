@@ -2,6 +2,36 @@
 name: Corporate Sustainability Due Diligence Directive
 kind: directive
 jurisdiction: European Union
+scope: horizontal
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- supply-chain
+- retail
+- consumer-goods
+- industrial
+- chemicals
 slug: csddd
 title: Corporate Sustainability Due Diligence Directive (CSDDD)
 description: Directive (EU) 2024/1760 requires large companies operating in the EU to identify, prevent,

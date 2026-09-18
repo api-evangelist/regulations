@@ -11,6 +11,13 @@ slug: nar-policy-statement-790
 title: NAR MLS Policy Statement 7.90
 kind: industry-policy
 jurisdiction: United States (trade association)
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- real-estate
 description: Policy Statement 7.90 of the National Association of REALTORS' Multiple Listing Service policy
   requires association-owned MLSs to certify against the RESO Data Dictionary and RESO Web API within
   one year of each version's ratification. It is not legislation and no regulator enforces it; compliance

@@ -2,6 +2,34 @@
 name: MiCA
 kind: regulation
 jurisdiction: European Union
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- blockchain-crypto
+- financial-services
+- payments
 slug: mica
 title: Markets in Crypto-Assets Regulation (MiCA)
 description: 'MiCA is the EU regulation that brings crypto-asset issuance and services inside a single

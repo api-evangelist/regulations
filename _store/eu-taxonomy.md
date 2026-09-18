@@ -2,6 +2,35 @@
 name: EU Taxonomy Regulation
 kind: regulation
 jurisdiction: European Union
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- climate-sustainability
+- financial-services
+- banking
+- energy
 slug: eu-taxonomy
 title: EU Taxonomy Regulation
 description: Regulation (EU) 2020/852 establishes a classification system defining which economic activities

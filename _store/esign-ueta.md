@@ -7,6 +7,15 @@ standards:
 name: ESIGN and UETA
 kind: regulation
 jurisdiction: United States
+scope: horizontal
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- legal-compliance
+- real-estate
+- financial-services
 slug: esign-ueta
 title: ESIGN Act and UETA
 description: ESIGN is the US federal statute giving electronic signatures and records the same legal effect

@@ -2,6 +2,36 @@
 name: EU Deforestation Regulation
 kind: regulation
 jurisdiction: European Union
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- supply-chain
+- agriculture
+- consumer-goods
+- retail
+- climate-sustainability
 slug: eudr
 title: EU Deforestation Regulation (EUDR)
 description: Regulation (EU) 2023/1115 prohibits placing specified commodities — cattle, cocoa, coffee,

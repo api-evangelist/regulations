@@ -14,6 +14,35 @@ standards:
 name: PSD3 & PSR
 kind: directive
 jurisdiction: European Union
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- banking
+- payments
+- financial-technology
+- financial-services
 slug: psd3-psr
 title: PSD3 and the Payment Services Regulation (PSR)
 description: PSD3 (the third Payment Services Directive) and the accompanying Payment Services Regulation

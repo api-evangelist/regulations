@@ -2,6 +2,14 @@
 name: FATF Travel Rule
 kind: regulation
 jurisdiction: Global (FATF member jurisdictions)
+scope: sectoral
+regions:
+- global
+industries:
+- blockchain-crypto
+- payments
+- financial-services
+- banking
 slug: fatf-travel-rule
 title: FATF Travel Rule (Recommendation 16)
 description: The FATF Travel Rule requires originator and beneficiary information to travel alongside

@@ -2,6 +2,35 @@
 name: EU Medical Device Regulation
 kind: directive
 jurisdiction: European Union
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- healthcare
+- life-sciences
+- digital-health
+- biotechnology
 slug: eu-mdr
 title: EU Medical Device Regulation (MDR)
 description: The EU Medical Device Regulation (Regulation (EU) 2017/745, MDR) governs the safety and performance

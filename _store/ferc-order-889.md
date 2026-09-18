@@ -4,6 +4,14 @@ slug: ferc-order-889
 title: FERC Order 889 (OASIS)
 kind: regulator-guidance
 jurisdiction: United States (federal)
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- energy
+- utilities
 description: FERC Order 889, issued in 1996 alongside the Order 888 open-access rules, requires public
   utilities that own or control interstate transmission to operate an Open Access Same-Time Information
   System — OASIS — posting available transmission capacity and related data on equal terms to all users,

@@ -2,6 +2,16 @@
 name: Fair Credit Reporting Act
 kind: statute
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- financial-services
+- banking
+- human-capital-management
+- real-estate
 slug: fcra
 title: Fair Credit Reporting Act (FCRA)
 description: The Fair Credit Reporting Act is the US law governing the collection, use, and sharing of

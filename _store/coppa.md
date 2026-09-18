@@ -2,6 +2,17 @@
 name: COPPA
 kind: regulation
 jurisdiction: United States
+scope: horizontal
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- gaming
+- education
+- video-streaming
+- creator-economy
+- marketing-advertising
 slug: coppa
 title: Children's Online Privacy Protection Act (COPPA)
 description: COPPA governs the online collection of personal information from children under thirteen

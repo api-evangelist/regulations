@@ -6,6 +6,14 @@ headers:
 name: Section 508
 kind: regulation
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- government
+- technology
 slug: section-508
 title: Section 508 of the Rehabilitation Act
 description: Section 508 requires US federal agencies — and, through procurement rules and state adoptions,

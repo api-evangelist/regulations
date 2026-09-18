@@ -4,6 +4,15 @@ title: College of American Pathologists Laboratory Accreditation Program
 slug: cap-accreditation
 kind: accreditation
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- healthcare
+- life-sciences
+- biotechnology
 yearCreated: 1961
 description: The CAP Laboratory Accreditation Program is a peer-based inspection regime holding laboratories
   to checklists that meet or exceed CLIA requirements, with CMS deeming authority. Its molecular pathology

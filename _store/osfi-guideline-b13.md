@@ -6,6 +6,16 @@ headers:
 name: OSFI Guideline B-13
 kind: regulator-guidance
 jurisdiction: Canada
+scope: sectoral
+countries:
+- canada
+regions:
+- north-america
+industries:
+- banking
+- insurance
+- financial-services
+- cybersecurity
 slug: osfi-guideline-b13
 title: OSFI Guideline B-13 (Technology and Cyber Risk)
 description: OSFI is Canada's federal prudential regulator for banks and insurers, and Guideline B-13

@@ -20,6 +20,35 @@ standards:
 name: ePrivacy Directive
 kind: directive
 jurisdiction: European Union
+scope: horizontal
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- marketing-advertising
+- media
+- e-commerce-platform
+- data-analytics
 slug: eprivacy-directive
 title: ePrivacy Directive (2002/58/EC)
 description: The ePrivacy Directive governs privacy in electronic communications across the European Union,

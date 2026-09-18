@@ -4,6 +4,13 @@ slug: package-travel-regulations-2018
 title: Package Travel and Linked Travel Arrangements Regulations 2018
 kind: statute
 jurisdiction: United Kingdom
+scope: sectoral
+countries:
+- united-kingdom
+regions:
+- united-kingdom-ireland
+industries:
+- travel-technology
 description: The Package Travel and Linked Travel Arrangements Regulations 2018 implement the EU Package
   Travel Directive in UK law, extending long-standing package-holiday protections to modern dynamic packaging
   — holidays assembled from separate flight, accommodation and car-hire components. They impose pre-contract

@@ -4,6 +4,14 @@ slug: uk-smart-energy-code
 title: Smart Energy Code (Smart DCC)
 kind: regulator-guidance
 jurisdiction: Great Britain
+scope: sectoral
+countries:
+- united-kingdom
+regions:
+- united-kingdom-ireland
+industries:
+- energy
+- utilities
 description: The Smart Energy Code is the multiparty contract governing Great Britain's smart-metering
   infrastructure. It binds energy suppliers, network operators and other parties to a common set of technical
   and operational rules, and licenses the Data Communications Company (DCC) as the monopoly operator carrying

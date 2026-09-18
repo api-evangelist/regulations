@@ -15,6 +15,38 @@ headers:
 name: GDPR
 kind: statute
 jurisdiction: European Union / United Kingdom
+scope: horizontal
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+- united-kingdom
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+- united-kingdom-ireland
+industries:
+- marketing-advertising
+- artificial-intelligence
+- healthcare
+- data-analytics
+- technology
 slug: gdpr
 title: General Data Protection Regulation (GDPR)
 description: The General Data Protection Regulation is the EU's comprehensive data-protection law (retained

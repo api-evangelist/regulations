@@ -2,6 +2,13 @@
 name: SOPIPA
 kind: regulation
 jurisdiction: United States (California, and state adoptions)
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- education
 slug: sopipa
 title: Student Online Personal Information Protection Act (SOPIPA)
 description: 'SOPIPA is California''s student privacy law, and the template most other US states adopted.

@@ -12,6 +12,14 @@ slug: open-government-licence
 title: Open Government Licence (OGL)
 kind: licence
 jurisdiction: United Kingdom
+scope: sectoral
+countries:
+- united-kingdom
+regions:
+- united-kingdom-ireland
+industries:
+- government
+- data-analytics
 description: The Open Government Licence is the United Kingdom's standard legal instrument for releasing
   public sector information for reuse. Administered by The National Archives, it grants a worldwide, royalty-free,
   perpetual right to copy, adapt and commercially exploit licensed data, subject only to attribution.

@@ -2,6 +2,33 @@
 name: European Chips Act
 kind: regulation
 jurisdiction: European Union
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- semiconductors-hardware
+- industrial
 slug: eu-chips-act
 title: European Chips Act
 description: Regulation (EU) 2023/1781 establishing a framework to strengthen Europe's semiconductor ecosystem

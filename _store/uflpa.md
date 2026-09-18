@@ -2,6 +2,16 @@
 name: Uyghur Forced Labor Prevention Act
 kind: statute
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- supply-chain
+- consumer-goods
+- retail
+- semiconductors-hardware
 slug: uflpa
 title: Uyghur Forced Labor Prevention Act (UFLPA)
 description: US law establishing a rebuttable presumption that any goods mined, produced or manufactured

@@ -2,6 +2,14 @@
 name: PHIPA
 kind: statute
 jurisdiction: Ontario, Canada
+scope: sectoral
+countries:
+- canada
+regions:
+- north-america
+industries:
+- healthcare
+- digital-health
 slug: phipa
 title: Personal Health Information Protection Act (PHIPA)
 description: The Personal Health Information Protection Act (PHIPA) is Ontario's health-sector privacy

@@ -4,6 +4,15 @@ slug: australian-consumer-law
 title: Australian Consumer Law (ACL)
 kind: statute
 jurisdiction: Australia
+scope: horizontal
+countries:
+- australia
+regions:
+- anz
+industries:
+- e-commerce-platform
+- retail
+- travel-technology
 description: The Australian Consumer Law, Schedule 2 to the Competition and Consumer Act 2010, is the
   national regime governing misleading conduct, unfair contract terms and consumer guarantees. Enforced
   by the ACCC, it is the instrument that regulates Australian travel — as distinct from the Consumer Data

@@ -2,6 +2,15 @@
 name: FAA Part 107 and Remote ID
 kind: regulation
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- aerospace
+- air-traffic-airspace
+- robotics
 slug: faa-part-107
 title: FAA Part 107 and Remote ID
 description: Part 107 governs commercial small unmanned aircraft operation in the United States — pilot

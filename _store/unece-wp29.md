@@ -2,6 +2,35 @@
 name: UNECE WP.29
 kind: regulation
 jurisdiction: United Nations / EU / adopting states
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+- global
+industries:
+- automotive
+- cybersecurity
+- mobility
 slug: unece-wp29
 title: UNECE WP.29 (R155 and R156)
 description: UN Regulations 155 and 156, developed under UNECE WP.29, require vehicle manufacturers to

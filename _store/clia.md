@@ -4,6 +4,15 @@ title: Clinical Laboratory Improvement Amendments (CLIA)
 slug: clia
 kind: statute
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- healthcare
+- life-sciences
+- biotechnology
 yearCreated: 1988
 description: CLIA establishes federal quality standards for all laboratory testing performed on human
   specimens for diagnosis, prevention or treatment. Administered by CMS, it certifies laboratories by

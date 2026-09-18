@@ -2,6 +2,33 @@
 name: MiFID II
 kind: directive
 jurisdiction: European Union
+scope: sectoral
+countries:
+- austria
+- belgium
+- denmark
+- estonia
+- finland
+- france
+- germany
+- ireland
+- italy
+- netherlands
+- poland
+- portugal
+- spain
+- sweden
+regions:
+- europe
+- dach
+- france-iberia
+- nordics
+- benelux
+- italy-southern-europe
+- cee
+industries:
+- financial-services
+- banking
 slug: mifid-ii
 title: MiFID II and MiFIR
 description: The Markets in Financial Instruments Directive II and its accompanying regulation govern

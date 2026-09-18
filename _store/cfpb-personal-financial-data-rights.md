@@ -7,6 +7,16 @@ standards:
 name: CFPB Personal Financial Data Rights Rule
 kind: regulator-guidance
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- banking
+- financial-services
+- financial-technology
+- payments
 slug: cfpb-personal-financial-data-rights
 title: CFPB Personal Financial Data Rights Rule (1033 Rule)
 description: The Consumer Financial Protection Bureau's Personal Financial Data Rights Rule, finalized

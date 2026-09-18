@@ -4,6 +4,13 @@ slug: idx-policy
 title: Internet Data Exchange (IDX)
 kind: industry-policy
 jurisdiction: United States (trade association / local MLS)
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- real-estate
 description: Internet Data Exchange is the National Association of REALTORS policy framework, implemented
   through each local MLS's own rules, that permits participating brokers to display other brokers' listings
   on their public websites. Access requires an executed IDX agreement with the MLS, broker participation,

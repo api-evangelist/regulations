@@ -43,6 +43,16 @@ standards:
 name: Consumer Data Right
 kind: statute
 jurisdiction: Australia
+scope: sectoral
+countries:
+- australia
+regions:
+- anz
+industries:
+- banking
+- energy
+- telecommunications
+- financial-services
 slug: consumer-data-right
 title: Consumer Data Right (CDR)
 description: Australia's Consumer Data Right (CDR) is an economy-wide data-portability law that gives

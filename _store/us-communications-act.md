@@ -2,6 +2,14 @@
 name: US Communications Act
 kind: statute
 jurisdiction: United States
+scope: sectoral
+countries:
+- united-states
+regions:
+- north-america
+industries:
+- telecommunications
+- media
 slug: us-communications-act
 title: US Communications Act and FCC Authority
 description: The Communications Act of 1934, as amended by the Telecommunications Act of 1996, is the

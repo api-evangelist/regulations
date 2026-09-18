@@ -2,6 +2,14 @@
 name: UK Communications Act 2003
 kind: statute
 jurisdiction: United Kingdom
+scope: sectoral
+countries:
+- united-kingdom
+regions:
+- united-kingdom-ireland
+industries:
+- telecommunications
+- media
 slug: uk-communications-act-2003
 title: UK Communications Act 2003 (Ofcom)
 description: The Communications Act 2003 established Ofcom as the United Kingdom's converged regulator

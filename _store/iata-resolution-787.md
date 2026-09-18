@@ -9,6 +9,13 @@ slug: iata-resolution-787
 title: IATA Resolution 787 (New Distribution Capability)
 kind: industry-policy
 jurisdiction: International
+scope: sectoral
+regions:
+- global
+industries:
+- travel-technology
+- transportation
+- aerospace
 description: Resolution 787 is the IATA industry resolution, adopted in 2012, that authorised New Distribution
   Capability — the XML messaging standard for airline retailing. It is not law and no regulator enforces
   it. It permits airlines to distribute their own offers directly rather than through the shared fare
