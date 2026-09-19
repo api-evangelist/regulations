@@ -18,11 +18,11 @@ industries:
 - government
 slug: uk-cyber-security-and-resilience-bill
 title: Cyber Security and Resilience Bill
-description: 'The Cyber Security and Resilience Bill is the UK''s intended successor to the NIS
-  Regulations 2018 and its answer to the EU''s NIS2 — extending regulatory reach to managed service
-  providers and data centres, strengthening incident reporting, and giving regulators cost-recovery
-  powers. It is a bill: nothing in it binds anyone yet, and it is catalogued so the gap between the UK
-  and EU cyber regimes is visible rather than assumed away.'
+description: 'The Cyber Security and Resilience Bill is the UK''s intended successor to the NIS Regulations
+  2018 and its answer to the EU''s NIS2 — extending regulatory reach to managed service providers and
+  data centres, strengthening incident reporting, and giving regulators cost-recovery powers. It is a
+  bill: nothing in it binds anyone yet, and it is catalogued so the gap between the UK and EU cyber regimes
+  is visible rather than assumed away.'
 tags:
 - Cybersecurity
 - Incident Reporting
@@ -38,7 +38,15 @@ yearCreated: 2025
 alternativeNames:
 - CSR Bill
 - Cyber Security and Resilience Bill
-companyCountStatus: pending-corpus-pass
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 The **Cyber Security and Resilience Bill** is in this catalog as a placeholder with a purpose. The UK inherited the NIS Regulations 2018 from the EU, the EU replaced its own version with NIS2, and the UK has not yet replaced its. The result is a widening gap that matters commercially: a managed service provider selling into both markets is regulated in the EU and largely not regulated in the UK, for the same service.

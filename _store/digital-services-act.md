@@ -36,12 +36,12 @@ industries:
 - artificial-intelligence
 slug: digital-services-act
 title: Digital Services Act (Regulation (EU) 2022/2065)
-description: 'The Digital Services Act governs how online intermediaries handle illegal content,
-  advertising, recommendation and risk — layered by size, from every hosting provider up to the very
-  large platforms that owe systemic-risk assessments and independent audit. Its API-visible footprint
-  is unusual: for the largest platforms it does not merely permit a research and transparency interface,
-  it obliges one, which makes it one of the few regimes in this catalog that manufactures an API rather
-  than constraining one.'
+description: 'The Digital Services Act governs how online intermediaries handle illegal content, advertising,
+  recommendation and risk — layered by size, from every hosting provider up to the very large platforms
+  that owe systemic-risk assessments and independent audit. Its API-visible footprint is unusual: for
+  the largest platforms it does not merely permit a research and transparency interface, it obliges one,
+  which makes it one of the few regimes in this catalog that manufactures an API rather than constraining
+  one.'
 tags:
 - Content Moderation
 - Transparency
@@ -60,7 +60,15 @@ yearCreated: 2022
 alternativeNames:
 - DSA
 - Regulation (EU) 2022/2065
-companyCountStatus: pending-corpus-pass
+companyCount: 4
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 The **Digital Services Act** is the regime most people in the API world assume does not apply to them, and the assumption is usually wrong. It is written in tiers, and the bottom tier is very wide: any *intermediary service* — mere conduit, caching, or hosting — carries baseline duties, and "hosting" in the DSA's sense reaches a great deal of infrastructure that thinks of itself as plumbing rather than as a platform. Cloud storage, a comment widget, a file-sharing endpoint, a marketplace API: all hosting. The heavy obligations sit at the top, on Very Large Online Platforms and Search Engines above 45 million EU users, but the floor is a floor for everyone.

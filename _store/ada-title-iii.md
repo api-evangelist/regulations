@@ -18,10 +18,10 @@ industries:
 slug: ada-title-iii
 title: Americans with Disabilities Act Title III, as applied to websites and apps
 description: 'Title III of the ADA prohibits discrimination in places of public accommodation, and US
-  courts have overwhelmingly read that to reach websites and mobile apps — without any regulation
-  specifying a technical standard. The result is the most litigated accessibility regime in the world
-  and the least specified: thousands of suits a year, settlements that reference WCAG, and no rule
-  that says so. The 2024 DOJ rule for state and local government fixed this only for the public sector.'
+  courts have overwhelmingly read that to reach websites and mobile apps — without any regulation specifying
+  a technical standard. The result is the most litigated accessibility regime in the world and the least
+  specified: thousands of suits a year, settlements that reference WCAG, and no rule that says so. The
+  2024 DOJ rule for state and local government fixed this only for the public sector.'
 tags:
 - Accessibility
 - WCAG
@@ -41,12 +41,30 @@ alternativeNames:
 - Title III
 - Web accessibility litigation
 - Americans with Disabilities Act
-companyCountStatus: pending-corpus-pass
 standards:
-- title: WCAG  # wired by scripts/wire_standards_links.py
+- title: WCAG
   url: https://standards.apievangelist.com/store/wcag/
-  note: No US regulation names a standard for private entities, but settlements, consent decrees and
-    expert testimony converge on WCAG 2.1 AA — a de facto standard that was never adopted as one.
+  note: No US regulation names a standard for private entities, but settlements, consent decrees and expert
+    testimony converge on WCAG 2.1 AA — a de facto standard that was never adopted as one.
+companyCount: null
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 0
+precisionGrade: unmeasurable
+precisionBasis:
+- 'human verdict: No needle measures this record, so its zero is an artefact of the vocabulary rather
+  than a fact about the market. `ADA` sampled 21/120 corpora and every hit is the EMPLOYMENT title — "fmla
+  ADA std ltd and personal leave cases", "ADA accommodations interpret and apply relevant policies and
+  employment l", "associate data edi architect ADA" — the right statute, the wrong part of it. The long
+  form is worse: "americans with disabilities act" sampled 24/400 and every hit is the EEO self-identification
+  boilerplate stapled to an application form ("required by the office of federal contract compliance programs
+  or enforcing the AMERICANS WITH DISABILITIES ACT may be informed"). `title iii` matched 0/400. What
+  DOES find real accessibility work — "web accessibility" 5/400, "wcag" 31/400 — is deliberately NOT attached
+  to this record: one hit reads "requirements aoda wcag", and AODA is a separate record in this same catalog,
+  so those phrases would credit ADA Title III with Ontario''s statute. Both bare needles are revoked in
+  _data/alias-overrides.yml. Unmeasurable honestly marked beats a zero nobody can defend.'
 ---
 
 **ADA Title III** is the mirror image of the European Accessibility Act, and the contrast is the most useful thing about it. The EAA specifies EN 301 549, names the products and services in scope, sets a date, and appoints market-surveillance authorities. Title III specifies nothing, names nothing digital, sets no date, and is enforced by several thousand private lawsuits a year.

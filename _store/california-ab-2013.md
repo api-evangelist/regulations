@@ -15,11 +15,11 @@ industries:
 - creator-economy
 slug: california-ab-2013
 title: California AI Training Data Transparency Act (AB 2013)
-description: 'AB 2013 requires any developer of a generative AI system made publicly available to
-  Californians to publish, on its website, a documented summary of the datasets used to train it —
-  sources, whether the data includes personal information or copyrighted material, how it was obtained,
-  and the time period it covers. It is the broadest AI disclosure obligation in force in the United
-  States and the one most likely to apply to an ordinary API provider.'
+description: AB 2013 requires any developer of a generative AI system made publicly available to Californians
+  to publish, on its website, a documented summary of the datasets used to train it — sources, whether
+  the data includes personal information or copyrighted material, how it was obtained, and the time period
+  it covers. It is the broadest AI disclosure obligation in force in the United States and the one most
+  likely to apply to an ordinary API provider.
 tags:
 - Artificial Intelligence
 - Training Data
@@ -36,7 +36,15 @@ alternativeNames:
 - AB 2013
 - California Training Data Transparency
 - Generative AI Training Data Transparency Act
-companyCountStatus: pending-corpus-pass
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **AB 2013** is the US AI law that most companies in this catalog are actually subject to, and most of them do not know it. Effective 1 January 2026, it applies to a developer of a generative AI system or service made publicly available to Californians — with no frontier threshold, no compute floor, and no revenue test. If you fine-tuned a model and put it behind an endpoint that Californians can call, you are a developer under this statute.

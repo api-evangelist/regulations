@@ -16,12 +16,12 @@ industries:
 - artificial-intelligence
 slug: us-state-comprehensive-privacy-laws
 title: US State Comprehensive Consumer Privacy Laws
-description: 'In the absence of a federal privacy statute, twenty US states have comprehensive consumer
-  privacy laws in effect and twenty-four have enacted one. They converge on six rights — access,
-  deletion, correction, portability, opt-out and non-discrimination — and diverge on thresholds,
-  cure periods, sensitive-data handling, universal opt-out signals and who enforces. The practical
-  consequence for an API provider is that the obligation is one obligation and the compliance surface
-  is twenty, and only a few of the differences are actually machine-visible.'
+description: In the absence of a federal privacy statute, twenty US states have comprehensive consumer
+  privacy laws in effect and twenty-four have enacted one. They converge on six rights — access, deletion,
+  correction, portability, opt-out and non-discrimination — and diverge on thresholds, cure periods, sensitive-data
+  handling, universal opt-out signals and who enforces. The practical consequence for an API provider
+  is that the obligation is one obligation and the compliance surface is twenty, and only a few of the
+  differences are actually machine-visible.
 tags:
 - Privacy
 - Consumer Rights
@@ -38,7 +38,15 @@ alternativeNames:
 - State Privacy Laws
 - US State Privacy Patchwork
 - Comprehensive Consumer Data Privacy Acts
-companyCountStatus: pending-corpus-pass
+companyCount: 18
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 The **US state privacy patchwork** is catalogued here as a single entry because that is how companies actually experience it. Nobody builds a Connecticut data-subject-request flow and a separate Montana one. They build one flow to the strictest common denominator and then carry a table of the exceptions.

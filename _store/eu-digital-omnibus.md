@@ -34,11 +34,11 @@ industries:
 - financial-services
 slug: eu-digital-omnibus
 title: EU Digital Omnibus (AI and Data simplification packages)
-description: 'The Digital Omnibus is the European Commission''s simplification package amending the
-  AI Act, GDPR, ePrivacy, the Data Act, NIS2 and DORA at once. It split in practice: the AI half was
-  adopted and entered into force on 27 July 2026, deferring the AI Act''s high-risk obligations by
-  sixteen months, while the data half remains in negotiation. It is catalogued here because it is the
-  instrument that moves other instruments'' dates, and a compliance calendar built without it is wrong.'
+description: 'The Digital Omnibus is the European Commission''s simplification package amending the AI
+  Act, GDPR, ePrivacy, the Data Act, NIS2 and DORA at once. It split in practice: the AI half was adopted
+  and entered into force on 27 July 2026, deferring the AI Act''s high-risk obligations by sixteen months,
+  while the data half remains in negotiation. It is catalogued here because it is the instrument that
+  moves other instruments'' dates, and a compliance calendar built without it is wrong.'
 tags:
 - Simplification
 - Artificial Intelligence
@@ -55,7 +55,15 @@ alternativeNames:
 - Digital Omnibus on AI
 - AI Omnibus
 - Data Omnibus
-companyCountStatus: pending-corpus-pass
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 The **Digital Omnibus** is not a regime of its own. It is an amending instrument, and I catalogue it for one reason: it is the thing that changed the dates everyone had written down. A company that built its EU compliance plan in early 2025 and has not revisited it is now planning against a calendar that no longer exists.

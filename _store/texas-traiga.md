@@ -15,11 +15,11 @@ industries:
 - human-capital-management
 slug: texas-traiga
 title: Texas Responsible Artificial Intelligence Governance Act (HB 149)
-description: 'TRAIGA took effect 1 January 2026 as an intent-based AI statute: rather than imposing
-  risk-management duties on classes of system, it prohibits developing or deploying AI with the intent
-  to manipulate behaviour, conduct social scoring, unlawfully discriminate, or uniquely identify people
-  without consent. Its most consequential design choice is a safe harbour for substantial compliance
-  with the NIST AI Risk Management Framework — the first US law to give a voluntary standard legal effect.'
+description: 'TRAIGA took effect 1 January 2026 as an intent-based AI statute: rather than imposing risk-management
+  duties on classes of system, it prohibits developing or deploying AI with the intent to manipulate behaviour,
+  conduct social scoring, unlawfully discriminate, or uniquely identify people without consent. Its most
+  consequential design choice is a safe harbour for substantial compliance with the NIST AI Risk Management
+  Framework — the first US law to give a voluntary standard legal effect.'
 tags:
 - Artificial Intelligence
 - Prohibited Practices
@@ -36,12 +36,20 @@ alternativeNames:
 - TRAIGA
 - HB 149
 - Texas HB 149
-companyCountStatus: pending-corpus-pass
 standards:
-- title: ISO/IEC 42001 (AI Management System)  # wired by scripts/wire_standards_links.py
+- title: ISO/IEC 42001 (AI Management System)
   url: https://standards.apievangelist.com/store/iso-42001/
-  note: TRAIGA's safe harbour runs to the NIST AI RMF specifically; ISO/IEC 42001 is the certifiable
-    sibling organisations pair with it.
+  note: TRAIGA's safe harbour runs to the NIST AI RMF specifically; ISO/IEC 42001 is the certifiable sibling
+    organisations pair with it.
+companyCount: 1
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **TRAIGA** is the US answer to the EU AI Act that nobody expected to come from Texas, and it took a genuinely different route. Where the EU sorts systems by risk tier and attaches duties to the tier, TRAIGA attaches liability to **intent**. Signed 22 June 2025, in effect 1 January 2026.

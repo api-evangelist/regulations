@@ -13,11 +13,11 @@ industries:
 - technology
 slug: california-sb-53
 title: Transparency in Frontier Artificial Intelligence Act (SB 53)
-description: 'SB 53 is the first US law requiring public, standardised safety disclosures from developers
-  of frontier AI models — those trained above 10^26 FLOPs. Large frontier developers must publish a
-  frontier AI framework, publish transparency reports on model release, and report critical safety
-  incidents to California''s Office of Emergency Services, with penalties to $1 million per violation.
-  It reaches perhaps a dozen companies and sets the template everyone else will be measured against.'
+description: SB 53 is the first US law requiring public, standardised safety disclosures from developers
+  of frontier AI models — those trained above 10^26 FLOPs. Large frontier developers must publish a frontier
+  AI framework, publish transparency reports on model release, and report critical safety incidents to
+  California's Office of Emergency Services, with penalties to $1 million per violation. It reaches perhaps
+  a dozen companies and sets the template everyone else will be measured against.
 tags:
 - Artificial Intelligence
 - Frontier Models
@@ -34,12 +34,21 @@ alternativeNames:
 - SB 53
 - TFAIA
 - Transparency in Frontier Artificial Intelligence Act
-companyCountStatus: pending-corpus-pass
 standards:
-- title: ISO/IEC 42001 (AI Management System)  # wired by scripts/wire_standards_links.py
+- title: ISO/IEC 42001 (AI Management System)
   url: https://standards.apievangelist.com/store/iso-42001/
-  note: SB 53 requires a published frontier AI framework describing how national and international
-    standards are incorporated — which is the question 42001 answers.
+  note: SB 53 requires a published frontier AI framework describing how national and international standards
+    are incorporated — which is the question 42001 answers.
+companyCount: 1
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 95
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -5: shortest bare needle is 5 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 **SB 53** is narrow by design and important anyway. Signed 25 September 2025, operative from 1 January 2026, it applies to *frontier developers* — those training foundation models above 10^26 integer or floating-point operations, counting subsequent fine-tuning and material modification — with the heaviest duties reserved for "large frontier developers" above a revenue threshold. That is a population you can count on your fingers.

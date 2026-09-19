@@ -16,11 +16,11 @@ industries:
 - gaming
 slug: safe-social-media-act-bill-c-34
 title: Safe Social Media Act (Bill C-34)
-description: 'Introduced 10 June 2026, Bill C-34 would enact the Digital Safety Act and create a Digital
+description: Introduced 10 June 2026, Bill C-34 would enact the Digital Safety Act and create a Digital
   Safety Commission of Canada — imposing safety duties, risk assessment and transparency on large online
   platforms, with a takedown regime for the most serious content. Its notable feature is that it applies
-  expressly to AI CHATBOT SERVICES alongside social media, making it the first of the online-safety
-  regimes in this catalog to name conversational AI in its scope rather than reaching it by interpretation.'
+  expressly to AI CHATBOT SERVICES alongside social media, making it the first of the online-safety regimes
+  in this catalog to name conversational AI in its scope rather than reaching it by interpretation.
 tags:
 - Online Safety
 - Platform Duties
@@ -39,7 +39,15 @@ alternativeNames:
 - Bill C-34
 - Digital Safety Act
 - Safe Social Media Act
-companyCountStatus: pending-corpus-pass
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **Bill C-34** is Canada's second attempt at online-harms legislation. The first, Bill C-63, was introduced in February 2024 and drew sustained criticism for bundling a platform-safety regime together with Criminal Code and Human Rights Act amendments — including a standalone hate-speech provision that dominated the debate and eventually sank the bill. C-34, introduced 10 June 2026, drops the criminal provisions and keeps the platform regime.

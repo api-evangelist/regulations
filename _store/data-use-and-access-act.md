@@ -17,11 +17,11 @@ industries:
 - healthcare
 slug: data-use-and-access-act
 title: Data (Use and Access) Act 2025 (c. 18)
-description: 'The DUAA amends UK GDPR, the Data Protection Act 2018 and PECR, replaces the ICO with the
-  Information Commission, and creates statutory smart-data schemes that generalise the open-banking
-  model to any sector a regulation names. It is the point at which UK data protection stops being a
-  copy of the EU''s and starts being a different regime, which is a problem for anyone whose compliance
-  model assumed the two moved together.'
+description: The DUAA amends UK GDPR, the Data Protection Act 2018 and PECR, replaces the ICO with the
+  Information Commission, and creates statutory smart-data schemes that generalise the open-banking model
+  to any sector a regulation names. It is the point at which UK data protection stops being a copy of
+  the EU's and starts being a different regime, which is a problem for anyone whose compliance model assumed
+  the two moved together.
 tags:
 - Data Protection
 - Smart Data
@@ -40,7 +40,16 @@ alternativeNames:
 - DUAA
 - DUAA 2025
 - Data Use and Access Act
-companyCountStatus: pending-corpus-pass
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 The **Data (Use and Access) Act 2025** is the UK's answer to a question it had been avoiding since Brexit: whether to keep UK GDPR as a near-identical twin of the European regime, or to diverge and accept the cost. It diverged — carefully, in places that matter operationally more than they matter rhetorically.

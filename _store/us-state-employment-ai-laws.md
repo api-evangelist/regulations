@@ -14,12 +14,12 @@ industries:
 - enterprise-software
 slug: us-state-employment-ai-laws
 title: US Employment AI Laws (Illinois HB 3773, NYC Local Law 144, Maryland, Utah)
-description: 'Employment is where US AI regulation actually bit first. Illinois HB 3773 amends the
-  Human Rights Act to reach AI in employment decisions; New York City Local Law 144 requires an
-  independent annual bias audit of automated employment decision tools with the results published;
-  Maryland and Illinois regulate facial analysis in interviews; Utah requires disclosure of generative
-  AI in regulated occupations. Local Law 144 is the only US regime that requires a published, structured,
-  third-party-verified statistic about a model''s behaviour.'
+description: Employment is where US AI regulation actually bit first. Illinois HB 3773 amends the Human
+  Rights Act to reach AI in employment decisions; New York City Local Law 144 requires an independent
+  annual bias audit of automated employment decision tools with the results published; Maryland and Illinois
+  regulate facial analysis in interviews; Utah requires disclosure of generative AI in regulated occupations.
+  Local Law 144 is the only US regime that requires a published, structured, third-party-verified statistic
+  about a model's behaviour.
 tags:
 - Artificial Intelligence
 - Employment
@@ -38,7 +38,15 @@ alternativeNames:
 - NYC AEDT law
 - Illinois HB 3773
 - AI hiring laws
-companyCountStatus: pending-corpus-pass
+companyCount: 2
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 Long before anyone passed a general AI statute, US regulators reached AI through **employment**, and that body of law is still the most operationally demanding thing on the books. It is also the only place where a US law requires a company to publish a number about how its model behaves.

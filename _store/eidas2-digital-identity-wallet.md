@@ -35,11 +35,11 @@ industries:
 - legal-compliance
 slug: eidas2-digital-identity-wallet
 title: eIDAS 2 — European Digital Identity Framework (Regulation (EU) 2024/1183)
-description: 'eIDAS 2 amends the original eIDAS Regulation to create the European Digital Identity
-  Wallet — a member-state-issued wallet every EU citizen and resident must be offered, and which large
-  online platforms and regulated sectors must accept for authentication. Unlike most of this catalog
-  it does not restrict an interface or merely require one: it specifies a protocol stack, which makes
-  it the most concretely machine-readable obligation in EU law.'
+description: 'eIDAS 2 amends the original eIDAS Regulation to create the European Digital Identity Wallet
+  — a member-state-issued wallet every EU citizen and resident must be offered, and which large online
+  platforms and regulated sectors must accept for authentication. Unlike most of this catalog it does
+  not restrict an interface or merely require one: it specifies a protocol stack, which makes it the most
+  concretely machine-readable obligation in EU law.'
 tags:
 - Identity
 - Authentication
@@ -60,7 +60,16 @@ alternativeNames:
 - EUDI Wallet
 - European Digital Identity Wallet
 - Regulation (EU) 2024/1183
-companyCountStatus: pending-corpus-pass
+companyCount: 5
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 **eIDAS 2** is the regulation that turns European digital identity from a patchwork of national schemes into a wallet with a specification behind it. The original eIDAS created trust services and mutual recognition of national eIDs; the amendment creates the **European Digital Identity Wallet**, obliges every member state to offer one, and — the part that reaches companies who have never thought about trust services — obliges a defined set of relying parties to *accept* it.

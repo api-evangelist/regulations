@@ -16,11 +16,11 @@ industries:
 - artificial-intelligence
 slug: australia-online-safety-act
 title: Online Safety Act 2021 (Cth), including the Social Media Minimum Age obligation
-description: 'The Online Safety Act gives Australia''s eSafety Commissioner takedown powers, Basic
-  Online Safety Expectations and industry codes — and, since 10 December 2025, the Social Media Minimum
-  Age obligation under Part 4A, which made Australia the first country anywhere to require platforms to
-  take reasonable steps to prevent under-16s holding accounts. Penalties reach AUD 49.5 million, and
-  the standard is deliberately technology-neutral: the platform must justify its method.'
+description: 'The Online Safety Act gives Australia''s eSafety Commissioner takedown powers, Basic Online
+  Safety Expectations and industry codes — and, since 10 December 2025, the Social Media Minimum Age obligation
+  under Part 4A, which made Australia the first country anywhere to require platforms to take reasonable
+  steps to prevent under-16s holding accounts. Penalties reach AUD 49.5 million, and the standard is deliberately
+  technology-neutral: the platform must justify its method.'
 tags:
 - Online Safety
 - Age Assurance
@@ -40,7 +40,16 @@ alternativeNames:
 - SMMA
 - Social Media Minimum Age
 - Under-16 social media ban
-companyCountStatus: pending-corpus-pass
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 Australia has been the most willing of the five jurisdictions in this catalog to legislate ahead of consensus, and the **Online Safety Act** is the clearest case. On 10 December 2025 it became the first country in the world to enforce a minimum age for social media accounts.

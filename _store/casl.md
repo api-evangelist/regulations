@@ -16,11 +16,11 @@ industries:
 - developer-tools
 slug: casl
 title: Canada's Anti-Spam Legislation (S.C. 2010, c. 23)
-description: 'CASL is the strictest commercial-messaging law in the world — express opt-in consent,
-  prescribed sender identification, a working unsubscribe honoured within ten business days, and
-  penalties to CAD 10 million. It also does something no other spam law does: it separately regulates
-  the INSTALLATION OF COMPUTER PROGRAMS on another person''s device, which makes it the only statute
-  in this catalog that reaches a software updater.'
+description: 'CASL is the strictest commercial-messaging law in the world — express opt-in consent, prescribed
+  sender identification, a working unsubscribe honoured within ten business days, and penalties to CAD
+  10 million. It also does something no other spam law does: it separately regulates the INSTALLATION
+  OF COMPUTER PROGRAMS on another person''s device, which makes it the only statute in this catalog that
+  reaches a software updater.'
 tags:
 - Anti-Spam
 - Consent
@@ -39,7 +39,17 @@ alternativeNames:
 - CASL
 - Anti-Spam Law
 - An Act to promote the efficiency and adaptability of the Canadian economy
-companyCountStatus: pending-corpus-pass
+companyCount: 12
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 65
+precisionGrade: medium
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
+- 'bare-channel -25: 100% of matching companies were reached only on the bare word (12 bare vs 0 phrase)'
 ---
 
 **CASL** is routinely described as "Canada's CAN-SPAM", which is wrong in both direction and degree. CAN-SPAM is opt-out and lightly enforced. CASL is opt-in, prescriptive, enforced by three regulators, and carries penalties up to CAD 10 million for an organisation.

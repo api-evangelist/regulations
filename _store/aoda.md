@@ -39,12 +39,21 @@ alternativeNames:
 - AODA
 - Accessibility for Ontarians with Disabilities Act
 - IASR
-companyCountStatus: pending-corpus-pass
 standards:
-- title: WCAG  # wired by scripts/wire_standards_links.py
+- title: WCAG
   url: https://standards.apievangelist.com/store/wcag/
-  note: The Integrated Accessibility Standards Regulation names WCAG 2.0 Level AA directly, which is
-    what distinguishes AODA from the US approach of litigating it case by case.
+  note: The Integrated Accessibility Standards Regulation names WCAG 2.0 Level AA directly, which is what
+    distinguishes AODA from the US approach of litigating it case by case.
+companyCount: 20
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 **AODA** is the quiet counterexample to the American way of doing web accessibility, and it sits in this catalog next to ADA Title III deliberately so the comparison is visible.

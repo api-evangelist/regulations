@@ -16,11 +16,11 @@ industries:
 - healthcare
 slug: illinois-bipa
 title: Biometric Information Privacy Act (740 ILCS 14)
-description: 'BIPA requires written consent before collecting a fingerprint, faceprint, voiceprint,
-  retina or hand scan, mandates a published retention and destruction schedule, bans selling biometric
-  data, and — uniquely — gives individuals a private right of action with statutory damages per
-  violation. It is the most financially consequential technology statute in the United States, and it
-  is a state law about fingerprints.'
+description: BIPA requires written consent before collecting a fingerprint, faceprint, voiceprint, retina
+  or hand scan, mandates a published retention and destruction schedule, bans selling biometric data,
+  and — uniquely — gives individuals a private right of action with statutory damages per violation. It
+  is the most financially consequential technology statute in the United States, and it is a state law
+  about fingerprints.
 tags:
 - Biometrics
 - Consent
@@ -37,7 +37,16 @@ alternativeNames:
 - BIPA
 - 740 ILCS 14
 - Illinois BIPA
-companyCountStatus: pending-corpus-pass
+companyCount: 1
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 **BIPA** is the answer to a question I get constantly: what is the actual regulatory risk of operating in the United States, given there is no federal privacy law? It is not a regulator. It is this statute, and the plaintiffs' bar that has been enforcing it since 2019.

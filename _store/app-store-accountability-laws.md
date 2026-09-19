@@ -15,11 +15,11 @@ industries:
 - media
 slug: app-store-accountability-laws
 title: US App Store Accountability Acts (Utah, Texas, Louisiana, California)
-description: 'App Store Accountability laws move age verification from individual apps to the app
-  stores, requiring Apple and Google to determine a user''s age category, obtain verifiable parental
-  consent for minors, and pass an age signal to developers — who must then act on it. It is the first
-  time US law has mandated a specific piece of data cross an API boundary between a platform and its
-  developers, which makes it the most directly API-relevant age regime anywhere.'
+description: App Store Accountability laws move age verification from individual apps to the app stores,
+  requiring Apple and Google to determine a user's age category, obtain verifiable parental consent for
+  minors, and pass an age signal to developers — who must then act on it. It is the first time US law
+  has mandated a specific piece of data cross an API boundary between a platform and its developers, which
+  makes it the most directly API-relevant age regime anywhere.
 tags:
 - Age Verification
 - App Stores
@@ -37,7 +37,15 @@ alternativeNames:
 - Utah SB 142
 - Texas SB 2420
 - App store age verification
-companyCountStatus: pending-corpus-pass
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 The **App Store Accountability laws** are the most interesting regulatory development in this catalog for anyone who builds software rather than writes policy, because they are the first US statutes that mandate an **API contract between two private parties**.

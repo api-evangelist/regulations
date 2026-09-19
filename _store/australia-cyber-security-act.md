@@ -16,12 +16,11 @@ industries:
 - semiconductors-hardware
 slug: australia-cyber-security-act
 title: Cyber Security Act 2024 (Cth)
-description: 'Australia''s first standalone cyber security statute does three things: it creates
-  mandatory security standards for smart devices, it requires businesses above a turnover threshold to
-  report ransomware and cyber extortion payments within 72 hours, and it establishes a Cyber Incident
-  Review Board with a limited-use protection so information given to government during an incident
-  cannot be turned against the victim. The ransomware payment reporting obligation is the first of its
-  kind at national scale.'
+description: 'Australia''s first standalone cyber security statute does three things: it creates mandatory
+  security standards for smart devices, it requires businesses above a turnover threshold to report ransomware
+  and cyber extortion payments within 72 hours, and it establishes a Cyber Incident Review Board with
+  a limited-use protection so information given to government during an incident cannot be turned against
+  the victim. The ransomware payment reporting obligation is the first of its kind at national scale.'
 tags:
 - Cybersecurity
 - Ransomware
@@ -40,15 +39,23 @@ alternativeNames:
 - Cyber Security Act 2024
 - Australian Cyber Security Act
 - Ransomware payment reporting
-companyCountStatus: pending-corpus-pass
 standards:
-- title: security.txt  # wired by scripts/wire_standards_links.py
+- title: security.txt
   url: https://standards.apievangelist.com/store/security-txt/
   note: The smart-device standards carry the same vulnerability-disclosure requirement the UK's PSTI Act
     established.
-- title: CycloneDX  # wired by scripts/wire_standards_links.py
+- title: CycloneDX
   url: https://standards.apievangelist.com/store/cyclonedx/
   note: Component transparency for connectable products, converging with the CRA.
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 The **Cyber Security Act 2024** is short, and two of its three parts are more interesting than their length suggests.

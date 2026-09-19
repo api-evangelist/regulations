@@ -16,11 +16,11 @@ industries:
 - e-commerce-platform
 slug: ppcda-bill-c-36
 title: Protecting Privacy and Consumer Data Act (Bill C-36)
-description: 'Tabled 15 June 2026, Bill C-36 is Canada''s third attempt to replace PIPEDA — after Bill
-  C-11 died in 2020 and Bill C-27 died on prorogation in January 2025. It would create a new Digital
-  Safety and Data Protection Commission with order-making power and administrative penalties to the
-  greater of CAD 25 million or 5% of gross global revenue, and regulate automated decision systems
-  through the privacy frame rather than through a separate AI act. It is a bill and binds no one yet.'
+description: Tabled 15 June 2026, Bill C-36 is Canada's third attempt to replace PIPEDA — after Bill C-11
+  died in 2020 and Bill C-27 died on prorogation in January 2025. It would create a new Digital Safety
+  and Data Protection Commission with order-making power and administrative penalties to the greater of
+  CAD 25 million or 5% of gross global revenue, and regulate automated decision systems through the privacy
+  frame rather than through a separate AI act. It is a bill and binds no one yet.
 tags:
 - Privacy
 - Automated Decisions
@@ -39,7 +39,16 @@ alternativeNames:
 - Bill C-36
 - PPCDA
 - Protecting Privacy and Consumer Data Act
-companyCountStatus: pending-corpus-pass
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 95
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -5: shortest bare needle is 5 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 **Bill C-36** is Canada's third run at replacing PIPEDA, and the history matters more than the text. Bill C-11 died in 2020. Bill C-27 — which paired privacy reform with the Artificial Intelligence and Data Act — died when Parliament was prorogued on 6 January 2025, taking AIDA with it. C-36 was tabled on 15 June 2026 and is at first reading.

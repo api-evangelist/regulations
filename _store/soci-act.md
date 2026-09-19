@@ -18,11 +18,11 @@ industries:
 - banking
 slug: soci-act
 title: Security of Critical Infrastructure Act 2018 (Cth)
-description: 'The SOCI Act imposes registration, mandatory incident reporting and a Critical
-  Infrastructure Risk Management Program on responsible entities across eleven sectors — and, unusually,
-  treats DATA STORAGE AND PROCESSING as a critical infrastructure asset class in its own right. It also
-  gives government last-resort step-in powers to intervene directly in a serious incident, which is the
-  most intrusive provision in this catalog.'
+description: The SOCI Act imposes registration, mandatory incident reporting and a Critical Infrastructure
+  Risk Management Program on responsible entities across eleven sectors — and, unusually, treats DATA
+  STORAGE AND PROCESSING as a critical infrastructure asset class in its own right. It also gives government
+  last-resort step-in powers to intervene directly in a serious incident, which is the most intrusive
+  provision in this catalog.
 tags:
 - Critical Infrastructure
 - Risk Management
@@ -42,7 +42,16 @@ alternativeNames:
 - SOCI Act
 - Critical Infrastructure Act
 - CIRMP
-companyCountStatus: pending-corpus-pass
+companyCount: 1
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 95
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -5: shortest bare needle is 5 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 The **SOCI Act** is the Australian regime most likely to apply to a technology company that does not think of itself as infrastructure, and the reason is a definitional choice made in the 2021–22 amendments: **critical data storage or processing** is its own asset class. A provider holding or processing business-critical data on behalf of a responsible entity in a covered sector can be regulated directly, rather than being managed as somebody else's supply-chain risk.

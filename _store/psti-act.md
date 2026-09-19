@@ -16,11 +16,11 @@ industries:
 - telecommunications
 slug: psti-act
 title: Product Security and Telecommunications Infrastructure Act 2022 (c. 46)
-description: 'The PSTI Act and its 2023 security regime make three baseline security requirements
-  legally binding on consumer connectable products sold in the UK: no universal default passwords, a
-  published vulnerability disclosure policy, and a published minimum security update period. It is
-  small, it is enforced, and it is the first regime anywhere to make a machine-readable security
-  commitment a condition of sale — which is the model the EU Cyber Resilience Act then scaled up.'
+description: 'The PSTI Act and its 2023 security regime make three baseline security requirements legally
+  binding on consumer connectable products sold in the UK: no universal default passwords, a published
+  vulnerability disclosure policy, and a published minimum security update period. It is small, it is
+  enforced, and it is the first regime anywhere to make a machine-readable security commitment a condition
+  of sale — which is the model the EU Cyber Resilience Act then scaled up.'
 tags:
 - Product Security
 - IoT
@@ -39,12 +39,21 @@ alternativeNames:
 - PSTI
 - PSTI Act
 - PSTI Act 2022
-companyCountStatus: pending-corpus-pass
 standards:
-- title: security.txt  # wired by scripts/wire_standards_links.py
+- title: security.txt
   url: https://standards.apievangelist.com/store/security-txt/
   note: PSTI requires a published vulnerability disclosure policy with a working contact — exactly what
     security.txt exists to publish.
+companyCount: 1
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 The **PSTI Act** is the smallest regime in this catalog that I would call genuinely important, and the reason is its shape rather than its size. Three requirements, in force since April 2024 for consumer connectable products placed on the UK market:

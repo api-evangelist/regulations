@@ -17,11 +17,11 @@ industries:
 - real-estate
 slug: colorado-ai-act
 title: Colorado AI Act (SB 24-205, repealed and replaced by SB 189)
-description: 'Colorado passed the first US comprehensive algorithmic-discrimination law, delayed it
-  twice, then repealed and replaced it with a narrower automated-decision statute arriving 1 January
-  2027 — with the deployer risk-management and impact-assessment duties removed. It is the most
-  instructive entry in this catalog''s AI section precisely because it failed: it is the clearest
-  available evidence of which AI obligations survive contact with a legislature and which do not.'
+description: 'Colorado passed the first US comprehensive algorithmic-discrimination law, delayed it twice,
+  then repealed and replaced it with a narrower automated-decision statute arriving 1 January 2027 — with
+  the deployer risk-management and impact-assessment duties removed. It is the most instructive entry
+  in this catalog''s AI section precisely because it failed: it is the clearest available evidence of
+  which AI obligations survive contact with a legislature and which do not.'
 tags:
 - Artificial Intelligence
 - Algorithmic Discrimination
@@ -39,7 +39,17 @@ alternativeNames:
 - Colorado Artificial Intelligence Act
 - CAIA
 - SB 189
-companyCountStatus: pending-corpus-pass
+companyCount: 32
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 67
+precisionGrade: medium
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
+- 'bare-channel -23: 97% of matching companies were reached only on the bare word (32 bare vs 1 phrase)'
 ---
 
 The **Colorado AI Act** was, when it passed in May 2024, the most ambitious AI statute in the United States and the closest anything in America had come to the EU AI Act's structure. It is now the most useful cautionary tale in this catalog, and I would rather carry the entry with its failure recorded than quietly drop it.

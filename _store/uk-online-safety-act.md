@@ -17,11 +17,11 @@ industries:
 - communications-platform-as-a-service-cpaas
 slug: uk-online-safety-act
 title: Online Safety Act 2023 (c. 50)
-description: 'The Online Safety Act imposes duties of care on user-to-user and search services with
-  links to the UK, enforced by Ofcom with fines to 10% of global turnover and, ultimately, business
-  disruption measures. Its most consequential requirement in practice is highly effective age assurance,
-  which has turned an editorial obligation into an identity-infrastructure problem — and Ofcom''s
-  enforcement has already reached generative-AI features rather than staying with content platforms.'
+description: The Online Safety Act imposes duties of care on user-to-user and search services with links
+  to the UK, enforced by Ofcom with fines to 10% of global turnover and, ultimately, business disruption
+  measures. Its most consequential requirement in practice is highly effective age assurance, which has
+  turned an editorial obligation into an identity-infrastructure problem — and Ofcom's enforcement has
+  already reached generative-AI features rather than staying with content platforms.
 tags:
 - Online Safety
 - Age Assurance
@@ -40,7 +40,17 @@ alternativeNames:
 - OSA
 - Online Safety Act 2023
 - Online Safety Bill
-companyCountStatus: pending-corpus-pass
+companyCount: 24
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 62
+precisionGrade: medium
+precisionBasis:
+- 'acronym-shape -15: shortest bare needle is 3 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
+- 'bare-channel -23: 96% of matching companies were reached only on the bare word (26 bare vs 1 phrase)'
 ---
 
 The **Online Safety Act** is the most aggressively enforced of the online-safety regimes I track, and the one whose scope companies most consistently underestimate. It does not apply to "social media". It applies to any *user-to-user service* or *search service* with links to the United Kingdom — and links to the UK means a significant number of UK users, or the UK as a target market, or a risk of harm to UK users. A forum inside a product qualifies. User-generated comments qualify. A multiplayer lobby qualifies.

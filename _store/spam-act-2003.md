@@ -15,11 +15,11 @@ industries:
 - technology
 slug: spam-act-2003
 title: Spam Act 2003 (Cth)
-description: 'The Spam Act prohibits sending commercial electronic messages to Australian addresses
-  without consent, requires accurate sender identification and a functional unsubscribe honoured within
-  five working days, and is enforced by ACMA with civil penalties that have repeatedly run into the
-  millions. It sits between CAN-SPAM''s opt-out permissiveness and CASL''s strictness, and ACMA enforces
-  it more consistently than either.'
+description: The Spam Act prohibits sending commercial electronic messages to Australian addresses without
+  consent, requires accurate sender identification and a functional unsubscribe honoured within five working
+  days, and is enforced by ACMA with civil penalties that have repeatedly run into the millions. It sits
+  between CAN-SPAM's opt-out permissiveness and CASL's strictness, and ACMA enforces it more consistently
+  than either.
 tags:
 - Anti-Spam
 - Consent
@@ -38,7 +38,15 @@ alternativeNames:
 - Spam Act
 - Spam Act 2003
 - ACMA spam rules
-companyCountStatus: pending-corpus-pass
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 The **Spam Act 2003** is the oldest statute in this catalog's messaging group and the most consistently enforced. Three requirements, which have not changed in two decades:

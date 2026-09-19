@@ -16,11 +16,11 @@ industries:
 - technology
 slug: washington-my-health-my-data
 title: My Health My Data Act (Washington RCW 19.373)
-description: 'The My Health My Data Act regulates consumer health data held by anyone HIPAA does not
-  cover, on an extremely broad definition that reaches inferences, biometrics, precise location near
-  a health facility, and anything that identifies a past, present or future physical or mental health
-  status. It requires separate consent for collection and for sharing, bans the sale of such data
-  without a signed authorisation, and carries a private right of action.'
+description: The My Health My Data Act regulates consumer health data held by anyone HIPAA does not cover,
+  on an extremely broad definition that reaches inferences, biometrics, precise location near a health
+  facility, and anything that identifies a past, present or future physical or mental health status. It
+  requires separate consent for collection and for sharing, bans the sale of such data without a signed
+  authorisation, and carries a private right of action.
 tags:
 - Health Data
 - Consent
@@ -37,7 +37,16 @@ alternativeNames:
 - MHMD
 - My Health My Data
 - Washington HB 1155
-companyCountStatus: pending-corpus-pass
+companyCount: 2
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 90
+precisionGrade: high
+precisionBasis:
+- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
+  the corpus frequency table'
 ---
 
 **My Health My Data** exists because HIPAA covers entities, not data. A hospital is covered; a period-tracking app is not; a fitness wearable is not; an ad network that infers a pregnancy from browsing behaviour is not. Washington closed that gap with a statute so broadly drawn that its central compliance question is not how to comply but whether you are in scope — and the answer is usually yes.

@@ -15,11 +15,11 @@ industries:
 - accounting-finance-ops
 slug: sec-cybersecurity-disclosure
 title: SEC Cybersecurity Risk Management, Strategy, Governance and Incident Disclosure Rules
-description: 'SEC rules require public companies to disclose a material cybersecurity incident on Form
-  8-K Item 1.05 within four business days of determining materiality, and to describe their risk
-  management processes and board oversight annually in Form 10-K Item 1C. It is the regime that made
-  a security incident a securities-disclosure event, and its reach extends well past registrants to
-  every vendor whose outage could be material to one.'
+description: SEC rules require public companies to disclose a material cybersecurity incident on Form
+  8-K Item 1.05 within four business days of determining materiality, and to describe their risk management
+  processes and board oversight annually in Form 10-K Item 1C. It is the regime that made a security incident
+  a securities-disclosure event, and its reach extends well past registrants to every vendor whose outage
+  could be material to one.
 tags:
 - Cybersecurity
 - Incident Disclosure
@@ -39,7 +39,15 @@ alternativeNames:
 - Item 1C
 - SEC cyber disclosure rule
 - Reg S-K Item 106
-companyCountStatus: pending-corpus-pass
+companyCount: 1
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 The **SEC cybersecurity disclosure rules** changed the character of incident response at public companies by attaching a securities-law clock to it. Effective since December 2023.

@@ -16,11 +16,11 @@ industries:
 - e-commerce-platform
 slug: us-state-age-verification-laws
 title: US State Age Verification and Minor Protection Laws
-description: 'Roughly half of US states now require age verification for access to adult content, and
-  a growing group requires parental consent for minors'' social media accounts. The Supreme Court
-  upheld Texas''s statute in Free Speech Coalition v. Paxton in June 2025, removing the constitutional
-  argument that had blocked these laws for two decades and converting a First Amendment question into
-  an identity-infrastructure procurement question.'
+description: Roughly half of US states now require age verification for access to adult content, and a
+  growing group requires parental consent for minors' social media accounts. The Supreme Court upheld
+  Texas's statute in Free Speech Coalition v. Paxton in June 2025, removing the constitutional argument
+  that had blocked these laws for two decades and converting a First Amendment question into an identity-infrastructure
+  procurement question.
 tags:
 - Age Verification
 - Minors
@@ -38,7 +38,15 @@ alternativeNames:
 - HB 1181
 - Free Speech Coalition v. Paxton
 - Minor social media consent laws
-companyCountStatus: pending-corpus-pass
+companyCount: 0
+companyCountQuarter: q3-2026
+companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
+  needles screened and confirmed against sampled matched text
+companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
+precision: 100
+precisionGrade: high
+precisionBasis:
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 **US state age verification** went from a recurring legislative failure to settled law in a single decision. For twenty years, statutes requiring age verification for online content were struck down under *Ashcroft v. ACLU* and its successors. In June 2025 the Supreme Court upheld Texas HB 1181 in *Free Speech Coalition v. Paxton*, applying intermediate rather than strict scrutiny to age verification for material harmful to minors. The constitutional question closed, and the legislative dam broke.
