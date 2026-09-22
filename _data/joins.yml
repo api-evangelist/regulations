@@ -340,6 +340,9 @@ industries:
   insurance:
     name: Insurance
     url: https://providers.apievangelist.com/industries/insurance/
+  investing:
+    name: Investing & Venture Capital
+    url: https://providers.apievangelist.com/industries/investing/
   iot:
     name: IoT & Connected Devices
     url: https://providers.apievangelist.com/industries/iot/
@@ -430,9 +433,6 @@ industries:
   utilities:
     name: Utilities
     url: https://providers.apievangelist.com/industries/utilities/
-  venture-capital:
-    name: Venture Capital & Investing
-    url: https://providers.apievangelist.com/industries/venture-capital/
   video-streaming:
     name: Video Streaming
     url: https://providers.apievangelist.com/industries/video-streaming/
