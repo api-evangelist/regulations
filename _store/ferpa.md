@@ -37,16 +37,17 @@ standards:
   url: https://standards.apievangelist.com/store/wcag/
   note: 'Unrelated in subject, related in pattern: both are obligations institutions meet without publishing
     a machine-readable artifact.'
-companyCount: 8
-companyCountQuarter: q3-2026
+companyCount: 9
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
-precision: 95
+precision: 87
 precisionGrade: high
 precisionBasis:
 - 'acronym-shape -5: shortest bare needle is 5 characters, halved — it neither collides nor appears in
   the corpus frequency table'
+- 'bare-channel -8: 73% of matching companies were reached only on the bare word (8 bare vs 3 phrase)'
 ---
 
 **FERPA** is the statute every American EdTech contract is written against, and its central mechanism is consent and delegation rather than security. A school may share records with a vendor acting as a *school official*, under direct control, for a defined purpose — which is a delegation of authority, negotiated in a contract and described nowhere machine-readable.

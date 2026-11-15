@@ -50,17 +50,18 @@ common:
   url: https://www.hhs.gov/ocr/index.html
 url: https://www.hhs.gov/hipaa/
 yearCreated: 1996
-companyCount: 212
-companyCountQuarter: q3-2026
+companyCount: 242
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
-precision: 44
-precisionGrade: low
+precision: 75
+precisionGrade: medium
 precisionBasis:
-- 'acronym-shape -10: shortest bare needle is 5 characters'
-- 'collision -25: a surviving needle is also claimed by standards:HIPAA'
-- 'bare-channel -21: 93% of matching companies were reached only on the bare word (212 bare vs 15 phrase)'
+- 'human verdict: "HIPAA guidelines and company confidentiality policies", "abiding by all HIPAA and osha
+  requirements". sampled on the job corpus 2026-09-25, 300 corpora seed 17 (_reports/q3-2026-close/story-needle-samples.txt);
+  every quote is the thing named. Quotes cluster in the first corpora the sampler reads, so graded medium,
+  not high.'
 precisionRecognition: 69
 ---
 

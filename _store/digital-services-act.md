@@ -60,8 +60,8 @@ yearCreated: 2022
 alternativeNames:
 - DSA
 - Regulation (EU) 2022/2065
-companyCount: 4
-companyCountQuarter: q3-2026
+companyCount: 5
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary

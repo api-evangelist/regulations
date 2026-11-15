@@ -35,17 +35,17 @@ alternativeNames:
 - FCC
 - Federal Communications Commission
 - CPNI
-companyCount: 88
-companyCountQuarter: q3-2026
+companyCount: 92
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
-precision: 63
+precision: 66
 precisionGrade: medium
 precisionBasis:
 - 'acronym-shape -15: shortest bare needle is 3 characters, halved — it neither collides nor appears in
   the corpus frequency table'
-- 'bare-channel -22: 94% of matching companies were reached only on the bare word (85 bare vs 5 phrase)'
+- 'bare-channel -19: 90% of matching companies were reached only on the bare word (84 bare vs 9 phrase)'
 ---
 
 US telecom regulation is extensive and old, and none of it points at the thing this research measures.

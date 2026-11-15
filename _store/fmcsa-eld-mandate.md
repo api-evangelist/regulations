@@ -31,7 +31,7 @@ common:
 - type: Website
   url: https://www.fmcsa.dot.gov/hours-service/elds/electronic-logging-devices
 companyCount: 0
-companyCountQuarter: q3-2026
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary

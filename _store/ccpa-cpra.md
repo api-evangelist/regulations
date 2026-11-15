@@ -46,17 +46,17 @@ alternativeNames:
 - CPRA
 - California Consumer Privacy Act
 - California Privacy Rights Act
-companyCount: 172
-companyCountQuarter: q3-2026
+companyCount: 158
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
-precision: 47
-precisionGrade: low
+precision: 75
+precisionGrade: medium
 precisionBasis:
-- 'acronym-shape -20: shortest bare needle is 4 characters'
-- 'collision -25: a surviving needle is also claimed by standards:CCPA'
-- 'bare-channel -8: 73% of matching companies were reached only on the bare word (132 bare vs 50 phrase)'
+- 'human verdict: "hipaa gdpr CCPA and related enterprise risk frameworks". sampled on the job corpus
+  2026-09-25, 300 corpora seed 17 (_reports/q3-2026-close/story-needle-samples.txt); every quote is the
+  thing named. Quotes cluster in the first corpora the sampler reads, so graded medium, not high.'
 precisionRecognition: 72
 ---
 

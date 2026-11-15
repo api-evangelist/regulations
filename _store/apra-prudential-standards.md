@@ -41,17 +41,16 @@ alternativeNames:
 - CPS 234
 - CPS 230
 - APRA Connect
-companyCount: 17
-companyCountQuarter: q3-2026
+companyCount: 13
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
-precision: 87
+precision: 90
 precisionGrade: high
 precisionBasis:
 - 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
   the corpus frequency table'
-- 'bare-channel -3: 65% of matching companies were reached only on the bare word (11 bare vs 6 phrase)'
 ---
 
 APRA is the counterweight to the Consumer Data Right in any honest reading of Australian financial and

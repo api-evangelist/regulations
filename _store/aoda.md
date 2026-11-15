@@ -44,8 +44,8 @@ standards:
   url: https://standards.apievangelist.com/store/wcag/
   note: The Integrated Accessibility Standards Regulation names WCAG 2.0 Level AA directly, which is what
     distinguishes AODA from the US approach of litigating it case by case.
-companyCount: 20
-companyCountQuarter: q3-2026
+companyCount: 17
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary

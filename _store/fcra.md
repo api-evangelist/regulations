@@ -36,17 +36,17 @@ alternativeNames:
 - FCRA
 - Fair Credit Reporting Act
 - 15 U.S.C. 1681
-companyCount: 28
-companyCountQuarter: q3-2026
+companyCount: 34
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
-precision: 87
+precision: 83
 precisionGrade: high
 precisionBasis:
 - 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
   the corpus frequency table'
-- 'bare-channel -3: 64% of matching companies were reached only on the bare word (18 bare vs 10 phrase)'
+- 'bare-channel -7: 71% of matching companies were reached only on the bare word (24 bare vs 10 phrase)'
 ---
 
 The **Fair Credit Reporting Act (FCRA)** is one of the oldest US financial-data laws, governing how consumer credit information is collected, used, and shared, and giving consumers a right to access and dispute what credit reporting agencies hold about them.

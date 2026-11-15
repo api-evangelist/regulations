@@ -45,17 +45,17 @@ alternativeNames:
 - GLBA
 - Financial Services Modernization Act of 1999
 - GLB Act
-companyCount: 36
-companyCountQuarter: q3-2026
+companyCount: 34
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
-precision: 75
+precision: 72
 precisionGrade: medium
 precisionBasis:
 - 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
   the corpus frequency table'
-- 'bare-channel -15: 83% of matching companies were reached only on the bare word (30 bare vs 6 phrase)'
+- 'bare-channel -18: 89% of matching companies were reached only on the bare word (32 bare vs 4 phrase)'
 ---
 
 The **Gramm-Leach-Bliley Act (GLBA)** is the US financial-privacy law that was governing consumer financial data long before anyone said "open banking." Its Privacy Rule constrains how institutions share nonpublic personal information, and its Safeguards Rule requires them to secure it — the backdrop the CFPB's 1033 rule and the whole US data-sharing effort have to operate within.

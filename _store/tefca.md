@@ -36,8 +36,8 @@ common:
   url: https://rce.sequoiaproject.org/
 url: https://www.healthit.gov/topic/interoperability/policy/trusted-exchange-framework-and-common-agreement-tefca
 yearCreated: 2023
-companyCount: 2
-companyCountQuarter: q3-2026
+companyCount: 5
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary

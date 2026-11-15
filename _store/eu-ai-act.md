@@ -61,21 +61,23 @@ alternativeNames:
 - Artificial Intelligence Act
 - Regulation (EU) 2024/1689
 - AI Act
-companyCount: 59
-companyCountQuarter: q3-2026
+companyCount: 93
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
-precision: 100
-precisionGrade: high
+precision: 75
+precisionGrade: medium
 precisionBasis:
-- 'no penalty: an unambiguous, sufficiently long name'
+- 'human verdict: "evolving ai regulation e g EU AI ACT nist ai rmf", "regulatory supervision including
+  the EU AI ACT". sampled on the job corpus 2026-09-25, 300 corpora seed 17 (_reports/q3-2026-close/story-needle-samples.txt);
+  every quote is the thing named. Quotes cluster in the first corpora the sampler reads, so graded medium,
+  not high.'
 standards:
-- title: ISO/IEC 42001 (AI Management System)  # wired by scripts/wire_standards_links.py
+- title: ISO/IEC 42001 (AI Management System)
   url: https://standards.apievangelist.com/store/iso-42001/
   note: The AI Act compels no specific management system, but an ISO/IEC 42001 AI management system is
-    the closest thing to a certifiable answer to its governance, documentation and risk-management
-    duties.
+    the closest thing to a certifiable answer to its governance, documentation and risk-management duties.
 ---
 
 The **EU Artificial Intelligence Act** is the first regime to regulate artificial intelligence horizontally rather than sector by sector, and it arrives at an industry that has almost nothing machine-readable to show it. It sorts AI systems by risk — prohibited practices, high-risk systems carrying the heaviest duties, limited-risk systems owing transparency, and minimal-risk systems left alone — and adds a separate track of obligations for general-purpose AI models, including the systemic-risk tier that the frontier labs sit in.

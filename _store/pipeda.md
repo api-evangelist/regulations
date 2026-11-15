@@ -35,15 +35,15 @@ yearCreated: 2000
 alternativeNames:
 - PIPEDA
 - Personal Information Protection and Electronic Documents Act
-companyCount: 18
-companyCountQuarter: q3-2026
+companyCount: 19
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
-precision: 85
+precision: 84
 precisionGrade: high
 precisionBasis:
-- 'bare-channel -15: 84% of matching companies were reached only on the bare word (16 bare vs 3 phrase)'
+- 'bare-channel -16: 85% of matching companies were reached only on the bare word (17 bare vs 3 phrase)'
 ---
 
 **PIPEDA** — the Personal Information Protection and Electronic Documents Act — is Canada's federal private-sector privacy law, governing how businesses handle personal information in commercial activity, on a consent-and-reasonable-purposes model.

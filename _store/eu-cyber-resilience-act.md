@@ -66,7 +66,7 @@ alternativeNames:
 - CRA
 - Regulation (EU) 2024/2847
 companyCount: null
-companyCountQuarter: q3-2026
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
@@ -76,15 +76,15 @@ precisionBasis:
 - 'human verdict: `cra` is the Community Reinvestment Act in every sampled banking posting ("assists with
   CRA donations sponsorships", "the bank s CRA goals"). Stoplisted.'
 standards:
-- title: CycloneDX  # wired by scripts/wire_standards_links.py
+- title: CycloneDX
   url: https://standards.apievangelist.com/store/cyclonedx/
-  note: The CRA requires a software bill of materials covering at least the top-level dependencies;
-    CycloneDX is one of the two formats the market actually ships.
-- title: SPDX  # wired by scripts/wire_standards_links.py
+  note: The CRA requires a software bill of materials covering at least the top-level dependencies; CycloneDX
+    is one of the two formats the market actually ships.
+- title: SPDX
   url: https://standards.apievangelist.com/store/spdx/
-  note: The other SBOM format a CRA conformity assessment will accept, and the one with the deeper
-    licensing model.
-- title: security.txt  # wired by scripts/wire_standards_links.py
+  note: The other SBOM format a CRA conformity assessment will accept, and the one with the deeper licensing
+    model.
+- title: security.txt
   url: https://standards.apievangelist.com/store/security-txt/
   note: The CRA obliges a coordinated vulnerability disclosure policy and a contact point for reporting;
     RFC 9116 is how that becomes machine-readable.

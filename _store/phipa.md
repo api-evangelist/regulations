@@ -36,8 +36,8 @@ regulations:
 - title: PIPEDA
   url: https://regulations.apievangelist.com/store/pipeda/
   note: PHIPA is Ontario's health-sector-specific counterpart to the federal PIPEDA.
-companyCount: 2
-companyCountQuarter: q3-2026
+companyCount: 4
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary

@@ -68,8 +68,8 @@ alternativeNames:
 - NIS2 Directive
 - Directive (EU) 2022/2555
 - Network and Information Security Directive 2
-companyCount: 33
-companyCountQuarter: q3-2026
+companyCount: 52
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
@@ -78,7 +78,7 @@ precisionGrade: medium
 precisionBasis:
 - 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
   the corpus frequency table'
-- 'bare-channel -21: 94% of matching companies were reached only on the bare word (31 bare vs 2 phrase)'
+- 'bare-channel -21: 94% of matching companies were reached only on the bare word (49 bare vs 3 phrase)'
 ---
 
 **NIS2** replaced the original NIS Directive and substantially widened who is covered — energy, transport, banking, health, digital infrastructure, ICT service management, public administration, space, postal services, waste, chemicals, food, manufacturing, digital providers and research, split into *essential* and *important* entities with different supervisory regimes.

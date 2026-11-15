@@ -40,7 +40,7 @@ standards:
   note: SB 53 requires a published frontier AI framework describing how national and international standards
     are incorporated — which is the question 42001 answers.
 companyCount: 1
-companyCountQuarter: q3-2026
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary

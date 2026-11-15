@@ -30,15 +30,15 @@ tags:
 common:
 - type: Website
   url: https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments
-companyCount: 20
-companyCountQuarter: q3-2026
+companyCount: 30
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
-precision: 74
+precision: 73
 precisionGrade: medium
 precisionBasis:
 - 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
   the corpus frequency table'
-- 'bare-channel -16: 85% of matching companies were reached only on the bare word (17 bare vs 3 phrase)'
+- 'bare-channel -17: 87% of matching companies were reached only on the bare word (26 bare vs 4 phrase)'
 ---

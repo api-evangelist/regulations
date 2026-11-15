@@ -42,8 +42,8 @@ standards:
   url: https://standards.apievangelist.com/store/wcag/
   note: The Revised 508 Standards adopt WCAG Level AA as their technical requirement rather than defining
     separate criteria.
-companyCount: 10
-companyCountQuarter: q3-2026
+companyCount: 15
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary

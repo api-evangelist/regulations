@@ -41,8 +41,8 @@ alternativeNames:
 - DSP
 - 28 CFR Part 202
 - Bulk Data Rule
-companyCount: 97
-companyCountQuarter: q3-2026
+companyCount: 107
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
@@ -51,7 +51,7 @@ precisionGrade: medium
 precisionBasis:
 - 'acronym-shape -15: shortest bare needle is 3 characters, halved — it neither collides nor appears in
   the corpus frequency table'
-- 'bare-channel -21: 94% of matching companies were reached only on the bare word (95 bare vs 6 phrase)'
+- 'bare-channel -21: 94% of matching companies were reached only on the bare word (104 bare vs 7 phrase)'
 ---
 
 The **DOJ Data Security Program** is the American regulation I most often find missing from a compliance inventory, and the one whose absence surprises me most, because it is the only US rule that can make a routine vendor contract unlawful.

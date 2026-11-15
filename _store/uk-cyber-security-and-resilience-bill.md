@@ -38,8 +38,8 @@ yearCreated: 2025
 alternativeNames:
 - CSR Bill
 - Cyber Security and Resilience Bill
-companyCount: 0
-companyCountQuarter: q3-2026
+companyCount: 1
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary

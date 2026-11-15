@@ -39,8 +39,8 @@ alternativeNames:
 - CASL
 - Anti-Spam Law
 - An Act to promote the efficiency and adaptability of the Canadian economy
-companyCount: 12
-companyCountQuarter: q3-2026
+companyCount: 14
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
@@ -49,7 +49,7 @@ precisionGrade: medium
 precisionBasis:
 - 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
   the corpus frequency table'
-- 'bare-channel -25: 100% of matching companies were reached only on the bare word (12 bare vs 0 phrase)'
+- 'bare-channel -25: 100% of matching companies were reached only on the bare word (14 bare vs 0 phrase)'
 ---
 
 **CASL** is routinely described as "Canada's CAN-SPAM", which is wrong in both direction and degree. CAN-SPAM is opt-out and lightly enforced. CASL is opt-in, prescriptive, enforced by three regulators, and carries penalties up to CAD 10 million for an organisation.

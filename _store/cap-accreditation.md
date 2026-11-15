@@ -33,8 +33,8 @@ standards:
 - title: GA4GH
   url: https://standards.apievangelist.com/store/ga4gh/
   note: CAP NGS checklists govern the pipelines whose outputs GA4GH specifications move.
-companyCount: 1
-companyCountQuarter: q3-2026
+companyCount: 2
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary

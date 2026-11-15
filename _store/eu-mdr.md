@@ -57,8 +57,8 @@ regulations:
 - title: GDPR
   url: https://regulations.apievangelist.com/store/gdpr/
   note: MDR sits alongside the GDPR in the EU regulatory stack for health technology.
-companyCount: 4
-companyCountQuarter: q3-2026
+companyCount: 9
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary

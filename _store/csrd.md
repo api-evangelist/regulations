@@ -60,15 +60,15 @@ alternativeNames:
 - CSRD
 - ESRS
 - European Sustainability Reporting Standards
-companyCount: 35
-companyCountQuarter: q3-2026
+companyCount: 34
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
-precision: 68
+precision: 70
 precisionGrade: medium
 precisionBasis:
 - 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
   the corpus frequency table'
-- 'bare-channel -22: 94% of matching companies were reached only on the bare word (34 bare vs 2 phrase)'
+- 'bare-channel -20: 91% of matching companies were reached only on the bare word (32 bare vs 3 phrase)'
 ---

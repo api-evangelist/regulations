@@ -34,8 +34,8 @@ standards:
 - title: CDISC
   url: https://standards.apievangelist.com/store/cdisc/
   note: GCP-governed trials produce the datasets CDISC standardizes.
-companyCount: 54
-companyCountQuarter: q3-2026
+companyCount: 69
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
@@ -44,5 +44,5 @@ precisionGrade: medium
 precisionBasis:
 - 'acronym-shape -15: shortest bare needle is 3 characters, halved — it neither collides nor appears in
   the corpus frequency table'
-- 'bare-channel -25: 100% of matching companies were reached only on the bare word (56 bare vs 0 phrase)'
+- 'bare-channel -25: 100% of matching companies were reached only on the bare word (71 bare vs 0 phrase)'
 ---

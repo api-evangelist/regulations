@@ -55,15 +55,16 @@ alternativeNames:
 - SFDR
 - PAI
 - Principal Adverse Impacts
-companyCount: 8
-companyCountQuarter: q3-2026
+companyCount: 10
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
-precision: 90
-precisionGrade: high
+precision: 65
+precisionGrade: medium
 precisionBasis:
 - 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
   the corpus frequency table'
+- 'bare-channel -25: 100% of matching companies were reached only on the bare word (10 bare vs 0 phrase)'
 - 'note: 1 needle(s) dropped by the stoplist — precision gained, recall lost'
 ---

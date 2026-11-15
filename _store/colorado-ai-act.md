@@ -39,17 +39,15 @@ alternativeNames:
 - Colorado Artificial Intelligence Act
 - CAIA
 - SB 189
-companyCount: 32
-companyCountQuarter: q3-2026
+companyCount: 3
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
-precision: 67
-precisionGrade: medium
+precision: 100
+precisionGrade: high
 precisionBasis:
-- 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
-  the corpus frequency table'
-- 'bare-channel -23: 97% of matching companies were reached only on the bare word (32 bare vs 1 phrase)'
+- 'no penalty: an unambiguous, sufficiently long name'
 ---
 
 The **Colorado AI Act** was, when it passed in May 2024, the most ambitious AI statute in the United States and the closest anything in America had come to the EU AI Act's structure. It is now the most useful cautionary tale in this catalog, and I would rather carry the entry with its failure recorded than quietly drop it.

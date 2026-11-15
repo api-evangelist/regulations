@@ -73,17 +73,18 @@ alternativeNames:
 - General Data Protection Regulation
 - Regulation (EU) 2016/679
 - UK GDPR
-companyCount: 297
-companyCountQuarter: q3-2026
+companyCount: 310
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
-precision: 37
-precisionGrade: low
+precision: 75
+precisionGrade: medium
 precisionBasis:
-- 'acronym-shape -20: shortest bare needle is 4 characters'
-- 'collision -25: a surviving needle is also claimed by standards:GDPR'
-- 'bare-channel -18: 89% of matching companies were reached only on the bare word (279 bare vs 33 phrase)'
+- 'human verdict: "regulatory mandates and security models to include GDPR iso 27001 hipaa sox pci". sampled
+  on the job corpus 2026-09-25, 300 corpora seed 17 (_reports/q3-2026-close/story-needle-samples.txt);
+  every quote is the thing named. Quotes cluster in the first corpora the sampler reads, so graded medium,
+  not high.'
 precisionRecognition: 62
 ---
 

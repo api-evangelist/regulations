@@ -67,7 +67,7 @@ regulations:
   note: A MiCA-authorised crypto-asset service provider is a financial entity under DORA, so operational-resilience
     obligations arrive with the licence.
 companyCount: null
-companyCountQuarter: q3-2026
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary

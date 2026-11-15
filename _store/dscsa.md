@@ -39,16 +39,17 @@ yearCreated: 2013
 alternativeNames:
 - DSCSA
 - Drug Quality and Security Act Title II
-companyCount: 8
-companyCountQuarter: q3-2026
+companyCount: 13
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
-precision: 95
+precision: 94
 precisionGrade: high
 precisionBasis:
 - 'acronym-shape -5: shortest bare needle is 5 characters, halved — it neither collides nor appears in
   the corpus frequency table'
+- 'bare-channel -1: 62% of matching companies were reached only on the bare word (8 bare vs 5 phrase)'
 ---
 
 The **Drug Supply Chain Security Act** phased in over a decade toward a single end state: unit-level

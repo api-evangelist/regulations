@@ -42,7 +42,7 @@ standards:
   note: TRAIGA's safe harbour runs to the NIST AI RMF specifically; ISO/IEC 42001 is the certifiable sibling
     organisations pair with it.
 companyCount: 1
-companyCountQuarter: q3-2026
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary

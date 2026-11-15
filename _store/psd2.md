@@ -145,8 +145,8 @@ alternativeNames:
 - Revised Payment Services Directive
 - Directive (EU) 2015/2366
 - PSD2 (EU/UK)
-companyCount: 15
-companyCountQuarter: q3-2026
+companyCount: 16
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
@@ -155,7 +155,7 @@ precisionGrade: medium
 precisionBasis:
 - 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
   the corpus frequency table'
-- 'bare-channel -25: 100% of matching companies were reached only on the bare word (15 bare vs 0 phrase)'
+- 'bare-channel -25: 100% of matching companies were reached only on the bare word (16 bare vs 0 phrase)'
 ---
 
 **PSD2** — the Revised Payment Services Directive — is the European law that pried open bank payment accounts. It requires banks (account servicing payment service providers) to let licensed third parties, with the customer's consent, access account information and initiate payments, and it banned the credential-sharing screen-scraping the fintech ecosystem had quietly run on.

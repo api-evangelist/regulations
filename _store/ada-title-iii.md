@@ -47,7 +47,7 @@ standards:
   note: No US regulation names a standard for private entities, but settlements, consent decrees and expert
     testimony converge on WCAG 2.1 AA — a de facto standard that was never adopted as one.
 companyCount: null
-companyCountQuarter: q3-2026
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary

@@ -40,8 +40,8 @@ alternativeNames:
 - CASL
 - Canada Anti-Spam Legislation
 - Privacy and Electronic Communications Regulations
-companyCount: 22
-companyCountQuarter: q3-2026
+companyCount: 30
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary

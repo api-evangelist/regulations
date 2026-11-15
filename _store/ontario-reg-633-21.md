@@ -42,7 +42,7 @@ alternativeNames:
 - Green Button mandate
 - Electricity Act 1998 s.25.35.8
 companyCount: 0
-companyCountQuarter: q3-2026
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary

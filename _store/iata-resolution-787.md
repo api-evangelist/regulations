@@ -38,8 +38,8 @@ alternativeNames:
 - Resolution 787
 - NDC resolution
 - New Distribution Capability
-companyCount: 3
-companyCountQuarter: q3-2026
+companyCount: 1
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary

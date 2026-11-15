@@ -33,8 +33,8 @@ alternativeNames:
 - APPR
 - SOR/2019-150
 - Canadian passenger rights
-companyCount: 91
-companyCountQuarter: q3-2026
+companyCount: 113
+companyCountQuarter: q4-2026
 companyCountBasis: uncapped full-corpus read of qualified job corpora, hardened word-boundary matcher,
   needles screened and confirmed against sampled matched text
 companyCountSource: insights jobs corpus, via the insights-work regulations vocabulary
@@ -43,7 +43,7 @@ precisionGrade: medium
 precisionBasis:
 - 'acronym-shape -10: shortest bare needle is 4 characters, halved — it neither collides nor appears in
   the corpus frequency table'
-- 'bare-channel -25: 100% of matching companies were reached only on the bare word (94 bare vs 0 phrase)'
+- 'bare-channel -25: 100% of matching companies were reached only on the bare word (115 bare vs 0 phrase)'
 ---
 
 The APPR turned Canadian air passenger rights from airline policy into statutory obligation. Carriers
